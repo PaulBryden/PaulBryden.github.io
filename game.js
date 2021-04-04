@@ -598,7 +598,7 @@ var k=function(t,e,i,s,n){return F[i](t,e,s,n)},D=function(t,e,i,s){for(var n=t[
 //  Start to End
 for(a=n;a<h;a++)t[a][e]+=i+o*s,o++;else
 //  End to Start
-for(a=n;a>=0;a--)t[a][e]+=i+o*s,o++;return t},B=function(t,e,i,s,n){return I(t,"angle",e,i,s,n)},N=function(t,e,i){for(var s=0;s<t.length;s++){var n=t[s];e.call(i,n)}return t},Y=function(t,e,i){void 0===i&&(i=0);for(var s=i;s<t.length;s++){var n=t[s],r=!0;for(var a in e)n[a]!==e[a]&&(r=!1);if(r)return n}return null},X=function(t,e,i){void 0===i&&(i=0);for(var s=i;s<t.length;s++){var n=t[s],r=!0;for(var a in e)n[a]!==e[a]&&(r=!1);if(r)return n}return null},U=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),c(t,u(e)+i),T(t,l(e)+s),t},z=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),T(t,l(e)+s),t},G=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),T(t,l(e)+s),t},W=function(t,e,i){return c(t,e),E(t,i)},V=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),W(t,u(e)+i,b(e)+s),t},H=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),E(t,b(e)+s),t},j=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),E(t,b(e)+s),t},q=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),c(t,u(e)+i),d(t,_(e)-s),t},K=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),d(t,_(e)-s),t},Z=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),d(t,_(e)-s),t},J=[];J[h.BOTTOM_CENTER]=U,J[h.BOTTOM_LEFT]=z,J[h.BOTTOM_RIGHT]=G,J[h.CENTER]=V,J[h.LEFT_CENTER]=H,J[h.RIGHT_CENTER]=j,J[h.TOP_CENTER]=q,J[h.TOP_LEFT]=K,J[h.TOP_RIGHT]=Z,J[h.LEFT_BOTTOM]=J[h.BOTTOM_LEFT],J[h.LEFT_TOP]=J[h.TOP_LEFT],J[h.RIGHT_BOTTOM]=J[h.BOTTOM_RIGHT],J[h.RIGHT_TOP]=J[h.TOP_RIGHT];
+for(a=n;a>=0;a--)t[a][e]+=i+o*s,o++;return t},B=function(t,e,i,s,n){return I(t,"angle",e,i,s,n)},N=function(t,e,i){for(var s=0;s<t.length;s++){var n=t[s];e.call(i,n)}return t},Y=function(t,e,i){void 0===i&&(i=0);for(var s=i;s<t.length;s++){var n=t[s],r=!0;for(var a in e)n[a]!==e[a]&&(r=!1);if(r)return n}return null},U=function(t,e,i){void 0===i&&(i=0);for(var s=i;s<t.length;s++){var n=t[s],r=!0;for(var a in e)n[a]!==e[a]&&(r=!1);if(r)return n}return null},X=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),c(t,u(e)+i),T(t,l(e)+s),t},z=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),T(t,l(e)+s),t},G=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),T(t,l(e)+s),t},W=function(t,e,i){return c(t,e),E(t,i)},V=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),W(t,u(e)+i,b(e)+s),t},H=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),E(t,b(e)+s),t},j=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),E(t,b(e)+s),t},q=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),c(t,u(e)+i),d(t,_(e)-s),t},K=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),d(t,_(e)-s),t},Z=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),d(t,_(e)-s),t},J=[];J[h.BOTTOM_CENTER]=X,J[h.BOTTOM_LEFT]=z,J[h.BOTTOM_RIGHT]=G,J[h.CENTER]=V,J[h.LEFT_CENTER]=H,J[h.RIGHT_CENTER]=j,J[h.TOP_CENTER]=q,J[h.TOP_LEFT]=K,J[h.TOP_RIGHT]=Z,J[h.LEFT_BOTTOM]=J[h.BOTTOM_LEFT],J[h.LEFT_TOP]=J[h.TOP_LEFT],J[h.RIGHT_BOTTOM]=J[h.BOTTOM_RIGHT],J[h.RIGHT_TOP]=J[h.TOP_RIGHT];
 /**
  * Takes given Game Object and aligns it so that it is positioned relative to the other.
  * The alignment used is based on the `position` argument, which is an `ALIGN_CONST` value, such as `LEFT_CENTER` or `TOP_RIGHT`.
@@ -2500,7 +2500,7 @@ centerX:{get:function(){return this.x+this.width/2},set:function(t){this.x=t-thi
      * @type {number}
      * @since 3.0.0
      */
-centerY:{get:function(){return this.y+this.height/2},set:function(t){this.y=t-this.height/2}}}),Xt=function(t,e,i,s){var n=Math.cos(s),r=Math.sin(s),a=t.x-e,o=t.y-i;return t.x=a*n-o*r+e,t.y=a*r+o*n+i,t},Ut={
+centerY:{get:function(){return this.y+this.height/2},set:function(t){this.y=t-this.height/2}}}),Ut=function(t,e,i,s){var n=Math.cos(s),r=Math.sin(s),a=t.x-e,o=t.y-i;return t.x=a*n-o*r+e,t.y=a*r+o*n+i,t},Xt={
 /**
      * Processes the bounds output vector before returning it.
      *
@@ -2515,7 +2515,7 @@ centerY:{get:function(){return this.y+this.height/2},set:function(t){this.y=t-th
      *
      * @return {(Phaser.Math.Vector2|object)} The values stored in the output object.
      */
-prepareBoundsOutput:function(t,e){(void 0===e&&(e=!1),0!==this.rotation&&Xt(t,this.x,this.y,this.rotation),e&&this.parentContainer)&&this.parentContainer.getBoundsTransformMatrix().transformPoint(t.x,t.y,t);return t},
+prepareBoundsOutput:function(t,e){(void 0===e&&(e=!1),0!==this.rotation&&Ut(t,this.x,this.y,this.rotation),e&&this.parentContainer)&&this.parentContainer.getBoundsTransformMatrix().transformPoint(t.x,t.y,t);return t},
 /**
      * Gets the center coordinate of this Game Object, regardless of origin.
      * The returned point is calculated in local space and does not factor in any parent containers
@@ -5028,7 +5028,7 @@ visible:{get:function(){return this._visible},set:function(t){t?(this._visible=!
      * 
      * @return {this} This Game Object instance.
      */
-setVisible:function(t){return this.visible=t,this}},me={Alpha:xt,AlphaSingle:Tt,BlendMode:wt,ComputedSize:bt,Crop:Et,Depth:St,Flip:_t,GetBounds:Ut,Mask:Ht,Origin:jt,PathFollower:Qt,Pipeline:se,ScrollFactor:ne,Size:re,Texture:ae,TextureCrop:oe,Tint:he,ToJSON:le,Transform:ge,TransformMatrix:ue,Visible:ve},ye={CHANGE_DATA:"changedata",CHANGE_DATA_KEY:"changedata-",DESTROY:"destroy",REMOVE_DATA:"removedata",SET_DATA:"setdata"},xe=new at({initialize:function(t,e){
+setVisible:function(t){return this.visible=t,this}},me={Alpha:xt,AlphaSingle:Tt,BlendMode:wt,ComputedSize:bt,Crop:Et,Depth:St,Flip:_t,GetBounds:Xt,Mask:Ht,Origin:jt,PathFollower:Qt,Pipeline:se,ScrollFactor:ne,Size:re,Texture:ae,TextureCrop:oe,Tint:he,ToJSON:le,Transform:ge,TransformMatrix:ue,Visible:ve},ye={CHANGE_DATA:"changedata",CHANGE_DATA_KEY:"changedata-",DESTROY:"destroy",REMOVE_DATA:"removedata",SET_DATA:"setdata"},xe=new at({initialize:function(t,e){
 /**
          * The object that this DataManager belongs to.
          *
@@ -6196,7 +6196,7 @@ for(a=n;a>=0;a--)t[a][e]=i+o*s,o++;return t},Oe=function(t,e){void 0===e&&(e=new
 //  Basis vectors
 var i=t.x2-t.x1,s=t.y2-t.y1,n=t.x3-t.x1,r=t.y3-t.y1,a=Math.random(),o=Math.random();
 //  Point outside the triangle? Remap it.
-return a+o>=1&&(a=1-a,o=1-o),e.x=t.x1+(i*a+n*o),e.y=t.y1+(s*a+r*o),e},Fe=function(t,e,i,s,n){return I(t,"rotation",e,i,s,n)},ke=function(t,e,i,s,n){var r=s+Math.atan2(t.y-i,t.x-e);return t.x=e+n*Math.cos(r),t.y=i+n*Math.sin(r),t},De=function(t,e,i,s){var n=t-i,r=e-s;return Math.sqrt(n*n+r*r)},Ie=function(t,e,i,s,n){return I(t,"scaleX",e,i,s,n)},Be=function(t,e,i,s,n,r,a){return null==i&&(i=e),I(t,"scaleX",e,s,r,a),I(t,"scaleY",i,n,r,a)},Ne=function(t,e,i,s,n){return I(t,"scaleY",e,i,s,n)},Ye=function(t,e,i,s,n){return Pe(t,"alpha",e,i,s,n)},Xe=function(t,e,i,s){return Pe(t,"blendMode",e,0,i,s)},Ue=function(t,e,i,s,n){return Pe(t,"depth",e,i,s,n)},ze=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"originX",e,s,r,a),Pe(t,"originY",i,n,r,a),t.forEach((function(t){t.updateDisplayOrigin()})),t},Ge=function(t,e,i,s,n){return Pe(t,"rotation",e,i,s,n)},We=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"scaleX",e,s,r,a),Pe(t,"scaleY",i,n,r,a)},Ve=function(t,e,i,s,n){return Pe(t,"scaleX",e,i,s,n)},He=function(t,e,i,s,n){return Pe(t,"scaleY",e,i,s,n)},je=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"scrollFactorX",e,s,r,a),Pe(t,"scrollFactorY",i,n,r,a)},qe=function(t,e,i,s,n){return Pe(t,"scrollFactorX",e,i,s,n)},Ke=function(t,e,i,s,n){return Pe(t,"scrollFactorY",e,i,s,n)},Ze=function(t,e,i,s){return Pe(t,"visible",e,0,i,s)},Je=function(t,e,i,s,n){return Pe(t,"x",e,i,s,n)},Qe=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"x",e,s,r,a),Pe(t,"y",i,n,r,a)},$e=function(t,e,i,s,n){return Pe(t,"y",e,i,s,n)},ti=function(t){for(var e=t.length-1;e>0;e--){var i=Math.floor(Math.random()*(e+1)),s=t[e];t[e]=t[i],t[i]=s}return t},ei=function(t,e,i){return(t=Math.max(0,Math.min(1,(t-e)/(i-e))))*t*t*(t*(6*t-15)+10)},ii=function(t,e,i){return t<=e?0:t>=i?1:(t=(t-e)/(i-e))*t*(3-2*t)},si={AlignTo:D,Angle:B,Call:N,GetFirst:Y,GetLast:X,GridAlign:function(t,e){void 0===e&&(e={});var i=e.hasOwnProperty("width"),s=e.hasOwnProperty("height"),n=$(e,"width",-1),r=$(e,"height",-1),a=$(e,"cellWidth",1),o=$(e,"cellHeight",a),l=$(e,"position",h.TOP_LEFT),u=$(e,"x",0),c=$(e,"y",0),d=0,f=0,p=n*a,g=r*o;_e.setPosition(u,c),_e.setSize(a,o);for(var v=0;v<t.length;v++)if(Q(t[v],_e,l),i&&-1===n)
+return a+o>=1&&(a=1-a,o=1-o),e.x=t.x1+(i*a+n*o),e.y=t.y1+(s*a+r*o),e},Fe=function(t,e,i,s,n){return I(t,"rotation",e,i,s,n)},ke=function(t,e,i,s,n){var r=s+Math.atan2(t.y-i,t.x-e);return t.x=e+n*Math.cos(r),t.y=i+n*Math.sin(r),t},De=function(t,e,i,s){var n=t-i,r=e-s;return Math.sqrt(n*n+r*r)},Ie=function(t,e,i,s,n){return I(t,"scaleX",e,i,s,n)},Be=function(t,e,i,s,n,r,a){return null==i&&(i=e),I(t,"scaleX",e,s,r,a),I(t,"scaleY",i,n,r,a)},Ne=function(t,e,i,s,n){return I(t,"scaleY",e,i,s,n)},Ye=function(t,e,i,s,n){return Pe(t,"alpha",e,i,s,n)},Ue=function(t,e,i,s){return Pe(t,"blendMode",e,0,i,s)},Xe=function(t,e,i,s,n){return Pe(t,"depth",e,i,s,n)},ze=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"originX",e,s,r,a),Pe(t,"originY",i,n,r,a),t.forEach((function(t){t.updateDisplayOrigin()})),t},Ge=function(t,e,i,s,n){return Pe(t,"rotation",e,i,s,n)},We=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"scaleX",e,s,r,a),Pe(t,"scaleY",i,n,r,a)},Ve=function(t,e,i,s,n){return Pe(t,"scaleX",e,i,s,n)},He=function(t,e,i,s,n){return Pe(t,"scaleY",e,i,s,n)},je=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"scrollFactorX",e,s,r,a),Pe(t,"scrollFactorY",i,n,r,a)},qe=function(t,e,i,s,n){return Pe(t,"scrollFactorX",e,i,s,n)},Ke=function(t,e,i,s,n){return Pe(t,"scrollFactorY",e,i,s,n)},Ze=function(t,e,i,s){return Pe(t,"visible",e,0,i,s)},Je=function(t,e,i,s,n){return Pe(t,"x",e,i,s,n)},Qe=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"x",e,s,r,a),Pe(t,"y",i,n,r,a)},$e=function(t,e,i,s,n){return Pe(t,"y",e,i,s,n)},ti=function(t){for(var e=t.length-1;e>0;e--){var i=Math.floor(Math.random()*(e+1)),s=t[e];t[e]=t[i],t[i]=s}return t},ei=function(t,e,i){return(t=Math.max(0,Math.min(1,(t-e)/(i-e))))*t*t*(t*(6*t-15)+10)},ii=function(t,e,i){return t<=e?0:t>=i?1:(t=(t-e)/(i-e))*t*(3-2*t)},si={AlignTo:D,Angle:B,Call:N,GetFirst:Y,GetLast:U,GridAlign:function(t,e){void 0===e&&(e={});var i=e.hasOwnProperty("width"),s=e.hasOwnProperty("height"),n=$(e,"width",-1),r=$(e,"height",-1),a=$(e,"cellWidth",1),o=$(e,"cellHeight",a),l=$(e,"position",h.TOP_LEFT),u=$(e,"x",0),c=$(e,"y",0),d=0,f=0,p=n*a,g=r*o;_e.setPosition(u,c),_e.setSize(a,o);for(var v=0;v<t.length;v++)if(Q(t[v],_e,l),i&&-1===n)
 //  We keep laying them out horizontally until we've done them all
 _e.x+=a;else if(s&&-1===r)
 //  We keep laying them out vertically until we've done them all
@@ -6212,7 +6212,7 @@ break;return t},IncAlpha:function(t,e,i,s,n){return I(t,"alpha",e,i,s,n)},IncX:f
 //  Remove overlaps
 s.pop(),n.pop(),r.pop();for(var a=(s=s.concat(n,r)).length/t.length,o=0,h=0;h<t.length;h++){var l=t[h],u=s[Math.floor(o)];l.x=u.x,l.y=u.y,o+=a}return t},PlayAnimation:function(t,e,i){for(var s=0;s<t.length;s++)t[s].anims.play(e,i);return t},PropertyValueInc:I,PropertyValueSet:Pe,RandomCircle:function(t,e){for(var i=0;i<t.length;i++)mt(e,t[i]);return t},RandomEllipse:function(t,e){for(var i=0;i<t.length;i++)Oe(e,t[i]);return t},RandomLine:function(t,e){for(var i=0;i<t.length;i++)Ft(e,t[i]);return t},RandomRectangle:function(t,e){for(var i=0;i<t.length;i++)Nt(e,t[i]);return t},RandomTriangle:function(t,e){for(var i=0;i<t.length;i++)Le(e,t[i]);return t},Rotate:Fe,RotateAround:function(t,e,i){for(var s=e.x,n=e.y,r=0;r<t.length;r++){var a=t[r];ke(a,s,n,i,Math.max(1,De(a.x,a.y,s,n)))}return t},RotateAroundDistance:function(t,e,i,s){var n=e.x,r=e.y;
 //  There's nothing to do
-if(0===s)return t;for(var a=0;a<t.length;a++)ke(t[a],n,r,i,s);return t},ScaleX:Ie,ScaleXY:Be,ScaleY:Ne,SetAlpha:Ye,SetBlendMode:Xe,SetDepth:Ue,SetHitArea:function(t,e,i){for(var s=0;s<t.length;s++)t[s].setInteractive(e,i);return t},SetOrigin:ze,SetRotation:Ge,SetScale:We,SetScaleX:Ve,SetScaleY:He,SetScrollFactor:je,SetScrollFactorX:qe,SetScrollFactorY:Ke,SetTint:function(t,e,i,s,n){for(var r=0;r<t.length;r++)t[r].setTint(e,i,s,n);return t},SetVisible:Ze,SetX:Je,SetXY:Qe,SetY:$e,ShiftPosition:function(t,e,i,s,n){var r,a,o,h,l,u;if(void 0===s&&(s=0),void 0===n&&(n=new It),t.length>1)if(0===s){
+if(0===s)return t;for(var a=0;a<t.length;a++)ke(t[a],n,r,i,s);return t},ScaleX:Ie,ScaleXY:Be,ScaleY:Ne,SetAlpha:Ye,SetBlendMode:Ue,SetDepth:Xe,SetHitArea:function(t,e,i){for(var s=0;s<t.length;s++)t[s].setInteractive(e,i);return t},SetOrigin:ze,SetRotation:Ge,SetScale:We,SetScaleX:Ve,SetScaleY:He,SetScrollFactor:je,SetScrollFactorX:qe,SetScrollFactorY:Ke,SetTint:function(t,e,i,s,n){for(var r=0;r<t.length;r++)t[r].setTint(e,i,s,n);return t},SetVisible:Ze,SetX:Je,SetXY:Qe,SetY:$e,ShiftPosition:function(t,e,i,s,n){var r,a,o,h,l,u;if(void 0===s&&(s=0),void 0===n&&(n=new It),t.length>1)if(0===s){
 //  Bottom to Top
 var c=t.length-1;for(r=t[c].x,a=t[c].y,o=c-1;o>=0;o--)
 //  Current item
@@ -11119,7 +11119,7 @@ reset:function(){this.isRunning=!1,this._onUpdate=null,this._onUpdateScope=null}
      * @method Phaser.Cameras.Scene2D.Effects.Flash#destroy
      * @since 3.5.0
      */
-destroy:function(){this.reset(),this.camera=null}}),Ni={In:function(t,e){return void 0===e&&(e=1.70158),t*t*((e+1)*t-e)},Out:function(t,e){return void 0===e&&(e=1.70158),--t*t*((e+1)*t+e)+1},InOut:function(t,e){void 0===e&&(e=1.70158);var i=1.525*e;return(t*=2)<1?t*t*((i+1)*t-i)*.5:.5*((t-=2)*t*((i+1)*t+i)+2)}},Yi={In:function(t){return(t=1-t)<1/2.75?1-7.5625*t*t:t<2/2.75?1-(7.5625*(t-=1.5/2.75)*t+.75):t<2.5/2.75?1-(7.5625*(t-=2.25/2.75)*t+.9375):1-(7.5625*(t-=2.625/2.75)*t+.984375)},Out:function(t){return t<1/2.75?7.5625*t*t:t<2/2.75?7.5625*(t-=1.5/2.75)*t+.75:t<2.5/2.75?7.5625*(t-=2.25/2.75)*t+.9375:7.5625*(t-=2.625/2.75)*t+.984375},InOut:function(t){var e=!1;return t<.5?(t=1-2*t,e=!0):t=2*t-1,t<1/2.75?t*=7.5625*t:t=t<2/2.75?7.5625*(t-=1.5/2.75)*t+.75:t<2.5/2.75?7.5625*(t-=2.25/2.75)*t+.9375:7.5625*(t-=2.625/2.75)*t+.984375,e?.5*(1-t):.5*t+.5}},Xi={In:function(t){return 1-Math.sqrt(1-t*t)},Out:function(t){return Math.sqrt(1- --t*t)},InOut:function(t){return(t*=2)<1?-.5*(Math.sqrt(1-t*t)-1):.5*(Math.sqrt(1-(t-=2)*t)+1)}},Ui={In:function(t){return t*t*t},Out:function(t){return--t*t*t+1},InOut:function(t){return(t*=2)<1?.5*t*t*t:.5*((t-=2)*t*t+2)}},zi={In:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),-e*Math.pow(2,10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)},Out:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),e*Math.pow(2,-10*t)*Math.sin((t-s)*(2*Math.PI)/i)+1},InOut:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),(t*=2)<1?e*Math.pow(2,10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)*-.5:e*Math.pow(2,-10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)*.5+1}},Gi={In:function(t){return Math.pow(2,10*(t-1))-.001},Out:function(t){return 1-Math.pow(2,-10*t)},InOut:function(t){return(t*=2)<1?.5*Math.pow(2,10*(t-1)):.5*(2-Math.pow(2,-10*(t-1)))}},Wi=function(t){return t},Vi={In:function(t){return t*t},Out:function(t){return t*(2-t)},InOut:function(t){return(t*=2)<1?.5*t*t:-.5*(--t*(t-2)-1)}},Hi={In:function(t){return t*t*t*t},Out:function(t){return 1- --t*t*t*t},InOut:function(t){return(t*=2)<1?.5*t*t*t*t:-.5*((t-=2)*t*t*t-2)}},ji={In:function(t){return t*t*t*t*t},Out:function(t){return--t*t*t*t*t+1},InOut:function(t){return(t*=2)<1?.5*t*t*t*t*t:.5*((t-=2)*t*t*t*t+2)}},qi={In:function(t){return 0===t?0:1===t?1:1-Math.cos(t*Math.PI/2)},Out:function(t){return 0===t?0:1===t?1:Math.sin(t*Math.PI/2)},InOut:function(t){return 0===t?0:1===t?1:.5*(1-Math.cos(Math.PI*t))}},Ki=function(t,e){return void 0===e&&(e=1),t<=0?0:t>=1?1:1/e*(1+(e*t|0))},Zi={Power0:Wi,Power1:Vi.Out,Power2:Ui.Out,Power3:Hi.Out,Power4:ji.Out,Linear:Wi,Quad:Vi.Out,Cubic:Ui.Out,Quart:Hi.Out,Quint:ji.Out,Sine:qi.Out,Expo:Gi.Out,Circ:Xi.Out,Elastic:zi.Out,Back:Ni.Out,Bounce:Yi.Out,Stepped:Ki,"Quad.easeIn":Vi.In,"Cubic.easeIn":Ui.In,"Quart.easeIn":Hi.In,"Quint.easeIn":ji.In,"Sine.easeIn":qi.In,"Expo.easeIn":Gi.In,"Circ.easeIn":Xi.In,"Elastic.easeIn":zi.In,"Back.easeIn":Ni.In,"Bounce.easeIn":Yi.In,"Quad.easeOut":Vi.Out,"Cubic.easeOut":Ui.Out,"Quart.easeOut":Hi.Out,"Quint.easeOut":ji.Out,"Sine.easeOut":qi.Out,"Expo.easeOut":Gi.Out,"Circ.easeOut":Xi.Out,"Elastic.easeOut":zi.Out,"Back.easeOut":Ni.Out,"Bounce.easeOut":Yi.Out,"Quad.easeInOut":Vi.InOut,"Cubic.easeInOut":Ui.InOut,"Quart.easeInOut":Hi.InOut,"Quint.easeInOut":ji.InOut,"Sine.easeInOut":qi.InOut,"Expo.easeInOut":Gi.InOut,"Circ.easeInOut":Xi.InOut,"Elastic.easeInOut":zi.InOut,"Back.easeInOut":Ni.InOut,"Bounce.easeInOut":Yi.InOut},Ji={Fade:Ii,Flash:Bi,Pan:new at({initialize:function(t){
+destroy:function(){this.reset(),this.camera=null}}),Ni={In:function(t,e){return void 0===e&&(e=1.70158),t*t*((e+1)*t-e)},Out:function(t,e){return void 0===e&&(e=1.70158),--t*t*((e+1)*t+e)+1},InOut:function(t,e){void 0===e&&(e=1.70158);var i=1.525*e;return(t*=2)<1?t*t*((i+1)*t-i)*.5:.5*((t-=2)*t*((i+1)*t+i)+2)}},Yi={In:function(t){return(t=1-t)<1/2.75?1-7.5625*t*t:t<2/2.75?1-(7.5625*(t-=1.5/2.75)*t+.75):t<2.5/2.75?1-(7.5625*(t-=2.25/2.75)*t+.9375):1-(7.5625*(t-=2.625/2.75)*t+.984375)},Out:function(t){return t<1/2.75?7.5625*t*t:t<2/2.75?7.5625*(t-=1.5/2.75)*t+.75:t<2.5/2.75?7.5625*(t-=2.25/2.75)*t+.9375:7.5625*(t-=2.625/2.75)*t+.984375},InOut:function(t){var e=!1;return t<.5?(t=1-2*t,e=!0):t=2*t-1,t<1/2.75?t*=7.5625*t:t=t<2/2.75?7.5625*(t-=1.5/2.75)*t+.75:t<2.5/2.75?7.5625*(t-=2.25/2.75)*t+.9375:7.5625*(t-=2.625/2.75)*t+.984375,e?.5*(1-t):.5*t+.5}},Ui={In:function(t){return 1-Math.sqrt(1-t*t)},Out:function(t){return Math.sqrt(1- --t*t)},InOut:function(t){return(t*=2)<1?-.5*(Math.sqrt(1-t*t)-1):.5*(Math.sqrt(1-(t-=2)*t)+1)}},Xi={In:function(t){return t*t*t},Out:function(t){return--t*t*t+1},InOut:function(t){return(t*=2)<1?.5*t*t*t:.5*((t-=2)*t*t+2)}},zi={In:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),-e*Math.pow(2,10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)},Out:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),e*Math.pow(2,-10*t)*Math.sin((t-s)*(2*Math.PI)/i)+1},InOut:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),(t*=2)<1?e*Math.pow(2,10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)*-.5:e*Math.pow(2,-10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)*.5+1}},Gi={In:function(t){return Math.pow(2,10*(t-1))-.001},Out:function(t){return 1-Math.pow(2,-10*t)},InOut:function(t){return(t*=2)<1?.5*Math.pow(2,10*(t-1)):.5*(2-Math.pow(2,-10*(t-1)))}},Wi=function(t){return t},Vi={In:function(t){return t*t},Out:function(t){return t*(2-t)},InOut:function(t){return(t*=2)<1?.5*t*t:-.5*(--t*(t-2)-1)}},Hi={In:function(t){return t*t*t*t},Out:function(t){return 1- --t*t*t*t},InOut:function(t){return(t*=2)<1?.5*t*t*t*t:-.5*((t-=2)*t*t*t-2)}},ji={In:function(t){return t*t*t*t*t},Out:function(t){return--t*t*t*t*t+1},InOut:function(t){return(t*=2)<1?.5*t*t*t*t*t:.5*((t-=2)*t*t*t*t+2)}},qi={In:function(t){return 0===t?0:1===t?1:1-Math.cos(t*Math.PI/2)},Out:function(t){return 0===t?0:1===t?1:Math.sin(t*Math.PI/2)},InOut:function(t){return 0===t?0:1===t?1:.5*(1-Math.cos(Math.PI*t))}},Ki=function(t,e){return void 0===e&&(e=1),t<=0?0:t>=1?1:1/e*(1+(e*t|0))},Zi={Power0:Wi,Power1:Vi.Out,Power2:Xi.Out,Power3:Hi.Out,Power4:ji.Out,Linear:Wi,Quad:Vi.Out,Cubic:Xi.Out,Quart:Hi.Out,Quint:ji.Out,Sine:qi.Out,Expo:Gi.Out,Circ:Ui.Out,Elastic:zi.Out,Back:Ni.Out,Bounce:Yi.Out,Stepped:Ki,"Quad.easeIn":Vi.In,"Cubic.easeIn":Xi.In,"Quart.easeIn":Hi.In,"Quint.easeIn":ji.In,"Sine.easeIn":qi.In,"Expo.easeIn":Gi.In,"Circ.easeIn":Ui.In,"Elastic.easeIn":zi.In,"Back.easeIn":Ni.In,"Bounce.easeIn":Yi.In,"Quad.easeOut":Vi.Out,"Cubic.easeOut":Xi.Out,"Quart.easeOut":Hi.Out,"Quint.easeOut":ji.Out,"Sine.easeOut":qi.Out,"Expo.easeOut":Gi.Out,"Circ.easeOut":Ui.Out,"Elastic.easeOut":zi.Out,"Back.easeOut":Ni.Out,"Bounce.easeOut":Yi.Out,"Quad.easeInOut":Vi.InOut,"Cubic.easeInOut":Xi.InOut,"Quart.easeInOut":Hi.InOut,"Quint.easeInOut":ji.InOut,"Sine.easeInOut":qi.InOut,"Expo.easeInOut":Gi.InOut,"Circ.easeInOut":Ui.InOut,"Elastic.easeInOut":zi.InOut,"Back.easeInOut":Ni.InOut,"Bounce.easeInOut":Yi.InOut},Ji={Fade:Ii,Flash:Bi,Pan:new at({initialize:function(t){
 /**
          * The Camera this effect belongs to.
          *
@@ -12889,7 +12889,7 @@ t.putImageData(e,1,0);
 //  Get those values
 var i=t.getImageData(1,0,1,1);
 //  Compare and return
-return i.data[0]===e.data[0]&&i.data[1]===e.data[1]&&i.data[2]===e.data[2]&&i.data[3]===e.data[3]}()),Rs),ks={os:ls,browser:fs,features:Ts,input:bs,audio:Ss,video:As,fullscreen:Ms,canvasFeatures:Fs},Ds=function(t,e,i,s){return Math.atan2(s-e,i-t)},Is=function(t,e){return Math.atan2(e.y-t.y,e.x-t.x)},Bs=function(t){return(t%=2*Math.PI)>=0?t:t+2*Math.PI},Ns=function(t,e){return Math.random()*(e-t)+t},Ys=function(t){return Bs(t+Math.PI)},Xs={Between:Ds,BetweenPoints:Is,BetweenPointsY:function(t,e){return Math.atan2(e.x-t.x,e.y-t.y)},BetweenY:function(t,e,i,s){return Math.atan2(i-t,s-e)},CounterClockwise:function(t){return t>Math.PI&&(t-=ft.PI2),Math.abs(((t+ft.TAU)%ft.PI2-ft.PI2)%ft.PI2)},Normalize:Bs,Random:function(){return Ns(-Math.PI,Math.PI)},RandomDegrees:function(){return Ns(-180,180)},Reverse:Ys,RotateTo:function(t,e,i){return void 0===i&&(i=.05),t===e||(Math.abs(e-t)<=i||Math.abs(e-t)>=ft.PI2-i?t=e:(Math.abs(e-t)>Math.PI&&(e<t?e+=ft.PI2:e-=ft.PI2),e>t?t+=i:e<t&&(t-=i))),t},ShortestBetween:function(t,e){var i=e-t;return 0===i?0:i-360*Math.floor((i- -180)/360)},Wrap:fe,WrapDegrees:pe},Us=function(t,e){var i=t.x-e.x,s=t.y-e.y;return Math.sqrt(i*i+s*s)},zs=function(t,e,i,s){var n=t-i,r=e-s;return n*n+r*r},Gs={Between:De,BetweenPoints:Us,BetweenPointsSquared:function(t,e){var i=t.x-e.x,s=t.y-e.y;return i*i+s*s},Chebyshev:function(t,e,i,s){return Math.max(Math.abs(t-i),Math.abs(e-s))},Power:function(t,e,i,s,n){return void 0===n&&(n=2),Math.sqrt(Math.pow(i-t,n)+Math.pow(s-e,n))},Snake:function(t,e,i,s){return Math.abs(t-i)+Math.abs(e-s)},Squared:zs},Ws={Back:Ni,Bounce:Yi,Circular:Xi,Cubic:Ui,Elastic:zi,Expo:Gi,Linear:Wi,Quadratic:Vi,Quartic:Hi,Quintic:ji,Sine:qi,Stepped:Ki},Vs=function(t,e,i){return void 0===i&&(i=1e-4),t>e-i},Hs=function(t,e,i){return void 0===i&&(i=1e-4),t<e+i},js={Ceil:function(t,e){return void 0===e&&(e=1e-4),Math.ceil(t-e)},Equal:kt,Floor:function(t,e){return void 0===e&&(e=1e-4),Math.floor(t+e)},GreaterThan:Vs,LessThan:Hs},qs=function(t){if(0===t)return 1;for(var e=t;--t;)e*=t;return e},Ks=function(t,e){return qs(t)/qs(e)/qs(t-e)},Zs=function(t,e,i,s,n){var r=.5*(s-e),a=.5*(n-i),o=t*t;return(2*i-2*s+r+a)*(t*o)+(-3*i+3*s-2*r-a)*o+r*t+i};
+return i.data[0]===e.data[0]&&i.data[1]===e.data[1]&&i.data[2]===e.data[2]&&i.data[3]===e.data[3]}()),Rs),ks={os:ls,browser:fs,features:Ts,input:bs,audio:Ss,video:As,fullscreen:Ms,canvasFeatures:Fs},Ds=function(t,e,i,s){return Math.atan2(s-e,i-t)},Is=function(t,e){return Math.atan2(e.y-t.y,e.x-t.x)},Bs=function(t){return(t%=2*Math.PI)>=0?t:t+2*Math.PI},Ns=function(t,e){return Math.random()*(e-t)+t},Ys=function(t){return Bs(t+Math.PI)},Us={Between:Ds,BetweenPoints:Is,BetweenPointsY:function(t,e){return Math.atan2(e.x-t.x,e.y-t.y)},BetweenY:function(t,e,i,s){return Math.atan2(i-t,s-e)},CounterClockwise:function(t){return t>Math.PI&&(t-=ft.PI2),Math.abs(((t+ft.TAU)%ft.PI2-ft.PI2)%ft.PI2)},Normalize:Bs,Random:function(){return Ns(-Math.PI,Math.PI)},RandomDegrees:function(){return Ns(-180,180)},Reverse:Ys,RotateTo:function(t,e,i){return void 0===i&&(i=.05),t===e||(Math.abs(e-t)<=i||Math.abs(e-t)>=ft.PI2-i?t=e:(Math.abs(e-t)>Math.PI&&(e<t?e+=ft.PI2:e-=ft.PI2),e>t?t+=i:e<t&&(t-=i))),t},ShortestBetween:function(t,e){var i=e-t;return 0===i?0:i-360*Math.floor((i- -180)/360)},Wrap:fe,WrapDegrees:pe},Xs=function(t,e){var i=t.x-e.x,s=t.y-e.y;return Math.sqrt(i*i+s*s)},zs=function(t,e,i,s){var n=t-i,r=e-s;return n*n+r*r},Gs={Between:De,BetweenPoints:Xs,BetweenPointsSquared:function(t,e){var i=t.x-e.x,s=t.y-e.y;return i*i+s*s},Chebyshev:function(t,e,i,s){return Math.max(Math.abs(t-i),Math.abs(e-s))},Power:function(t,e,i,s,n){return void 0===n&&(n=2),Math.sqrt(Math.pow(i-t,n)+Math.pow(s-e,n))},Snake:function(t,e,i,s){return Math.abs(t-i)+Math.abs(e-s)},Squared:zs},Ws={Back:Ni,Bounce:Yi,Circular:Ui,Cubic:Xi,Elastic:zi,Expo:Gi,Linear:Wi,Quadratic:Vi,Quartic:Hi,Quintic:ji,Sine:qi,Stepped:Ki},Vs=function(t,e,i){return void 0===i&&(i=1e-4),t>e-i},Hs=function(t,e,i){return void 0===i&&(i=1e-4),t<e+i},js={Ceil:function(t,e){return void 0===e&&(e=1e-4),Math.ceil(t-e)},Equal:kt,Floor:function(t,e){return void 0===e&&(e=1e-4),Math.floor(t+e)},GreaterThan:Vs,LessThan:Hs},qs=function(t){if(0===t)return 1;for(var e=t;--t;)e*=t;return e},Ks=function(t,e){return qs(t)/qs(e)/qs(t-e)},Zs=function(t,e,i,s,n){var r=.5*(s-e),a=.5*(n-i),o=t*t;return(2*i-2*s+r+a)*(t*o)+(-3*i+3*s-2*r-a)*o+r*t+i};
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -14399,7 +14399,7 @@ return t==parseFloat(t)?!(t%2):void 0},Rn=function(t){
 // Use strict equality === for "is number" test
 return t===parseFloat(t)?!(t%2):void 0},Pn=function(t,e,i){return Math.min(t+e,i)},On=function(t,e,i){return Math.max(t-e,i)},Ln=function(t,e,i,s){void 0===i&&(i=e+1);var n=(t-e)/(i-e);return n>1?void 0!==s?(n=(s-t)/(s-i))<0&&(n=0):n=1:n<0&&(n=0),n},Fn=function(t){return t*ft.RAD_TO_DEG},kn=function(t,e){void 0===e&&(e=1);var i=2*Math.random()*Math.PI;return t.x=Math.cos(i)*e,t.y=Math.sin(i)*e,t},Dn=function(t,e){void 0===e&&(e=1);var i=2*Math.random()*Math.PI,s=2*Math.random()-1,n=Math.sqrt(1-s*s)*e;return t.x=Math.cos(i)*n,t.y=Math.sin(i)*n,t.z=s*e,t},In=function(t,e){return void 0===e&&(e=1),t.x=(2*Math.random()-1)*e,t.y=(2*Math.random()-1)*e,t.z=(2*Math.random()-1)*e,t.w=(2*Math.random()-1)*e,t},Bn=function(t,e){var i=t.x,s=t.y;return t.x=i*Math.cos(e)-s*Math.sin(e),t.y=i*Math.sin(e)+s*Math.cos(e),t},Nn=function(t,e,i,s,n){return t.x=e+n*Math.cos(s),t.y=i+n*Math.sin(s),t},Yn=function(t){
 // "Opposite" of truncate.
-return t>0?Math.ceil(t):Math.floor(t)},Xn=function(t,e,i){void 0===e&&(e=0),void 0===i&&(i=10);var s=Math.pow(i,-e);return Math.round(t*s)/s},Un=function(t,e,i,s){void 0===e&&(e=1),void 0===i&&(i=1),void 0===s&&(s=1),s*=Math.PI/t;for(var n=[],r=[],a=0;a<t;a++)e+=(i-=e*s)*s,n[a]=i,r[a]=e;return{sin:r,cos:n,length:t}},zn=function(t,e,i,s){void 0===s&&(s=new It);var n=0,r=0;return t>0&&t<=e*i&&(n=t>e-1?t-(r=Math.floor(t/e))*e:t,s.set(n,r)),s},Gn=function(t,e,i){return Math.abs(t-e)<=i},Wn=new at({initialize:function(t,e,i,s){
+return t>0?Math.ceil(t):Math.floor(t)},Un=function(t,e,i){void 0===e&&(e=0),void 0===i&&(i=10);var s=Math.pow(i,-e);return Math.round(t*s)/s},Xn=function(t,e,i,s){void 0===e&&(e=1),void 0===i&&(i=1),void 0===s&&(s=1),s*=Math.PI/t;for(var n=[],r=[],a=0;a<t;a++)e+=(i-=e*s)*s,n[a]=i,r[a]=e;return{sin:r,cos:n,length:t}},zn=function(t,e,i,s){void 0===s&&(s=new It);var n=0,r=0;return t>0&&t<=e*i&&(n=t>e-1?t-(r=Math.floor(t/e))*e:t,s.set(n,r)),s},Gn=function(t,e,i){return Math.abs(t-e)<=i},Wn=new at({initialize:function(t,e,i,s){
 /**
          * The x component of this Vector.
          *
@@ -15242,11 +15242,11 @@ var n=0;i[4]>i[0]&&(n=1),i[8]>i[3*n+n]&&(n=2);var r=Kn[n],a=Kn[r];
 //  This isn't quite as clean without array access
 e=Math.sqrt(i[3*n+n]-i[3*r+r]-i[3*a+a]+1),Zn[n]=.5*e,e=.5/e,Zn[r]=(i[3*r+n]+i[3*n+r])*e,Zn[a]=(i[3*a+n]+i[3*n+a])*e,this._x=Zn[0],this._y=Zn[1],this._z=Zn[2],this._w=(i[3*a+r]-i[3*r+a])*e}return this.onChangeCallback(this),this}}),ir=new bn,sr=new er,nr=new pn,rr={
 //  Collections of functions
-Angle:Xs,Distance:Gs,Easing:Ws,Fuzzy:js,Interpolation:tn,Pow2:nn,Snap:on,
+Angle:Us,Distance:Gs,Easing:Ws,Fuzzy:js,Interpolation:tn,Pow2:nn,Snap:on,
 //  Expose the RNG Class
 RandomDataGenerator:hn,
 //  Single functions
-Average:ln,Bernstein:Ks,Between:un,CatmullRom:Zs,CeilTo:cn,Clamp:ct,DegToRad:qt,Difference:dn,Euler:_n,Factorial:qs,FloatBetween:Ns,FloorTo:An,FromPercent:dt,GetSpeed:Cn,IsEven:Mn,IsEvenStrict:Rn,Linear:Qi,MaxAdd:Pn,MinSub:On,Percent:Ln,RadToDeg:Fn,RandomXY:kn,RandomXYZ:Dn,RandomXYZW:In,Rotate:Bn,RotateAround:Xt,RotateAroundDistance:ke,RotateTo:Nn,RoundAwayFromZero:Yn,RoundTo:Xn,SinCosTableGenerator:Un,SmootherStep:ei,SmoothStep:ii,ToXY:zn,TransformXY:ce,Within:Gn,Wrap:de,
+Average:ln,Bernstein:Ks,Between:un,CatmullRom:Zs,CeilTo:cn,Clamp:ct,DegToRad:qt,Difference:dn,Euler:_n,Factorial:qs,FloatBetween:Ns,FloorTo:An,FromPercent:dt,GetSpeed:Cn,IsEven:Mn,IsEvenStrict:Rn,Linear:Qi,MaxAdd:Pn,MinSub:On,Percent:Ln,RadToDeg:Fn,RandomXY:kn,RandomXYZ:Dn,RandomXYZW:In,Rotate:Bn,RotateAround:Ut,RotateAroundDistance:ke,RotateTo:Nn,RoundAwayFromZero:Yn,RoundTo:Un,SinCosTableGenerator:Xn,SmootherStep:ei,SmoothStep:ii,ToXY:zn,TransformXY:ce,Within:Gn,Wrap:de,
 //  Vector classes
 Vector2:It,Vector3:pn,Vector4:Vn,Matrix3:jn,Matrix4:bn,Quaternion:er,RotateVec3:function(t,e,i){
 //  Multiply our vector by the rotation matrix
@@ -18397,9 +18397,9 @@ for(o.sort(Fr),n=0;n<o.length;n++)kr(o[n],i),i=Cr(i,i.next);return i}(t,e,d,i)),
 // minX, minY and invSize are later used to transform coords into integers for z-order calculation
 l=0!==(l=Math.max(r-s,a-n))?1/l:0}return Mr(d,f,i,s,n,l),f}
 // create a circular doubly linked list from polygon points in the specified winding order
-function Ar(t,e,i,s,n){var r,a;if(n===Zr(t,e,i,s)>0)for(r=e;r<i;r+=s)a=jr(r,t[r],t[r+1],a);else for(r=i-s;r>=e;r-=s)a=jr(r,t[r],t[r+1],a);return a&&Ur(a,a.next)&&(qr(a),a=a.next),a}
+function Ar(t,e,i,s,n){var r,a;if(n===Zr(t,e,i,s)>0)for(r=e;r<i;r+=s)a=jr(r,t[r],t[r+1],a);else for(r=i-s;r>=e;r-=s)a=jr(r,t[r],t[r+1],a);return a&&Xr(a,a.next)&&(qr(a),a=a.next),a}
 // eliminate colinear or duplicate points
-function Cr(t,e){if(!t)return t;e||(e=t);var i,s=t;do{if(i=!1,s.steiner||!Ur(s,s.next)&&0!==Xr(s.prev,s,s.next))s=s.next;else{if(qr(s),(s=e=s.prev)===s.next)break;i=!0}}while(i||s!==e);return e}
+function Cr(t,e){if(!t)return t;e||(e=t);var i,s=t;do{if(i=!1,s.steiner||!Xr(s,s.next)&&0!==Ur(s.prev,s,s.next))s=s.next;else{if(qr(s),(s=e=s.prev)===s.next)break;i=!0}}while(i||s!==e);return e}
 // main ear slicing loop which triangulates a polygon (given as a linked list)
 function Mr(t,e,i,s,n,r,a){if(t){
 // interlink polygon nodes in z-order
@@ -18422,20 +18422,20 @@ if((t=h)===l){
 // try filtering points and slicing again
 a?1===a?Mr(t=Or(Cr(t),e,i),e,i,s,n,r,2):2===a&&Lr(t,e,i,s,n,r):Mr(Cr(t),e,i,s,n,r,1);break}}}
 // check whether a polygon node forms a valid ear with adjacent nodes
-function Rr(t){var e=t.prev,i=t,s=t.next;if(Xr(e,i,s)>=0)return!1;// reflex, can't be an ear
+function Rr(t){var e=t.prev,i=t,s=t.next;if(Ur(e,i,s)>=0)return!1;// reflex, can't be an ear
 // now make sure we don't have other points inside the potential ear
-for(var n=t.next.next;n!==t.prev;){if(Nr(e.x,e.y,i.x,i.y,s.x,s.y,n.x,n.y)&&Xr(n.prev,n,n.next)>=0)return!1;n=n.next}return!0}function Pr(t,e,i,s){var n=t.prev,r=t,a=t.next;if(Xr(n,r,a)>=0)return!1;// reflex, can't be an ear
+for(var n=t.next.next;n!==t.prev;){if(Nr(e.x,e.y,i.x,i.y,s.x,s.y,n.x,n.y)&&Ur(n.prev,n,n.next)>=0)return!1;n=n.next}return!0}function Pr(t,e,i,s){var n=t.prev,r=t,a=t.next;if(Ur(n,r,a)>=0)return!1;// reflex, can't be an ear
 // triangle bbox; min & max are calculated like this for speed
 // look for points inside the triangle in both directions
 for(var o=n.x<r.x?n.x<a.x?n.x:a.x:r.x<a.x?r.x:a.x,h=n.y<r.y?n.y<a.y?n.y:a.y:r.y<a.y?r.y:a.y,l=n.x>r.x?n.x>a.x?n.x:a.x:r.x>a.x?r.x:a.x,u=n.y>r.y?n.y>a.y?n.y:a.y:r.y>a.y?r.y:a.y,c=Ir(o,h,e,i,s),d=Ir(l,u,e,i,s),f=t.prevZ,p=t.nextZ
 // z-order range for the current triangle bbox;
-;f&&f.z>=c&&p&&p.z<=d;){if(f!==t.prev&&f!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,f.x,f.y)&&Xr(f.prev,f,f.next)>=0)return!1;if(f=f.prevZ,p!==t.prev&&p!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,p.x,p.y)&&Xr(p.prev,p,p.next)>=0)return!1;p=p.nextZ}
+;f&&f.z>=c&&p&&p.z<=d;){if(f!==t.prev&&f!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,f.x,f.y)&&Ur(f.prev,f,f.next)>=0)return!1;if(f=f.prevZ,p!==t.prev&&p!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,p.x,p.y)&&Ur(p.prev,p,p.next)>=0)return!1;p=p.nextZ}
 // look for remaining points in decreasing z-order
-for(;f&&f.z>=c;){if(f!==t.prev&&f!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,f.x,f.y)&&Xr(f.prev,f,f.next)>=0)return!1;f=f.prevZ}
+for(;f&&f.z>=c;){if(f!==t.prev&&f!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,f.x,f.y)&&Ur(f.prev,f,f.next)>=0)return!1;f=f.prevZ}
 // look for remaining points in increasing z-order
-for(;p&&p.z<=d;){if(p!==t.prev&&p!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,p.x,p.y)&&Xr(p.prev,p,p.next)>=0)return!1;p=p.nextZ}return!0}
+for(;p&&p.z<=d;){if(p!==t.prev&&p!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,p.x,p.y)&&Ur(p.prev,p,p.next)>=0)return!1;p=p.nextZ}return!0}
 // go through all polygon nodes and cure small local self-intersections
-function Or(t,e,i){var s=t;do{var n=s.prev,r=s.next.next;!Ur(n,r)&&zr(n,s,s.next,r)&&Vr(n,r)&&Vr(r,n)&&(e.push(n.i/i),e.push(s.i/i),e.push(r.i/i),
+function Or(t,e,i){var s=t;do{var n=s.prev,r=s.next.next;!Xr(n,r)&&zr(n,s,s.next,r)&&Vr(n,r)&&Vr(r,n)&&(e.push(n.i/i),e.push(s.i/i),e.push(r.i/i),
 // remove two nodes involved
 qr(s),qr(s.next),s=t=r),s=s.next}while(s!==t);return Cr(s)}
 // try splitting polygon into two and triangulate them independently
@@ -18463,7 +18463,7 @@ Vr(s,t)&&(h<d||h===d&&(s.x>i.x||s.x===i.x&&Dr(i,s)))&&(i=s,d=h)),s=s.next}while(
 // whether sector in vertex m contains sector in vertex p in the same coordinates
 (t,e)){var i=Hr(e,t);
 // filter collinear points around the cuts
-Cr(e,e.next),Cr(i,i.next)}}function Dr(t,e){return Xr(t.prev,t,e.prev)<0&&Xr(e.next,t,t.next)<0}function Ir(t,e,i,s,n){return(t=1431655765&((t=858993459&((t=252645135&((t=16711935&((
+Cr(e,e.next),Cr(i,i.next)}}function Dr(t,e){return Ur(t.prev,t,e.prev)<0&&Ur(e.next,t,t.next)<0}function Ir(t,e,i,s,n){return(t=1431655765&((t=858993459&((t=252645135&((t=16711935&((
 // coords are transformed into non-negative 15-bit integer range
 t=32767*(t-i)*n)|t<<8))|t<<4))|t<<2))|t<<1))|(e=1431655765&((e=858993459&((e=252645135&((e=16711935&((e=32767*(e-s)*n)|e<<8))|e<<4))|e<<2))|e<<1))<<1}
 // find the leftmost node of a polygon ring
@@ -18482,20 +18482,20 @@ function(t,e){var i=t,s=!1,n=(t.x+e.x)/2,r=(t.y+e.y)/2;do{i.y>r!=i.next.y>r&&i.n
 // link two polygon vertices with a bridge; if the vertices belong to the same ring, it splits polygon into two;
 // if one belongs to the outer ring and another to a hole, it merges it into a single ring
 (t,e)&&(// locally visible
-Xr(t.prev,t,e.prev)||Xr(t,e.prev,e))||// does not create opposite-facing sectors
-Ur(t,e)&&Xr(t.prev,t,t.next)>0&&Xr(e.prev,e,e.next)>0);// special zero-length case
+Ur(t.prev,t,e.prev)||Ur(t,e.prev,e))||// does not create opposite-facing sectors
+Xr(t,e)&&Ur(t.prev,t,t.next)>0&&Ur(e.prev,e,e.next)>0);// special zero-length case
 }
 // signed area of a triangle
-function Xr(t,e,i){return(e.y-t.y)*(i.x-e.x)-(e.x-t.x)*(i.y-e.y)}
+function Ur(t,e,i){return(e.y-t.y)*(i.x-e.x)-(e.x-t.x)*(i.y-e.y)}
 // check if two points are equal
-function Ur(t,e){return t.x===e.x&&t.y===e.y}
+function Xr(t,e){return t.x===e.x&&t.y===e.y}
 // check if two segments intersect
-function zr(t,e,i,s){var n=Wr(Xr(t,e,i)),r=Wr(Xr(t,e,s)),a=Wr(Xr(i,s,t)),o=Wr(Xr(i,s,e));return n!==r&&a!==o||(// general case
+function zr(t,e,i,s){var n=Wr(Ur(t,e,i)),r=Wr(Ur(t,e,s)),a=Wr(Ur(i,s,t)),o=Wr(Ur(i,s,e));return n!==r&&a!==o||(// general case
 !(0!==n||!Gr(t,i,e))||(// p1, q1 and p2 are collinear and p2 lies on p1q1
 !(0!==r||!Gr(t,s,e))||(// p1, q1 and q2 are collinear and q2 lies on p1q1
 !(0!==a||!Gr(i,t,s))||!(0!==o||!Gr(i,e,s)))))}
 // for collinear points p, q, r, check if point q lies on segment pr
-function Gr(t,e,i){return e.x<=Math.max(t.x,i.x)&&e.x>=Math.min(t.x,i.x)&&e.y<=Math.max(t.y,i.y)&&e.y>=Math.min(t.y,i.y)}function Wr(t){return t>0?1:t<0?-1:0}function Vr(t,e){return Xr(t.prev,t,t.next)<0?Xr(t,e,t.next)>=0&&Xr(t,t.prev,e)>=0:Xr(t,e,t.prev)<0||Xr(t,t.next,e)<0}function Hr(t,e){var i=new Kr(t.i,t.x,t.y),s=new Kr(e.i,e.x,e.y),n=t.next,r=e.prev;return t.next=e,e.prev=t,i.next=n,n.prev=i,s.next=i,i.prev=s,r.next=s,s.prev=r,s}
+function Gr(t,e,i){return e.x<=Math.max(t.x,i.x)&&e.x>=Math.min(t.x,i.x)&&e.y<=Math.max(t.y,i.y)&&e.y>=Math.min(t.y,i.y)}function Wr(t){return t>0?1:t<0?-1:0}function Vr(t,e){return Ur(t.prev,t,t.next)<0?Ur(t,e,t.next)>=0&&Ur(t,t.prev,e)>=0:Ur(t,e,t.prev)<0||Ur(t,t.next,e)<0}function Hr(t,e){var i=new Kr(t.i,t.x,t.y),s=new Kr(e.i,e.x,e.y),n=t.next,r=e.prev;return t.next=e,e.prev=t,i.next=n,n.prev=i,s.next=i,i.prev=s,r.next=s,s.prev=r,s}
 // create a node and optionally link it with previous one (in a circular doubly linked list)
 function jr(t,e,i,s){var n=new Kr(t,e,i);return s?(n.next=s.next,n.prev=s,s.next.prev=n,s.next=n):(n.prev=n,n.next=n),n}function qr(t){t.next.prev=t.prev,t.prev.next=t.next,t.prevZ&&(t.prevZ.nextZ=t.nextZ),t.nextZ&&(t.nextZ.prevZ=t.prevZ)}function Kr(t,e,i){
 // vertex index in coordinates array
@@ -18705,11 +18705,11 @@ batchLine:function(t,e,i,s,n,r,a,o,h,l,u){this.renderer.pipelines.set(this);var 
 //  Multiply and store result in calcMatrix, only if the parentMatrix is set, otherwise we'll use whatever values are already in the calcMatrix
 u&&u.multiply(l,c);var d=i-t,f=s-e,p=Math.sqrt(d*d+f*f),g=n*(s-e)/p,v=n*(t-i)/p,m=r*(s-e)/p,y=r*(t-i)/p,x=i-m,T=s-y,w=t-g,b=e-v,E=i+m,S=s+y,_=t+g,A=e+v,C=c.getX(x,T),M=c.getY(x,T),R=c.getX(w,b),P=c.getY(w,b),O=c.getX(E,S),L=c.getY(E,S),F=c.getX(_,A),k=c.getY(_,A),D=this.strokeTint,I=D.TL,B=D.TR,N=D.BL,Y=D.BR;if(
 //  TL, BL, BR, TR
-this.batchQuad(F,k,R,P,C,M,O,L,I,B,N,Y),!(a<=2)){var X=this.prevQuad,U=this.firstQuad;o>0&&X[4]?this.batchQuad(F,k,R,P,X[0],X[1],X[2],X[3],I,B,N,Y):(U[0]=F,U[1]=k,U[2]=R,U[3]=P,U[4]=1),h&&U[4]?
+this.batchQuad(F,k,R,P,C,M,O,L,I,B,N,Y),!(a<=2)){var U=this.prevQuad,X=this.firstQuad;o>0&&U[4]?this.batchQuad(F,k,R,P,U[0],U[1],U[2],U[3],I,B,N,Y):(X[0]=F,X[1]=k,X[2]=R,X[3]=P,X[4]=1),h&&X[4]?
 //  Add a join for the final path segment
-this.batchQuad(C,M,O,L,U[0],U[1],U[2],U[3],I,B,N,Y):(
+this.batchQuad(C,M,O,L,X[0],X[1],X[2],X[3],I,B,N,Y):(
 //  Store it
-X[0]=C,X[1]=M,X[2]=O,X[3]=L,X[4]=1)}},
+U[0]=C,U[1]=M,U[2]=O,U[3]=L,U[4]=1)}},
 /**
      * Adds a single vertex to the current vertex buffer and increments the
      * `vertexCount` property by 1.
@@ -18861,7 +18861,7 @@ s.multiplyWithOffset(i,-e.scrollX*t.scrollFactorX,-e.scrollY*t.scrollFactorY),
 //  Undo the camera scroll
 n.e=t.x,n.f=t.y):(n.e-=e.scrollX*t.scrollFactorX,n.f-=e.scrollY*t.scrollFactorY),
 //  Multiply by the Sprite matrix, store result in calcMatrix
-s.multiply(n,r);var S=x+p,_=T+g,A=e.roundPixels,C=r.getXRound(x,T,A),M=r.getYRound(x,T,A),R=r.getXRound(x,_,A),P=r.getYRound(x,_,A),O=r.getXRound(S,_,A),L=r.getYRound(S,_,A),F=r.getXRound(S,T,A),k=r.getYRound(S,T,A),D=wr.getTintAppendFloatAlpha,I=e.alpha,B=D(t.tintTopLeft,I*t._alphaTL),N=D(t.tintTopRight,I*t._alphaTR),Y=D(t.tintBottomLeft,I*t._alphaBL),X=D(t.tintBottomRight,I*t._alphaBR);this.shouldFlush(6)&&this.flush();var U=this.setGameObject(t,a);this.manager.preBatch(t),this.batchQuad(t,C,M,R,P,O,L,F,k,h,l,u,c,B,N,Y,X,t.tintFill,o,U),this.manager.postBatch(t)},
+s.multiply(n,r);var S=x+p,_=T+g,A=e.roundPixels,C=r.getXRound(x,T,A),M=r.getYRound(x,T,A),R=r.getXRound(x,_,A),P=r.getYRound(x,_,A),O=r.getXRound(S,_,A),L=r.getYRound(S,_,A),F=r.getXRound(S,T,A),k=r.getYRound(S,T,A),D=wr.getTintAppendFloatAlpha,I=e.alpha,B=D(t.tintTopLeft,I*t._alphaTL),N=D(t.tintTopRight,I*t._alphaTR),Y=D(t.tintBottomLeft,I*t._alphaBL),U=D(t.tintBottomRight,I*t._alphaBR);this.shouldFlush(6)&&this.flush();var X=this.setGameObject(t,a);this.manager.preBatch(t),this.batchQuad(t,C,M,R,P,O,L,F,k,h,l,u,c,B,N,Y,U,t.tintFill,o,X),this.manager.postBatch(t)},
 /**
      * Generic function for batching a textured quad using argument values instead of a Game Object.
      *
@@ -18901,15 +18901,15 @@ s.multiply(n,r);var S=x+p,_=T+g,A=e.roundPixels,C=r.getXRound(x,T,A),M=r.getYRou
      * @param {boolean} [skipFlip=false] - Skip the renderTexture check.
      * @param {number} [textureUnit] - Use the currently bound texture unit?
      */
-batchTexture:function(t,e,i,s,n,r,a,o,h,l,u,c,d,f,p,g,v,m,y,x,T,w,b,E,S,_,A,C,M,R,P,O){this.manager.set(this,t);var L=this._tempMatrix1,F=this._tempMatrix2,k=this._tempMatrix3,D=m/i+A,I=y/s+C,B=(m+x)/i+A,N=(y+T)/s+C,Y=a,X=o,U=-g,z=-v;if(t.isCropped){var G=t._crop,W=G.width,V=G.height;Y=W,X=V,a=W,o=V;var H=m=G.x,j=y=G.y;c&&(H=x-G.x-W),d&&(j=T-G.y-V),D=H/i+A,I=j/s+C,B=(H+W)/i+A,N=(j+V)/s+C,U=-g+m,z=-v+y}
+batchTexture:function(t,e,i,s,n,r,a,o,h,l,u,c,d,f,p,g,v,m,y,x,T,w,b,E,S,_,A,C,M,R,P,O){this.manager.set(this,t);var L=this._tempMatrix1,F=this._tempMatrix2,k=this._tempMatrix3,D=m/i+A,I=y/s+C,B=(m+x)/i+A,N=(y+T)/s+C,Y=a,U=o,X=-g,z=-v;if(t.isCropped){var G=t._crop,W=G.width,V=G.height;Y=W,U=V,a=W,o=V;var H=m=G.x,j=y=G.y;c&&(H=x-G.x-W),d&&(j=T-G.y-V),D=H/i+A,I=j/s+C,B=(H+W)/i+A,N=(j+V)/s+C,X=-g+m,z=-v+y}
 //  Invert the flipY if this is a RenderTexture
-c&&(Y*=-1,U+=a),(d^=!P&&e.isRenderTexture?1:0)&&(X*=-1,z+=o);var q=U+Y,K=z+X;F.applyITRS(n,r,u,h,l),L.copyFrom(M.matrix),R?(
+c&&(Y*=-1,X+=a),(d^=!P&&e.isRenderTexture?1:0)&&(U*=-1,z+=o);var q=X+Y,K=z+U;F.applyITRS(n,r,u,h,l),L.copyFrom(M.matrix),R?(
 //  Multiply the camera by the parent matrix
 L.multiplyWithOffset(R,-M.scrollX*f,-M.scrollY*p),
 //  Undo the camera scroll
 F.e=n,F.f=r):(F.e-=M.scrollX*f,F.f-=M.scrollY*p),
 //  Multiply by the Sprite matrix, store result in calcMatrix
-L.multiply(F,k);var Z=M.roundPixels,J=k.getXRound(U,z,Z),Q=k.getYRound(U,z,Z),$=k.getXRound(U,K,Z),tt=k.getYRound(U,K,Z),et=k.getXRound(q,K,Z),it=k.getYRound(q,K,Z),st=k.getXRound(q,z,Z),nt=k.getYRound(q,z,Z);void 0===O&&(O=this.renderer.setTexture2D(e)),t&&this.manager.preBatch(t),this.batchQuad(t,J,Q,$,tt,et,it,st,nt,D,I,B,N,w,b,E,S,_,e,O),t&&this.manager.postBatch(t)},
+L.multiply(F,k);var Z=M.roundPixels,J=k.getXRound(X,z,Z),Q=k.getYRound(X,z,Z),$=k.getXRound(X,K,Z),tt=k.getYRound(X,K,Z),et=k.getXRound(q,K,Z),it=k.getYRound(q,K,Z),st=k.getXRound(q,z,Z),nt=k.getYRound(q,z,Z);void 0===O&&(O=this.renderer.setTexture2D(e)),t&&this.manager.preBatch(t),this.batchQuad(t,J,Q,$,tt,et,it,st,nt,D,I,B,N,w,b,E,S,_,e,O),t&&this.manager.postBatch(t)},
 /**
      * Adds a Texture Frame into the batch for rendering.
      *
@@ -23069,7 +23069,7 @@ toJSON:function(){return{type:this.type,x:this.p0.x,y:this.p0.y,xRadius:this._xR
  *
  * @return {Phaser.Curves.Ellipse} The ellipse curve constructed from the configuration object.
  */
-Ya.fromJSON=function(t){return new Ya(t)};var Xa=Ya,Ua=new at({initialize:function(t){
+Ya.fromJSON=function(t){return new Ya(t)};var Ua=Ya,Xa=new at({initialize:function(t){
 /**
          * The Scene to which this Game Object Factory belongs.
          *
@@ -23204,7 +23204,7 @@ destroy:function(){this.shutdown(),this.events.off(rs.START,this.start,this),thi
  * @param {string} factoryType - The key of the factory that you will use to call to Phaser.Scene.add[ factoryType ] method.
  * @param {function} factoryFunction - The constructor function to be called when you invoke to the Phaser.Scene.add method.
  */
-Ua.register=function(t,e){Ua.prototype.hasOwnProperty(t)||(Ua.prototype[t]=e)},
+Xa.register=function(t,e){Xa.prototype.hasOwnProperty(t)||(Xa.prototype[t]=e)},
 /**
  * Static method called directly by the Game Object factory functions.
  * With this method you can remove a custom GameObject factory registered in the GameObjectFactory,
@@ -23216,7 +23216,7 @@ Ua.register=function(t,e){Ua.prototype.hasOwnProperty(t)||(Ua.prototype[t]=e)},
  *
  * @param {string} factoryType - The key of the factory that you want to remove from the GameObjectFactory.
  */
-Ua.remove=function(t){Ua.prototype.hasOwnProperty(t)&&delete Ua.prototype[t]},ss.register("GameObjectFactory",Ua,"add");var za=Ua,Ga=new It,Wa=new at({Extends:Ia,initialize:
+Xa.remove=function(t){Xa.prototype.hasOwnProperty(t)&&delete Xa.prototype[t]},ss.register("GameObjectFactory",Xa,"add");var za=Xa,Ga=new It,Wa=new at({Extends:Ia,initialize:
 //  vec2s or array
 function(t,e){Ia.call(this,"LineCurve"),Array.isArray(t)&&(e=new It(t[2],t[3]),t=new It(t[0],t[1]))
 /**
@@ -23852,7 +23852,7 @@ draw:function(t,e){for(var i=0;i<this.curves.length;i++){var s=this.curves[i];s.
      *
      * @return {this} This Path object.
      */
-ellipseTo:function(t,e,i,s,n,r){var a=new Xa(0,0,t,e,i,s,n,r),o=this.getEndPoint(this._tmpVec2A),h=a.getStartPoint(this._tmpVec2B);return o.subtract(h),a.x=o.x,a.y=o.y,this.add(a)},
+ellipseTo:function(t,e,i,s,n,r){var a=new Ua(0,0,t,e,i,s,n,r),o=this.getEndPoint(this._tmpVec2A),h=a.getStartPoint(this._tmpVec2B);return o.subtract(h),a.x=o.x,a.y=o.y,this.add(a)},
 /**
      * Creates a Path from a Path Configuration object.
      *
@@ -23867,7 +23867,7 @@ ellipseTo:function(t,e,i,s,n,r){var a=new Xa(0,0,t,e,i,s,n,r),o=this.getEndPoint
      */
 fromJSON:function(t){
 //  data should be an object matching the Path.toJSON object structure.
-this.curves=[],this.cacheLengths=[],this.startPoint.set(t.x,t.y),this.autoClose=t.autoClose;for(var e=0;e<t.curves.length;e++){var i=t.curves[e];switch(i.type){case"LineCurve":this.add(Va.fromJSON(i));break;case"EllipseCurve":this.add(Xa.fromJSON(i));break;case"SplineCurve":this.add(Za.fromJSON(i));break;case"CubicBezierCurve":this.add(Na.fromJSON(i));break;case"QuadraticBezierCurve":this.add(qa.fromJSON(i))}}return this},
+this.curves=[],this.cacheLengths=[],this.startPoint.set(t.x,t.y),this.autoClose=t.autoClose;for(var e=0;e<t.curves.length;e++){var i=t.curves[e];switch(i.type){case"LineCurve":this.add(Va.fromJSON(i));break;case"EllipseCurve":this.add(Ua.fromJSON(i));break;case"SplineCurve":this.add(Za.fromJSON(i));break;case"CubicBezierCurve":this.add(Na.fromJSON(i));break;case"QuadraticBezierCurve":this.add(qa.fromJSON(i))}}return this},
 /**
      * Returns a Rectangle with a position and size matching the bounds of this Path.
      *
@@ -24114,7 +24114,7 @@ za.register("path",(function(t,e){return new Ja(t,e)}));
 //  this.scene - a reference to the Scene that owns the GameObjectFactory
 //  this.displayList - a reference to the Display List the Scene owns
 //  this.updateList - a reference to the Update List the Scene owns
-var Qa={Path:Ja,MoveTo:Ha,CubicBezier:Na,Curve:Ia,Ellipse:Xa,Line:Va,QuadraticBezier:qa,Spline:Za},$a=new at({Extends:xe,initialize:function(t){xe.call(this,t,t.sys.events),
+var Qa={Path:Ja,MoveTo:Ha,CubicBezier:Na,Curve:Ia,Ellipse:Ua,Line:Va,QuadraticBezier:qa,Spline:Za},$a=new at({Extends:xe,initialize:function(t){xe.call(this,t,t.sys.events),
 /**
          * A reference to the Scene that this DataManager belongs to.
          *
@@ -24174,7 +24174,7 @@ destroy:function(){xe.prototype.destroy.call(this),this.events.off(rs.START,this
  */
 /**
  * @namespace Phaser.Curves
- */ss.register("DataManagerPlugin",$a,"data");var to={DataManager:xe,DataManagerPlugin:$a,Events:ye},eo={In:{BottomCenter:U,BottomLeft:z,BottomRight:G,Center:V,LeftCenter:H,QuickSet:Q,RightCenter:j,TopCenter:q,TopLeft:K,TopRight:Z},To:{BottomCenter:f,BottomLeft:v,BottomRight:x,LeftBottom:w,LeftCenter:S,LeftTop:A,QuickSet:k,RightBottom:C,RightCenter:M,RightTop:R,TopCenter:P,TopLeft:O,TopRight:L}},io=
+ */ss.register("DataManagerPlugin",$a,"data");var to={DataManager:xe,DataManagerPlugin:$a,Events:ye},eo={In:{BottomCenter:X,BottomLeft:z,BottomRight:G,Center:V,LeftCenter:H,QuickSet:Q,RightCenter:j,TopCenter:q,TopLeft:K,TopRight:Z},To:{BottomCenter:f,BottomLeft:v,BottomRight:x,LeftBottom:w,LeftCenter:S,LeftTop:A,QuickSet:k,RightBottom:C,RightCenter:M,RightTop:R,TopCenter:P,TopLeft:O,TopRight:L}},io=
 //   Merge in the consts
 eo=o(!1,eo,h),so=new at({initialize:function(t,e,i,s){e&&""!==e||(e=["precision mediump float;","uniform vec2 resolution;","varying vec2 fragCoord;","void main () {","    vec2 uv = fragCoord / resolution.xy;","    gl_FragColor = vec4(uv.xyx, 1.0);","}"].join("\n")),i&&""!==i||(i=["precision mediump float;","uniform mat4 uProjectionMatrix;","uniform mat4 uViewMatrix;","uniform vec2 uResolution;","attribute vec2 inPosition;","varying vec2 fragCoord;","varying vec2 outTexCoord;","void main () {","   gl_Position = uProjectionMatrix * uViewMatrix * vec4(inPosition, 1.0, 1.0);","   fragCoord = vec2(inPosition.x, uResolution.y - inPosition.y);","   outTexCoord = vec2(inPosition.x / uResolution.x, fragCoord.y / uResolution.y);","}"].join("\n")),void 0===s&&(s=null)
 /**
@@ -24722,7 +24722,7 @@ TOUCH_CANCEL:7,
      * @type {number}
      * @since 3.18.0
      */
-MOUSE_WHEEL:8},Yo={BOOT:"boot",DESTROY:"destroy",DRAG_END:"dragend",DRAG_ENTER:"dragenter",DRAG:"drag",DRAG_LEAVE:"dragleave",DRAG_OVER:"dragover",DRAG_START:"dragstart",DROP:"drop",GAME_OUT:"gameout",GAME_OVER:"gameover",GAMEOBJECT_DOWN:"gameobjectdown",GAMEOBJECT_DRAG_END:"dragend",GAMEOBJECT_DRAG_ENTER:"dragenter",GAMEOBJECT_DRAG:"drag",GAMEOBJECT_DRAG_LEAVE:"dragleave",GAMEOBJECT_DRAG_OVER:"dragover",GAMEOBJECT_DRAG_START:"dragstart",GAMEOBJECT_DROP:"drop",GAMEOBJECT_MOVE:"gameobjectmove",GAMEOBJECT_OUT:"gameobjectout",GAMEOBJECT_OVER:"gameobjectover",GAMEOBJECT_POINTER_DOWN:"pointerdown",GAMEOBJECT_POINTER_MOVE:"pointermove",GAMEOBJECT_POINTER_OUT:"pointerout",GAMEOBJECT_POINTER_OVER:"pointerover",GAMEOBJECT_POINTER_UP:"pointerup",GAMEOBJECT_POINTER_WHEEL:"wheel",GAMEOBJECT_UP:"gameobjectup",GAMEOBJECT_WHEEL:"gameobjectwheel",MANAGER_BOOT:"boot",MANAGER_PROCESS:"process",MANAGER_UPDATE:"update",POINTER_DOWN:"pointerdown",POINTER_DOWN_OUTSIDE:"pointerdownoutside",POINTER_MOVE:"pointermove",POINTER_OUT:"pointerout",POINTER_OVER:"pointerover",POINTER_UP:"pointerup",POINTER_UP_OUTSIDE:"pointerupoutside",POINTER_WHEEL:"wheel",POINTERLOCK_CHANGE:"pointerlockchange",PRE_UPDATE:"preupdate",SHUTDOWN:"shutdown",START:"start",UPDATE:"update"},Xo={
+MOUSE_WHEEL:8},Yo={BOOT:"boot",DESTROY:"destroy",DRAG_END:"dragend",DRAG_ENTER:"dragenter",DRAG:"drag",DRAG_LEAVE:"dragleave",DRAG_OVER:"dragover",DRAG_START:"dragstart",DROP:"drop",GAME_OUT:"gameout",GAME_OVER:"gameover",GAMEOBJECT_DOWN:"gameobjectdown",GAMEOBJECT_DRAG_END:"dragend",GAMEOBJECT_DRAG_ENTER:"dragenter",GAMEOBJECT_DRAG:"drag",GAMEOBJECT_DRAG_LEAVE:"dragleave",GAMEOBJECT_DRAG_OVER:"dragover",GAMEOBJECT_DRAG_START:"dragstart",GAMEOBJECT_DROP:"drop",GAMEOBJECT_MOVE:"gameobjectmove",GAMEOBJECT_OUT:"gameobjectout",GAMEOBJECT_OVER:"gameobjectover",GAMEOBJECT_POINTER_DOWN:"pointerdown",GAMEOBJECT_POINTER_MOVE:"pointermove",GAMEOBJECT_POINTER_OUT:"pointerout",GAMEOBJECT_POINTER_OVER:"pointerover",GAMEOBJECT_POINTER_UP:"pointerup",GAMEOBJECT_POINTER_WHEEL:"wheel",GAMEOBJECT_UP:"gameobjectup",GAMEOBJECT_WHEEL:"gameobjectwheel",MANAGER_BOOT:"boot",MANAGER_PROCESS:"process",MANAGER_UPDATE:"update",POINTER_DOWN:"pointerdown",POINTER_DOWN_OUTSIDE:"pointerdownoutside",POINTER_MOVE:"pointermove",POINTER_OUT:"pointerout",POINTER_OVER:"pointerover",POINTER_UP:"pointerup",POINTER_UP_OUTSIDE:"pointerupoutside",POINTER_WHEEL:"wheel",POINTERLOCK_CHANGE:"pointerlockchange",PRE_UPDATE:"preupdate",SHUTDOWN:"shutdown",START:"start",UPDATE:"update"},Uo={
 /**
      * The BACKSPACE key.
      * 
@@ -25506,7 +25506,7 @@ BRACKET_RIGHT_FIREFOX:174,
      * @type {number}
      * @since 3.0.0
      */
-BRACKET_LEFT_FIREFOX:175},Uo=new at({initialize:function(t){
+BRACKET_LEFT_FIREFOX:175},Xo=new at({initialize:function(t){
 /**
          * A reference to the Input Manager.
          *
@@ -25678,7 +25678,7 @@ postUpdate:function(){this.queue=[]},
      *
      * @param {(string|number|number[]|any[])} keycode - The Key Codes to enable capture for, preventing them reaching the browser.
      */
-addCapture:function(t){"string"==typeof t&&(t=t.split(",")),Array.isArray(t)||(t=[t]);for(var e=this.captures,i=0;i<t.length;i++){var s=t[i];"string"==typeof s&&(s=Xo[s.trim().toUpperCase()]),-1===e.indexOf(s)&&e.push(s)}this.preventDefault=e.length>0},
+addCapture:function(t){"string"==typeof t&&(t=t.split(",")),Array.isArray(t)||(t=[t]);for(var e=this.captures,i=0;i<t.length;i++){var s=t[i];"string"==typeof s&&(s=Uo[s.trim().toUpperCase()]),-1===e.indexOf(s)&&e.push(s)}this.preventDefault=e.length>0},
 /**
      * Removes an existing key capture.
      *
@@ -25714,7 +25714,7 @@ addCapture:function(t){"string"==typeof t&&(t=t.split(",")),Array.isArray(t)||(t
      *
      * @param {(string|number|number[]|any[])} keycode - The Key Codes to disable capture for, allowing them reaching the browser again.
      */
-removeCapture:function(t){"string"==typeof t&&(t=t.split(",")),Array.isArray(t)||(t=[t]);for(var e=this.captures,i=0;i<t.length;i++){var s=t[i];"string"==typeof s&&(s=Xo[s.toUpperCase()]),pr(e,s)}this.preventDefault=e.length>0},
+removeCapture:function(t){"string"==typeof t&&(t=t.split(",")),Array.isArray(t)||(t=[t]);for(var e=this.captures,i=0;i<t.length;i++){var s=t[i];"string"==typeof s&&(s=Uo[s.toUpperCase()]),pr(e,s)}this.preventDefault=e.length>0},
 /**
      * Removes all keyboard captures and sets the `preventDefault` property to `false`.
      *
@@ -27036,7 +27036,7 @@ this.defaultCursor="",
          * @type {?Phaser.Input.Keyboard.KeyboardManager}
          * @since 3.16.0
          */
-this.keyboard=e.inputKeyboard?new Uo(this):null,
+this.keyboard=e.inputKeyboard?new Xo(this):null,
 /**
          * A reference to the Mouse Manager class, if enabled via the `input.mouse` Game Config property.
          *
@@ -34599,7 +34599,7 @@ setVolume:function(t){return this.volume=t,this},
      * @fires Phaser.Sound.Events#GLOBAL_VOLUME
      * @since 3.0.0
      */
-volume:{get:function(){return this.masterVolumeNode.gain.value},set:function(t){this.masterVolumeNode.gain.setValueAtTime(t,0),this.emit(bh.GLOBAL_VOLUME,this,t)}}}),Xh={create:function(t){var e=t.config.audio,i=t.device.audio;return e.noAudio||!i.webAudio&&!i.audioData?new Fh(t):i.webAudio&&!e.disableWebAudio?new Yh(t):new Rh(t)}},Uh=Xh,zh=new at({initialize:function(t){
+volume:{get:function(){return this.masterVolumeNode.gain.value},set:function(t){this.masterVolumeNode.gain.setValueAtTime(t,0),this.emit(bh.GLOBAL_VOLUME,this,t)}}}),Uh={create:function(t){var e=t.config.audio,i=t.device.audio;return e.noAudio||!i.webAudio&&!i.audioData?new Fh(t):i.webAudio&&!e.disableWebAudio?new Yh(t):new Rh(t)}},Xh=Uh,zh=new at({initialize:function(t){
 /**
          * The parsed Game Configuration object.
          *
@@ -34770,7 +34770,7 @@ this.scale=new $o(this,this.config),
          * @type {(Phaser.Sound.NoAudioSoundManager|Phaser.Sound.HTML5AudioSoundManager|Phaser.Sound.WebAudioSoundManager)}
          * @since 3.0.0
          */
-this.sound=null,this.sound=Uh.create(this),
+this.sound=null,this.sound=Xh.create(this),
 /**
          * An instance of the Time Step.
          *
@@ -36174,9 +36174,9 @@ if(u>0){for(n=0;n<l;n++)if(10!==(w=h.charCodeAt(n))){if(b=v[w]){if(null!==R)var 
 N={word:"",i:n,x:x,y:T,w:0,h:m,cr:!1}),N.word=N.word.concat(h[n]),N.w+=b.xOffset+b.xAdvance+(void 0!==Y?Y:0)),x+=b.xAdvance+y,R=b,P=w}}else null!==N&&(I.push({word:N.word,i:N.i,x:N.x*C,y:N.y*M,w:N.w*C,h:N.h*M,cr:!0}),N=null),x=0,T+=m,R=null;
 //  Last word
 //  Loop through the words array and see if we've got any > maxWidth
-var X;null!==N&&I.push({word:N.word,i:N.i,x:N.x*C,y:N.y*M,w:N.w*C,h:N.h*M,cr:!1}),
+var U;null!==N&&I.push({word:N.word,i:N.i,x:N.x*C,y:N.y*M,w:N.w*C,h:N.h*M,cr:!1}),
 //  Reset for the next loop
-x=0,T=0,R=null,P=0;var U=0,z=[];for(n=0;n<I.length;n++){var G=I[n],W=G.x,V=G.x+G.w;if(X)U=W-(W-(X.x+X.w)+X.w),X=null;W-U>u||V-U>u?(z.push(G.i-1),G.cr?(z.push(G.i+G.word.length),U=0,X=null):X=G):G.cr&&(z.push(G.i+G.word.length),U=0,X=null)}for(n=z.length-1;n>=0;n--)
+x=0,T=0,R=null,P=0;var X=0,z=[];for(n=0;n<I.length;n++){var G=I[n],W=G.x,V=G.x+G.w;if(U)X=W-(W-(U.x+U.w)+U.w),U=null;W-X>u||V-X>u?(z.push(G.i-1),G.cr?(z.push(G.i+G.word.length),X=0,U=null):U=G):G.cr&&(z.push(G.i+G.word.length),X=0,U=null)}for(n=z.length-1;n>=0;n--)
 // eslint-disable-next-line quotes
 r=h,a=z[n],o="\n",h=r.substr(0,a)+o+r.substr(a+1);s.wrappedText=h,l=h.length,
 //  Recalculated in the next loop
@@ -37960,7 +37960,7 @@ previous:{get:function(){return this.position>0?(this.position--,this.list[this.
      * @protected
      * @since 3.9.0
      */
-preDestroy:function(){this.removeAll(!!this.exclusive),this.localTransform.destroy(),this.tempTransformMatrix.destroy(),this.list=[]}}),Bl=["normal","multiply","multiply","screen","overlay","darken","lighten","color-dodge","color-burn","hard-light","soft-light","difference","exclusion","hue","saturation","color","luminosity"],Nl=new ue,Yl=new ue,Xl=new ue,Ul=function(t,e,i,s){var n=e.node,r=n.style,a=e.scene.sys.settings;if(!(n&&r&&a.visible&&Ee.RENDER_MASK===e.renderFlags)||0!==e.cameraFilter&&e.cameraFilter&i.id||e.parentContainer&&!e.parentContainer.willRender())n&&(r.display="none");else{var o=e.parentContainer,h=i.alpha*e.alpha;o&&(h*=o.alpha);var l=Nl,u=Yl,c=Xl,d=0,f=0,p="0%",g="0%";s?(d=e.width*e.scaleX*e.originX,f=e.height*e.scaleY*e.originY,u.applyITRS(e.x-d,e.y-f,e.rotation,e.scaleX,e.scaleY),l.copyFrom(i.matrix),
+preDestroy:function(){this.removeAll(!!this.exclusive),this.localTransform.destroy(),this.tempTransformMatrix.destroy(),this.list=[]}}),Bl=["normal","multiply","multiply","screen","overlay","darken","lighten","color-dodge","color-burn","hard-light","soft-light","difference","exclusion","hue","saturation","color","luminosity"],Nl=new ue,Yl=new ue,Ul=new ue,Xl=function(t,e,i,s){var n=e.node,r=n.style,a=e.scene.sys.settings;if(!(n&&r&&a.visible&&Ee.RENDER_MASK===e.renderFlags)||0!==e.cameraFilter&&e.cameraFilter&i.id||e.parentContainer&&!e.parentContainer.willRender())n&&(r.display="none");else{var o=e.parentContainer,h=i.alpha*e.alpha;o&&(h*=o.alpha);var l=Nl,u=Yl,c=Ul,d=0,f=0,p="0%",g="0%";s?(d=e.width*e.scaleX*e.originX,f=e.height*e.scaleY*e.originY,u.applyITRS(e.x-d,e.y-f,e.rotation,e.scaleX,e.scaleY),l.copyFrom(i.matrix),
 //  Multiply the camera by the parent matrix
 l.multiplyWithOffset(s,-i.scrollX*e.scrollFactorX,-i.scrollY*e.scrollFactorY),
 //  Undo the camera scroll
@@ -37970,7 +37970,7 @@ l.multiply(u,c)):(d=e.width*e.originX,f=e.height*e.originY,u.applyITRS(e.x-d,e.y
 //  Multiply by the src matrix, store result in calcMatrix
 l.multiply(u,c)),e.transformOnly||(r.display="block",r.opacity=h,r.zIndex=e._depth,r.pointerEvents="auto",r.mixBlendMode=Bl[e._blendMode]),
 // https://developer.mozilla.org/en-US/docs/Web/CSS/transform
-r.transform=c.getCSSMatrix()+" skew("+e.skewX+"rad, "+e.skewY+"rad) rotate3d("+e.rotate3d.x+","+e.rotate3d.y+","+e.rotate3d.z+","+e.rotate3d.w+e.rotate3dAngle+")",r.transformOrigin=p+" "+g}},zl={renderWebGL:Ul,renderCanvas:Ul},Gl=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.Origin,me.ScrollFactor,me.Transform,me.Visible,zl],initialize:function(t,e,i,s,n,r){Ee.call(this,t,"DOMElement"),
+r.transform=c.getCSSMatrix()+" skew("+e.skewX+"rad, "+e.skewY+"rad) rotate3d("+e.rotate3d.x+","+e.rotate3d.y+","+e.rotate3d.z+","+e.rotate3d.w+e.rotate3dAngle+")",r.transformOrigin=p+" "+g}},zl={renderWebGL:Xl,renderCanvas:Xl},Gl=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.Origin,me.ScrollFactor,me.Transform,me.Visible,zl],initialize:function(t,e,i,s,n,r){Ee.call(this,t,"DOMElement"),
 /**
          * A reference to the parent DOM Container that the Game instance created when it started.
          *
@@ -38528,11 +38528,11 @@ willRender:function(){return!0},
      */
 preDestroy:function(){this.removeElement(),this.scene.sys.events.off(rs.SLEEP,this.handleSceneEvent,this),this.scene.sys.events.off(rs.WAKE,this.handleSceneEvent,this)}}),Wl=new ue,Vl=new at({Extends:Rl,Mixins:[{renderWebGL:function(t,e,i,s){var n=e.text,r=n.length;if(0!==r){i.addToRenderList(e);var a=t.pipelines.set(e.pipeline,e),o=ml(e,i,s),h=o.sprite,l=o.calc,u=Wl,c=e.cropWidth>0||e.cropHeight>0;c&&(a.flush(),t.pushScissor(l.tx,l.ty,e.cropWidth*l.scaleX,e.cropHeight*l.scaleY));var d,f,p=e.frame.glTexture,g=e.tintFill,v=wr.getTintAppendFloatAlpha(e.tintTopLeft,i.alpha*e._alphaTL),m=wr.getTintAppendFloatAlpha(e.tintTopRight,i.alpha*e._alphaTR),y=wr.getTintAppendFloatAlpha(e.tintBottomLeft,i.alpha*e._alphaBL),x=wr.getTintAppendFloatAlpha(e.tintBottomRight,i.alpha*e._alphaBR),T=a.setGameObject(e),w=0,b=0,E=0,S=0,_=e.letterSpacing,A=0,C=0,M=e.scrollX,R=e.scrollY,P=e.fontData,O=P.chars,L=P.lineHeight,F=e.fontSize/P.size,k=0,D=e._align,I=0,B=0,N=e.getTextBounds(!1);
 //  In case the method above changed it (word wrapping)
-e.maxWidth>0&&(r=(n=N.wrappedText).length);var Y=e._bounds.lines;1===D?B=(Y.longest-Y.lengths[0])/2:2===D&&(B=Y.longest-Y.lengths[0]);var X=i.roundPixels,U=e.displayCallback,z=e.callbackData;t.pipelines.preBatch(e);for(var G=0;G<r;G++)
+e.maxWidth>0&&(r=(n=N.wrappedText).length);var Y=e._bounds.lines;1===D?B=(Y.longest-Y.lengths[0])/2:2===D&&(B=Y.longest-Y.lengths[0]);var U=i.roundPixels,X=e.displayCallback,z=e.callbackData;t.pipelines.preBatch(e);for(var G=0;G<r;G++)
 //  Carriage-return
 if(10!==(E=n.charCodeAt(G))){if(d=O[E]){A=d.width,C=d.height;var W=d.xOffset+w-M,V=d.yOffset+b-R;if(null!==f){var H=d.kerning[S];W+=void 0!==H?H:0}
 //  Nothing to render or a space? Then skip to the next glyph
-if(w+=d.xAdvance+_,f=d,S=E,0!==A&&0!==C&&32!==E){if(F=e.fontSize/e.fontData.size,k=0,U){z.color=0,z.tint.topLeft=v,z.tint.topRight=m,z.tint.bottomLeft=y,z.tint.bottomRight=x,z.index=G,z.charCode=E,z.x=W,z.y=V,z.scale=F,z.rotation=k,z.data=d.data;var j=U(z);W=j.x,V=j.y,F=j.scale,k=j.rotation,j.color?(v=j.color,m=j.color,y=j.color,x=j.color):(v=j.tint.topLeft,m=j.tint.topRight,y=j.tint.bottomLeft,x=j.tint.bottomRight),v=wr.getTintAppendFloatAlpha(v,i.alpha*e._alphaTL),m=wr.getTintAppendFloatAlpha(m,i.alpha*e._alphaTR),y=wr.getTintAppendFloatAlpha(y,i.alpha*e._alphaBL),x=wr.getTintAppendFloatAlpha(x,i.alpha*e._alphaBR)}W*=F,V*=F,W-=e.displayOriginX,V-=e.displayOriginY,W+=B,u.applyITRS(W,V,k,F,F),l.multiply(u,h);var q=d.u0,K=d.v0,Z=d.u1,J=d.v1,Q=A,$=C,tt=h.e,et=h.f,it=$*h.c+h.e,st=$*h.d+h.f,nt=Q*h.a+$*h.c+h.e,rt=Q*h.b+$*h.d+h.f,at=Q*h.a+h.e,ot=Q*h.b+h.f;X&&(tt=Math.round(tt),et=Math.round(et),it=Math.round(it),st=Math.round(st),nt=Math.round(nt),rt=Math.round(rt),at=Math.round(at),ot=Math.round(ot)),a.batchQuad(e,tt,et,it,st,nt,rt,at,ot,q,K,Z,J,v,m,y,x,g,p,T)}}}else I++,1===D?B=(Y.longest-Y.lengths[I])/2:2===D&&(B=Y.longest-Y.lengths[I]),w=0,b+=L,f=null;c&&(a.flush(),t.popScissor()),t.pipelines.postBatch(e)}},renderCanvas:function(t,e,i,s){var n=e._text,r=n.length,a=t.currentContext;if(0!==r&&Al(t,a,e,i,s)){i.addToRenderList(e);var o=e.frame,h=e.displayCallback,l=e.callbackData,u=e.fontData.chars,c=e.fontData.lineHeight,d=e._letterSpacing,f=0,p=0,g=0,v=null,m=0,y=0,x=0,T=0,w=0,b=0,E=null,S=0,_=e.frame.source.image,A=o.cutX,C=o.cutY,M=0,R=0,P=e._fontSize/e.fontData.size,O=e._align,L=0,F=0;
+if(w+=d.xAdvance+_,f=d,S=E,0!==A&&0!==C&&32!==E){if(F=e.fontSize/e.fontData.size,k=0,X){z.color=0,z.tint.topLeft=v,z.tint.topRight=m,z.tint.bottomLeft=y,z.tint.bottomRight=x,z.index=G,z.charCode=E,z.x=W,z.y=V,z.scale=F,z.rotation=k,z.data=d.data;var j=X(z);W=j.x,V=j.y,F=j.scale,k=j.rotation,j.color?(v=j.color,m=j.color,y=j.color,x=j.color):(v=j.tint.topLeft,m=j.tint.topRight,y=j.tint.bottomLeft,x=j.tint.bottomRight),v=wr.getTintAppendFloatAlpha(v,i.alpha*e._alphaTL),m=wr.getTintAppendFloatAlpha(m,i.alpha*e._alphaTR),y=wr.getTintAppendFloatAlpha(y,i.alpha*e._alphaBL),x=wr.getTintAppendFloatAlpha(x,i.alpha*e._alphaBR)}W*=F,V*=F,W-=e.displayOriginX,V-=e.displayOriginY,W+=B,u.applyITRS(W,V,k,F,F),l.multiply(u,h);var q=d.u0,K=d.v0,Z=d.u1,J=d.v1,Q=A,$=C,tt=h.e,et=h.f,it=$*h.c+h.e,st=$*h.d+h.f,nt=Q*h.a+$*h.c+h.e,rt=Q*h.b+$*h.d+h.f,at=Q*h.a+h.e,ot=Q*h.b+h.f;U&&(tt=Math.round(tt),et=Math.round(et),it=Math.round(it),st=Math.round(st),nt=Math.round(nt),rt=Math.round(rt),at=Math.round(at),ot=Math.round(ot)),a.batchQuad(e,tt,et,it,st,nt,rt,at,ot,q,K,Z,J,v,m,y,x,g,p,T)}}}else I++,1===D?B=(Y.longest-Y.lengths[I])/2:2===D&&(B=Y.longest-Y.lengths[I]),w=0,b+=L,f=null;c&&(a.flush(),t.popScissor()),t.pipelines.postBatch(e)}},renderCanvas:function(t,e,i,s){var n=e._text,r=n.length,a=t.currentContext;if(0!==r&&Al(t,a,e,i,s)){i.addToRenderList(e);var o=e.frame,h=e.displayCallback,l=e.callbackData,u=e.fontData.chars,c=e.fontData.lineHeight,d=e._letterSpacing,f=0,p=0,g=0,v=null,m=0,y=0,x=0,T=0,w=0,b=0,E=null,S=0,_=e.frame.source.image,A=o.cutX,C=o.cutY,M=0,R=0,P=e._fontSize/e.fontData.size,O=e._align,L=0,F=0;
 //  Update the bounds - skipped internally if not dirty
 e.getTextBounds(!1);var k=e._bounds.lines;1===O?F=(k.longest-k.lengths[0])/2:2===O&&(F=k.longest-k.lengths[0]),a.translate(-e.displayOriginX,-e.displayOriginY);var D=i.roundPixels;e.cropWidth>0&&e.cropHeight>0&&(a.beginPath(),a.rect(0,0,e.cropWidth,e.cropHeight),a.clip());for(var I=0;I<r;I++)if(
 //  Reset the scale (in case the callback changed it)
@@ -40451,7 +40451,7 @@ if(void 0===e)return r;
 //  Build an array of key frame pairs to loop through
 Array.isArray(e)||(e=[e]),Array.isArray(i)||(i=[i]);var a=$(t,"repeat",0),o=$(t,"randomKey",!1),h=$(t,"randomFrame",!1),l=$(t,"yoyo",!1),u=$(t,"quantity",!1),c=$(t,"frameQuantity",1),d=$(t,"max",0),f=tl(e,i,{max:d,qty:u||c,random:o,randomB:h,repeat:a,yoyo:l});t.createCallback&&(this.createCallback=t.createCallback),t.removeCallback&&(this.removeCallback=t.removeCallback);for(var p=0;p<f.length;p++){var g=this.create(0,0,f[p].a,f[p].b,s,n);if(!g)break;r.push(g)}
 //  Post-creation options (applied only to those items created in this call):
-var v=Zt(t,"setXY.x",0),m=Zt(t,"setXY.y",0),y=Zt(t,"setXY.stepX",0),x=Zt(t,"setXY.stepY",0);si.SetXY(r,v,m,y,x);var T=Zt(t,"setRotation.value",0),w=Zt(t,"setRotation.step",0);si.SetRotation(r,T,w);var b=Zt(t,"setScale.x",1),E=Zt(t,"setScale.y",b),S=Zt(t,"setScale.stepX",0),_=Zt(t,"setScale.stepY",0);si.SetScale(r,b,E,S,_);var A=Zt(t,"setOrigin.x",.5),C=Zt(t,"setOrigin.y",A),M=Zt(t,"setOrigin.stepX",0),R=Zt(t,"setOrigin.stepY",0);si.SetOrigin(r,A,C,M,R);var P=Zt(t,"setAlpha.value",1),O=Zt(t,"setAlpha.step",0);si.SetAlpha(r,P,O);var L=Zt(t,"setDepth.value",0),F=Zt(t,"setDepth.step",0);si.SetDepth(r,L,F);var k=Zt(t,"setScrollFactor.x",1),D=Zt(t,"setScrollFactor.y",k),I=Zt(t,"setScrollFactor.stepX",0),B=Zt(t,"setScrollFactor.stepY",0);si.SetScrollFactor(r,k,D,I,B);var N=$(t,"hitArea",null),Y=$(t,"hitAreaCallback",null);N&&si.SetHitArea(r,N,Y);var X=$(t,"gridAlign",!1);return X&&si.GridAlign(r,X),this.createMultipleCallback&&this.createMultipleCallback.call(this,r),r},
+var v=Zt(t,"setXY.x",0),m=Zt(t,"setXY.y",0),y=Zt(t,"setXY.stepX",0),x=Zt(t,"setXY.stepY",0);si.SetXY(r,v,m,y,x);var T=Zt(t,"setRotation.value",0),w=Zt(t,"setRotation.step",0);si.SetRotation(r,T,w);var b=Zt(t,"setScale.x",1),E=Zt(t,"setScale.y",b),S=Zt(t,"setScale.stepX",0),_=Zt(t,"setScale.stepY",0);si.SetScale(r,b,E,S,_);var A=Zt(t,"setOrigin.x",.5),C=Zt(t,"setOrigin.y",A),M=Zt(t,"setOrigin.stepX",0),R=Zt(t,"setOrigin.stepY",0);si.SetOrigin(r,A,C,M,R);var P=Zt(t,"setAlpha.value",1),O=Zt(t,"setAlpha.step",0);si.SetAlpha(r,P,O);var L=Zt(t,"setDepth.value",0),F=Zt(t,"setDepth.step",0);si.SetDepth(r,L,F);var k=Zt(t,"setScrollFactor.x",1),D=Zt(t,"setScrollFactor.y",k),I=Zt(t,"setScrollFactor.stepX",0),B=Zt(t,"setScrollFactor.stepY",0);si.SetScrollFactor(r,k,D,I,B);var N=$(t,"hitArea",null),Y=$(t,"hitAreaCallback",null);N&&si.SetHitArea(r,N,Y);var U=$(t,"gridAlign",!1);return U&&si.GridAlign(r,U),this.createMultipleCallback&&this.createMultipleCallback.call(this,r),r},
 /**
      * Updates any group members, if {@link Phaser.GameObjects.Group#runChildUpdate} is enabled.
      *
@@ -44104,7 +44104,7 @@ setBlendMode:function(){}}),Nu={EmitterOp:yu,GravityWell:xu,Particle:Tu,Particle
      * @param {number} time - The current timestamp as generated by the Request Animation Frame or SetTimeout.
      * @param {number} delta - The delta time, in ms, elapsed since the last frame.
      */
-preUpdate:function(t,e){this.anims.update(t,e),this.pathUpdate(t)}}),Xu={renderWebGL:function(t,e,i,s){i.addToRenderList(e);var n=i.alpha,r=e.renderTarget,a=r.width,o=r.height,h=wr.getTintAppendFloatAlpha,l=t.pipelines.set(e.pipeline),u=l.setTexture2D(r.texture);t.pipelines.preBatch(e),l.batchTexture(e,r.texture,a,o,e.x,e.y,a,o,e.scaleX,e.scaleY,e.rotation,e.flipX,!e.flipY,e.scrollFactorX,e.scrollFactorY,e.displayOriginX,e.displayOriginY,0,0,a,o,h(e.tintTopLeft,n*e._alphaTL),h(e.tintTopRight,n*e._alphaTR),h(e.tintBottomLeft,n*e._alphaBL),h(e.tintBottomRight,n*e._alphaBR),e.tintFill,0,0,i,s,!0,u),t.resetTextures(),t.pipelines.postBatch(e)},renderCanvas:function(t,e,i,s){i.addToRenderList(e),t.batchSprite(e,e.frame,i,s)}},Uu=function(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,(function(t){var e=16*Math.random()|0;return("x"===t?e:3&e|8).toString(16)}))},zu=new at({Extends:Ee,Mixins:[me.Alpha,me.BlendMode,me.ComputedSize,me.Crop,me.Depth,me.Flip,me.GetBounds,me.Mask,me.Origin,me.Pipeline,me.ScrollFactor,me.Tint,me.Transform,me.Visible,Xu],initialize:function(t,e,i,s,r,a,o){void 0===e&&(e=0),void 0===i&&(i=0),void 0===s&&(s=32),void 0===r&&(r=32),Ee.call(this,t,"RenderTexture"),
+preUpdate:function(t,e){this.anims.update(t,e),this.pathUpdate(t)}}),Uu={renderWebGL:function(t,e,i,s){i.addToRenderList(e);var n=i.alpha,r=e.renderTarget,a=r.width,o=r.height,h=wr.getTintAppendFloatAlpha,l=t.pipelines.set(e.pipeline),u=l.setTexture2D(r.texture);t.pipelines.preBatch(e),l.batchTexture(e,r.texture,a,o,e.x,e.y,a,o,e.scaleX,e.scaleY,e.rotation,e.flipX,!e.flipY,e.scrollFactorX,e.scrollFactorY,e.displayOriginX,e.displayOriginY,0,0,a,o,h(e.tintTopLeft,n*e._alphaTL),h(e.tintTopRight,n*e._alphaTR),h(e.tintBottomLeft,n*e._alphaBL),h(e.tintBottomRight,n*e._alphaBR),e.tintFill,0,0,i,s,!0,u),t.resetTextures(),t.pipelines.postBatch(e)},renderCanvas:function(t,e,i,s){i.addToRenderList(e),t.batchSprite(e,e.frame,i,s)}},Xu=function(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,(function(t){var e=16*Math.random()|0;return("x"===t?e:3&e|8).toString(16)}))},zu=new at({Extends:Ee,Mixins:[me.Alpha,me.BlendMode,me.ComputedSize,me.Crop,me.Depth,me.Flip,me.GetBounds,me.Mask,me.Origin,me.Pipeline,me.ScrollFactor,me.Tint,me.Transform,me.Visible,Uu],initialize:function(t,e,i,s,r,a,o){void 0===e&&(e=0),void 0===i&&(i=0),void 0===s&&(s=32),void 0===r&&(r=32),Ee.call(this,t,"RenderTexture"),
 /**
          * A reference to either the Canvas or WebGL Renderer that the Game instance is using.
          *
@@ -44190,7 +44190,7 @@ this.frame=null,
          */
 this._saved=!1,void 0===a?(this.canvas=ys.create2D(this,s,r),
 //  Create a new Texture for this RenderTexture object
-this.texture=t.sys.textures.addCanvas(Uu(),this.canvas),
+this.texture=t.sys.textures.addCanvas(Xu(),this.canvas),
 //  Get the frame
 this.frame=this.texture.get()):(this.texture=t.sys.textures.get(a),
 //  Get the frame
@@ -47061,7 +47061,7 @@ this.flipY=!1,
          * @private
          * @since 3.20.0
          */
-this._key=Uu(),
+this._key=Xu(),
 /**
          * An internal flag holding the current state of the video lock, should document interaction be required
          * before playback can begin.
@@ -47388,7 +47388,7 @@ snapshot:function(t,e){return void 0===t&&(t=this.width),void 0===e&&(e=this.hei
      *
      * @return {Phaser.Textures.CanvasTexture}
      */
-snapshotArea:function(t,e,i,s,n,r){void 0===t&&(t=0),void 0===e&&(e=0),void 0===i&&(i=this.width),void 0===s&&(s=this.height),void 0===n&&(n=i),void 0===r&&(r=s);var a=this.video,o=this.snapshotTexture;return o?(o.setSize(n,r),a&&o.context.drawImage(a,t,e,i,s,0,0,n,r)):(o=this.scene.sys.textures.createCanvas(Uu(),n,r),this.snapshotTexture=o,a&&o.context.drawImage(a,t,e,i,s,0,0,n,r)),o.update()},
+snapshotArea:function(t,e,i,s,n,r){void 0===t&&(t=0),void 0===e&&(e=0),void 0===i&&(i=this.width),void 0===s&&(s=this.height),void 0===n&&(n=i),void 0===r&&(r=s);var a=this.video,o=this.snapshotTexture;return o?(o.setSize(n,r),a&&o.context.drawImage(a,t,e,i,s,0,0,n,r)):(o=this.scene.sys.textures.createCanvas(Xu(),n,r),this.snapshotTexture=o,a&&o.context.drawImage(a,t,e,i,s,0,0,n,r)),o.update()},
 /**
      * Stores a copy of this Videos `snapshotTexture` in the Texture Manager using the given key.
      *
@@ -51669,7 +51669,7 @@ update:function(t,e,i,s,n,r,a,o){var h=this.vx*t+this.vy*i+n,l=this.vx*e+this.vy
      *
      * @return {number} The new array offset.
      */
-load:function(t,e,i,s,n){return t[++i]=this.tx,t[++i]=this.ty,t[++i]=this.u,t[++i]=this.v,t[++i]=s,t[++i]=n,e[++i]=wr.getTintAppendFloatAlpha(this.color,this.ta),i}}),Nc=function(t,e,i,s,n,r,a){if(void 0===s&&(s=!1),void 0===r&&(r=16777215),void 0===a&&(a=1),t.length===e.length){var o,h,l,u,c,d,f,p,g,v,m,y={faces:[],vertices:[]},x=s?3:2,T=Array.isArray(r),w=Array.isArray(a);if(Array.isArray(i)&&i.length>0)for(o=0;o<i.length;o++){var b=i[o],E=2*i[o],S=i[o]*x;h=t[S],l=t[S+1],u=s?t[S+2]:0,c=e[E],d=e[E+1],f=T?r[b]:r,p=w?a[b]:a,g=0,v=0,m=0,n&&(g=n[S],v=n[S+1],m=s?n[S+2]:0),y.vertices.push(new Bc(h,l,u,c,d,f,p,g,v,m))}else{var _=0,A=0;for(o=0;o<t.length;o+=x)h=t[o],l=t[o+1],u=s?t[o+2]:0,c=e[_],d=e[_+1],f=T?r[A]:r,p=w?a[A]:a,g=0,v=0,m=0,n&&(g=n[o],v=n[o+1],m=s?n[o+2]:0),y.vertices.push(new Bc(h,l,u,c,d,f,p,g,v,m)),_+=2,A++}for(o=0;o<y.vertices.length;o+=3){var C=y.vertices[o],M=y.vertices[o+1],R=y.vertices[o+2];y.faces.push(new Ic(C,M,R))}return y}console.warn("GenerateVerts: vertices and uvs count not equal")},Yc=new pn,Xc=new pn,Uc=new bn,zc=function(t,e,i,s,n,r,a,o,h,l){void 0===i&&(i=1),void 0===s&&(s=0),void 0===n&&(n=0),void 0===r&&(r=0),void 0===a&&(a=0),void 0===o&&(o=0),void 0===h&&(h=0),void 0===l&&(l=!0);var u={faces:[],verts:[]},c=t.materials;Yc.set(s,n,r),Xc.set(a,o,h),Uc.fromRotationXYTranslation(Xc,Yc,l);for(var d=0;d<t.models.length;d++)for(var f=t.models[d],p=f.vertices,g=f.textureCoords,v=f.faces,m=0;m<v.length;m++){var y=v[m],x=y.vertices[0],T=y.vertices[1],w=y.vertices[2],b=p[x.vertexIndex],E=p[T.vertexIndex],S=p[w.vertexIndex],_=x.textureCoordsIndex,A=T.textureCoordsIndex,C=w.textureCoordsIndex,M=-1===_?{u:0,v:1}:g[_],R=-1===A?{u:0,v:0}:g[A],P=-1===C?{u:1,v:1}:g[C],O=16777215;""!==y.material&&c[y.material]&&(O=c[y.material]);var L=new Bc(b.x*i,b.y*i,b.z*i,M.u,M.v,O).transformMat4(Uc),F=new Bc(E.x*i,E.y*i,E.z*i,R.u,R.v,O).transformMat4(Uc),k=new Bc(S.x*i,S.y*i,S.z*i,P.u,P.v,O).transformMat4(Uc);u.verts.push(L,F,k),u.faces.push(new Ic(L,F,k))}return e&&(e.faces=e.faces.concat(u.faces),e.vertices=e.vertices.concat(u.verts)),u},Gc={renderWebGL:function(t,e,i,s){var n=e.faces,r=n.length;if(0!==r){i.addToRenderList(e);var a=t.pipelines.set(e.pipeline,e),o=ml(e,i,s).calc,h=a.setGameObject(e),l=a.vertexViewF32,u=a.vertexViewU32,c=a.vertexCount*a.currentShader.vertexComponentCount-1,d=e.tintFill,f=[],p=e.debugCallback,g=o.a,v=o.b,m=o.c,y=o.d,x=o.e,T=o.f,w=e.viewPosition.z,b=e.hideCCW,E=i.roundPixels,S=i.alpha*e.alpha,_=0;t.pipelines.preBatch(e);for(var A=0;A<r;A++){var C=n[A];
+load:function(t,e,i,s,n){return t[++i]=this.tx,t[++i]=this.ty,t[++i]=this.u,t[++i]=this.v,t[++i]=s,t[++i]=n,e[++i]=wr.getTintAppendFloatAlpha(this.color,this.ta),i}}),Nc=function(t,e,i,s,n,r,a){if(void 0===s&&(s=!1),void 0===r&&(r=16777215),void 0===a&&(a=1),t.length===e.length){var o,h,l,u,c,d,f,p,g,v,m,y={faces:[],vertices:[]},x=s?3:2,T=Array.isArray(r),w=Array.isArray(a);if(Array.isArray(i)&&i.length>0)for(o=0;o<i.length;o++){var b=i[o],E=2*i[o],S=i[o]*x;h=t[S],l=t[S+1],u=s?t[S+2]:0,c=e[E],d=e[E+1],f=T?r[b]:r,p=w?a[b]:a,g=0,v=0,m=0,n&&(g=n[S],v=n[S+1],m=s?n[S+2]:0),y.vertices.push(new Bc(h,l,u,c,d,f,p,g,v,m))}else{var _=0,A=0;for(o=0;o<t.length;o+=x)h=t[o],l=t[o+1],u=s?t[o+2]:0,c=e[_],d=e[_+1],f=T?r[A]:r,p=w?a[A]:a,g=0,v=0,m=0,n&&(g=n[o],v=n[o+1],m=s?n[o+2]:0),y.vertices.push(new Bc(h,l,u,c,d,f,p,g,v,m)),_+=2,A++}for(o=0;o<y.vertices.length;o+=3){var C=y.vertices[o],M=y.vertices[o+1],R=y.vertices[o+2];y.faces.push(new Ic(C,M,R))}return y}console.warn("GenerateVerts: vertices and uvs count not equal")},Yc=new pn,Uc=new pn,Xc=new bn,zc=function(t,e,i,s,n,r,a,o,h,l){void 0===i&&(i=1),void 0===s&&(s=0),void 0===n&&(n=0),void 0===r&&(r=0),void 0===a&&(a=0),void 0===o&&(o=0),void 0===h&&(h=0),void 0===l&&(l=!0);var u={faces:[],verts:[]},c=t.materials;Yc.set(s,n,r),Uc.set(a,o,h),Xc.fromRotationXYTranslation(Uc,Yc,l);for(var d=0;d<t.models.length;d++)for(var f=t.models[d],p=f.vertices,g=f.textureCoords,v=f.faces,m=0;m<v.length;m++){var y=v[m],x=y.vertices[0],T=y.vertices[1],w=y.vertices[2],b=p[x.vertexIndex],E=p[T.vertexIndex],S=p[w.vertexIndex],_=x.textureCoordsIndex,A=T.textureCoordsIndex,C=w.textureCoordsIndex,M=-1===_?{u:0,v:1}:g[_],R=-1===A?{u:0,v:0}:g[A],P=-1===C?{u:1,v:1}:g[C],O=16777215;""!==y.material&&c[y.material]&&(O=c[y.material]);var L=new Bc(b.x*i,b.y*i,b.z*i,M.u,M.v,O).transformMat4(Xc),F=new Bc(E.x*i,E.y*i,E.z*i,R.u,R.v,O).transformMat4(Xc),k=new Bc(S.x*i,S.y*i,S.z*i,P.u,P.v,O).transformMat4(Xc);u.verts.push(L,F,k),u.faces.push(new Ic(L,F,k))}return e&&(e.faces=e.faces.concat(u.faces),e.vertices=e.vertices.concat(u.verts)),u},Gc={renderWebGL:function(t,e,i,s){var n=e.faces,r=n.length;if(0!==r){i.addToRenderList(e);var a=t.pipelines.set(e.pipeline,e),o=ml(e,i,s).calc,h=a.setGameObject(e),l=a.vertexViewF32,u=a.vertexViewU32,c=a.vertexCount*a.currentShader.vertexComponentCount-1,d=e.tintFill,f=[],p=e.debugCallback,g=o.a,v=o.b,m=o.c,y=o.d,x=o.e,T=o.f,w=e.viewPosition.z,b=e.hideCCW,E=i.roundPixels,S=i.alpha*e.alpha,_=0;t.pipelines.preBatch(e);for(var A=0;A<r;A++){var C=n[A];
 //  If face has alpha <= 0, or hideCCW + clockwise, or isn't in camera view, then don't draw it
 C.isInView(i,b,w,S,g,v,m,y,x,T,E)&&(a.shouldFlush(3)&&(a.flush(),c=0),c=C.load(l,u,c,h,d),_++,a.vertexCount+=3,p&&f.push(C))}e.totalFrame+=_,p&&p.call(e,e,f),t.pipelines.postBatch(e)}},renderCanvas:function(){}},Wc=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.Mask,me.Pipeline,me.Size,me.Texture,me.Transform,me.Visible,me.ScrollFactor,Gc],initialize:function(t,e,i,s,n,r,a,o,h,l,u,c){void 0===e&&(e=0),void 0===i&&(i=0),void 0===s&&(s="__WHITE"),Ee.call(this,t,"Mesh"),
 /**
@@ -52930,7 +52930,7 @@ function Bd(t,e,i,s,n){var r=Math.cos(t),a=Math.sin(t);Id.setTo(e,i,e+r,i+a);var
  * @param {Phaser.Geom.Polygon | Phaser.Geom.Polygon[]} polygons - A single polygon, or array of polygons, to check against the rays.
  *
  * @return {Phaser.Math.Vector4[]} An array containing all intersections in Vector4s.
- */var Yd=function(t,e,i){if(void 0===i&&(i=[]),kc(t,e)){var s=t.getLineA(),n=t.getLineB(),r=t.getLineC(),a=t.getLineD();Dd(s,e,i),Dd(n,e,i),Dd(r,e,i),Dd(a,e,i)}return i},Xd=function(t,e,i,s){void 0===i&&(i=!1),void 0===s&&(s=[]);for(var n,r,a,o,h,l,u=t.x3-t.x1,c=t.y3-t.y1,d=t.x2-t.x1,f=t.y2-t.y1,p=u*u+c*c,g=u*d+c*f,v=d*d+f*f,m=p*v-g*g,y=0===m?0:1/m,x=t.x1,T=t.y1,w=0;w<e.length&&(r=(p*(l=d*(a=e[w].x-x)+f*(o=e[w].y-T))-g*(h=u*a+c*o))*y,!((n=(v*h-g*l)*y)>=0&&r>=0&&n+r<1&&(s.push({x:e[w].x,y:e[w].y}),i)));w++);return s},Ud=function(t,e){return void 0===e&&(e=[]),e.push({x:t.x,y:t.y}),e.push({x:t.right,y:t.y}),e.push({x:t.right,y:t.bottom}),e.push({x:t.x,y:t.bottom}),e},zd=function(t,e){
+ */var Yd=function(t,e,i){if(void 0===i&&(i=[]),kc(t,e)){var s=t.getLineA(),n=t.getLineB(),r=t.getLineC(),a=t.getLineD();Dd(s,e,i),Dd(n,e,i),Dd(r,e,i),Dd(a,e,i)}return i},Ud=function(t,e,i,s){void 0===i&&(i=!1),void 0===s&&(s=[]);for(var n,r,a,o,h,l,u=t.x3-t.x1,c=t.y3-t.y1,d=t.x2-t.x1,f=t.y2-t.y1,p=u*u+c*c,g=u*d+c*f,v=d*d+f*f,m=p*v-g*g,y=0===m?0:1/m,x=t.x1,T=t.y1,w=0;w<e.length&&(r=(p*(l=d*(a=e[w].x-x)+f*(o=e[w].y-T))-g*(h=u*a+c*o))*y,!((n=(v*h-g*l)*y)>=0&&r>=0&&n+r<1&&(s.push({x:e[w].x,y:e[w].y}),i)));w++);return s},Xd=function(t,e){return void 0===e&&(e=[]),e.push({x:t.x,y:t.y}),e.push({x:t.right,y:t.y}),e.push({x:t.right,y:t.bottom}),e.push({x:t.x,y:t.bottom}),e},zd=function(t,e){
 //  First the cheapest ones:
 if(e.left>t.right||e.right<t.left||e.top>t.bottom||e.bottom<t.top)return!1;var i=e.getLineA(),s=e.getLineB(),n=e.getLineC();
 //  Are any of the triangle points within the rectangle?
@@ -52938,7 +52938,7 @@ if(At(t,i.x1,i.y1)||At(t,i.x2,i.y2))return!0;if(At(t,s.x1,s.y1)||At(t,s.x2,s.y2)
 //  Cheap tests over, now to see if any of the lines intersect ...
 var r=t.getLineA(),a=t.getLineB(),o=t.getLineC(),h=t.getLineD();if(Fd(i,r)||Fd(i,a)||Fd(i,o)||Fd(i,h))return!0;if(Fd(s,r)||Fd(s,a)||Fd(s,o)||Fd(s,h))return!0;if(Fd(n,r)||Fd(n,a)||Fd(n,o)||Fd(n,h))return!0;
 //  None of the lines intersect, so are any rectangle points within the triangle?
-var l=Ud(t);return Xd(e,l,!0).length>0},Gd=function(t,e,i){if(void 0===i&&(i=[]),zd(t,e)){var s=e.getLineA(),n=e.getLineB(),r=e.getLineC();Dd(s,t,i),Dd(n,t,i),Dd(r,t,i)}return i},Wd=function(t,e){
+var l=Xd(t);return Ud(e,l,!0).length>0},Gd=function(t,e,i){if(void 0===i&&(i=[]),zd(t,e)){var s=e.getLineA(),n=e.getLineB(),r=e.getLineC();Dd(s,t,i),Dd(n,t,i),Dd(r,t,i)}return i},Wd=function(t,e){
 //  First the cheapest ones:
 return!(t.left>e.right||t.right<e.left||t.top>e.bottom||t.bottom<e.top)&&(!!Ac(t,e.x,e.y)||(!!Sd(t.getLineA(),e)||(!!Sd(t.getLineB(),e)||!!Sd(t.getLineC(),e))))},Vd=function(t,e,i){if(void 0===i&&(i=[]),Wd(t,e)){var s=t.getLineA(),n=t.getLineB(),r=t.getLineC();_d(s,e,i),_d(n,e,i),_d(r,e,i)}return i},Hd=function(t,e){
 //  If the Triangle contains either the start or end point of the line, it intersects
@@ -52950,9 +52950,9 @@ if(t.left>e.right||t.right<e.left||t.top>e.bottom||t.bottom<e.top)return!1;var i
 //  Now check the lines against each line of TriangleB
 if(Fd(i,r)||Fd(i,a)||Fd(i,o))return!0;if(Fd(s,r)||Fd(s,a)||Fd(s,o))return!0;if(Fd(n,r)||Fd(n,a)||Fd(n,o))return!0;
 //  Nope, so check to see if any of the points of triangleA are within triangleB
-var h=qd(t),l=Xd(e,h,!0);return l.length>0||(
+var h=qd(t),l=Ud(e,h,!0);return l.length>0||(
 //  Finally check to see if any of the points of triangleB are within triangleA
-h=qd(e),(l=Xd(t,h,!0)).length>0)},Zd=function(t,e,i){if(void 0===i&&(i=[]),Kd(t,e)){var s=e.getLineA(),n=e.getLineB(),r=e.getLineC();jd(t,s,i),jd(t,n,i),jd(t,r,i)}return i},Jd=function(t,e,i){void 0===i&&(i=1);var s=e.x1,n=e.y1,r=e.x2,a=e.y2,o=t.x,h=t.y,l=(r-s)*(r-s)+(a-n)*(a-n);if(0===l)return!1;var u=((o-s)*(r-s)+(h-n)*(a-n))/l;
+h=qd(e),(l=Ud(t,h,!0)).length>0)},Zd=function(t,e,i){if(void 0===i&&(i=[]),Kd(t,e)){var s=e.getLineA(),n=e.getLineB(),r=e.getLineC();jd(t,s,i),jd(t,n,i),jd(t,r,i)}return i},Jd=function(t,e,i){void 0===i&&(i=1);var s=e.x1,n=e.y1,r=e.x2,a=e.y2,o=t.x,h=t.y,l=(r-s)*(r-s)+(a-n)*(a-n);if(0===l)return!1;var u=((o-s)*(r-s)+(h-n)*(a-n))/l;
 //  Assume line thickness is circular
 if(u<0)
 //  Outside line1
@@ -52967,9 +52967,9 @@ Bd(h,t,e,i,s),Bd(h-1e-5,t,e,i,s),Bd(h+1e-5,t,e,i,s),n.push(h))}return s.sort(Nd)
 //  Remove collinear parts
 if(a=d(1),o.push(new lt(h+u*a,l+c*a)),s>0){var p=o[0],g=[p];
 //  Store the new results here
-for(r=1;r<o.length-1;r++){var v=o[r];Us(p,v)>=s&&(g.push(v),p=v)}
+for(r=1;r<o.length-1;r++){var v=o[r];Xs(p,v)>=s&&(g.push(v),p=v)}
 //  Top and tail
-var m=o[o.length-1];return Us(p,m)<s&&g.pop(),g.push(m),g}return o},hf=function(t,e){return void 0===e&&(e=new lt),e.x=(t.x1+t.x2)/2,e.y=(t.y1+t.y2)/2,e},lf=function(t,e,i){void 0===i&&(i=new lt);var s=t.x1,n=t.y1,r=t.x2,a=t.y2,o=(r-s)*(r-s)+(a-n)*(a-n);if(0===o)return i;var h=((e.x-s)*(r-s)+(e.y-n)*(a-n))/o;return i.x=s+h*(r-s),i.y=n+h*(a-n),i},uf=function(t,e){void 0===e&&(e=new lt);var i=tf(t)-ft.TAU;return e.x=Math.cos(i),e.y=Math.sin(i),e},cf=function(t,e){var i=t.x1,s=t.y1,n=t.x2,r=t.y2,a=(n-i)*(n-i)+(r-s)*(r-s);if(0===a)return!1;var o=((s-e.y)*(n-i)-(i-e.x)*(r-s))/a;return Math.abs(o)*Math.sqrt(a)},df=function(t){return Math.abs(t.y1-t.y2)},ff=function(t){var e=tf(t)-ft.TAU;return de(e,-Math.PI,Math.PI)},pf=function(t){return Math.cos(tf(t)-ft.TAU)},gf=function(t){return Math.sin(tf(t)-ft.TAU)},vf=function(t,e,i){return t.x1+=e,t.y1+=i,t.x2+=e,t.y2+=i,t},mf=function(t){return-(t.x2-t.x1)/(t.y2-t.y1)},yf=function(t,e){return 2*ff(e)-Math.PI-tf(t)},xf=function(t,e,i,s){var n=Math.cos(s),r=Math.sin(s),a=t.x1-e,o=t.y1-i;return t.x1=a*n-o*r+e,t.y1=a*r+o*n+i,a=t.x2-e,o=t.y2-i,t.x2=a*n-o*r+e,t.y2=a*r+o*n+i,t},Tf=function(t,e){var i=(t.x1+t.x2)/2,s=(t.y1+t.y2)/2;return xf(t,i,s,e)},wf=function(t,e,i){return xf(t,e.x,e.y,i)},bf=function(t,e,i,s,n){return t.x1=e,t.y1=i,t.x2=e+Math.cos(s)*n,t.y2=i+Math.sin(s)*n,t},Ef=function(t){return(t.y2-t.y1)/(t.x2-t.x1)},Sf=function(t){return Math.abs(t.x1-t.x2)};
+var m=o[o.length-1];return Xs(p,m)<s&&g.pop(),g.push(m),g}return o},hf=function(t,e){return void 0===e&&(e=new lt),e.x=(t.x1+t.x2)/2,e.y=(t.y1+t.y2)/2,e},lf=function(t,e,i){void 0===i&&(i=new lt);var s=t.x1,n=t.y1,r=t.x2,a=t.y2,o=(r-s)*(r-s)+(a-n)*(a-n);if(0===o)return i;var h=((e.x-s)*(r-s)+(e.y-n)*(a-n))/o;return i.x=s+h*(r-s),i.y=n+h*(a-n),i},uf=function(t,e){void 0===e&&(e=new lt);var i=tf(t)-ft.TAU;return e.x=Math.cos(i),e.y=Math.sin(i),e},cf=function(t,e){var i=t.x1,s=t.y1,n=t.x2,r=t.y2,a=(n-i)*(n-i)+(r-s)*(r-s);if(0===a)return!1;var o=((s-e.y)*(n-i)-(i-e.x)*(r-s))/a;return Math.abs(o)*Math.sqrt(a)},df=function(t){return Math.abs(t.y1-t.y2)},ff=function(t){var e=tf(t)-ft.TAU;return de(e,-Math.PI,Math.PI)},pf=function(t){return Math.cos(tf(t)-ft.TAU)},gf=function(t){return Math.sin(tf(t)-ft.TAU)},vf=function(t,e,i){return t.x1+=e,t.y1+=i,t.x2+=e,t.y2+=i,t},mf=function(t){return-(t.x2-t.x1)/(t.y2-t.y1)},yf=function(t,e){return 2*ff(e)-Math.PI-tf(t)},xf=function(t,e,i,s){var n=Math.cos(s),r=Math.sin(s),a=t.x1-e,o=t.y1-i;return t.x1=a*n-o*r+e,t.y1=a*r+o*n+i,a=t.x2-e,o=t.y2-i,t.x2=a*n-o*r+e,t.y2=a*r+o*n+i,t},Tf=function(t,e){var i=(t.x1+t.x2)/2,s=(t.y1+t.y2)/2;return xf(t,i,s,e)},wf=function(t,e,i){return xf(t,e.x,e.y,i)},bf=function(t,e,i,s,n){return t.x1=e,t.y1=i,t.x2=e+Math.cos(s)*n,t.y2=i+Math.sin(s)*n,t},Ef=function(t){return(t.y2-t.y1)/(t.x2-t.x1)},Sf=function(t){return Math.abs(t.x1-t.x2)};
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -52979,7 +52979,7 @@ Bt.Angle=tf,Bt.BresenhamPoints=Re,Bt.CenterOn=ef,Bt.Clone=sf,Bt.CopyFrom=nf,Bt.E
 //  There's nothing more we can do without a texture
 return w;i=e.scene.sys.textures.get(i)}var b=i.get(s);
 //  If the Mesh is ortho and no width / height is given, we'll default to texture sizes (if set!)
-!T&&g&&i&&e&&(n=b.width/e.height,r=b.height/e.height);var E,S,_=n/2,A=r/2,C=Math.floor(a),M=Math.floor(o),R=C+1,P=M+1,O=n/C,L=r/M,F=[],k=[],D=0,I=1,B=0,N=1;b&&(D=b.u0,I=b.u1,x?(B=b.v1,N=b.v0):(B=b.v0,N=b.v1));var Y=I-D,X=N-B;for(S=0;S<P;S++){var U=S*L-A;for(E=0;E<R;E++){var z=E*O-_;k.push(z,-U);var G=D+Y*(E/C),W=B+X*(S/M);F.push(G,W)}}Array.isArray(v)||(v=[v]),Array.isArray(m)||(m=[m]);var V=0,H=0;for(S=0;S<M;S++)for(E=0;E<C;E++){var j=2*(E+R*S),q=2*(E+R*(S+1)),K=2*(E+1+R*(S+1)),Z=2*(E+1+R*S),J=v[H],Q=m[V],tt=new Bc(k[j],k[j+1],0,F[j],F[j+1],J,Q).transformMat4(Mf),et=new Bc(k[q],k[q+1],0,F[q],F[q+1],J,Q).transformMat4(Mf),it=new Bc(k[Z],k[Z+1],0,F[Z],F[Z+1],J,Q).transformMat4(Mf),st=new Bc(k[q],k[q+1],0,F[q],F[q+1],J,Q).transformMat4(Mf),nt=new Bc(k[K],k[K+1],0,F[K],F[K+1],J,Q).transformMat4(Mf),rt=new Bc(k[Z],k[Z+1],0,F[Z],F[Z+1],J,Q).transformMat4(Mf);y&&(tt.setUVs(D,N),et.setUVs(D,B),it.setUVs(I,N),st.setUVs(D,B),nt.setUVs(I,B),rt.setUVs(I,N)),++H===v.length&&(H=0),++V===m.length&&(V=0),w.verts.push(tt,et,it,st,nt,rt),w.faces.push(new Ic(tt,et,it),new Ic(st,nt,rt))}return e&&(e.faces=e.faces.concat(w.faces),e.vertices=e.vertices.concat(w.verts)),w},Pf=!0,Of="untitled",Lf="",Ff="";
+!T&&g&&i&&e&&(n=b.width/e.height,r=b.height/e.height);var E,S,_=n/2,A=r/2,C=Math.floor(a),M=Math.floor(o),R=C+1,P=M+1,O=n/C,L=r/M,F=[],k=[],D=0,I=1,B=0,N=1;b&&(D=b.u0,I=b.u1,x?(B=b.v1,N=b.v0):(B=b.v0,N=b.v1));var Y=I-D,U=N-B;for(S=0;S<P;S++){var X=S*L-A;for(E=0;E<R;E++){var z=E*O-_;k.push(z,-X);var G=D+Y*(E/C),W=B+U*(S/M);F.push(G,W)}}Array.isArray(v)||(v=[v]),Array.isArray(m)||(m=[m]);var V=0,H=0;for(S=0;S<M;S++)for(E=0;E<C;E++){var j=2*(E+R*S),q=2*(E+R*(S+1)),K=2*(E+1+R*(S+1)),Z=2*(E+1+R*S),J=v[H],Q=m[V],tt=new Bc(k[j],k[j+1],0,F[j],F[j+1],J,Q).transformMat4(Mf),et=new Bc(k[q],k[q+1],0,F[q],F[q+1],J,Q).transformMat4(Mf),it=new Bc(k[Z],k[Z+1],0,F[Z],F[Z+1],J,Q).transformMat4(Mf),st=new Bc(k[q],k[q+1],0,F[q],F[q+1],J,Q).transformMat4(Mf),nt=new Bc(k[K],k[K+1],0,F[K],F[K+1],J,Q).transformMat4(Mf),rt=new Bc(k[Z],k[Z+1],0,F[Z],F[Z+1],J,Q).transformMat4(Mf);y&&(tt.setUVs(D,N),et.setUVs(D,B),it.setUVs(I,N),st.setUVs(D,B),nt.setUVs(I,B),rt.setUVs(I,N)),++H===v.length&&(H=0),++V===m.length&&(V=0),w.verts.push(tt,et,it,st,nt,rt),w.faces.push(new Ic(tt,et,it),new Ic(st,nt,rt))}return e&&(e.faces=e.faces.concat(w.faces),e.vertices=e.vertices.concat(w.verts)),w},Pf=!0,Of="untitled",Lf="",Ff="";
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -53006,10 +53006,10 @@ function kf(t){var e=t.indexOf("#");return e>-1?t.substring(0,e):t}
  */function Yf(t,e){var i=t.length,s=i>=2?parseFloat(t[1]):0,n=i>=3?parseFloat(t[2]):0,r=i>=4?parseFloat(t[3]):0;isNaN(s)&&(s=0),isNaN(n)&&(n=0),isNaN(r)&&(r=0),Pf&&(n=1-n),Df(e).textureCoords.push({u:s,v:n,w:r})}
 /**
  * @ignore
- */function Xf(t,e){var i=t.length,s=i>=2?parseFloat(t[1]):0,n=i>=3?parseFloat(t[2]):0,r=i>=4?parseFloat(t[3]):0;Df(e).vertexNormals.push({x:s,y:n,z:r})}
+ */function Uf(t,e){var i=t.length,s=i>=2?parseFloat(t[1]):0,n=i>=3?parseFloat(t[2]):0,r=i>=4?parseFloat(t[3]):0;Df(e).vertexNormals.push({x:s,y:n,z:r})}
 /**
  * @ignore
- */function Uf(t,e){var i=t.length-1;if(!(i<3)){for(var s={group:Lf,material:Ff,vertices:[]},n=0;n<i;n++){var r=t[n+1].split("/"),a=r.length;if(!(a<1||a>3)){var o=0,h=0,l=0;o=parseInt(r[0],10),a>1&&""!==r[1]&&(h=parseInt(r[1],10)),a>2&&(l=parseInt(r[2],10)),0!==o&&(
+ */function Xf(t,e){var i=t.length-1;if(!(i<3)){for(var s={group:Lf,material:Ff,vertices:[]},n=0;n<i;n++){var r=t[n+1].split("/"),a=r.length;if(!(a<1||a>3)){var o=0,h=0,l=0;o=parseInt(r[0],10),a>1&&""!==r[1]&&(h=parseInt(r[1],10)),a>2&&(l=parseInt(r[2],10)),0!==o&&(
 // Negative vertex indices refer to the nth last defined vertex
 // convert these to postive indices for simplicity
 o<0&&(o=Df(e).vertices.length+1+o),h-=1,o-=1,l-=1,s.vertices.push({textureCoordsIndex:h,vertexIndex:o,vertexNormalIndex:l}))}}Df(e).faces.push(s)}}
@@ -53043,9 +53043,9 @@ Nf(r,i);break;case"vt":
 // Texture Coords
 Yf(r,i);break;case"vn":
 // Define a vertex normal for the current model
-Xf(r,i);break;case"f":
+Uf(r,i);break;case"f":
 // Define a Face/Polygon
-Uf(r,i);break;case"mtllib":
+Xf(r,i);break;case"mtllib":
 // Reference to a material library file (.mtl)
 zf(r,i);break;case"usemtl":
 // Sets the current material to be applied to polygons defined from this point forward
@@ -53128,7 +53128,7 @@ t.setSize(e.width,e.width/i),t.setPosition(e.centerX-t.width/2,e.centerY-t.heigh
 //  Wider than Tall
 t.setSize(e.height*i,e.height):
 //  Taller than Wide
-t.setSize(e.width,e.width/i),t.setPosition(e.centerX-t.width/2,e.centerY-t.height/2)},Pp=function(t){return t.x=Math.floor(t.x),t.y=Math.floor(t.y),t},Op=function(t){return t.x=Math.floor(t.x),t.y=Math.floor(t.y),t.width=Math.floor(t.width),t.height=Math.floor(t.height),t},Lp=function(t,e,i,s,n){return void 0===n&&(n=new Yt),n.setTo(Math.min(t,i),Math.min(e,s),Math.abs(t-i),Math.abs(e-s))},Fp=function(t,e){return void 0===e&&(e=new lt),e.x=t.centerX,e.y=t.centerY,e},kp=function(t,e){return void 0===e&&(e=new lt),e.x=t.width,e.y=t.height,e},Dp=function(t,e,i){var s=t.centerX,n=t.centerY;return t.setSize(t.width+2*e,t.height+2*i),Di(t,s,n)},Ip=function(t,e,i){return void 0===i&&(i=new Yt),kc(t,e)?(i.x=Math.max(t.x,e.x),i.y=Math.max(t.y,e.y),i.width=Math.min(t.right,e.right)-i.x,i.height=Math.min(t.bottom,e.bottom)-i.y):i.setEmpty(),i},Bp=function(t,e){for(var i=t.x,s=t.right,n=t.y,r=t.bottom,a=0;a<e.length;a++)i=Math.min(i,e[a].x),s=Math.max(s,e[a].x),n=Math.min(n,e[a].y),r=Math.max(r,e[a].y);return t.x=i,t.y=n,t.width=s-i,t.height=r-n,t},Np=function(t,e){var i=Math.min(t.x,e.x),s=Math.max(t.right,e.right);t.x=i,t.width=s-i;var n=Math.min(t.y,e.y),r=Math.max(t.bottom,e.bottom);return t.y=n,t.height=r-n,t},Yp=function(t,e,i){var s=Math.min(t.x,e),n=Math.max(t.right,e);t.x=s,t.width=n-s;var r=Math.min(t.y,i),a=Math.max(t.bottom,i);return t.y=r,t.height=a-r,t},Xp=function(t,e,i){return t.x+=e,t.y+=i,t},Up=function(t,e){return t.x+=e.x,t.y+=e.y,t},zp=function(t,e){return t.x<e.right&&t.right>e.x&&t.y<e.bottom&&t.bottom>e.y},Gp=function(t,e,i){void 0===i&&(i=new lt),e=qt(e);var s=Math.sin(e),n=Math.cos(e),r=n>0?t.width/2:t.width/-2,a=s>0?t.height/2:t.height/-2;return Math.abs(r*s)<Math.abs(a*n)?a=r*s/n:r=a*n/s,i.x=r+t.centerX,i.y=a+t.centerY,i},Wp=function(t,e,i){if(void 0===i&&(i=new lt),Sp(t,e))
+t.setSize(e.width,e.width/i),t.setPosition(e.centerX-t.width/2,e.centerY-t.height/2)},Pp=function(t){return t.x=Math.floor(t.x),t.y=Math.floor(t.y),t},Op=function(t){return t.x=Math.floor(t.x),t.y=Math.floor(t.y),t.width=Math.floor(t.width),t.height=Math.floor(t.height),t},Lp=function(t,e,i,s,n){return void 0===n&&(n=new Yt),n.setTo(Math.min(t,i),Math.min(e,s),Math.abs(t-i),Math.abs(e-s))},Fp=function(t,e){return void 0===e&&(e=new lt),e.x=t.centerX,e.y=t.centerY,e},kp=function(t,e){return void 0===e&&(e=new lt),e.x=t.width,e.y=t.height,e},Dp=function(t,e,i){var s=t.centerX,n=t.centerY;return t.setSize(t.width+2*e,t.height+2*i),Di(t,s,n)},Ip=function(t,e,i){return void 0===i&&(i=new Yt),kc(t,e)?(i.x=Math.max(t.x,e.x),i.y=Math.max(t.y,e.y),i.width=Math.min(t.right,e.right)-i.x,i.height=Math.min(t.bottom,e.bottom)-i.y):i.setEmpty(),i},Bp=function(t,e){for(var i=t.x,s=t.right,n=t.y,r=t.bottom,a=0;a<e.length;a++)i=Math.min(i,e[a].x),s=Math.max(s,e[a].x),n=Math.min(n,e[a].y),r=Math.max(r,e[a].y);return t.x=i,t.y=n,t.width=s-i,t.height=r-n,t},Np=function(t,e){var i=Math.min(t.x,e.x),s=Math.max(t.right,e.right);t.x=i,t.width=s-i;var n=Math.min(t.y,e.y),r=Math.max(t.bottom,e.bottom);return t.y=n,t.height=r-n,t},Yp=function(t,e,i){var s=Math.min(t.x,e),n=Math.max(t.right,e);t.x=s,t.width=n-s;var r=Math.min(t.y,i),a=Math.max(t.bottom,i);return t.y=r,t.height=a-r,t},Up=function(t,e,i){return t.x+=e,t.y+=i,t},Xp=function(t,e){return t.x+=e.x,t.y+=e.y,t},zp=function(t,e){return t.x<e.right&&t.right>e.x&&t.y<e.bottom&&t.bottom>e.y},Gp=function(t,e,i){void 0===i&&(i=new lt),e=qt(e);var s=Math.sin(e),n=Math.cos(e),r=n>0?t.width/2:t.width/-2,a=s>0?t.height/2:t.height/-2;return Math.abs(r*s)<Math.abs(a*n)?a=r*s/n:r=a*n/s,i.x=r+t.centerX,i.y=a+t.centerY,i},Wp=function(t,e,i){if(void 0===i&&(i=new lt),Sp(t,e))
 //  Pick a random quadrant
 //  The quadrants don't extend the full widths / heights of the outer rect to give
 //  us a better uniformed distribution, otherwise you get clumping in the corners where
@@ -53158,7 +53158,7 @@ i.x=e.right+Math.random()*(t.right-e.right),i.y=t.y+Math.random()*(e.bottom-t.y)
  * @copyright    2020 Photon Storm Ltd.
  * @license      {@link https://opensource.org/licenses/MIT|MIT License}
  */
-Yt.Area=xp,Yt.Ceil=Tp,Yt.CeilAll=wp,Yt.CenterOn=Di,Yt.Clone=bp,Yt.Contains=At,Yt.ContainsPoint=Ep,Yt.ContainsRect=Sp,Yt.CopyFrom=_p,Yt.Decompose=Ud,Yt.Equals=Ap,Yt.FitInside=Mp,Yt.FitOutside=Rp,Yt.Floor=Pp,Yt.FloorAll=Op,Yt.FromPoints=Da,Yt.FromXY=Lp,Yt.GetAspectRatio=Cp,Yt.GetCenter=Fp,Yt.GetPoint=Mt,Yt.GetPoints=Rt,Yt.GetSize=kp,Yt.Inflate=Dp,Yt.Intersection=Ip,Yt.MarchingAnts=Ae,Yt.MergePoints=Bp,Yt.MergeRect=Np,Yt.MergeXY=Yp,Yt.Offset=Xp,Yt.OffsetPoint=Up,Yt.Overlaps=zp,Yt.Perimeter=Ct,Yt.PerimeterPoint=Gp,Yt.Random=Nt,Yt.RandomOutside=Wp,Yt.SameDimensions=Vp,Yt.Scale=Hp,Yt.Union=Dl;var jp=Yt,qp=function(t){var e=t.x1,i=t.y1,s=t.x2,n=t.y2,r=t.x3,a=t.y3;return Math.abs(((r-e)*(n-i)-(s-e)*(a-i))/2)},Kp=function(t,e,i){var s=i*(Math.sqrt(3)/2);return new Rc(t,e,t+i/2,e+s,t-i/2,e+s)},Zp=function(t,e,i,s,n){void 0===e&&(e=null),void 0===i&&(i=1),void 0===s&&(s=1),void 0===n&&(n=[]);for(var r,a,o,h,l,u,c,d,f,p=Jr(t,e),g=0;g<p.length;g+=3)r=p[g],a=p[g+1],o=p[g+2],h=t[2*r]*i,l=t[2*r+1]*s,u=t[2*a]*i,c=t[2*a+1]*s,d=t[2*o]*i,f=t[2*o+1]*s,n.push(new Rc(h,l,u,c,d,f));return n},Jp=function(t,e,i,s){return void 0===s&&(s=i),new Rc(t,e,t,e-s,t+i,e)},Qp=function(t,e){return void 0===e&&(e=new lt),e.x=(t.x1+t.x2+t.x3)/3,e.y=(t.y1+t.y2+t.y3)/3,e},$p=function(t,e,i){return t.x1+=e,t.y1+=i,t.x2+=e,t.y2+=i,t.x3+=e,t.y3+=i,t},tg=function(t,e,i,s){void 0===s&&(s=Qp);
+Yt.Area=xp,Yt.Ceil=Tp,Yt.CeilAll=wp,Yt.CenterOn=Di,Yt.Clone=bp,Yt.Contains=At,Yt.ContainsPoint=Ep,Yt.ContainsRect=Sp,Yt.CopyFrom=_p,Yt.Decompose=Xd,Yt.Equals=Ap,Yt.FitInside=Mp,Yt.FitOutside=Rp,Yt.Floor=Pp,Yt.FloorAll=Op,Yt.FromPoints=Da,Yt.FromXY=Lp,Yt.GetAspectRatio=Cp,Yt.GetCenter=Fp,Yt.GetPoint=Mt,Yt.GetPoints=Rt,Yt.GetSize=kp,Yt.Inflate=Dp,Yt.Intersection=Ip,Yt.MarchingAnts=Ae,Yt.MergePoints=Bp,Yt.MergeRect=Np,Yt.MergeXY=Yp,Yt.Offset=Up,Yt.OffsetPoint=Xp,Yt.Overlaps=zp,Yt.Perimeter=Ct,Yt.PerimeterPoint=Gp,Yt.Random=Nt,Yt.RandomOutside=Wp,Yt.SameDimensions=Vp,Yt.Scale=Hp,Yt.Union=Dl;var jp=Yt,qp=function(t){var e=t.x1,i=t.y1,s=t.x2,n=t.y2,r=t.x3,a=t.y3;return Math.abs(((r-e)*(n-i)-(s-e)*(a-i))/2)},Kp=function(t,e,i){var s=i*(Math.sqrt(3)/2);return new Rc(t,e,t+i/2,e+s,t-i/2,e+s)},Zp=function(t,e,i,s,n){void 0===e&&(e=null),void 0===i&&(i=1),void 0===s&&(s=1),void 0===n&&(n=[]);for(var r,a,o,h,l,u,c,d,f,p=Jr(t,e),g=0;g<p.length;g+=3)r=p[g],a=p[g+1],o=p[g+2],h=t[2*r]*i,l=t[2*r+1]*s,u=t[2*a]*i,c=t[2*a+1]*s,d=t[2*o]*i,f=t[2*o+1]*s,n.push(new Rc(h,l,u,c,d,f));return n},Jp=function(t,e,i,s){return void 0===s&&(s=i),new Rc(t,e,t,e-s,t+i,e)},Qp=function(t,e){return void 0===e&&(e=new lt),e.x=(t.x1+t.x2+t.x3)/3,e.y=(t.y1+t.y2+t.y3)/3,e},$p=function(t,e,i){return t.x1+=e,t.y1+=i,t.x2+=e,t.y2+=i,t.x3+=e,t.y3+=i,t},tg=function(t,e,i,s){void 0===s&&(s=Qp);
 //  Get the center of the triangle
 var n=s(t),r=e-n.x,a=i-n.y;
 //  Difference
@@ -53248,7 +53248,7 @@ function hg(t,e,i,s){var n=t-i,r=e-s,a=n*n+r*r;return Math.sqrt(a)}
  * @copyright    2020 Photon Storm Ltd.
  * @license      {@link https://opensource.org/licenses/MIT|MIT License}
  */
-Rc.Area=qp,Rc.BuildEquilateral=Kp,Rc.BuildFromPolygon=Zp,Rc.BuildRight=Jp,Rc.CenterOn=tg,Rc.Centroid=Qp,Rc.CircumCenter=ig,Rc.CircumCircle=sg,Rc.Clone=ng,Rc.Contains=Ac,Rc.ContainsArray=Xd,Rc.ContainsPoint=rg,Rc.CopyFrom=ag,Rc.Decompose=qd,Rc.Equals=og,Rc.GetPoint=Cc,Rc.GetPoints=Mc,Rc.InCenter=lg,Rc.Perimeter=ug,Rc.Offset=$p,Rc.Random=Le,Rc.Rotate=dg,Rc.RotateAroundPoint=fg,Rc.RotateAroundXY=cg;var pg={Circle:ud,Ellipse:Td,Intersects:$d,Line:_f,Mesh:Hf,Point:hp,Polygon:yp,Rectangle:jp,Triangle:Rc},gg=
+Rc.Area=qp,Rc.BuildEquilateral=Kp,Rc.BuildFromPolygon=Zp,Rc.BuildRight=Jp,Rc.CenterOn=tg,Rc.Centroid=Qp,Rc.CircumCenter=ig,Rc.CircumCircle=sg,Rc.Clone=ng,Rc.Contains=Ac,Rc.ContainsArray=Ud,Rc.ContainsPoint=rg,Rc.CopyFrom=ag,Rc.Decompose=qd,Rc.Equals=og,Rc.GetPoint=Cc,Rc.GetPoints=Mc,Rc.InCenter=lg,Rc.Perimeter=ug,Rc.Offset=$p,Rc.Random=Le,Rc.Rotate=dg,Rc.RotateAroundPoint=fg,Rc.RotateAroundXY=cg;var pg={Circle:ud,Ellipse:Td,Intersects:$d,Line:_f,Mesh:Hf,Point:hp,Polygon:yp,Rectangle:jp,Triangle:Rc},gg=
 //   Merge in the consts
 pg=o(!1,pg,ht),vg=function(t,e){return function(i,s,n,r){var a=t.getPixelAlpha(s,n,r.texture.key,r.frame.name);return a&&a>=e}},mg=function(t,e,i){return{gameObject:t,enabled:!0,alwaysEnabled:!1,draggable:!1,dropZone:!1,cursor:!1,target:null,camera:null,hitArea:e,hitAreaCallback:i,hitAreaDebug:null,
 //  Has the dev specified their own shape, or is this bound to the texture size?
@@ -56066,7 +56066,7 @@ destroy:function(){this.enabled=!1,this.keyCodes=[],this.manager.off(Rg.ANY_KEY_
  * @since 3.0.0
  * 
  * @param {KeyboardEvent} event - The native DOM Keyboard Event. You can inspect this to learn more about the key that was pressed, any modifiers, etc.
- */for(var Ig in Xo)Dg[Xo[Ig]]=Ig;var Bg=Dg,Ng=new at({Extends:Te,initialize:function(t){Te.call(this),
+ */for(var Ig in Uo)Dg[Uo[Ig]]=Ig;var Bg=Dg,Ng=new at({Extends:Te,initialize:function(t){Te.call(this),
 /**
          * A reference to the core game, so we can listen for visibility events.
          *
@@ -56312,7 +56312,7 @@ clearCaptures:function(){return this.manager.clearCaptures(),this},
      *
      * @return {Phaser.Types.Input.Keyboard.CursorKeys} An object containing the properties: `up`, `down`, `left`, `right`, `space` and `shift`.
      */
-createCursorKeys:function(){return this.addKeys({up:Xo.UP,down:Xo.DOWN,left:Xo.LEFT,right:Xo.RIGHT,space:Xo.SPACE,shift:Xo.SHIFT})},
+createCursorKeys:function(){return this.addKeys({up:Uo.UP,down:Uo.DOWN,left:Uo.LEFT,right:Uo.RIGHT,space:Uo.SPACE,shift:Uo.SHIFT})},
 /**
      * A practical way to create an object containing user selected hotkeys.
      *
@@ -56360,7 +56360,7 @@ addKeys:function(t,e,i){void 0===e&&(e=!0),void 0===i&&(i=!1);var s={};if("strin
      *
      * @return {Phaser.Input.Keyboard.Key} The newly created Key object, or a reference to it if it already existed in the keys array.
      */
-addKey:function(t,e,i){void 0===e&&(e=!0),void 0===i&&(i=!1);var s=this.keys;if(t instanceof Pg){var n=s.indexOf(t);return n>-1?s[n]=t:s[t.keyCode]=t,e&&this.addCapture(t.keyCode),t.setEmitOnRepeat(i),t}return"string"==typeof t&&(t=Xo[t.toUpperCase()]),s[t]||(s[t]=new Pg(this,t),e&&this.addCapture(t),s[t].setEmitOnRepeat(i)),s[t]},
+addKey:function(t,e,i){void 0===e&&(e=!0),void 0===i&&(i=!1);var s=this.keys;if(t instanceof Pg){var n=s.indexOf(t);return n>-1?s[n]=t:s[t.keyCode]=t,e&&this.addCapture(t.keyCode),t.setEmitOnRepeat(i),t}return"string"==typeof t&&(t=Uo[t.toUpperCase()]),s[t]||(s[t]=new Pg(this,t),e&&this.addCapture(t),s[t].setEmitOnRepeat(i)),s[t]},
 /**
      * Removes a Key object from this Keyboard Plugin.
      *
@@ -56374,7 +56374,7 @@ addKey:function(t,e,i){void 0===e&&(e=!0),void 0===i&&(i=!1);var s=this.keys;if(
      *
      * @return {this} This KeyboardPlugin object.
      */
-removeKey:function(t,e){void 0===e&&(e=!1);var i,s=this.keys;if(t instanceof Pg){var n=s.indexOf(t);n>-1&&(i=this.keys[n],this.keys[n]=void 0)}else"string"==typeof t&&(t=Xo[t.toUpperCase()]);return s[t]&&(i=s[t],s[t]=void 0),i&&(i.plugin=null,e&&i.destroy()),this},
+removeKey:function(t,e){void 0===e&&(e=!1);var i,s=this.keys;if(t instanceof Pg){var n=s.indexOf(t);n>-1&&(i=this.keys[n],this.keys[n]=void 0)}else"string"==typeof t&&(t=Uo[t.toUpperCase()]);return s[t]&&(i=s[t],s[t]=void 0),i&&(i.plugin=null,e&&i.destroy()),this},
 /**
      * Removes all Key objects created by _this_ Keyboard Plugin.
      *
@@ -56574,9 +56574,9 @@ time:{get:function(){return this.sceneInputPlugin.manager.time}}});
  * @type {?Phaser.Input.Keyboard.KeyboardPlugin}
  * @since 3.10.0
  */
-Sg.register("KeyboardPlugin",Ng,"keyboard","keyboard","inputKeyboard");var Yg={CreatePixelPerfectHandler:vg,CreateInteractiveObject:mg,Events:Yo,Gamepad:Ag,InputManager:Vo,InputPlugin:Mg,InputPluginCache:Sg,Keyboard:{Events:Rg,KeyboardManager:Uo,KeyboardPlugin:Ng,Key:Pg,KeyCodes:Xo,KeyCombo:kg,AdvanceKeyCombo:Og,ProcessKeyCombo:Lg,ResetKeyCombo:Fg,JustDown:function(t){return!!t._justDown&&(t._justDown=!1,!0)},JustUp:function(t){return!!t._justUp&&(t._justUp=!1,!0)},DownDuration:function(t,e){void 0===e&&(e=50);var i=t.plugin.game.loop.time-t.timeDown;return t.isDown&&i<e},UpDuration:function(t,e){void 0===e&&(e=50);var i=t.plugin.game.loop.time-t.timeUp;return t.isUp&&i<e}},Mouse:{MouseManager:zo},Pointer:Go,Touch:{TouchManager:Wo}},Xg=
+Sg.register("KeyboardPlugin",Ng,"keyboard","keyboard","inputKeyboard");var Yg={CreatePixelPerfectHandler:vg,CreateInteractiveObject:mg,Events:Yo,Gamepad:Ag,InputManager:Vo,InputPlugin:Mg,InputPluginCache:Sg,Keyboard:{Events:Rg,KeyboardManager:Xo,KeyboardPlugin:Ng,Key:Pg,KeyCodes:Uo,KeyCombo:kg,AdvanceKeyCombo:Og,ProcessKeyCombo:Lg,ResetKeyCombo:Fg,JustDown:function(t){return!!t._justDown&&(t._justDown=!1,!0)},JustUp:function(t){return!!t._justUp&&(t._justUp=!1,!0)},DownDuration:function(t,e){void 0===e&&(e=50);var i=t.plugin.game.loop.time-t.timeDown;return t.isDown&&i<e},UpDuration:function(t,e){void 0===e&&(e=50);var i=t.plugin.game.loop.time-t.timeUp;return t.isUp&&i<e}},Mouse:{MouseManager:zo},Pointer:Go,Touch:{TouchManager:Wo}},Ug=
 //   Merge in the consts
-Yg=o(!1,Yg,No),Ug={
+Yg=o(!1,Yg,No),Xg={
 /**
      * The Loader is idle.
      * 
@@ -56792,7 +56792,7 @@ this.xhrSettings=Gg($(e,"responseType",void 0)),$(e,"xhrSettings",!1)&&(this.xhr
          * @type {number}
          * @since 3.0.0
          */
-this.state="function"==typeof this.url?Ug.FILE_POPULATED:Ug.FILE_PENDING,
+this.state="function"==typeof this.url?Xg.FILE_POPULATED:Xg.FILE_PENDING,
 /**
          * The total size of this file.
          * Set by onProgress and only if loading via XHR.
@@ -56891,9 +56891,9 @@ resetXHR:function(){this.xhrLoader&&(this.xhrLoader.onload=void 0,this.xhrLoader
      * @method Phaser.Loader.File#load
      * @since 3.0.0
      */
-load:function(){this.state===Ug.FILE_POPULATED?
+load:function(){this.state===Xg.FILE_POPULATED?
 //  Can happen for example in a JSONFile if they've provided a JSON object instead of a URL
-this.loader.nextFile(this,!0):(this.state=Ug.FILE_LOADING,this.src=zg(this,this.loader.baseURL),0===this.src.indexOf("data:")?console.warn("Local data URIs are not supported: "+this.key):
+this.loader.nextFile(this,!0):(this.state=Xg.FILE_LOADING,this.src=zg(this,this.loader.baseURL),0===this.src.indexOf("data:")?console.warn("Local data URIs are not supported: "+this.key):
 //  The creation of this XHRLoader starts the load process going.
 //  It will automatically call the following, based on the load outcome:
 // xhr.onload = this.onLoad
@@ -56911,7 +56911,7 @@ this.xhrLoader=Vg(this,this.loader.xhr))},
      */
 onLoad:function(t,e){var i=t.responseURL&&0===t.responseURL.indexOf("file://")&&0===e.target.status,s=!(e.target&&200!==e.target.status)||i;
 //  Handle HTTP status codes of 4xx and 5xx as errors, even if xhr.onerror was not called.
-4===t.readyState&&t.status>=400&&t.status<=599&&(s=!1),this.state=Ug.FILE_LOADED,this.resetXHR(),this.loader.nextFile(this,s)},
+4===t.readyState&&t.status>=400&&t.status<=599&&(s=!1),this.state=Xg.FILE_LOADED,this.resetXHR(),this.loader.nextFile(this,s)},
 /**
      * Called if the file errors while loading, is sent a DOM ProgressEvent.
      *
@@ -56939,7 +56939,7 @@ onProgress:function(t){t.lengthComputable&&(this.bytesLoaded=t.loaded,this.bytes
      * @method Phaser.Loader.File#onProcess
      * @since 3.0.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.onProcessComplete()},
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.onProcessComplete()},
 /**
      * Called when the File has completed processing.
      * Checks on the state of its multifile, if set.
@@ -56947,7 +56947,7 @@ onProcess:function(){this.state=Ug.FILE_PROCESSING,this.onProcessComplete()},
      * @method Phaser.Loader.File#onProcessComplete
      * @since 3.7.0
      */
-onProcessComplete:function(){this.state=Ug.FILE_COMPLETE,this.multiFile&&this.multiFile.onFileComplete(this),this.loader.fileProcessComplete(this)},
+onProcessComplete:function(){this.state=Xg.FILE_COMPLETE,this.multiFile&&this.multiFile.onFileComplete(this),this.loader.fileProcessComplete(this)},
 /**
      * Called when the File has completed processing but it generated an error.
      * Checks on the state of its multifile, if set.
@@ -56955,7 +56955,7 @@ onProcessComplete:function(){this.state=Ug.FILE_COMPLETE,this.multiFile&&this.mu
      * @method Phaser.Loader.File#onProcessError
      * @since 3.7.0
      */
-onProcessError:function(){this.state=Ug.FILE_ERRORED,this.multiFile&&this.multiFile.onFileFailed(this),this.loader.fileProcessComplete(this)},
+onProcessError:function(){this.state=Xg.FILE_ERRORED,this.multiFile&&this.multiFile.onFileFailed(this),this.loader.fileProcessComplete(this)},
 /**
      * Checks if a key matching the one used by this file exists in the target Cache or not.
      * This is called automatically by the LoaderPlugin to decide if the file can be safely
@@ -57040,7 +57040,7 @@ Hg.revokeObjectURL=function(t){"function"==typeof URL&&URL.revokeObjectURL(t.src
 //  dataKey allows you to pluck a specific object out of the JSON and put just that into the cache, rather than the whole thing
 function(t,e,i,s,n){var a="json";if(r(e)){var o=e;e=$(o,"key"),i=$(o,"url"),s=$(o,"xhrSettings"),a=$(o,"extension",a),n=$(o,"dataKey",n)}var h={type:"json",cache:t.cacheManager.json,extension:a,responseType:"text",key:e,url:i,xhrSettings:s,config:n};jg.call(this,t,h),r(i)&&(
 //  Object provided instead of a URL, so no need to actually load it (populate data with value)
-this.data=n?Zt(i,n):i,this.state=Ug.FILE_POPULATED)},
+this.data=n?Zt(i,n):i,this.state=Xg.FILE_POPULATED)},
 /**
      * Called automatically by Loader.nextFile.
      * This method controls what extra work this File does with its loaded data.
@@ -57048,7 +57048,7 @@ this.data=n?Zt(i,n):i,this.state=Ug.FILE_POPULATED)},
      * @method Phaser.Loader.FileTypes.JSONFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){if(this.state!==Ug.FILE_POPULATED){this.state=Ug.FILE_PROCESSING;try{var t=JSON.parse(this.xhrLoader.responseText)}catch(t){throw console.warn("Invalid JSON: "+this.key),this.onProcessError(),t}var e=this.config;this.data="string"==typeof e?Zt(t,e,t):t}this.onProcessComplete()}});
+onProcess:function(){if(this.state!==Xg.FILE_POPULATED){this.state=Xg.FILE_PROCESSING;try{var t=JSON.parse(this.xhrLoader.responseText)}catch(t){throw console.warn("Invalid JSON: "+this.key),this.onProcessError(),t}var e=this.config;this.data="string"==typeof e?Zt(t,e,t):t}this.onProcessComplete()}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -57321,14 +57321,14 @@ if(jg.call(this,e,u),o){var c=new t(e,this.key,o,n,a);c.type="normalMap",this.se
      * @method Phaser.Loader.FileTypes.ImageFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=new Image,this.data.crossOrigin=this.crossOrigin;var t=this;this.data.onload=function(){jg.revokeObjectURL(t.data),t.onProcessComplete()},this.data.onerror=function(){jg.revokeObjectURL(t.data),t.onProcessError()},jg.createObjectURL(this.data,this.xhrLoader.response,"image/png")},
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=new Image,this.data.crossOrigin=this.crossOrigin;var t=this;this.data.onload=function(){jg.revokeObjectURL(t.data),t.onProcessComplete()},this.data.onerror=function(){jg.revokeObjectURL(t.data),t.onProcessError()},jg.createObjectURL(this.data,this.xhrLoader.response,"image/png")},
 /**
      * Adds this file to its target cache upon successful loading and processing.
      *
      * @method Phaser.Loader.FileTypes.ImageFile#addToCache
      * @since 3.7.0
      */
-addToCache:function(){var t,e=this.linkFile;e&&e.state===Ug.FILE_COMPLETE?(t="image"===this.type?this.cache.addImage(this.key,this.data,e.data):this.cache.addImage(e.key,e.data,this.data),this.pendingDestroy(t),e.pendingDestroy(t)):e||(t=this.cache.addImage(this.key,this.data),this.pendingDestroy(t))}});
+addToCache:function(){var t,e=this.linkFile;e&&e.state===Xg.FILE_COMPLETE?(t="image"===this.type?this.cache.addImage(this.key,this.data,e.data):this.cache.addImage(e.key,e.data,this.data),this.pendingDestroy(t),e.pendingDestroy(t)):e||(t=this.cache.addImage(this.key,this.data),this.pendingDestroy(t))}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -57908,7 +57908,7 @@ if(Array.isArray(t))for(var a=0;a<t.length;a++)r=new sv(this,t[a]),this.addFile(
      * @method Phaser.Loader.FileTypes.XMLFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=Lo(this.xhrLoader.responseText),this.data?this.onProcessComplete():(console.warn("Invalid XMLFile: "+this.key),this.onProcessError())}});
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=Lo(this.xhrLoader.responseText),this.data?this.onProcessComplete():(console.warn("Invalid XMLFile: "+this.key),this.onProcessError())}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -58189,7 +58189,7 @@ function(t,e,i,s,n){if(r(e)){var a=e;e=$(a,"key"),s=$(a,"xhrSettings"),n=$(a,"co
      * @method Phaser.Loader.FileTypes.AudioFile#onProcess
      * @since 3.0.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING;var t=this;
+onProcess:function(){this.state=Xg.FILE_PROCESSING;var t=this;
 // interesting read https://github.com/WebAudio/web-audio-api/issues/1305
 this.config.context.decodeAudioData(this.xhrLoader.response,(function(e){t.data=e,t.onProcessComplete()}),(function(e){
 // eslint-disable-next-line no-console
@@ -58447,7 +58447,7 @@ if(Array.isArray(t))for(var u=0;u<t.length;u++)(a=new dv(this,t[u])).files&&this
      * @method Phaser.Loader.FileTypes.BinaryFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING;var t=this.config.dataType;this.data=t?new t(this.xhrLoader.response):this.xhrLoader.response,this.onProcessComplete()}});
+onProcess:function(){this.state=Xg.FILE_PROCESSING;var t=this.config.dataType;this.data=t?new t(this.xhrLoader.response):this.xhrLoader.response,this.onProcessComplete()}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -58692,7 +58692,7 @@ if(Array.isArray(t))for(var a=0;a<t.length;a++)r=new gv(this,t[a]),this.addFile(
      * @method Phaser.Loader.FileTypes.CSSFile#onProcess
      * @since 3.17.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=document.createElement("style"),this.data.defer=!1,this.data.innerHTML=this.xhrLoader.responseText,document.head.appendChild(this.data),this.onProcessComplete()}});
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=document.createElement("style"),this.data.defer=!1,this.data.innerHTML=this.xhrLoader.responseText,document.head.appendChild(this.data),this.onProcessComplete()}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -58783,7 +58783,7 @@ this.addFile(new mv(this,t[s]));else this.addFile(new mv(this,t,e,i));return thi
      * @method Phaser.Loader.FileTypes.GLSLFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()},
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()},
 /**
      * Adds this file to its target cache upon successful loading and processing.
      *
@@ -58948,7 +58948,7 @@ this.addFile(new xv(this,t[n]));else this.addFile(new xv(this,t,e,i,s));return t
      * @method Phaser.Loader.FileTypes.HTMLFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()}});
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -59050,7 +59050,7 @@ this.addFile(new wv(this,t[s]));else this.addFile(new wv(this,t,e,i));return thi
      * @method Phaser.Loader.FileTypes.HTMLTextureFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING;var t=this.config.width,e=this.config.height,i=[];i.push('<svg width="'+t+'px" height="'+e+'px" viewBox="0 0 '+t+" "+e+'" xmlns="http://www.w3.org/2000/svg">'),i.push('<foreignObject width="100%" height="100%">'),i.push('<body xmlns="http://www.w3.org/1999/xhtml">'),i.push(this.xhrLoader.responseText),i.push("</body>"),i.push("</foreignObject>"),i.push("</svg>");var s=[i.join("\n")],n=this;try{var r=new window.Blob(s,{type:"image/svg+xml;charset=utf-8"})}catch(t){return n.state=Ug.FILE_ERRORED,void n.onProcessComplete()}this.data=new Image,this.data.crossOrigin=this.crossOrigin,this.data.onload=function(){jg.revokeObjectURL(n.data),n.onProcessComplete()},this.data.onerror=function(){jg.revokeObjectURL(n.data),n.onProcessError()},jg.createObjectURL(this.data,r,"image/svg+xml")},
+onProcess:function(){this.state=Xg.FILE_PROCESSING;var t=this.config.width,e=this.config.height,i=[];i.push('<svg width="'+t+'px" height="'+e+'px" viewBox="0 0 '+t+" "+e+'" xmlns="http://www.w3.org/2000/svg">'),i.push('<foreignObject width="100%" height="100%">'),i.push('<body xmlns="http://www.w3.org/1999/xhtml">'),i.push(this.xhrLoader.responseText),i.push("</body>"),i.push("</foreignObject>"),i.push("</svg>");var s=[i.join("\n")],n=this;try{var r=new window.Blob(s,{type:"image/svg+xml;charset=utf-8"})}catch(t){return n.state=Xg.FILE_ERRORED,void n.onProcessComplete()}this.data=new Image,this.data.crossOrigin=this.crossOrigin,this.data.onload=function(){jg.revokeObjectURL(n.data),n.onProcessComplete()},this.data.onerror=function(){jg.revokeObjectURL(n.data),n.onProcessError()},jg.createObjectURL(this.data,r,"image/svg+xml")},
 /**
      * Adds this file to its target cache upon successful loading and processing.
      *
@@ -59316,7 +59316,7 @@ if(Array.isArray(t))for(var a=0;a<t.length;a++)r=new _v(this,t[a]),this.addFile(
      * @method Phaser.Loader.FileTypes.ScriptFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=document.createElement("script"),this.data.language="javascript",this.data.type="text/javascript",this.data.defer=!1,this.data.text=this.xhrLoader.responseText,document.head.appendChild(this.data),this.onProcessComplete()}});
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=document.createElement("script"),this.data.language="javascript",this.data.type="text/javascript",this.data.defer=!1,this.data.text=this.xhrLoader.responseText,document.head.appendChild(this.data),this.onProcessComplete()}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -59521,7 +59521,7 @@ if(Array.isArray(t))for(var n=0;n<t.length;n++)s=new Rv(this,t[n]),this.addFile(
      * @method Phaser.Loader.FileTypes.TextFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()}});
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -59746,7 +59746,7 @@ function(t,e,i,s,n){Kg.call(this,t,e,i,s,n),this.type="packfile"},
      * @method Phaser.Loader.FileTypes.PackFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state!==Ug.FILE_POPULATED&&(this.state=Ug.FILE_PROCESSING,this.data=JSON.parse(this.xhrLoader.responseText)),
+onProcess:function(){this.state!==Xg.FILE_POPULATED&&(this.state=Xg.FILE_PROCESSING,this.data=JSON.parse(this.xhrLoader.responseText)),
 //  Let's pass the pack file data over to the Loader ...
 this.loader.addPack(this.data,this.config),this.onProcessComplete()}});
 /**
@@ -59899,7 +59899,7 @@ jo.register("pack",(function(t,e,i,s){
 //  Or a single entry where all arguments have been defined
 if(Array.isArray(t))for(var n=0;n<t.length;n++)this.addFile(new Dv(this,t[n]));else this.addFile(new Dv(this,t,e,s,i));return this}));var Iv=Dv,Bv=new at({Extends:jg,initialize:function(t,e,i,s,n,a){var o="js";if(r(e)){var h=e;e=$(h,"key"),i=$(h,"url"),a=$(h,"xhrSettings"),o=$(h,"extension",o),s=$(h,"start"),n=$(h,"mapping")}var l={type:"plugin",cache:!1,extension:o,responseType:"text",key:e,url:i,xhrSettings:a,config:{start:s,mapping:n}};jg.call(this,t,l),
 // If the url variable refers to a class, add the plugin directly
-"function"==typeof i&&(this.data=i,this.state=Ug.FILE_POPULATED)},
+"function"==typeof i&&(this.data=i,this.state=Xg.FILE_POPULATED)},
 /**
      * Called automatically by Loader.nextFile.
      * This method controls what extra work this File does with its loaded data.
@@ -59907,9 +59907,9 @@ if(Array.isArray(t))for(var n=0;n<t.length;n++)this.addFile(new Dv(this,t[n]));e
      * @method Phaser.Loader.FileTypes.PluginFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){var t=this.loader.systems.plugins,e=this.config,i=$(e,"start",!1),s=$(e,"mapping",null);if(this.state===Ug.FILE_POPULATED)t.install(this.key,this.data,i,s);else{
+onProcess:function(){var t=this.loader.systems.plugins,e=this.config,i=$(e,"start",!1),s=$(e,"mapping",null);if(this.state===Xg.FILE_POPULATED)t.install(this.key,this.data,i,s);else{
 //  Plugin added via a js file
-this.state=Ug.FILE_PROCESSING,this.data=document.createElement("script"),this.data.language="javascript",this.data.type="text/javascript",this.data.defer=!1,this.data.text=this.xhrLoader.responseText,document.head.appendChild(this.data);var n=t.install(this.key,window[this.key],i,s);(i||s)&&(
+this.state=Xg.FILE_PROCESSING,this.data=document.createElement("script"),this.data.language="javascript",this.data.type="text/javascript",this.data.defer=!1,this.data.text=this.xhrLoader.responseText,document.head.appendChild(this.data);var n=t.install(this.key,window[this.key],i,s);(i||s)&&(
 //  Install into the current Scene Systems and Scene
 this.loader.systems[s]=n,this.loader.scene[s]=n)}this.onProcessComplete()}});
 /**
@@ -60007,7 +60007,7 @@ this.addFile(new Bv(this,t[r]));else this.addFile(new Bv(this,t,e,i,s,n));return
      * @method Phaser.Loader.FileTypes.SceneFile#onProcess
      * @since 3.16.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()},
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()},
 /**
      * Adds this file to its target cache upon successful loading and processing.
      *
@@ -60138,9 +60138,9 @@ this.loader.sceneManager.add(this.key,e(t)),this.complete=!0}});
  */
 jo.register("sceneFile",(function(t,e,i){if(Array.isArray(t))for(var s=0;s<t.length;s++)
 //  If it's an array it has to be an array of Objects, so we get everything out of the 'key' object
-this.addFile(new Yv(this,t[s]));else this.addFile(new Yv(this,t,e,i));return this}));var Xv=Yv,Uv=new at({Extends:jg,initialize:function(t,e,i,s,n,a){var o="js";if(r(e)){var h=e;e=$(h,"key"),i=$(h,"url"),a=$(h,"xhrSettings"),o=$(h,"extension",o),s=$(h,"systemKey"),n=$(h,"sceneKey")}var l={type:"scenePlugin",cache:!1,extension:o,responseType:"text",key:e,url:i,xhrSettings:a,config:{systemKey:s,sceneKey:n}};jg.call(this,t,l),
+this.addFile(new Yv(this,t[s]));else this.addFile(new Yv(this,t,e,i));return this}));var Uv=Yv,Xv=new at({Extends:jg,initialize:function(t,e,i,s,n,a){var o="js";if(r(e)){var h=e;e=$(h,"key"),i=$(h,"url"),a=$(h,"xhrSettings"),o=$(h,"extension",o),s=$(h,"systemKey"),n=$(h,"sceneKey")}var l={type:"scenePlugin",cache:!1,extension:o,responseType:"text",key:e,url:i,xhrSettings:a,config:{systemKey:s,sceneKey:n}};jg.call(this,t,l),
 // If the url variable refers to a class, add the plugin directly
-"function"==typeof i&&(this.data=i,this.state=Ug.FILE_POPULATED)},
+"function"==typeof i&&(this.data=i,this.state=Xg.FILE_POPULATED)},
 /**
      * Called automatically by Loader.nextFile.
      * This method controls what extra work this File does with its loaded data.
@@ -60148,9 +60148,9 @@ this.addFile(new Yv(this,t[s]));else this.addFile(new Yv(this,t,e,i));return thi
      * @method Phaser.Loader.FileTypes.ScenePluginFile#onProcess
      * @since 3.8.0
      */
-onProcess:function(){var t=this.loader.systems.plugins,e=this.config,i=this.key,s=$(e,"systemKey",i),n=$(e,"sceneKey",i);this.state===Ug.FILE_POPULATED?t.installScenePlugin(s,this.data,n,this.loader.scene,!0):(
+onProcess:function(){var t=this.loader.systems.plugins,e=this.config,i=this.key,s=$(e,"systemKey",i),n=$(e,"sceneKey",i);this.state===Xg.FILE_POPULATED?t.installScenePlugin(s,this.data,n,this.loader.scene,!0):(
 //  Plugin added via a js file
-this.state=Ug.FILE_PROCESSING,this.data=document.createElement("script"),this.data.language="javascript",this.data.type="text/javascript",this.data.defer=!1,this.data.text=this.xhrLoader.responseText,document.head.appendChild(this.data),t.installScenePlugin(s,window[this.key],n,this.loader.scene,!0)),this.onProcessComplete()}});
+this.state=Xg.FILE_PROCESSING,this.data=document.createElement("script"),this.data.language="javascript",this.data.type="text/javascript",this.data.defer=!1,this.data.text=this.xhrLoader.responseText,document.head.appendChild(this.data),t.installScenePlugin(s,window[this.key],n,this.loader.scene,!0)),this.onProcessComplete()}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -60238,7 +60238,7 @@ this.state=Ug.FILE_PROCESSING,this.data=document.createElement("script"),this.da
  */
 jo.register("scenePlugin",(function(t,e,i,s,n){if(Array.isArray(t))for(var r=0;r<t.length;r++)
 //  If it's an array it has to be an array of Objects, so we get everything out of the 'key' object
-this.addFile(new Uv(this,t[r]));else this.addFile(new Uv(this,t,e,i,s,n));return this}));var zv=Uv,Gv=new at({Extends:$g,initialize:function(t,e,i,s,n){$g.call(this,t,e,i,n,s),this.type="spritesheet"},
+this.addFile(new Xv(this,t[r]));else this.addFile(new Xv(this,t,e,i,s,n));return this}));var zv=Xv,Gv=new at({Extends:$g,initialize:function(t,e,i,s,n){$g.call(this,t,e,i,n,s),this.type="spritesheet"},
 /**
      * Adds this file to its target cache upon successful loading and processing.
      *
@@ -60389,7 +60389,7 @@ this.addFile(new Gv(this,t[n]));else this.addFile(new Gv(this,t,e,i,s));return t
      * @method Phaser.Loader.FileTypes.SVGFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING;var t=this.xhrLoader.responseText,e=[t],i=this.config.width,s=this.config.height,n=this.config.scale;t:if(i&&s||n){var r=(new DOMParser).parseFromString(t,"text/xml").getElementsByTagName("svg")[0],a=r.hasAttribute("viewBox"),o=parseFloat(r.getAttribute("width")),h=parseFloat(r.getAttribute("height"));if(!a&&o&&h)
+onProcess:function(){this.state=Xg.FILE_PROCESSING;var t=this.xhrLoader.responseText,e=[t],i=this.config.width,s=this.config.height,n=this.config.scale;t:if(i&&s||n){var r=(new DOMParser).parseFromString(t,"text/xml").getElementsByTagName("svg")[0],a=r.hasAttribute("viewBox"),o=parseFloat(r.getAttribute("width")),h=parseFloat(r.getAttribute("height"));if(!a&&o&&h)
 //  If there's no viewBox attribute, set one
 r.setAttribute("viewBox","0  0 "+o+" "+h);else if(a&&!o&&!h){
 //  Get the w/h from the viewbox
@@ -60587,7 +60587,7 @@ WELTMEISTER:3},qv=new at({Extends:jg,initialize:function(t,e,i,s){var n="csv";if
      * @method Phaser.Loader.FileTypes.TilemapCSVFile#onProcess
      * @since 3.7.0
      */
-onProcess:function(){this.state=Ug.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()},
+onProcess:function(){this.state=Xg.FILE_PROCESSING,this.data=this.xhrLoader.responseText,this.onProcessComplete()},
 /**
      * Adds this file to its target cache upon successful loading and processing.
      *
@@ -61030,7 +61030,7 @@ function(t,e,i,s,n,r,a){void 0===s&&(s="loadeddata"),void 0===n&&(n=!1),void 0==
      * @method Phaser.Loader.FileTypes.VideoFile#onProcess
      * @since 3.20.0
      */
-onProcess:function(){if(this.state=Ug.FILE_PROCESSING,this.config.asBlob){
+onProcess:function(){if(this.state=Xg.FILE_PROCESSING,this.config.asBlob){
 //  Load Video as blob
 var t=this.createVideoElement();this.data=t;var e=this;this.data.onloadeddata=function(){e.onProcessComplete()},this.data.onerror=function(){jg.revokeObjectURL(e.data),e.onProcessError()},jg.createObjectURL(t,this.xhrLoader.response,""),t.load()}else this.onProcessComplete()},
 /**
@@ -61166,7 +61166,7 @@ r(e)&&(i=$(e,"url",[]),s=$(e,"loadEvent","loadeddata"),n=$(e,"asBlob",!1),a=$(e,
  */
 jo.register("video",(function(t,e,i,s,n,r){var a;if(Array.isArray(t))for(var o=0;o<t.length;o++)
 //  If it's an array it has to be an array of Objects, so we get everything out of the 'key' object
-(a=im.create(this,t[o]))&&this.addFile(a);else(a=im.create(this,t,e,i,s,n,r))&&this.addFile(a);return this}));var sm={AnimationJSONFile:Jg,AsepriteFile:iv,AtlasJSONFile:nv,AtlasXMLFile:hv,AudioFile:cv,AudioSpriteFile:{},BinaryFile:pv,BitmapFontFile:vv,CSSFile:yv,GLSLFile:Tv,HTML5AudioFile:lv,HTMLFile:bv,HTMLTextureFile:Sv,ImageFile:$g,JSONFile:Kg,MultiAtlasFile:Av,MultiScriptFile:Pv,OBJFile:kv,PackFile:Iv,PluginFile:Nv,SceneFile:Xv,ScenePluginFile:zv,ScriptFile:Mv,SpriteSheetFile:Wv,SVGFile:Hv,TextFile:Lv,TilemapCSVFile:Kv,TilemapImpactFile:Jv,TilemapJSONFile:$v,UnityAtlasFile:em,VideoFile:im,XMLFile:av},nm=new at({Extends:Te,initialize:function(t){Te.call(this);var e=t.sys.game.config,i=t.sys.settings.loader;
+(a=im.create(this,t[o]))&&this.addFile(a);else(a=im.create(this,t,e,i,s,n,r))&&this.addFile(a);return this}));var sm={AnimationJSONFile:Jg,AsepriteFile:iv,AtlasJSONFile:nv,AtlasXMLFile:hv,AudioFile:cv,AudioSpriteFile:{},BinaryFile:pv,BitmapFontFile:vv,CSSFile:yv,GLSLFile:Tv,HTML5AudioFile:lv,HTMLFile:bv,HTMLTextureFile:Sv,ImageFile:$g,JSONFile:Kg,MultiAtlasFile:Av,MultiScriptFile:Pv,OBJFile:kv,PackFile:Iv,PluginFile:Nv,SceneFile:Uv,ScenePluginFile:zv,ScriptFile:Mv,SpriteSheetFile:Wv,SVGFile:Hv,TextFile:Lv,TilemapCSVFile:Kv,TilemapImpactFile:Jv,TilemapJSONFile:$v,UnityAtlasFile:em,VideoFile:im,XMLFile:av},nm=new at({Extends:Te,initialize:function(t){Te.call(this);var e=t.sys.game.config,i=t.sys.settings.loader;
 /**
          * The Scene which owns this Loader instance.
          *
@@ -61384,7 +61384,7 @@ this.totalComplete=0,
          * @readonly
          * @since 3.0.0
          */
-this.state=Ug.LOADER_IDLE,
+this.state=Xg.LOADER_IDLE,
 /**
          * The current index being used by multi-file loaders to avoid key clashes.
          *
@@ -61558,7 +61558,7 @@ return this.setBaseURL(s),this.setPath(n),this.setPrefix(r),i>0},
      *
      * @return {boolean} `true` if the Loader is busy loading or processing, otherwise `false`.
      */
-isLoading:function(){return this.state===Ug.LOADER_LOADING||this.state===Ug.LOADER_PROCESSING},
+isLoading:function(){return this.state===Xg.LOADER_LOADING||this.state===Xg.LOADER_PROCESSING},
 /**
      * Is the Loader ready to start a new load?
      *
@@ -61567,7 +61567,7 @@ isLoading:function(){return this.state===Ug.LOADER_LOADING||this.state===Ug.LOAD
      *
      * @return {boolean} `true` if the Loader is ready to start a new load, otherwise `false`.
      */
-isReady:function(){return this.state===Ug.LOADER_IDLE||this.state===Ug.LOADER_COMPLETE},
+isReady:function(){return this.state===Xg.LOADER_IDLE||this.state===Xg.LOADER_COMPLETE},
 /**
      * Starts the Loader running. This will reset the progress and totals and then emit a `start` event.
      * If there is nothing in the queue the Loader will immediately complete, otherwise it will start
@@ -61583,7 +61583,7 @@ isReady:function(){return this.state===Ug.LOADER_IDLE||this.state===Ug.LOADER_CO
      * @fires Phaser.Loader.Events#START
      * @since 3.0.0
      */
-start:function(){this.isReady()&&(this.progress=0,this.totalFailed=0,this.totalComplete=0,this.totalToLoad=this.list.size,this.emit(eh.START,this),0===this.list.size?this.loadComplete():(this.state=Ug.LOADER_LOADING,this.inflight.clear(),this.queue.clear(),this.updateProgress(),this.checkLoadQueue(),this.systems.events.on(rs.UPDATE,this.update,this)))},
+start:function(){this.isReady()&&(this.progress=0,this.totalFailed=0,this.totalComplete=0,this.totalToLoad=this.list.size,this.emit(eh.START,this),0===this.list.size?this.loadComplete():(this.state=Xg.LOADER_LOADING,this.inflight.clear(),this.queue.clear(),this.updateProgress(),this.checkLoadQueue(),this.systems.events.on(rs.UPDATE,this.update,this)))},
 /**
      * Called automatically during the load process.
      * It updates the `progress` value and then emits a progress event, which you can use to
@@ -61600,7 +61600,7 @@ updateProgress:function(){this.progress=1-(this.list.size+this.inflight.size)/th
      * @method Phaser.Loader.LoaderPlugin#update
      * @since 3.10.0
      */
-update:function(){this.state===Ug.LOADER_LOADING&&this.list.size>0&&this.inflight.size<this.maxParallelDownloads&&this.checkLoadQueue()},
+update:function(){this.state===Xg.LOADER_LOADING&&this.list.size>0&&this.inflight.size<this.maxParallelDownloads&&this.checkLoadQueue()},
 /**
      * An internal method called by the Loader.
      *
@@ -61613,7 +61613,7 @@ update:function(){this.state===Ug.LOADER_LOADING&&this.list.size>0&&this.infligh
      * @private
      * @since 3.7.0
      */
-checkLoadQueue:function(){this.list.each((function(t){if((t.state===Ug.FILE_POPULATED||t.state===Ug.FILE_PENDING&&this.inflight.size<this.maxParallelDownloads)&&(this.inflight.set(t),this.list.delete(t),
+checkLoadQueue:function(){this.list.each((function(t){if((t.state===Xg.FILE_POPULATED||t.state===Xg.FILE_PENDING&&this.inflight.size<this.maxParallelDownloads)&&(this.inflight.set(t),this.list.delete(t),
 //  If the file doesn't have its own crossOrigin set, we'll use the Loaders (which is undefined by default)
 t.crossOrigin||(t.crossOrigin=this.crossOrigin),t.load()),this.inflight.size===this.maxParallelDownloads)
 //  Tells the Set iterator to abort
@@ -61651,7 +61651,7 @@ fileProcessComplete:function(t){
 //  Has the game been destroyed during load? If so, bail out now.
 this.scene&&this.systems&&this.systems.game&&!this.systems.game.pendingDestroy&&(
 //  This file has failed, so move it to the failed Set
-t.state===Ug.FILE_ERRORED?t.multiFile&&t.multiFile.onFileFailed(t):t.state===Ug.FILE_COMPLETE&&(t.multiFile?t.multiFile.isReadyToProcess()&&
+t.state===Xg.FILE_ERRORED?t.multiFile&&t.multiFile.onFileFailed(t):t.state===Xg.FILE_COMPLETE&&(t.multiFile?t.multiFile.isReadyToProcess()&&
 //  If we got here then all files the link file needs are ready to add to the cache
 t.multiFile.addToCache():
 //  If we got here, then the file processed, so let it add itself to its cache
@@ -61671,7 +61671,7 @@ this.queue.delete(t),
      * @fires Phaser.Loader.Events#POST_PROCESS
      * @since 3.7.0
      */
-loadComplete:function(){this.emit(eh.POST_PROCESS,this),this.list.clear(),this.inflight.clear(),this.queue.clear(),this.progress=1,this.state=Ug.LOADER_COMPLETE,this.systems.events.off(rs.UPDATE,this.update,this),
+loadComplete:function(){this.emit(eh.POST_PROCESS,this),this.list.clear(),this.inflight.clear(),this.queue.clear(),this.progress=1,this.state=Xg.LOADER_COMPLETE,this.systems.events.off(rs.UPDATE,this.update,this),
 //  Call 'destroy' on each file ready for deletion
 this._deleteQueue.iterateLocal("destroy"),this._deleteQueue.clear(),this.emit(eh.COMPLETE,this,this.totalComplete,this.totalFailed)},
 /**
@@ -61723,7 +61723,7 @@ save:function(t,e,i){void 0===e&&(e="file.json"),void 0===i&&(i="application/jso
      * @method Phaser.Loader.LoaderPlugin#reset
      * @since 3.0.0
      */
-reset:function(){this.list.clear(),this.inflight.clear(),this.queue.clear();var t=this.systems.game.config,e=this.systems.settings.loader;this.setBaseURL($(e,"baseURL",t.loaderBaseURL)),this.setPath($(e,"path",t.loaderPath)),this.setPrefix($(e,"prefix",t.loaderPrefix)),this.state=Ug.LOADER_IDLE},
+reset:function(){this.list.clear(),this.inflight.clear(),this.queue.clear();var t=this.systems.game.config,e=this.systems.settings.loader;this.setBaseURL($(e,"baseURL",t.loaderBaseURL)),this.setPath($(e,"path",t.loaderPath)),this.setPrefix($(e,"prefix",t.loaderPrefix)),this.state=Xg.LOADER_IDLE},
 /**
      * The Scene that owns this plugin is shutting down.
      * We need to kill and reset all internal properties as well as stop listening to Scene events.
@@ -61732,7 +61732,7 @@ reset:function(){this.list.clear(),this.inflight.clear(),this.queue.clear();var 
      * @private
      * @since 3.0.0
      */
-shutdown:function(){this.reset(),this.state=Ug.LOADER_SHUTDOWN,this.systems.events.off(rs.UPDATE,this.update,this),this.systems.events.off(rs.SHUTDOWN,this.shutdown,this)},
+shutdown:function(){this.reset(),this.state=Xg.LOADER_SHUTDOWN,this.systems.events.off(rs.UPDATE,this.update,this),this.systems.events.off(rs.SHUTDOWN,this.shutdown,this)},
 /**
      * The Scene that owns this plugin is being destroyed.
      * We need to shutdown and then kill off all external references.
@@ -61741,7 +61741,7 @@ shutdown:function(){this.reset(),this.state=Ug.LOADER_SHUTDOWN,this.systems.even
      * @private
      * @since 3.0.0
      */
-destroy:function(){this.shutdown(),this.state=Ug.LOADER_DESTROYED,this.systems.events.off(rs.UPDATE,this.update,this),this.systems.events.off(rs.START,this.pluginStart,this),this.list=null,this.inflight=null,this.queue=null,this.scene=null,this.systems=null,this.textureManager=null,this.cacheManager=null,this.sceneManager=null}});
+destroy:function(){this.shutdown(),this.state=Xg.LOADER_DESTROYED,this.systems.events.off(rs.UPDATE,this.update,this),this.systems.events.off(rs.START,this.pluginStart,this),this.list=null,this.inflight=null,this.queue=null,this.scene=null,this.systems=null,this.textureManager=null,this.cacheManager=null,this.sceneManager=null}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -61751,7 +61751,7 @@ destroy:function(){this.shutdown(),this.state=Ug.LOADER_DESTROYED,this.systems.e
  * @namespace Phaser.Loader.FileTypes
  */ss.register("Loader",nm,"load");var rm={Events:eh,FileTypes:sm,File:jg,FileTypesManager:jo,GetURL:zg,LoaderPlugin:nm,MergeXHRSettings:Wg,MultiFile:tv,XHRLoader:Vg,XHRSettings:Gg},am=
 //   Merge in the consts
-rm=o(!1,rm,Ug),om={
+rm=o(!1,rm,Xg),om={
 /**
      * Dynamic Body.
      *
@@ -64484,7 +64484,7 @@ _allDistMargin:function(t,e,i,s){t.children.sort(s);var n,r,a=this.toBBox,o=Rm(t
 // adjust bboxes along the given tree path
 for(var s=i;s>=0;s--)Pm(e[s],t)},_condense:function(t){
 // go through the path, removing empty nodes and updating bboxes
-for(var e,i=t.length-1;i>=0;i--)0===t[i].children.length?i>0?(e=t[i-1].children).splice(e.indexOf(t[i]),1):this.clear():Mm(t[i],this.toBBox)},compareMinX:function(t,e){return t.left-e.left},compareMinY:function(t,e){return t.top-e.top},toBBox:function(t){return{minX:t.left,minY:t.top,maxX:t.right,maxY:t.bottom}}};var Ym,Xm,Um,zm,Gm,Wm,Vm,Hm,jm,qm,Km,Zm,Jm,Qm,$m,ty,ey,iy,sy,ny,ry,ay,oy,hy,ly,uy,cy,dy,fy,py,gy,vy,my,yy,xy=Am,Ty=function(t,e){e<0?(t.blocked.none=!1,t.blocked.left=!0):e>0&&(t.blocked.none=!1,t.blocked.right=!0),t.position.x-=e,0===t.bounce.x?t.velocity.x=0:t.velocity.x=-t.velocity.x*t.bounce.x},wy=function(t,e,i,s,n,r){var a=0,o=e.faceLeft,h=e.faceRight,l=e.collideLeft,u=e.collideRight;return r||(o=!0,h=!0,l=!0,u=!0),t.deltaX()<0&&u&&t.checkCollision.left?
+for(var e,i=t.length-1;i>=0;i--)0===t[i].children.length?i>0?(e=t[i-1].children).splice(e.indexOf(t[i]),1):this.clear():Mm(t[i],this.toBBox)},compareMinX:function(t,e){return t.left-e.left},compareMinY:function(t,e){return t.top-e.top},toBBox:function(t){return{minX:t.left,minY:t.top,maxX:t.right,maxY:t.bottom}}};var Ym,Um,Xm,zm,Gm,Wm,Vm,Hm,jm,qm,Km,Zm,Jm,Qm,$m,ty,ey,iy,sy,ny,ry,ay,oy,hy,ly,uy,cy,dy,fy,py,gy,vy,my,yy,xy=Am,Ty=function(t,e){e<0?(t.blocked.none=!1,t.blocked.left=!0):e>0&&(t.blocked.none=!1,t.blocked.right=!0),t.position.x-=e,0===t.bounce.x?t.velocity.x=0:t.velocity.x=-t.velocity.x*t.bounce.x},wy=function(t,e,i,s,n,r){var a=0,o=e.faceLeft,h=e.faceRight,l=e.collideLeft,u=e.collideRight;return r||(o=!0,h=!0,l=!0,u=!0),t.deltaX()<0&&u&&t.checkCollision.left?
 //  Body is moving LEFT
 h&&t.x<s&&(a=t.x-s)<-n&&(a=0):t.deltaX()>0&&l&&t.checkCollision.right&&o&&t.right>i&&(a=t.right-i)>n&&(a=0),0!==a&&(t.customSeparateX?t.overlapX=a:Ty(t,a)),a},by=function(t,e){e<0?(t.blocked.none=!1,t.blocked.up=!0):e>0&&(t.blocked.none=!1,t.blocked.down=!0),t.position.y-=e,0===t.bounce.y?t.velocity.y=0:t.velocity.y=-t.velocity.y*t.bounce.y},Ey=function(t,e,i,s,n,r){var a=0,o=e.faceTop,h=e.faceBottom,l=e.collideUp,u=e.collideDown;return r||(o=!0,h=!0,l=!0,u=!0),t.deltaY()<0&&u&&t.checkCollision.up?
 //  Body is moving UP
@@ -64503,21 +64503,21 @@ v=-1),0!==e.deltaX()&&0!==e.deltaY()&&c&&d&&(
 //  directions
 g=Math.min(Math.abs(e.position.x-l),Math.abs(e.right-o)),v=Math.min(Math.abs(e.position.y-u),Math.abs(e.bottom-h))),g<v){if(c&&0!==(f=wy(e,i,o,l,r,a))&&!Sy(s,e))return!0;d&&(p=Ey(e,i,h,u,r,a))}else{if(d&&0!==(p=Ey(e,i,h,u,r,a))&&!Sy(s,e))return!0;c&&(f=wy(e,i,o,l,r,a))}return 0!==f||0!==p},Ay=function(){
 //  Body1 is moving right and Body2 is blocked from going right any further
-return qm&&$m&&Xm.blocked.right?(Ym.processX(-ey,Vm,!1,!0),1):
+return qm&&$m&&Um.blocked.right?(Ym.processX(-ey,Vm,!1,!0),1):
 //  Body1 is moving up and Body2 is blocked from going up any further
-jm&&ty&&Xm.blocked.left?(Ym.processX(ey,Vm,!0),1):
+jm&&ty&&Um.blocked.left?(Ym.processX(ey,Vm,!0),1):
 //  Body2 is moving right and Body1 is blocked from going right any further
-Jm&&ty&&Ym.blocked.right?(Xm.processX(-ey,Hm,!1,!0),2):
+Jm&&ty&&Ym.blocked.right?(Um.processX(-ey,Hm,!1,!0),2):
 //  Body2 is moving up and Body1 is blocked from going up any further
-Zm&&$m&&Ym.blocked.left?(Xm.processX(ey,Hm,!0),2):0},Cy=function(t){if(Um&&zm)
+Zm&&$m&&Ym.blocked.left?(Um.processX(ey,Hm,!0),2):0},Cy=function(t){if(Xm&&zm)
 //  Both pushable, or both moving at the same time, so equal rebound
 ey*=.5,0===t||3===t?(
 //  body1MovingLeft && body2OnLeft
 //  body2MovingRight && body2OnLeft
-Ym.processX(ey,Gm),Xm.processX(-ey,Wm)):(
+Ym.processX(ey,Gm),Um.processX(-ey,Wm)):(
 //  body2MovingLeft && body1OnLeft
 //  body1MovingRight && body1OnLeft
-Ym.processX(-ey,Gm),Xm.processX(ey,Wm));else if(Um&&!zm)
+Ym.processX(-ey,Gm),Um.processX(ey,Wm));else if(Xm&&!zm)
 //  Body1 pushable, Body2 not
 0===t||3===t?
 //  body1MovingLeft && body2OnLeft
@@ -64525,53 +64525,53 @@ Ym.processX(-ey,Gm),Xm.processX(ey,Wm));else if(Um&&!zm)
 Ym.processX(ey,Vm,!0):
 //  body2MovingLeft && body1OnLeft
 //  body1MovingRight && body1OnLeft
-Ym.processX(-ey,Vm,!1,!0);else if(!Um&&zm)
+Ym.processX(-ey,Vm,!1,!0);else if(!Xm&&zm)
 //  Body2 pushable, Body1 not
 0===t||3===t?
 //  body1MovingLeft && body2OnLeft
 //  body2MovingRight && body2OnLeft
-Xm.processX(-ey,Hm,!1,!0):
+Um.processX(-ey,Hm,!1,!0):
 //  body2MovingLeft && body1OnLeft
 //  body1MovingRight && body1OnLeft
-Xm.processX(ey,Hm,!0);else{
+Um.processX(ey,Hm,!0);else{
 //  Neither body is pushable, so base it on movement
 var e=.5*ey;0===t?
 //  body1MovingLeft && body2OnLeft
-Qm?(Ym.processX(ey,0,!0),Xm.processX(0,null,!1,!0)):Jm?(Ym.processX(e,0,!0),Xm.processX(-e,0,!1,!0)):(
+Qm?(Ym.processX(ey,0,!0),Um.processX(0,null,!1,!0)):Jm?(Ym.processX(e,0,!0),Um.processX(-e,0,!1,!0)):(
 //  Body2 moving same direction as Body1
-Ym.processX(e,Xm.velocity.x,!0),Xm.processX(-e,null,!1,!0)):1===t?
+Ym.processX(e,Um.velocity.x,!0),Um.processX(-e,null,!1,!0)):1===t?
 //  body2MovingLeft && body1OnLeft
-Km?(Ym.processX(0,null,!1,!0),Xm.processX(ey,0,!0)):qm?(Ym.processX(-e,0,!1,!0),Xm.processX(e,0,!0)):(
+Km?(Ym.processX(0,null,!1,!0),Um.processX(ey,0,!0)):qm?(Ym.processX(-e,0,!1,!0),Um.processX(e,0,!0)):(
 //  Body1 moving same direction as Body2
-Ym.processX(-e,null,!1,!0),Xm.processX(e,Ym.velocity.x,!0)):2===t?
+Ym.processX(-e,null,!1,!0),Um.processX(e,Ym.velocity.x,!0)):2===t?
 //  body1MovingRight && body1OnLeft
-Qm?(Ym.processX(-ey,0,!1,!0),Xm.processX(0,null,!0)):Zm?(Ym.processX(-e,0,!1,!0),Xm.processX(e,0,!0)):(
+Qm?(Ym.processX(-ey,0,!1,!0),Um.processX(0,null,!0)):Zm?(Ym.processX(-e,0,!1,!0),Um.processX(e,0,!0)):(
 //  Body2 moving same direction as Body1
-Ym.processX(-e,Xm.velocity.x,!1,!0),Xm.processX(e,null,!0)):3===t&&(
+Ym.processX(-e,Um.velocity.x,!1,!0),Um.processX(e,null,!0)):3===t&&(
 //  body2MovingRight && body2OnLeft
-Km?(Ym.processX(0,null,!0),Xm.processX(-ey,0,!1,!0)):jm?(Ym.processX(e,0,!0),Xm.processX(-e,0,!1,!0)):(
+Km?(Ym.processX(0,null,!0),Um.processX(-ey,0,!1,!0)):jm?(Ym.processX(e,0,!0),Um.processX(-e,0,!1,!0)):(
 //  Body1 moving same direction as Body2
-Ym.processX(e,Xm.velocity.y,!0),Xm.processX(-e,null,!1,!0)))}return!0},My=function(){var t=Ym.velocity.x,e=Xm.velocity.x,i=Math.sqrt(e*e*Xm.mass/Ym.mass)*(e>0?1:-1),s=Math.sqrt(t*t*Ym.mass/Xm.mass)*(t>0?1:-1),n=.5*(i+s);
+Ym.processX(e,Um.velocity.y,!0),Um.processX(-e,null,!1,!0)))}return!0},My=function(){var t=Ym.velocity.x,e=Um.velocity.x,i=Math.sqrt(e*e*Um.mass/Ym.mass)*(e>0?1:-1),s=Math.sqrt(t*t*Ym.mass/Um.mass)*(t>0?1:-1),n=.5*(i+s);
 //  Body1 hits Body2 on the right hand side
-return s-=n,Gm=n+(i-=n)*Ym.bounce.x,Wm=n+s*Xm.bounce.x,jm&&ty?Cy(0):
+return s-=n,Gm=n+(i-=n)*Ym.bounce.x,Wm=n+s*Um.bounce.x,jm&&ty?Cy(0):
 //  Body2 hits Body1 on the right hand side
 Zm&&$m?Cy(1):
 //  Body1 hits Body2 on the left hand side
 qm&&$m?Cy(2):
 //  Body2 hits Body1 on the left hand side
-!(!Jm||!ty)&&Cy(3)},Ry=function(t,e,i){Xm=e;var s=(Ym=t).velocity.x,n=Xm.velocity.x;return Um=Ym.pushable,jm=Ym._dx<0,qm=Ym._dx>0,Km=0===Ym._dx,$m=Math.abs(Ym.right-Xm.x)<=Math.abs(Xm.right-Ym.x),Vm=n-s*Ym.bounce.x,zm=Xm.pushable,Zm=Xm._dx<0,Jm=Xm._dx>0,Qm=0===Xm._dx,ty=!$m,Hm=s-n*Xm.bounce.x,
+!(!Jm||!ty)&&Cy(3)},Ry=function(t,e,i){Um=e;var s=(Ym=t).velocity.x,n=Um.velocity.x;return Xm=Ym.pushable,jm=Ym._dx<0,qm=Ym._dx>0,Km=0===Ym._dx,$m=Math.abs(Ym.right-Um.x)<=Math.abs(Um.right-Ym.x),Vm=n-s*Ym.bounce.x,zm=Um.pushable,Zm=Um._dx<0,Jm=Um._dx>0,Qm=0===Um._dx,ty=!$m,Hm=s-n*Um.bounce.x,
 //  negative delta = up, positive delta = down (inc. gravity)
 ey=Math.abs(i),Ay()},Py=function(t){1===t?
 //  But Body2 cannot go anywhere either, so we cancel out velocity
 //  Separation happened in the block check
-Xm.velocity.x=0:$m?Xm.processX(ey,Hm,!0):Xm.processX(-ey,Hm,!1,!0),
+Um.velocity.x=0:$m?Um.processX(ey,Hm,!0):Um.processX(-ey,Hm,!1,!0),
 //  This is special case code that handles things like vertically moving platforms you can ride
-Ym.moves&&(Xm.y+=(Ym.y-Ym.prev.y)*Ym.friction.y,Xm._dy=Xm.y-Xm.prev.y)},Oy=function(t){2===t&&(
+Ym.moves&&(Um.y+=(Ym.y-Ym.prev.y)*Ym.friction.y,Um._dy=Um.y-Um.prev.y)},Oy=function(t){2===t&&(
 //  But Body1 cannot go anywhere either, so we cancel out velocity
 //  Separation happened in the block check
 Ym.velocity.x=0),ty?Ym.processX(ey,Vm,!0):Ym.processX(-ey,Vm,!1,!0),
 //  This is special case code that handles things like vertically moving platforms you can ride
-Xm.moves&&(Ym.y+=(Xm.y-Xm.prev.y)*Xm.friction.y,Ym._dy=Ym.y-Ym.prev.y)},Ly=function(t,e,i,s){var n=xm(t,e,i,s),r=t.immovable,a=e.immovable;
+Um.moves&&(Ym.y+=(Um.y-Um.prev.y)*Um.friction.y,Ym._dy=Ym.y-Ym.prev.y)},Ly=function(t,e,i,s){var n=xm(t,e,i,s),r=t.immovable,a=e.immovable;
 //  Can't separate two immovable bodies, or a body with its own custom separation logic
 if(i||0===n||r&&a||t.customSeparateX||e.customSeparateX)
 //  return true if there was some overlap, otherwise false
@@ -64653,7 +64653,7 @@ if(i||0===n||r&&a||t.customSeparateY||e.customSeparateY)
 //  return true if there was some overlap, otherwise false
 return 0!==n||t.embedded&&e.embedded;var o=Iy(t,e,n);return r||a?(r?By(o):a&&Ny(o),!0):o>0||Dy();
 //  If we got this far then there WAS overlap, and separation is complete, so return true
-},Xy=new at({initialize:function(t,e){var i=e.displayWidth?e.displayWidth:64,s=e.displayHeight?e.displayHeight:64;
+},Uy=new at({initialize:function(t,e){var i=e.displayWidth?e.displayWidth:64,s=e.displayHeight?e.displayHeight:64;
 /**
          * The Arcade Physics simulation this Static Body belongs to.
          *
@@ -65272,7 +65272,7 @@ top:{get:function(){return this.position.y}},
      * @readonly
      * @since 3.0.0
      */
-bottom:{get:function(){return this.position.y+this.height}}}),Uy=new at({Extends:Te,initialize:function(t,e){Te.call(this),
+bottom:{get:function(){return this.position.y+this.height}}}),Xy=new at({Extends:Te,initialize:function(t,e){Te.call(this),
 /**
          * The Scene this simulation belongs to.
          *
@@ -65625,7 +65625,7 @@ this.enable(a,e):this.enableBody(a,e)}else this.enableBody(s,e)}},
      *
      * @return {Phaser.GameObjects.GameObject} The Game Object on which the body was created.
      */
-enableBody:function(t,e){return void 0===e&&(e=om.DYNAMIC_BODY),t.body||(e===om.DYNAMIC_BODY?t.body=new mm(this,t):e===om.STATIC_BODY&&(t.body=new Xy(this,t))),this.add(t.body),t},
+enableBody:function(t,e){return void 0===e&&(e=om.DYNAMIC_BODY),t.body||(e===om.DYNAMIC_BODY?t.body=new mm(this,t):e===om.STATIC_BODY&&(t.body=new Uy(this,t))),this.add(t.body),t},
 /**
      * Adds an existing Arcade Physics Body or StaticBody to the simulation.
      *
@@ -66390,7 +66390,7 @@ this.add,t.sys.events.once(rs.BOOT,this.boot,this),t.sys.events.on(rs.START,this
      * @private
      * @since 3.5.1
      */
-boot:function(){this.world=new Uy(this.scene,this.config),this.add=new gm(this.world),this.systems.events.once(rs.DESTROY,this.destroy,this)},
+boot:function(){this.world=new Xy(this.scene,this.config),this.add=new gm(this.world),this.systems.events.once(rs.DESTROY,this.destroy,this)},
 /**
      * This method is called automatically by the Scene when it is starting up.
      * It is responsible for creating local systems, properties and listening for Scene events.
@@ -66400,7 +66400,7 @@ boot:function(){this.world=new Uy(this.scene,this.config),this.add=new gm(this.w
      * @private
      * @since 3.5.0
      */
-start:function(){this.world||(this.world=new Uy(this.scene,this.config),this.add=new gm(this.world));var t=this.systems.events;$(this.config,"customUpdate",!1)||t.on(rs.UPDATE,this.world.update,this.world),t.on(rs.POST_UPDATE,this.world.postUpdate,this.world),t.once(rs.SHUTDOWN,this.shutdown,this)},
+start:function(){this.world||(this.world=new Xy(this.scene,this.config),this.add=new gm(this.world));var t=this.systems.events;$(this.config,"customUpdate",!1)||t.on(rs.UPDATE,this.world.update,this.world),t.on(rs.POST_UPDATE,this.world.postUpdate,this.world),t.once(rs.SHUTDOWN,this.shutdown,this)},
 /**
      * Causes `World.update` to be automatically called each time the Scene
      * emits and `UPDATE` event. This is the default setting, so only needs
@@ -66780,7 +66780,7 @@ destroy:function(){this.shutdown(),this.scene.sys.events.off(rs.START,this.start
  *
  * @param {Phaser.Physics.Arcade.Body} body - The Body object to separate.
  * @param {number} x - The x separation amount.
- */ss.register("ArcadePhysics",zy,"arcadePhysics");var Gy={ArcadePhysics:zy,Body:mm,Collider:ym,Components:um,Events:vm,Factory:gm,GetOverlapX:xm,GetOverlapY:Tm,SeparateX:Ly,SeparateY:Yy,Group:fm,Image:cm,Sprite:dm,StaticBody:Xy,StaticGroup:pm,Tilemap:{ProcessTileCallbacks:_m,ProcessTileSeparationX:Ty,ProcessTileSeparationY:by,SeparateTile:_y,TileCheckX:wy,TileCheckY:Ey,TileIntersectsBody:Sy},World:Uy},Wy=
+ */ss.register("ArcadePhysics",zy,"arcadePhysics");var Gy={ArcadePhysics:zy,Body:mm,Collider:ym,Components:um,Events:vm,Factory:gm,GetOverlapX:xm,GetOverlapY:Tm,SeparateX:Ly,SeparateY:Yy,Group:fm,Image:cm,Sprite:dm,StaticBody:Uy,StaticGroup:pm,Tilemap:{ProcessTileCallbacks:_m,ProcessTileSeparationX:Ty,ProcessTileSeparationY:by,SeparateTile:_y,TileCheckX:wy,TileCheckY:Ey,TileIntersectsBody:Sy},World:Xy},Wy=
 //   Merge in the consts
 Gy=o(!1,Gy,om),Vy=new at({initialize:function(){
 /**
@@ -68469,7 +68469,7 @@ n=e,s=t.indexOf(n[0]),r=t.indexOf(n[1]);return-1!==s&&-1!==r&&[kx(t,s,r),kx(t,r,
 * @class Bodies
 */
 // TODO: true circle bodies
-var Xx={},Ux=Xx;
+var Ux={},Xx=Ux;
 /**
      * Creates a new rigid body model with a rectangle hull. 
      * The options parameter is an object that specifies any properties you wish to override the defaults.
@@ -68482,7 +68482,7 @@ var Xx={},Ux=Xx;
      * @param {object} [options]
      * @return {body} A new rectangle body
      */
-Xx.rectangle=function(t,e,i,s,n){n=n||{};var r={label:"Rectangle Body",position:{x:t,y:e},vertices:$y.fromPath("L 0 0 L "+i+" 0 L "+i+" "+s+" L 0 "+s)};if(n.chamfer){var a=n.chamfer;r.vertices=$y.chamfer(r.vertices,a.radius,a.quality,a.qualityMin,a.qualityMax),delete n.chamfer}return lx.create(Jy.extend({},r,n))},
+Ux.rectangle=function(t,e,i,s,n){n=n||{};var r={label:"Rectangle Body",position:{x:t,y:e},vertices:$y.fromPath("L 0 0 L "+i+" 0 L "+i+" "+s+" L 0 "+s)};if(n.chamfer){var a=n.chamfer;r.vertices=$y.chamfer(r.vertices,a.radius,a.quality,a.qualityMin,a.qualityMax),delete n.chamfer}return lx.create(Jy.extend({},r,n))},
 /**
      * Creates a new rigid body model with a trapezoid hull. 
      * The options parameter is an object that specifies any properties you wish to override the defaults.
@@ -68496,7 +68496,7 @@ Xx.rectangle=function(t,e,i,s,n){n=n||{};var r={label:"Rectangle Body",position:
      * @param {object} [options]
      * @return {body} A new trapezoid body
      */
-Xx.trapezoid=function(t,e,i,s,n,r){r=r||{};var a,o=i*(n*=.5),h=o+(1-2*n)*i,l=h+o;a=n<.5?"L 0 0 L "+o+" "+-s+" L "+h+" "+-s+" L "+l+" 0":"L 0 0 L "+h+" "+-s+" L "+l+" 0";var u={label:"Trapezoid Body",position:{x:t,y:e},vertices:$y.fromPath(a)};if(r.chamfer){var c=r.chamfer;u.vertices=$y.chamfer(u.vertices,c.radius,c.quality,c.qualityMin,c.qualityMax),delete r.chamfer}return lx.create(Jy.extend({},u,r))},
+Ux.trapezoid=function(t,e,i,s,n,r){r=r||{};var a,o=i*(n*=.5),h=o+(1-2*n)*i,l=h+o;a=n<.5?"L 0 0 L "+o+" "+-s+" L "+h+" "+-s+" L "+l+" 0":"L 0 0 L "+h+" "+-s+" L "+l+" 0";var u={label:"Trapezoid Body",position:{x:t,y:e},vertices:$y.fromPath(a)};if(r.chamfer){var c=r.chamfer;u.vertices=$y.chamfer(u.vertices,c.radius,c.quality,c.qualityMin,c.qualityMax),delete r.chamfer}return lx.create(Jy.extend({},u,r))},
 /**
      * Creates a new rigid body model with a circle hull. 
      * The options parameter is an object that specifies any properties you wish to override the defaults.
@@ -68509,11 +68509,11 @@ Xx.trapezoid=function(t,e,i,s,n,r){r=r||{};var a,o=i*(n*=.5),h=o+(1-2*n)*i,l=h+o
      * @param {number} [maxSides]
      * @return {body} A new circle body
      */
-Xx.circle=function(t,e,i,s,n){s=s||{};var r={label:"Circle Body",circleRadius:i};
+Ux.circle=function(t,e,i,s,n){s=s||{};var r={label:"Circle Body",circleRadius:i};
 // approximate circles with polygons until true circles implemented in SAT
 n=n||25;var a=Math.ceil(Math.max(10,Math.min(n,i)));
 // optimisation: always use even number of sides (half the number of unique axes)
-return a%2==1&&(a+=1),Xx.polygon(t,e,a,i,Jy.extend({},r,s))},
+return a%2==1&&(a+=1),Ux.polygon(t,e,a,i,Jy.extend({},r,s))},
 /**
      * Creates a new rigid body model with a regular polygon hull with the given number of sides. 
      * The options parameter is an object that specifies any properties you wish to override the defaults.
@@ -68526,7 +68526,7 @@ return a%2==1&&(a+=1),Xx.polygon(t,e,a,i,Jy.extend({},r,s))},
      * @param {object} [options]
      * @return {body} A new regular polygon body
      */
-Xx.polygon=function(t,e,i,s,n){if(n=n||{},i<3)return Xx.circle(t,e,s,n);for(var r=2*Math.PI/i,a="",o=.5*r,h=0;h<i;h+=1){var l=o+h*r,u=Math.cos(l)*s,c=Math.sin(l)*s;a+="L "+u.toFixed(3)+" "+c.toFixed(3)+" "}var d={label:"Polygon Body",position:{x:t,y:e},vertices:$y.fromPath(a)};if(n.chamfer){var f=n.chamfer;d.vertices=$y.chamfer(d.vertices,f.radius,f.quality,f.qualityMin,f.qualityMax),delete n.chamfer}return lx.create(Jy.extend({},d,n))},
+Ux.polygon=function(t,e,i,s,n){if(n=n||{},i<3)return Ux.circle(t,e,s,n);for(var r=2*Math.PI/i,a="",o=.5*r,h=0;h<i;h+=1){var l=o+h*r,u=Math.cos(l)*s,c=Math.sin(l)*s;a+="L "+u.toFixed(3)+" "+c.toFixed(3)+" "}var d={label:"Polygon Body",position:{x:t,y:e},vertices:$y.fromPath(a)};if(n.chamfer){var f=n.chamfer;d.vertices=$y.chamfer(d.vertices,f.radius,f.quality,f.qualityMin,f.qualityMax),delete n.chamfer}return lx.create(Jy.extend({},d,n))},
 /**
      * Creates a body using the supplied vertices (or an array containing multiple sets of vertices).
      * If the vertices are convex, they will pass through as supplied.
@@ -68547,7 +68547,7 @@ Xx.polygon=function(t,e,i,s,n){if(n=n||{},i<3)return Xx.circle(t,e,s,n);for(var 
      * @param {number} [minimumArea=10]
      * @return {body}
      */
-Xx.fromVertices=function(t,e,i,s,n,r,a){var o,h,l,u,c,d;for(s=s||{},h=[],n=void 0!==n&&n,r=void 0!==r?r:.01,a=void 0!==a?a:10,gx||Jy.warn("Bodies.fromVertices: poly-decomp.js required. Could not decompose vertices. Fallback to convex hull."),
+Ux.fromVertices=function(t,e,i,s,n,r,a){var o,h,l,u,c,d;for(s=s||{},h=[],n=void 0!==n&&n,r=void 0!==r?r:.01,a=void 0!==a?a:10,gx||Jy.warn("Bodies.fromVertices: poly-decomp.js required. Could not decompose vertices. Fallback to convex hull."),
 // ensure vertexSets is an array of arrays
 Jy.isArray(i[0])||(i=[i]),d=0;d<i.length;d+=1)if(u=i[d],(l=$y.isConvex(u))||!gx)u=l?$y.clockwiseSort(u):$y.hull(u),h.push({position:{x:t,y:e},vertices:u});else{
 // initialise a decomposition
@@ -68564,7 +68564,7 @@ a>0&&$y.area(g)<a||
 // create a compound part
 h.push({position:$y.centre(g),vertices:g})}}
 // create body parts
-for(c=0;c<h.length;c++)h[c]=lx.create(Jy.extend(h[c],s));return n&&Xx.flagCoincidentParts(h,5),h.length>1?(
+for(c=0;c<h.length;c++)h[c]=lx.create(Jy.extend(h[c],s));return n&&Ux.flagCoincidentParts(h,5),h.length>1?(
 // create the parent body to be returned, that contains generated compound parts
 o=lx.create(Jy.extend({parts:h.slice(0)},s)),lx.setPosition(o,{x:t,y:e}),o):h[0]},
 /**
@@ -68576,7 +68576,7 @@ o=lx.create(Jy.extend({parts:h.slice(0)},s)),lx.setPosition(o,{x:t,y:e}),o):h[0]
      * @param {number} [maxDistance=5]
      * @return {body[]} The modified `parts` parameter.
      */
-Xx.flagCoincidentParts=function(t,e){void 0===e&&(e=5);for(var i=0;i<t.length;i++)for(var s=t[i],n=i+1;n<t.length;n++){var r=t[n];if(rx.overlaps(s.bounds,r.bounds))
+Ux.flagCoincidentParts=function(t,e){void 0===e&&(e=5);for(var i=0;i<t.length;i++)for(var s=t[i],n=i+1;n<t.length;n++){var r=t[n];if(rx.overlaps(s.bounds,r.bounds))
 // iterate vertices of both parts
 for(var a=s.vertices,o=r.vertices,h=0;h<s.vertices.length;h++)for(var l=0;l<r.vertices.length;l++){
 // find distances between the vertices
@@ -68622,7 +68622,7 @@ parseBody:function(t,e,i,s){void 0===s&&(s={});for(var n=$(i,"fixtures",[]),r=[]
      * 
      * @return {MatterJS.BodyType[]} - An array of Matter JS Bodies.
      */
-parseFixture:function(t){var e,i=Jy.extend({},!1,t);if(delete i.circle,delete i.vertices,t.circle){var s=$(t.circle,"x"),n=$(t.circle,"y"),r=$(t.circle,"radius");e=[Ux.circle(s,n,r,i)]}else t.vertices&&(e=this.parseVertices(t.vertices,i));return e},
+parseFixture:function(t){var e,i=Jy.extend({},!1,t);if(delete i.circle,delete i.vertices,t.circle){var s=$(t.circle,"x"),n=$(t.circle,"y"),r=$(t.circle,"radius");e=[Xx.circle(s,n,r,i)]}else t.vertices&&(e=this.parseVertices(t.vertices,i));return e},
 /**
      * Parses the "vertices" lists exported by PhysicsEditor.
      *
@@ -68636,7 +68636,7 @@ parseFixture:function(t){var e,i=Jy.extend({},!1,t);if(delete i.circle,delete i.
      */
 parseVertices:function(t,e){void 0===e&&(e={});for(var i=[],s=0;s<t.length;s++)$y.clockwiseSort(t[s]),i.push(lx.create(Jy.extend({position:$y.centre(t[s]),vertices:t[s]},e)));
 // flag coincident part edges
-return Ux.flagCoincidentParts(i)}},Gx={
+return Xx.flagCoincidentParts(i)}},Gx={
 /**
      * Parses a body element from the given JSON data.
      *
@@ -68652,7 +68652,7 @@ return Ux.flagCoincidentParts(i)}},Gx={
      */
 parseBody:function(t,e,i,s){var n;void 0===s&&(s={});var r=i.vertices;if(1===r.length)
 //  Just a single Body
-s.vertices=r[0],n=lx.create(s),Ux.flagCoincidentParts(n.parts);else{for(var a=[],o=0;o<r.length;o++){var h=lx.create({vertices:r[o]});a.push(h)}Ux.flagCoincidentParts(a),s.parts=a,n=lx.create(s)}return n.label=i.label,lx.setPosition(n,{x:t,y:e}),n}},Wx={AFTER_ADD:"afteradd",AFTER_REMOVE:"afterremove",AFTER_UPDATE:"afterupdate",BEFORE_ADD:"beforeadd",BEFORE_REMOVE:"beforeremove",BEFORE_UPDATE:"beforeupdate",COLLISION_ACTIVE:"collisionactive",COLLISION_END:"collisionend",COLLISION_START:"collisionstart",DRAG_END:"dragend",DRAG:"drag",DRAG_START:"dragstart",PAUSE:"pause",RESUME:"resume",SLEEP_END:"sleepend",SLEEP_START:"sleepstart"},Vx={Bounce:Hy,Collision:jy,Force:ux,Friction:cx,Gravity:dx,Mass:fx,Sensor:px,SetBody:{
+s.vertices=r[0],n=lx.create(s),Xx.flagCoincidentParts(n.parts);else{for(var a=[],o=0;o<r.length;o++){var h=lx.create({vertices:r[o]});a.push(h)}Xx.flagCoincidentParts(a),s.parts=a,n=lx.create(s)}return n.label=i.label,lx.setPosition(n,{x:t,y:e}),n}},Wx={AFTER_ADD:"afteradd",AFTER_REMOVE:"afterremove",AFTER_UPDATE:"afterupdate",BEFORE_ADD:"beforeadd",BEFORE_REMOVE:"beforeremove",BEFORE_UPDATE:"beforeupdate",COLLISION_ACTIVE:"collisionactive",COLLISION_END:"collisionend",COLLISION_START:"collisionstart",DRAG_END:"dragend",DRAG:"drag",DRAG_START:"dragstart",PAUSE:"pause",RESUME:"resume",SLEEP_END:"sleepend",SLEEP_START:"sleepstart"},Vx={Bounce:Hy,Collision:jy,Force:ux,Friction:cx,Gravity:dx,Mass:fx,Sensor:px,SetBody:{
 /**
      * Set the body on a Game Object to a rectangle.
      * 
@@ -68751,9 +68751,9 @@ setBody:function(t,e){if(!t)return this;var i;
 //  Allow them to do: shape: 'circle' instead of shape: { type: 'circle' }
 "string"==typeof t&&(
 //  Using defaults
-t={type:t});var s=$(t,"type","rectangle"),n=$(t,"x",this._tempVec2.x),r=$(t,"y",this._tempVec2.y),a=$(t,"width",this.width),o=$(t,"height",this.height);switch(s){case"rectangle":i=Ux.rectangle(n,r,a,o,e);break;case"circle":var h=$(t,"radius",Math.max(a,o)/2),l=$(t,"maxSides",25);i=Ux.circle(n,r,h,e,l);break;case"trapezoid":var u=$(t,"slope",.5);i=Ux.trapezoid(n,r,a,o,u,e);break;case"polygon":var c=$(t,"sides",5),d=$(t,"radius",Math.max(a,o)/2);i=Ux.polygon(n,r,c,d,e);break;case"fromVertices":case"fromVerts":var f=$(t,"verts",null);if(f)if(
+t={type:t});var s=$(t,"type","rectangle"),n=$(t,"x",this._tempVec2.x),r=$(t,"y",this._tempVec2.y),a=$(t,"width",this.width),o=$(t,"height",this.height);switch(s){case"rectangle":i=Xx.rectangle(n,r,a,o,e);break;case"circle":var h=$(t,"radius",Math.max(a,o)/2),l=$(t,"maxSides",25);i=Xx.circle(n,r,h,e,l);break;case"trapezoid":var u=$(t,"slope",.5);i=Xx.trapezoid(n,r,a,o,u,e);break;case"polygon":var c=$(t,"sides",5),d=$(t,"radius",Math.max(a,o)/2);i=Xx.polygon(n,r,c,d,e);break;case"fromVertices":case"fromVerts":var f=$(t,"verts",null);if(f)if(
 //  Has the verts array come from Vertices.fromPath, or is it raw?
-"string"==typeof f&&(f=$y.fromPath(f)),this.body&&!this.body.hasOwnProperty("temp"))lx.setVertices(this.body,f),i=this.body;else{var p=$(t,"flagInternal",!1),g=$(t,"removeCollinear",.01),v=$(t,"minimumArea",10);i=Ux.fromVertices(n,r,f,e,p,g,v)}break;case"fromPhysicsEditor":i=zx.parseBody(n,r,t,e);break;case"fromPhysicsTracer":i=Gx.parseBody(n,r,t,e)}return i&&this.setExistingBody(i,t.addToWorld),this}},Sleep:{
+"string"==typeof f&&(f=$y.fromPath(f)),this.body&&!this.body.hasOwnProperty("temp"))lx.setVertices(this.body,f),i=this.body;else{var p=$(t,"flagInternal",!1),g=$(t,"removeCollinear",.01),v=$(t,"minimumArea",10);i=Xx.fromVertices(n,r,f,e,p,g,v)}break;case"fromPhysicsEditor":i=zx.parseBody(n,r,t,e);break;case"fromPhysicsTracer":i=Gx.parseBody(n,r,t,e)}return i&&this.setExistingBody(i,t.addToWorld),this}},Sleep:{
 /**
      * Sets this Body to sleep.
      *
@@ -69405,7 +69405,7 @@ return 1===u&&lx.translate(l,{x:(o+(i%2==1?1:-1))*d,y:0}),a(t+(l?o*d:0)+o*n,r,o,
      * @param {number} length
      * @return {composite} A new composite newtonsCradle body
      */
-Zx.newtonsCradle=function(t,e,i,s,n){for(var r=jx.create({label:"Newtons Cradle"}),a=0;a<i;a++){var o=Ux.circle(t+a*(1.9*s),e+n,s,{inertia:1/0,restitution:1,friction:0,frictionAir:1e-4,slop:1}),h=Kx.create({pointA:{x:t+a*(1.9*s),y:e},bodyB:o});jx.addBody(r,o),jx.addConstraint(r,h)}return r},
+Zx.newtonsCradle=function(t,e,i,s,n){for(var r=jx.create({label:"Newtons Cradle"}),a=0;a<i;a++){var o=Xx.circle(t+a*(1.9*s),e+n,s,{inertia:1/0,restitution:1,friction:0,frictionAir:1e-4,slop:1}),h=Kx.create({pointA:{x:t+a*(1.9*s),y:e},bodyB:o});jx.addBody(r,o),jx.addConstraint(r,h)}return r},
 /**
      * Creates a composite with simple car setup of bodies and constraints.
      * @method car
@@ -69416,7 +69416,7 @@ Zx.newtonsCradle=function(t,e,i,s,n){for(var r=jx.create({label:"Newtons Cradle"
      * @param {number} wheelSize
      * @return {composite} A new composite car body
      */
-Zx.car=function(t,e,i,s,n){var r=lx.nextGroup(!0),a=.5*-i+20,o=.5*i-20,h=jx.create({label:"Car"}),l=Ux.rectangle(t,e,i,s,{collisionFilter:{group:r},chamfer:{radius:.5*s},density:2e-4}),u=Ux.circle(t+a,e+0,n,{collisionFilter:{group:r},friction:.8}),c=Ux.circle(t+o,e+0,n,{collisionFilter:{group:r},friction:.8}),d=Kx.create({bodyB:l,pointB:{x:a,y:0},bodyA:u,stiffness:1,length:0}),f=Kx.create({bodyB:l,pointB:{x:o,y:0},bodyA:c,stiffness:1,length:0});return jx.addBody(h,l),jx.addBody(h,u),jx.addBody(h,c),jx.addConstraint(h,d),jx.addConstraint(h,f),h},
+Zx.car=function(t,e,i,s,n){var r=lx.nextGroup(!0),a=.5*-i+20,o=.5*i-20,h=jx.create({label:"Car"}),l=Xx.rectangle(t,e,i,s,{collisionFilter:{group:r},chamfer:{radius:.5*s},density:2e-4}),u=Xx.circle(t+a,e+0,n,{collisionFilter:{group:r},friction:.8}),c=Xx.circle(t+o,e+0,n,{collisionFilter:{group:r},friction:.8}),d=Kx.create({bodyB:l,pointB:{x:a,y:0},bodyA:u,stiffness:1,length:0}),f=Kx.create({bodyB:l,pointB:{x:o,y:0},bodyA:c,stiffness:1,length:0});return jx.addBody(h,l),jx.addBody(h,u),jx.addBody(h,c),jx.addConstraint(h,d),jx.addConstraint(h,f),h},
 /**
      * Creates a simple soft body like object.
      * @method softBody
@@ -69432,7 +69432,7 @@ Zx.car=function(t,e,i,s,n){var r=lx.nextGroup(!0),a=.5*-i+20,o=.5*i-20,h=jx.crea
      * @param {} constraintOptions
      * @return {composite} A new composite softBody
      */
-Zx.softBody=function(t,e,i,s,n,r,a,o,h,l){h=Jy.extend({inertia:1/0},h),l=Jy.extend({stiffness:.2,render:{type:"line",anchors:!1}},l);var u=Zx.stack(t,e,i,s,n,r,(function(t,e){return Ux.circle(t,e,o,h)}));return Zx.mesh(u,i,s,a,l),u.label="Soft Body",u};
+Zx.softBody=function(t,e,i,s,n,r,a,o,h,l){h=Jy.extend({inertia:1/0},h),l=Jy.extend({stiffness:.2,render:{type:"line",anchors:!1}},l);var u=Zx.stack(t,e,i,s,n,r,(function(t,e){return Xx.circle(t,e,o,h)}));return Zx.mesh(u,i,s,a,l),u.label="Soft Body",u};
 /**
 * The `Matter.Svg` module contains methods for converting SVG images into an array of vector points.
 *
@@ -69611,7 +69611,7 @@ var s=$(i,"body",null),n=$(i,"addToWorld",!0);if(s)this.setBody(s,n);else{var r=
      * 
      * @return {Phaser.Physics.Matter.TileBody} This TileBody object.
      */
-setFromTileRectangle:function(t){void 0===t&&(t={}),Su(t,"isStatic")||(t.isStatic=!0),Su(t,"addToWorld")||(t.addToWorld=!0);var e=this.tile.getBounds(),i=e.x+e.width/2,s=e.y+e.height/2,n=Ux.rectangle(i,s,e.width,e.height,t);return this.setBody(n,t.addToWorld),this},
+setFromTileRectangle:function(t){void 0===t&&(t={}),Su(t,"isStatic")||(t.isStatic=!0),Su(t,"addToWorld")||(t.addToWorld=!0);var e=this.tile.getBounds(),i=e.x+e.width/2,s=e.y+e.height/2,n=Xx.rectangle(i,s,e.width,e.height,t);return this.setBody(n,t.addToWorld),this},
 /**
      * Sets the current body from the collision group associated with the Tile. This is typically
      * set up in Tiled's collision editor.
@@ -69630,9 +69630,9 @@ setFromTileRectangle:function(t){void 0===t&&(t={}),Su(t,"isStatic")||(t.isStati
      * 
      * @return {Phaser.Physics.Matter.TileBody} This TileBody object.
      */
-setFromTileCollision:function(t){void 0===t&&(t={}),Su(t,"isStatic")||(t.isStatic=!0),Su(t,"addToWorld")||(t.addToWorld=!0);for(var e=this.tile.tilemapLayer.scaleX,i=this.tile.tilemapLayer.scaleY,s=this.tile.getLeft(),n=this.tile.getTop(),r=this.tile.getCollisionGroup(),a=$(r,"objects",[]),o=[],h=0;h<a.length;h++){var l=a[h],u=s+l.x*e,c=n+l.y*i,d=l.width*e,f=l.height*i,p=null;if(l.rectangle)p=Ux.rectangle(u+d/2,c+f/2,d,f,t);else if(l.ellipse)p=Ux.circle(u+d/2,c+f/2,d/2,t);else if(l.polygon||l.polyline){
+setFromTileCollision:function(t){void 0===t&&(t={}),Su(t,"isStatic")||(t.isStatic=!0),Su(t,"addToWorld")||(t.addToWorld=!0);for(var e=this.tile.tilemapLayer.scaleX,i=this.tile.tilemapLayer.scaleY,s=this.tile.getLeft(),n=this.tile.getTop(),r=this.tile.getCollisionGroup(),a=$(r,"objects",[]),o=[],h=0;h<a.length;h++){var l=a[h],u=s+l.x*e,c=n+l.y*i,d=l.width*e,f=l.height*i,p=null;if(l.rectangle)p=Xx.rectangle(u+d/2,c+f/2,d,f,t);else if(l.ellipse)p=Xx.circle(u+d/2,c+f/2,d/2,t);else if(l.polygon||l.polyline){
 // Polygons and polylines are both treated as closed polygons
-var g=(l.polygon?l.polygon:l.polyline).map((function(t){return{x:t.x*e,y:t.y*i}})),v=$y.create(g),m=$y.centre(v);u+=m.x,c+=m.y,p=Ux.fromVertices(u,c,v,t)}p&&o.push(p)}return 1===o.length?this.setBody(o[0],t.addToWorld):o.length>1&&(t.parts=o,this.setBody(lx.create(t),t.addToWorld)),this},
+var g=(l.polygon?l.polygon:l.polyline).map((function(t){return{x:t.x*e,y:t.y*i}})),v=$y.create(g),m=$y.centre(v);u+=m.x,c+=m.y,p=Xx.fromVertices(u,c,v,t)}p&&o.push(p)}return 1===o.length?this.setBody(o[0],t.addToWorld):o.length>1&&(t.parts=o,this.setBody(lx.create(t),t.addToWorld)),this},
 /**
      * Sets the current body to the given body. This will remove the previous body, if one already
      * exists.
@@ -70031,7 +70031,7 @@ this.sys=t.scene.sys},
      *
      * @return {MatterJS.BodyType} A Matter JS Body.
      */
-rectangle:function(t,e,i,s,n){var r=Ux.rectangle(t,e,i,s,n);return this.world.add(r),r},
+rectangle:function(t,e,i,s,n){var r=Xx.rectangle(t,e,i,s,n);return this.world.add(r),r},
 /**
      * Creates a new rigid trapezoidal Body and adds it to the World.
      *
@@ -70047,7 +70047,7 @@ rectangle:function(t,e,i,s,n){var r=Ux.rectangle(t,e,i,s,n);return this.world.ad
      *
      * @return {MatterJS.BodyType} A Matter JS Body.
      */
-trapezoid:function(t,e,i,s,n,r){var a=Ux.trapezoid(t,e,i,s,n,r);return this.world.add(a),a},
+trapezoid:function(t,e,i,s,n,r){var a=Xx.trapezoid(t,e,i,s,n,r);return this.world.add(a),a},
 /**
      * Creates a new rigid circular Body and adds it to the World.
      *
@@ -70062,7 +70062,7 @@ trapezoid:function(t,e,i,s,n,r){var a=Ux.trapezoid(t,e,i,s,n,r);return this.worl
      *
      * @return {MatterJS.BodyType} A Matter JS Body.
      */
-circle:function(t,e,i,s,n){var r=Ux.circle(t,e,i,s,n);return this.world.add(r),r},
+circle:function(t,e,i,s,n){var r=Xx.circle(t,e,i,s,n);return this.world.add(r),r},
 /**
      * Creates a new rigid polygonal Body and adds it to the World.
      *
@@ -70077,7 +70077,7 @@ circle:function(t,e,i,s,n){var r=Ux.circle(t,e,i,s,n);return this.world.add(r),r
      *
      * @return {MatterJS.BodyType} A Matter JS Body.
      */
-polygon:function(t,e,i,s,n){var r=Ux.polygon(t,e,i,s,n);return this.world.add(r),r},
+polygon:function(t,e,i,s,n){var r=Xx.polygon(t,e,i,s,n);return this.world.add(r),r},
 /**
      * Creates a body using the supplied vertices (or an array containing multiple sets of vertices) and adds it to the World.
      * If the vertices are convex, they will pass through as supplied. Otherwise, if the vertices are concave, they will be decomposed. Note that this process is not guaranteed to support complex sets of vertices, e.g. ones with holes.
@@ -70095,7 +70095,7 @@ polygon:function(t,e,i,s,n){var r=Ux.polygon(t,e,i,s,n);return this.world.add(r)
      *
      * @return {MatterJS.BodyType} A Matter JS Body.
      */
-fromVertices:function(t,e,i,s,n,r,a){"string"==typeof i&&(i=$y.fromPath(i));var o=Ux.fromVertices(t,e,i,s,n,r,a);return this.world.add(o),o},
+fromVertices:function(t,e,i,s,n,r,a){"string"==typeof i&&(i=$y.fromPath(i));var o=Xx.fromVertices(t,e,i,s,n,r,a);return this.world.add(o),o},
 /**
      * Creates a body using data exported from the application PhysicsEditor (https://www.codeandweb.com/physicseditor)
      *
@@ -70162,7 +70162,7 @@ fromPhysicsEditor:function(t,e,i,s,n){void 0===n&&(n=!0);var r=zx.parseBody(t,e,
      *
      * @return {MatterJS.BodyType} A Matter JS Body.
      */
-fromSVG:function(t,e,i,s,n,r){void 0===s&&(s=1),void 0===n&&(n={}),void 0===r&&(r=!0);for(var a=i.getElementsByTagName("path"),o=[],h=0;h<a.length;h++){var l=$x.pathToVertices(a[h],30);1!==s&&$y.scale(l,s,s),o.push(l)}var u=Ux.fromVertices(t,e,o,n);return r&&this.world.add(u),u},
+fromSVG:function(t,e,i,s,n,r){void 0===s&&(s=1),void 0===n&&(n={}),void 0===r&&(r=!0);for(var a=i.getElementsByTagName("path"),o=[],h=0;h<a.length;h++){var l=$x.pathToVertices(a[h],30);1!==s&&$y.scale(l,s,s),o.push(l)}var u=Xx.fromVertices(t,e,o,n);return r&&this.world.add(u),u},
 /**
      * Creates a body using the supplied physics data, as provided by a JSON file.
      *
@@ -71026,7 +71026,7 @@ if(t!==n&&rx.overlaps(n.bounds,t.bounds))for(var r=1===n.parts.length?0:1;r<n.pa
      * @param {number} [rayWidth]
      * @return {object[]} Collisions
      */
-bT.ray=function(t,e,i,s){s=s||1e-100;for(var n=Ky.angle(e,i),r=Ky.magnitude(Ky.sub(e,i)),a=.5*(i.x+e.x),o=.5*(i.y+e.y),h=Ux.rectangle(a,o,r,s,{angle:n}),l=bT.collides(h,t),u=0;u<l.length;u+=1){var c=l[u];c.body=c.bodyB=c.bodyA}return l},
+bT.ray=function(t,e,i,s){s=s||1e-100;for(var n=Ky.angle(e,i),r=Ky.magnitude(Ky.sub(e,i)),a=.5*(i.x+e.x),o=.5*(i.y+e.y),h=Xx.rectangle(a,o,r,s,{angle:n}),l=bT.collides(h,t),u=0;u<l.length;u+=1){var c=l[u];c.body=c.bodyB=c.bodyA}return l},
 /**
      * Returns all bodies whose bounds are inside (or outside if set) the given set of bounds, from the given set of bodies.
      * @method region
@@ -71298,7 +71298,7 @@ MT._bodiesUpdate=function(t,e,i,s,n){for(var r=0;r<t.length;r++){var a=t[r];a.is
 /**
  * @namespace Phaser.Physics.Matter.Matter
  */
-gT.Body=lx,gT.Composite=jx,gT.World=mT,gT.Detector=lT,gT.Grid=xT,gT.Pairs=wT,gT.Pair=oT,gT.Query=ET,gT.Resolver=_T,gT.SAT=rT,gT.Constraint=Kx,gT.Common=Jy,gT.Engine=RT,gT.Events=ex,gT.Sleeping=sx,gT.Plugin=fT,gT.Bodies=Ux,gT.Composites=Jx,gT.Axes=ox,gT.Bounds=rx,gT.Svg=$x,gT.Vector=Ky,gT.Vertices=$y,
+gT.Body=lx,gT.Composite=jx,gT.World=mT,gT.Detector=lT,gT.Grid=xT,gT.Pairs=wT,gT.Pair=oT,gT.Query=ET,gT.Resolver=_T,gT.SAT=rT,gT.Constraint=Kx,gT.Common=Jy,gT.Engine=RT,gT.Events=ex,gT.Sleeping=sx,gT.Plugin=fT,gT.Bodies=Xx,gT.Composites=Jx,gT.Axes=ox,gT.Bounds=rx,gT.Svg=$x,gT.Vector=Ky,gT.Vertices=$y,
 // aliases
 gT.World.add=gT.Composite.add,gT.World.remove=gT.Composite.remove,gT.World.addComposite=gT.Composite.addComposite,gT.World.addBody=gT.Composite.addBody,gT.World.addConstraint=gT.Composite.addConstraint,gT.World.clear=gT.Composite.clear;var PT=gT,OT={name:"matter-attractors",version:"0.1.7",for:"matter-js@^0.14.2",silent:!0,
 // installs the plugin where `base` is `Matter`
@@ -71704,7 +71704,7 @@ setGravity:function(t,e,i){return void 0===t&&(t=0),void 0===e&&(e=1),this.local
      *
      * @return {MatterJS.BodyType} The Matter.js body that was created.
      */
-create:function(t,e,i,s,n){var r=Ux.rectangle(t,e,i,s,n);return mT.add(this.localWorld,r),r},
+create:function(t,e,i,s,n){var r=Xx.rectangle(t,e,i,s,n);return mT.add(this.localWorld,r),r},
 /**
      * Adds a Matter JS object, or array of objects, to the world.
      * 
@@ -72373,7 +72373,7 @@ this.constraint=Kx,
          * @type {MatterJS.BodiesFactory}
          * @since 3.18.0
          */
-this.bodies=Ux,
+this.bodies=Xx,
 /**
          * A reference to the `Matter.Composites` module.
          * 
@@ -72984,7 +72984,7 @@ destroy:function(){this.shutdown(),this.scene.sys.events.off(rs.START,this.start
  * An attractors plugin for matter.js.
  * See the readme for usage and examples.
  * @module MatterAttractors
- */ss.register("MatterPhysics",NT,"matterPhysics");var YT={Arcade:Wy,Matter:{BodyBounds:Vy,Components:Vx,Events:Wx,Factory:cT,MatterGameObject:tT,Image:eT,Matter:PT,MatterPhysics:NT,PolyDecomp:gx,Sprite:iT,TileBody:sT,PhysicsEditorParser:zx,PhysicsJSONParser:Gx,PointerConstraint:uT,World:BT}},XT=new at({initialize:function(t){
+ */ss.register("MatterPhysics",NT,"matterPhysics");var YT={Arcade:Wy,Matter:{BodyBounds:Vy,Components:Vx,Events:Wx,Factory:cT,MatterGameObject:tT,Image:eT,Matter:PT,MatterPhysics:NT,PolyDecomp:gx,Sprite:iT,TileBody:sT,PhysicsEditorParser:zx,PhysicsJSONParser:Gx,PointerConstraint:uT,World:BT}},UT=new at({initialize:function(t){
 /**
          * A handy reference to the Plugin Manager that is responsible for this plugin.
          * Can be used as a route to gain access to game systems and  events.
@@ -73059,7 +73059,7 @@ stop:function(){},
      * @method Phaser.Plugins.BasePlugin#destroy
      * @since 3.8.0
      */
-destroy:function(){this.pluginManager=null,this.game=null,this.scene=null,this.systems=null}}),UT=new at({Extends:XT,initialize:function(t,e){XT.call(this,e),
+destroy:function(){this.pluginManager=null,this.game=null,this.scene=null,this.systems=null}}),XT=new at({Extends:UT,initialize:function(t,e){UT.call(this,e),
 /**
          * A reference to the Scene that has installed this plugin.
          * Only set if it's a Scene Plugin, otherwise `null`.
@@ -73128,7 +73128,7 @@ boot:function(){},
      * @method Phaser.Plugins.ScenePlugin#destroy
      * @since 3.8.0
      */
-destroy:function(){this.pluginManager=null,this.game=null,this.scene=null,this.systems=null}}),zT={BasePlugin:XT,DefaultPlugins:or,PluginCache:ss,PluginManager:Zo,ScenePlugin:UT},GT={CanvasRenderer:fr,GetBlendModes:cr,SetTransform:Al},WT={Canvas:ur,WebGL:Sa},VT=["#define SHADER_NAME PHASER_POSTFX_FS","","precision mediump float;","","uniform sampler2D uMainSampler;","","varying vec2 outTexCoord;","","void main ()","{","    gl_FragColor = texture2D(uMainSampler, outTexCoord);","}",""].join("\n"),HT=new at({Extends:Er,initialize:function(t){t.renderTarget=$(t,"renderTarget",1),t.fragShader=$(t,"fragShader",VT),t.vertShader=$(t,"vertShader",wa),t.attributes=$(t,"attributes",[{name:"inPosition",size:2},{name:"inTexCoord",size:2}]),t.batchSize=1,t.vertices=[-1,-1,0,0,-1,1,0,1,1,1,1,1,-1,-1,0,0,1,1,1,1,1,-1,1,0],Er.call(this,t),this.isPostFX=!0,
+destroy:function(){this.pluginManager=null,this.game=null,this.scene=null,this.systems=null}}),zT={BasePlugin:UT,DefaultPlugins:or,PluginCache:ss,PluginManager:Zo,ScenePlugin:XT},GT={CanvasRenderer:fr,GetBlendModes:cr,SetTransform:Al},WT={Canvas:ur,WebGL:Sa},VT=["#define SHADER_NAME PHASER_POSTFX_FS","","precision mediump float;","","uniform sampler2D uMainSampler;","","varying vec2 outTexCoord;","","void main ()","{","    gl_FragColor = texture2D(uMainSampler, outTexCoord);","}",""].join("\n"),HT=new at({Extends:Er,initialize:function(t){t.renderTarget=$(t,"renderTarget",1),t.fragShader=$(t,"fragShader",VT),t.vertShader=$(t,"vertShader",wa),t.attributes=$(t,"attributes",[{name:"inPosition",size:2},{name:"inTexCoord",size:2}]),t.batchSize=1,t.vertices=[-1,-1,0,0,-1,1,0,1,1,1,1,1,-1,-1,0,0,1,1,1,1,1,-1,1,0],Er.call(this,t),this.isPostFX=!0,
 /**
          * If this post-pipeline belongs to a Game Object or Camera, this contains a reference to it.
          *
@@ -74100,7 +74100,7 @@ var n=tt;t instanceof gg.Circle?n=$d.CircleToRectangle:t instanceof gg.Rectangle
 // Top left corner of the shapes's bounding box, rounded down to include partial tiles
 s.tilemapLayer.worldToTileXY(t.left,t.top,!0,Bw,i);var r=Bw.x,a=Bw.y;
 // Bottom right corner of the shapes's bounding box, rounded up to include partial tiles
-s.tilemapLayer.worldToTileXY(t.right,t.bottom,!0,Nw,i);var o=Math.ceil(Nw.x),h=Math.ceil(Nw.y),l=Math.max(o-r,1),u=Math.max(h-a,1),c=wm(r,a,l,u,e,s),d=s.tileWidth,f=s.tileHeight;s.tilemapLayer&&(d*=s.tilemapLayer.scaleX,f*=s.tilemapLayer.scaleY);for(var p=[],g=new gg.Rectangle(0,0,d,f),v=0;v<c.length;v++){var m=c[v];s.tilemapLayer.tileToWorldXY(m.x,m.y,Iw,i),g.x=Iw.x,g.y=Iw.y,n(t,g)&&p.push(m)}return p},Xw=function(t,e,i){var s=i.baseTileWidth,n=i.tilemapLayer,r=0;return n&&(e||(e=n.scene.cameras.main),r=n.x+e.scrollX*(1-n.scrollFactorX),s*=n.scaleX),r+t*s},Uw=function(t){return t===rw.ORTHOGONAL?Xw:tt},zw=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=n.hexSideLength,c=h+t*r+e%2*(r/2),d=l+e*((a-u)/2+u);return i.set(c,d)},Gw=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=h+r/2*(t-e),c=l+(t+e)*(a/2);return i.set(u,c)},Ww=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=h+t*r+e%2*(r/2),c=l+e*(a/2);return i.set(u,c)},Vw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;return n&&(e||(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY),r+t*s},Hw=function(t,e,i,s,n){return i||(i=new It(0,0)),i.x=Xw(t,s,n),i.y=Vw(e,s,n),i},jw=function(t){return t===rw.ORTHOGONAL?Hw:t===rw.ISOMETRIC?Gw:t===rw.HEXAGONAL?zw:t===rw.STAGGERED?Ww:tt},qw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;n&&(void 0===e&&(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY);var a=n.tilemap.hexSideLength;return r+t*((s-a)/2+a)},Kw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;return n&&(void 0===e&&(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY),r+t*(s/2)},Zw=function(t){return t===rw.ORTHOGONAL?Vw:t===rw.HEXAGONAL?qw:t===rw.STAGGERED?Kw:tt},Jw=function(t,e,i,s){void 0===e&&(e=!0);var n=s.baseTileWidth,r=s.tilemapLayer;return r&&(i||(i=r.scene.cameras.main),
+s.tilemapLayer.worldToTileXY(t.right,t.bottom,!0,Nw,i);var o=Math.ceil(Nw.x),h=Math.ceil(Nw.y),l=Math.max(o-r,1),u=Math.max(h-a,1),c=wm(r,a,l,u,e,s),d=s.tileWidth,f=s.tileHeight;s.tilemapLayer&&(d*=s.tilemapLayer.scaleX,f*=s.tilemapLayer.scaleY);for(var p=[],g=new gg.Rectangle(0,0,d,f),v=0;v<c.length;v++){var m=c[v];s.tilemapLayer.tileToWorldXY(m.x,m.y,Iw,i),g.x=Iw.x,g.y=Iw.y,n(t,g)&&p.push(m)}return p},Uw=function(t,e,i){var s=i.baseTileWidth,n=i.tilemapLayer,r=0;return n&&(e||(e=n.scene.cameras.main),r=n.x+e.scrollX*(1-n.scrollFactorX),s*=n.scaleX),r+t*s},Xw=function(t){return t===rw.ORTHOGONAL?Uw:tt},zw=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=n.hexSideLength,c=h+t*r+e%2*(r/2),d=l+e*((a-u)/2+u);return i.set(c,d)},Gw=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=h+r/2*(t-e),c=l+(t+e)*(a/2);return i.set(u,c)},Ww=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=h+t*r+e%2*(r/2),c=l+e*(a/2);return i.set(u,c)},Vw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;return n&&(e||(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY),r+t*s},Hw=function(t,e,i,s,n){return i||(i=new It(0,0)),i.x=Uw(t,s,n),i.y=Vw(e,s,n),i},jw=function(t){return t===rw.ORTHOGONAL?Hw:t===rw.ISOMETRIC?Gw:t===rw.HEXAGONAL?zw:t===rw.STAGGERED?Ww:tt},qw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;n&&(void 0===e&&(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY);var a=n.tilemap.hexSideLength;return r+t*((s-a)/2+a)},Kw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;return n&&(void 0===e&&(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY),r+t*(s/2)},Zw=function(t){return t===rw.ORTHOGONAL?Vw:t===rw.HEXAGONAL?qw:t===rw.STAGGERED?Kw:tt},Jw=function(t,e,i,s){void 0===e&&(e=!0);var n=s.baseTileWidth,r=s.tilemapLayer;return r&&(i||(i=r.scene.cameras.main),
 // Find the world position relative to the static or dynamic layer's top left origin,
 // factoring in the camera's horizontal scroll
 t-=r.x+i.scrollX*(1-r.scrollFactorX),n*=r.scaleX),e?Math.floor(t/n):t/n},Qw=function(t){return t===rw.ORTHOGONAL?Jw:tt},$w=function(t,e,i,s,n,r){s||(s=new It);var a=r.baseTileWidth,o=r.baseTileHeight,h=r.tilemapLayer;h&&(n||(n=h.scene.cameras.main),
@@ -74699,7 +74699,7 @@ if(r)for(var o=0;o<n.height;o++)for(var h=0;h<n.width;h++){var l=n.data[o][h];l&
 for(var n=0;n<s.height;n++)for(var r=0;r<s.width;r++){var a=s.data[n][r];a&&-1===t.indexOf(a.index)&&(ww(a,e),Sb(a.index,e,s))}i&&cw(0,0,s.width,s.height,s)},Mb=function(t,e,i,s){void 0===e&&(e=!0),void 0===i&&(i=!0);for(var n=0;n<s.height;n++)for(var r=0;r<s.width;r++){var a=s.data[n][r];if(a)for(var o in t)if(Su(a.properties,o)){var h=t[o];Array.isArray(h)||(h=[h]);for(var l=0;l<h.length;l++)a.properties[o]===h[l]&&ww(a,e)}}i&&cw(0,0,s.width,s.height,s)},Rb=function(t,e,i){void 0===t&&(t=!0),void 0===e&&(e=!0);for(var s=0;s<i.height;s++)for(var n=0;n<i.width;n++){var r=i.data[s][n];if(r){var a=r.getCollisionGroup();
 // It's possible in Tiled to have a collision group without any shapes, e.g. create a
 // shape and then delete the shape.
-a&&a.objects&&a.objects.length>0&&ww(r,t)}}e&&cw(0,0,i.width,i.height,i)},Pb=function(t,e,i,s,n,r,a){for(var o=wm(t,e,i,s,null,a),h=0;h<o.length;h++)o[h].setCollisionCallback(n,r)},Ob=function(t,e,i,s,n){var r=wm(t,e,i,s,null,n),a=r.map((function(t){return t.index}));ti(a);for(var o=0;o<r.length;o++)r[o].index=a[o]},Lb=function(t,e,i,s,n,r,a){for(var o=wm(i,s,n,r,null,a),h=0;h<o.length;h++)o[h]&&(o[h].index===t?o[h].index=e:o[h].index===e&&(o[h].index=t))},Fb=function(t,e,i,s,n,r){if(n){var a,o=wm(t,e,i,s,null,r),h=0;for(a=0;a<n.length;a++)h+=n[a].weight;if(!(h<=0))for(a=0;a<o.length;a++){for(var l=Math.random()*h,u=0,c=-1,d=0;d<n.length;d++)if(l<=(u+=n[d].weight)){var f=n[d].index;c=Array.isArray(f)?f[Math.floor(Math.random()*f.length)]:f;break}o[a].index=c}}},kb={CalculateFacesAt:uw,CalculateFacesWithin:cw,CheckIsoBounds:fw,Copy:pw,CreateFromTiles:vw,CullBounds:yw,CullTiles:Tw,Fill:bw,FilterTiles:Ew,FindByIndex:Sw,FindTile:_w,ForEachTile:Aw,GetCullTilesFunction:Lw,GetTileAt:lw,GetTileAtWorldXY:kw,GetTilesWithin:wm,GetTilesWithinShape:Yw,GetTilesWithinWorldXY:Sm,GetTileToWorldXFunction:Uw,GetTileToWorldXYFunction:jw,GetTileToWorldYFunction:Zw,GetWorldToTileXFunction:Qw,GetWorldToTileXYFunction:nb,GetWorldToTileYFunction:ob,HasTileAt:hb,HasTileAtWorldXY:ub,HexagonalCullBounds:Cw,HexagonalCullTiles:Mw,HexagonalTileToWorldXY:zw,HexagonalTileToWorldY:qw,HexagonalWorldToTileXY:$w,HexagonalWorldToTileY:rb,IsInLayerBounds:hw,IsometricCullTiles:Rw,IsometricTileToWorldXY:Gw,IsometricWorldToTileXY:tb,PutTileAt:db,PutTileAtWorldXY:pb,PutTilesAt:gb,Randomize:vb,RemoveTileAt:mb,RemoveTileAtWorldXY:xb,RenderDebug:Eb,ReplaceByIndex:gw,RunCull:xw,SetCollision:_b,SetCollisionBetween:Ab,SetCollisionByExclusion:Cb,SetCollisionByProperty:Mb,SetCollisionFromCollisionGroup:Rb,SetLayerCollisionIndex:Sb,SetTileCollision:ww,SetTileIndexCallback:function(t,e,i,s){if("number"==typeof t)s.callbacks[t]=null!==e?{callback:e,callbackContext:i}:void 0;else for(var n=0,r=t.length;n<r;n++)s.callbacks[t[n]]=null!==e?{callback:e,callbackContext:i}:void 0},SetTileLocationCallback:Pb,Shuffle:Ob,StaggeredCullBounds:Pw,StaggeredCullTiles:Ow,StaggeredTileToWorldXY:Ww,StaggeredTileToWorldY:Kw,StaggeredWorldToTileXY:eb,StaggeredWorldToTileY:ab,SwapByIndex:Lb,TileToWorldX:Xw,TileToWorldXY:Hw,TileToWorldY:Vw,WeightedRandomize:Fb,WorldToTileX:Jw,WorldToTileXY:sb,WorldToTileY:ib},Db=function(t){return"isometric"===(t=t.toLowerCase())?rw.ISOMETRIC:"staggered"===t?rw.STAGGERED:"hexagonal"===t?rw.HEXAGONAL:rw.ORTHOGONAL},Ib=new at({initialize:function(t){void 0===t&&(t={})
+a&&a.objects&&a.objects.length>0&&ww(r,t)}}e&&cw(0,0,i.width,i.height,i)},Pb=function(t,e,i,s,n,r,a){for(var o=wm(t,e,i,s,null,a),h=0;h<o.length;h++)o[h].setCollisionCallback(n,r)},Ob=function(t,e,i,s,n){var r=wm(t,e,i,s,null,n),a=r.map((function(t){return t.index}));ti(a);for(var o=0;o<r.length;o++)r[o].index=a[o]},Lb=function(t,e,i,s,n,r,a){for(var o=wm(i,s,n,r,null,a),h=0;h<o.length;h++)o[h]&&(o[h].index===t?o[h].index=e:o[h].index===e&&(o[h].index=t))},Fb=function(t,e,i,s,n,r){if(n){var a,o=wm(t,e,i,s,null,r),h=0;for(a=0;a<n.length;a++)h+=n[a].weight;if(!(h<=0))for(a=0;a<o.length;a++){for(var l=Math.random()*h,u=0,c=-1,d=0;d<n.length;d++)if(l<=(u+=n[d].weight)){var f=n[d].index;c=Array.isArray(f)?f[Math.floor(Math.random()*f.length)]:f;break}o[a].index=c}}},kb={CalculateFacesAt:uw,CalculateFacesWithin:cw,CheckIsoBounds:fw,Copy:pw,CreateFromTiles:vw,CullBounds:yw,CullTiles:Tw,Fill:bw,FilterTiles:Ew,FindByIndex:Sw,FindTile:_w,ForEachTile:Aw,GetCullTilesFunction:Lw,GetTileAt:lw,GetTileAtWorldXY:kw,GetTilesWithin:wm,GetTilesWithinShape:Yw,GetTilesWithinWorldXY:Sm,GetTileToWorldXFunction:Xw,GetTileToWorldXYFunction:jw,GetTileToWorldYFunction:Zw,GetWorldToTileXFunction:Qw,GetWorldToTileXYFunction:nb,GetWorldToTileYFunction:ob,HasTileAt:hb,HasTileAtWorldXY:ub,HexagonalCullBounds:Cw,HexagonalCullTiles:Mw,HexagonalTileToWorldXY:zw,HexagonalTileToWorldY:qw,HexagonalWorldToTileXY:$w,HexagonalWorldToTileY:rb,IsInLayerBounds:hw,IsometricCullTiles:Rw,IsometricTileToWorldXY:Gw,IsometricWorldToTileXY:tb,PutTileAt:db,PutTileAtWorldXY:pb,PutTilesAt:gb,Randomize:vb,RemoveTileAt:mb,RemoveTileAtWorldXY:xb,RenderDebug:Eb,ReplaceByIndex:gw,RunCull:xw,SetCollision:_b,SetCollisionBetween:Ab,SetCollisionByExclusion:Cb,SetCollisionByProperty:Mb,SetCollisionFromCollisionGroup:Rb,SetLayerCollisionIndex:Sb,SetTileCollision:ww,SetTileIndexCallback:function(t,e,i,s){if("number"==typeof t)s.callbacks[t]=null!==e?{callback:e,callbackContext:i}:void 0;else for(var n=0,r=t.length;n<r;n++)s.callbacks[t[n]]=null!==e?{callback:e,callbackContext:i}:void 0},SetTileLocationCallback:Pb,Shuffle:Ob,StaggeredCullBounds:Pw,StaggeredCullTiles:Ow,StaggeredTileToWorldXY:Ww,StaggeredTileToWorldY:Kw,StaggeredWorldToTileXY:eb,StaggeredWorldToTileY:ab,SwapByIndex:Lb,TileToWorldX:Uw,TileToWorldXY:Hw,TileToWorldY:Vw,WeightedRandomize:Fb,WorldToTileX:Jw,WorldToTileXY:sb,WorldToTileY:ib},Db=function(t){return"isometric"===(t=t.toLowerCase())?rw.ISOMETRIC:"staggered"===t?rw.STAGGERED:"hexagonal"===t?rw.HEXAGONAL:rw.ORTHOGONAL},Ib=new at({initialize:function(t){void 0===t&&(t={})
 /**
          * The name of the layer, if specified in Tiled.
          *
@@ -75048,7 +75048,7 @@ this.tiles=$(t,"tiles",[]),
          * @type {number}
          * @since 3.50.0
          */
-this.hexSideLength=$(t,"hexSideLength",0)}}),Nb=function(t,e,i,s,n){for(var r=new Ib({tileWidth:i,tileHeight:s}),a=new Bb({name:t,tileWidth:i,tileHeight:s,format:jv.ARRAY_2D,layers:[r]}),o=[],h=e.length,l=0,u=0;u<e.length;u++){o[u]=[];for(var c=e[u],d=0;d<c.length;d++){var f=parseInt(c[d],10);isNaN(f)||-1===f?o[u][d]=n?null:new cb(r,-1,d,u,i,s):o[u][d]=new cb(r,f,d,u,i,s)}0===l&&(l=c.length)}return a.width=r.width=l,a.height=r.height=h,a.widthInPixels=r.widthInPixels=l*i,a.heightInPixels=r.heightInPixels=h*s,r.data=o,a},Yb=function(t,e,i,s,n){var r=e.trim().split("\n").map((function(t){return t.split(",")})),a=Nb(t,r,i,s,n);return a.format=jv.CSV,a},Xb=function(t){
+this.hexSideLength=$(t,"hexSideLength",0)}}),Nb=function(t,e,i,s,n){for(var r=new Ib({tileWidth:i,tileHeight:s}),a=new Bb({name:t,tileWidth:i,tileHeight:s,format:jv.ARRAY_2D,layers:[r]}),o=[],h=e.length,l=0,u=0;u<e.length;u++){o[u]=[];for(var c=e[u],d=0;d<c.length;d++){var f=parseInt(c[d],10);isNaN(f)||-1===f?o[u][d]=n?null:new cb(r,-1,d,u,i,s):o[u][d]=new cb(r,f,d,u,i,s)}0===l&&(l=c.length)}return a.width=r.width=l,a.height=r.height=h,a.widthInPixels=r.widthInPixels=l*i,a.heightInPixels=r.heightInPixels=h*s,r.data=o,a},Yb=function(t,e,i,s,n){var r=e.trim().split("\n").map((function(t){return t.split(",")})),a=Nb(t,r,i,s,n);return a.format=jv.CSV,a},Ub=function(t){
 // go through each of the map data layers
 for(var e,i,s,n,r,a=0;a<t.layers.length;a++){e=t.layers[a],n=null;
 // rows of tiles
@@ -75060,7 +75060,7 @@ s=t.tiles[i.index][2],n=t.tilesets[s],
 // Ensure that a tile's size matches its tileset
 i.width=n.tileWidth,i.height=n.tileHeight,
 // if that tile type has any properties, add them to the tile object
-n.tileProperties&&n.tileProperties[i.index-n.firstgid]&&(i.properties=o(i.properties,n.tileProperties[i.index-n.firstgid])))}}},Ub=new at({initialize:function(t,e,i,s,n,r,a,o){(void 0===i||i<=0)&&(i=32),(void 0===s||s<=0)&&(s=32),void 0===n&&(n=0),void 0===r&&(r=0),void 0===a&&(a={}),void 0===o&&(o={})
+n.tileProperties&&n.tileProperties[i.index-n.firstgid]&&(i.properties=o(i.properties,n.tileProperties[i.index-n.firstgid])))}}},Xb=new at({initialize:function(t,e,i,s,n,r,a,o){(void 0===i||i<=0)&&(i=32),(void 0===s||s<=0)&&(s=32),void 0===n&&(n=0),void 0===r&&(r=0),void 0===a&&(a={}),void 0===o&&(o={})
 /**
          * The name of the Tileset.
          *
@@ -75297,7 +75297,7 @@ updateTileData:function(t,e){var i=(e-2*this.tileMargin+this.tileSpacing)/(this.
 // - hence the floor when calculating the rows/columns.
 i=Math.floor(i),s=Math.floor(s),this.rows=i,this.columns=s,
 // In Tiled, "empty" spaces in a tileset count as tiles and hence count towards the gid
-this.total=i*s,this.texCoordinates.length=0;for(var n=this.tileMargin,r=this.tileMargin,a=0;a<this.rows;a++){for(var o=0;o<this.columns;o++)this.texCoordinates.push({x:n,y:r}),n+=this.tileWidth+this.tileSpacing;n=this.tileMargin,r+=this.tileHeight+this.tileSpacing}return this}}),zb=function(t){var e,i,s=[];for(e=0;e<t.imageCollections.length;e++)for(var n=t.imageCollections[e],r=n.images,a=0;a<r.length;a++){var o=r[a];(i=new Ub(o.image,o.gid,n.imageWidth,n.imageHeight,0,0)).updateTileData(n.imageWidth,n.imageHeight),t.tilesets.push(i)}for(e=0;e<t.tilesets.length;e++)for(var h=(i=t.tilesets[e]).tileMargin,l=i.tileMargin,u=0,c=0,d=0,f=i.firstgid;f<i.firstgid+i.total&&(
+this.total=i*s,this.texCoordinates.length=0;for(var n=this.tileMargin,r=this.tileMargin,a=0;a<this.rows;a++){for(var o=0;o<this.columns;o++)this.texCoordinates.push({x:n,y:r}),n+=this.tileWidth+this.tileSpacing;n=this.tileMargin,r+=this.tileHeight+this.tileSpacing}return this}}),zb=function(t){var e,i,s=[];for(e=0;e<t.imageCollections.length;e++)for(var n=t.imageCollections[e],r=n.images,a=0;a<r.length;a++){var o=r[a];(i=new Xb(o.image,o.gid,n.imageWidth,n.imageHeight,0,0)).updateTileData(n.imageWidth,n.imageHeight),t.tilesets.push(i)}for(e=0;e<t.tilesets.length;e++)for(var h=(i=t.tilesets[e]).tileMargin,l=i.tileMargin,u=0,c=0,d=0,f=i.firstgid;f<i.firstgid+i.total&&(
 //  Can add extra properties here as needed
 s[f]=[h,l,e],h+=i.tileWidth+i.tileSpacing,++u!==i.total)&&(++c!==i.columns||(h=i.tileMargin,l+=i.tileHeight+i.tileSpacing,c=0,++d!==i.rows));f++);return s},Gb=function(t,e,i){if(!e)
 // Return a default group state object
@@ -75556,7 +75556,7 @@ containsImageIndex:function(t){return t>=this.firstgid&&t<this.firstgid+this.tot
      */
 addImage:function(t,e){return this.images.push({gid:t,image:e}),this.total++,this}}),nE=function(t){for(var e,i=[],s=[],n=null,r=0;r<t.tilesets.length;r++){
 //  name, firstgid, width, height, margin, spacing, properties
-var a=t.tilesets[r];if(a.source)console.warn("External tilesets unsupported. Use Embed Tileset and re-export");else if(a.image){var o=new Ub(a.name,a.firstgid,a.tilewidth,a.tileheight,a.margin,a.spacing);if(t.version>1){
+var a=t.tilesets[r];if(a.source)console.warn("External tilesets unsupported. Use Embed Tileset and re-export");else if(a.image){var o=new Xb(a.name,a.firstgid,a.tilewidth,a.tileheight,a.margin,a.spacing);if(t.version>1){
 // Tiled 1.2+
 if(Array.isArray(a.tiles)){for(var h={},l={},u=0;u<a.tiles.length;u++){var c=a.tiles[u];
 //  Convert tileproperties
@@ -75578,7 +75578,7 @@ o.updateTileData(a.imagewidth,a.imageheight),i.push(o)}else{var v=new sE(a.name,
 //  We've got a new Tileset, so set the lastgid into the previous one
 n&&(n.lastgid=a.firstgid-1),n=a}return{tilesets:i,imageCollections:s}},rE=function(t,e,i){
 //  Map data will consist of: layers, objects, images, tilesets, sizes
-var s=new Bb({width:e.width,height:e.height,name:t,tileWidth:e.tilewidth,tileHeight:e.tileheight,orientation:Db(e.orientation),format:jv.TILED_JSON,version:e.version,properties:e.properties,renderOrder:e.renderorder,infinite:e.infinite});s.orientation===rw.HEXAGONAL&&(s.hexSideLength=e.hexsidelength),s.layers=iE(e,i),s.images=Wb(e);var n=nE(e);return s.tilesets=n.tilesets,s.imageCollections=n.imageCollections,s.objects=tE(e),s.tiles=zb(s),Xb(s),s},aE=function(t,e){for(var i=[],s=0;s<t.layer.length;s++){
+var s=new Bb({width:e.width,height:e.height,name:t,tileWidth:e.tilewidth,tileHeight:e.tileheight,orientation:Db(e.orientation),format:jv.TILED_JSON,version:e.version,properties:e.properties,renderOrder:e.renderorder,infinite:e.infinite});s.orientation===rw.HEXAGONAL&&(s.hexSideLength=e.hexsidelength),s.layers=iE(e,i),s.images=Wb(e);var n=nE(e);return s.tilesets=n.tilesets,s.imageCollections=n.imageCollections,s.objects=tE(e),s.tiles=zb(s),Ub(s),s},aE=function(t,e){for(var i=[],s=0;s<t.layer.length;s++){
 //  Loop through the data field in the JSON. This is a 2D array containing the tile indexes,
 //  one after the other. The indexes are relative to the tileset that contains the tile.
 for(var n=t.layer[s],r=new Ib({name:n.name,width:n.width,height:n.height,tileWidth:n.tilesize,tileHeight:n.tilesize,visible:1===n.visible}),a=[],o=[],h=0;h<n.data.length;h++){for(var l=0;l<n.data[h].length;l++){
@@ -75589,7 +75589,7 @@ var u,c=n.data[h][l]-1;u=c>-1?new cb(r,c,l,h,n.tilesize,n.tilesize):e?null:new c
 ""!==r&&-1===i.indexOf(r)&&(i.push(r),
 // Tiles are stored with an ID relative to the tileset, rather than a globally unique ID
 // across all tilesets. Also, tilesets in Weltmeister have no margin or padding.
-e.push(new Ub(r,0,n.tilesize,n.tilesize,0,0)))}return e},hE=function(t,e,i){if(0===e.layer.length)return console.warn("No layers found in the Weltmeister map: "+t),null;for(var s=0,n=0,r=0;r<e.layer.length;r++)e.layer[r].width>s&&(s=e.layer[r].width),e.layer[r].height>n&&(n=e.layer[r].height);var a=new Bb({width:s,height:n,name:t,tileWidth:e.layer[0].tilesize,tileHeight:e.layer[0].tilesize,format:jv.WELTMEISTER});return a.layers=aE(e,i),a.tilesets=oE(e),a},lE=function(t,e,i,s,n,r){var a;switch(e){case jv.ARRAY_2D:a=Nb(t,i,s,n,r);break;case jv.CSV:a=Yb(t,i,s,n,r);break;case jv.TILED_JSON:a=rE(t,i,r);break;case jv.WELTMEISTER:a=hE(t,i,r);break;default:console.warn("Unrecognized tilemap data format: "+e),a=null}return a},uE={FromOrientationString:Db,Parse:lE,Parse2DArray:Nb,ParseCSV:Yb,Impact:{ParseTileLayers:aE,ParseTilesets:oE,ParseWeltmeister:hE},Tiled:{AssignTileProperties:Xb,Base64Decode:eE,BuildTilesetIndex:zb,CreateGroupLayer:Gb,ParseGID:Kb,ParseImageLayers:Wb,ParseJSONTiled:rE,ParseObject:Qb,ParseObjectLayers:tE,ParseTileLayers:iE,ParseTilesets:nE}},cE=function(t,e,i){var s=e.cull(i),n=s.length,r=i.alpha*e.alpha;if(!(0===n||r<=0)){var a=e.gidMap,o=t.pipelines.set(e.pipeline,e),h=wr.getTintAppendFloatAlpha,l=e.scrollFactorX,u=e.scrollFactorY,c=e.x,d=e.y,f=e.scaleX,p=e.scaleY;t.pipelines.preBatch(e);for(var g=0;g<n;g++){var v=s[g],m=a[v.index];if(m){var y=m.getTileTextureCoordinates(v.index);if(null!==y){var x=m.glTexture,T=o.setTexture2D(x,e),w=m.tileWidth,b=m.tileHeight,E=y.x,S=y.y,_=.5*m.tileWidth,A=.5*m.tileHeight,C=h(v.tint,r*v.alpha);o.batchTexture(e,x,x.width,x.height,c+(_+v.pixelX)*f,d+(A+v.pixelY)*p,v.width,v.height,f,p,v.rotation,v.flipX,v.flipY,l,u,_,A,E,S,w,b,C,C,C,C,!1,0,0,i,null,!0,T)}}}t.pipelines.postBatch(e)}},dE=new ue,fE=new ue,pE=new ue,gE={renderWebGL:cE,renderCanvas:function(t,e,i,s){var n=e.cull(i),r=n.length,a=i.alpha*e.alpha;if(!(0===r||a<=0)){var o=dE,h=fE,l=pE;h.applyITRS(e.x,e.y,e.rotation,e.scaleX,e.scaleY),o.copyFrom(i.matrix);var u=t.currentContext,c=e.gidMap;u.save(),s?(
+e.push(new Xb(r,0,n.tilesize,n.tilesize,0,0)))}return e},hE=function(t,e,i){if(0===e.layer.length)return console.warn("No layers found in the Weltmeister map: "+t),null;for(var s=0,n=0,r=0;r<e.layer.length;r++)e.layer[r].width>s&&(s=e.layer[r].width),e.layer[r].height>n&&(n=e.layer[r].height);var a=new Bb({width:s,height:n,name:t,tileWidth:e.layer[0].tilesize,tileHeight:e.layer[0].tilesize,format:jv.WELTMEISTER});return a.layers=aE(e,i),a.tilesets=oE(e),a},lE=function(t,e,i,s,n,r){var a;switch(e){case jv.ARRAY_2D:a=Nb(t,i,s,n,r);break;case jv.CSV:a=Yb(t,i,s,n,r);break;case jv.TILED_JSON:a=rE(t,i,r);break;case jv.WELTMEISTER:a=hE(t,i,r);break;default:console.warn("Unrecognized tilemap data format: "+e),a=null}return a},uE={FromOrientationString:Db,Parse:lE,Parse2DArray:Nb,ParseCSV:Yb,Impact:{ParseTileLayers:aE,ParseTilesets:oE,ParseWeltmeister:hE},Tiled:{AssignTileProperties:Ub,Base64Decode:eE,BuildTilesetIndex:zb,CreateGroupLayer:Gb,ParseGID:Kb,ParseImageLayers:Wb,ParseJSONTiled:rE,ParseObject:Qb,ParseObjectLayers:tE,ParseTileLayers:iE,ParseTilesets:nE}},cE=function(t,e,i){var s=e.cull(i),n=s.length,r=i.alpha*e.alpha;if(!(0===n||r<=0)){var a=e.gidMap,o=t.pipelines.set(e.pipeline,e),h=wr.getTintAppendFloatAlpha,l=e.scrollFactorX,u=e.scrollFactorY,c=e.x,d=e.y,f=e.scaleX,p=e.scaleY;t.pipelines.preBatch(e);for(var g=0;g<n;g++){var v=s[g],m=a[v.index];if(m){var y=m.getTileTextureCoordinates(v.index);if(null!==y){var x=m.glTexture,T=o.setTexture2D(x,e),w=m.tileWidth,b=m.tileHeight,E=y.x,S=y.y,_=.5*m.tileWidth,A=.5*m.tileHeight,C=h(v.tint,r*v.alpha);o.batchTexture(e,x,x.width,x.height,c+(_+v.pixelX)*f,d+(A+v.pixelY)*p,v.width,v.height,f,p,v.rotation,v.flipX,v.flipY,l,u,_,A,E,S,w,b,C,C,C,C,!1,0,0,i,null,!0,T)}}}t.pipelines.postBatch(e)}},dE=new ue,fE=new ue,pE=new ue,gE={renderWebGL:cE,renderCanvas:function(t,e,i,s){var n=e.cull(i),r=n.length,a=i.alpha*e.alpha;if(!(0===r||a<=0)){var o=dE,h=fE,l=pE;h.applyITRS(e.x,e.y,e.rotation,e.scaleX,e.scaleY),o.copyFrom(i.matrix);var u=t.currentContext,c=e.gidMap;u.save(),s?(
 //  Multiply the camera by the parent matrix
 o.multiplyWithOffset(s,-i.scrollX*e.scrollFactorX,-i.scrollY*e.scrollFactorY),
 //  Undo the camera scroll
@@ -76750,7 +76750,7 @@ setRenderOrder:function(t){var e=["right-down","left-down","right-up","left-up"]
      * @return {?Phaser.Tilemaps.Tileset} Returns the Tileset object that was created or updated, or null if it
      * failed.
      */
-addTilesetImage:function(t,e,i,s,n,r,a){if(void 0===t)return null;if(null==e&&(e=t),!this.scene.sys.textures.exists(e))return console.warn("Invalid Tileset Image: "+e),null;var o=this.scene.sys.textures.get(e),h=this.getTilesetIndex(t);if(null===h&&this.format===jv.TILED_JSON)return console.warn("No data found for Tileset: "+t),null;var l=this.tilesets[h];return l?(l.setTileSize(i,s),l.setSpacing(n,r),l.setImage(o),l):(void 0===i&&(i=this.tileWidth),void 0===s&&(s=this.tileHeight),void 0===n&&(n=0),void 0===r&&(r=0),void 0===a&&(a=0),(l=new Ub(t,a,i,s,n,r)).setImage(o),this.tilesets.push(l),l)},
+addTilesetImage:function(t,e,i,s,n,r,a){if(void 0===t)return null;if(null==e&&(e=t),!this.scene.sys.textures.exists(e))return console.warn("Invalid Tileset Image: "+e),null;var o=this.scene.sys.textures.get(e),h=this.getTilesetIndex(t);if(null===h&&this.format===jv.TILED_JSON)return console.warn("No data found for Tileset: "+t),null;var l=this.tilesets[h];return l?(l.setTileSize(i,s),l.setSpacing(n,r),l.setImage(o),l):(void 0===i&&(i=this.tileWidth),void 0===s&&(s=this.tileHeight),void 0===n&&(n=0),void 0===r&&(r=0),void 0===a&&(a=0),(l=new Xb(t,a,i,s,n,r)).setImage(o),this.tilesets.push(l),l)},
 /**
      * Copies the tiles in the source rectangular area to a new destination (all specified in tile
      * coordinates) within the layer. This copies all tile properties & recalculates collision
@@ -78028,7 +78028,7 @@ return null===t&&(t=void 0),null===e&&(e=void 0),null===i&&(i=void 0),null===s&&
 //  this.scene - a reference to the Scene that owns the GameObjectFactory
 //  this.displayList - a reference to the Display List the Scene owns
 //  this.updateList - a reference to the Update List the Scene owns
-var xE={Components:kb,Parsers:uE,Formats:jv,ImageCollection:sE,ParseToTilemap:yE,Tile:cb,Tilemap:mE,TilemapCreator:{},TilemapFactory:{},Tileset:Ub,TilemapLayer:vE,Orientation:rw,LayerData:Ib,MapData:Bb,ObjectLayer:$b},TE=xE=o(!1,xE,ow.ORIENTATION),wE=new at({initialize:function(t){
+var xE={Components:kb,Parsers:uE,Formats:jv,ImageCollection:sE,ParseToTilemap:yE,Tile:cb,Tilemap:mE,TilemapCreator:{},TilemapFactory:{},Tileset:Xb,TilemapLayer:vE,Orientation:rw,LayerData:Ib,MapData:Bb,ObjectLayer:$b},TE=xE=o(!1,xE,ow.ORIENTATION),wE=new at({initialize:function(t){
 /**
          * The delay in ms at which this TimerEvent fires.
          *
@@ -79363,11 +79363,11 @@ var y=Zt(e,"callbackScope",m),x=[m,null],T=BE.TYPES,w=0
 //  Callback parameters: 0 = a reference to the Tween itself, 1 = the target/s of the Tween, ... your own params
 ;w<T.length;w++){var b=T[w],E=Zt(e,b,!1);if(E){var S=Zt(e,b+"Scope",y),_=Zt(e,b+"Params",[]);
 //  The null is reset to be the Tween target
-m.setCallback(b,E,x.concat(_),S)}}return m},XE=function(t,e){void 0===e&&(e={});var i=Zt(e,"start",0),s=Zt(e,"ease",null),n=Zt(e,"grid",null),r=Zt(e,"from",0),a="first"===r,o="center"===r,h="last"===r,l="number"==typeof r,u=Array.isArray(t),c=u?parseFloat(t[0]):parseFloat(t),d=u?parseFloat(t[1]):0,f=Math.max(c,d);if(u&&(i+=c),n){
+m.setCallback(b,E,x.concat(_),S)}}return m},UE=function(t,e){void 0===e&&(e={});var i=Zt(e,"start",0),s=Zt(e,"ease",null),n=Zt(e,"grid",null),r=Zt(e,"from",0),a="first"===r,o="center"===r,h="last"===r,l="number"==typeof r,u=Array.isArray(t),c=u?parseFloat(t[0]):parseFloat(t),d=u?parseFloat(t[1]):0,f=Math.max(c,d);if(u&&(i+=c),n){
 //  Pre-calc the grid to save doing it for ever tweendata update
 var p=n[0],g=n[1],v=0,m=0,y=0,x=0,T=[];h?(v=p-1,m=g-1):l?(v=r%p,m=Math.floor(r/p)):o&&(v=(p-1)/2,m=(g-1)/2);for(var w=ft.MIN_SAFE_INTEGER,b=0;b<g;b++){T[b]=[];for(var E=0;E<p;E++){y=v-E,x=m-b;var S=Math.sqrt(y*y+x*x);S>w&&(w=S),T[b][E]=S}}}var _=s?mu(s):null;return n?function(t,e,s,n){var r,a=0,o=n%p,h=Math.floor(n/p);if(o>=0&&o<p&&h>=0&&h<g&&(a=T[h][o]),u){var l=d-c;r=_?a/w*l*_(a/w):a/w*l}else r=_?a*c*_(a/w):a*c;return r+i}:function(t,e,s,n,p){var g,v,m;(
 //  zero offset
-p--,a?g=n:o?g=Math.abs(p/2-n):h?g=p-n:l&&(g=Math.abs(r-n)),u)?(m=o?(d-c)/p*(2*g):(d-c)/p*g,v=_?m*_(g/p):m):v=_?p*f*_(g/p):g*c;return v+i}},UE=function(t,e,i){void 0===i&&(i=kE);
+p--,a?g=n:o?g=Math.abs(p/2-n):h?g=p-n:l&&(g=Math.abs(r-n)),u)?(m=o?(d-c)/p*(2*g):(d-c)/p*g,v=_?m*_(g/p):m):v=_?p*f*_(g/p):g*c;return v+i}},XE=function(t,e,i){void 0===i&&(i=kE);
 //  Create arrays of the Targets and the Properties
 //  Loop through every property defined in the Tween, i.e.: props { x, y, alpha }
 for(var s=i.targets?i.targets:CE(e),n=AE(e),r=SE(e,"delay",i.delay),a=SE(e,"duration",i.duration),o=Zt(e,"easeParams",i.easeParams),h=mu(Zt(e,"ease",i.ease),o),l=SE(e,"hold",i.hold),u=SE(e,"repeat",i.repeat),c=SE(e,"repeatDelay",i.repeatDelay),d=Kt(e,"yoyo",i.yoyo),f=Kt(e,"flipX",i.flipX),p=Kt(e,"flipY",i.flipY),g=[],v=0
@@ -79638,7 +79638,7 @@ isPlaying:function(){return this.state===Jt.ACTIVE},
      *
      * @return {this} This Timeline object.
      */
-add:function(t){return this.queue(UE(this,t))},
+add:function(t){return this.queue(XE(this,t))},
 /**
      * Adds an existing Tween to this Timeline.
      *
@@ -79902,7 +79902,7 @@ var T=ME(e);if(0===T.length)return i.paused=!0,i;var w=rh(kE);w.targets=CE(e);
 //  totalDuration: If specified each tween in the Timeline is given an equal portion of the totalDuration
 var b=yl(e,"totalDuration",0);w.duration=b>0?Math.floor(b/T.length):SE(e,"duration",w.duration),w.delay=SE(e,"delay",w.delay),w.easeParams=Zt(e,"easeParams",w.easeParams),w.ease=mu(Zt(e,"ease",w.ease),w.easeParams),w.hold=SE(e,"hold",w.hold),w.repeat=SE(e,"repeat",w.repeat),w.repeatDelay=SE(e,"repeatDelay",w.repeatDelay),w.yoyo=Kt(e,"yoyo",w.yoyo),w.flipX=Kt(e,"flipX",w.flipX),w.flipY=Kt(e,"flipY",w.flipY);
 //  Create the Tweens
-for(var E=0;E<T.length;E++)i.queue(UE(i,T[E],w));return i},VE={GetBoolean:Kt,GetEaseFunction:mu,GetNewValue:SE,GetProps:AE,GetTargets:CE,GetTweens:ME,GetValueOp:FE,NumberTweenBuilder:YE,StaggerBuilder:XE,TimelineBuilder:WE,TweenBuilder:UE},HE=new at({initialize:function(t){
+for(var E=0;E<T.length;E++)i.queue(XE(i,T[E],w));return i},VE={GetBoolean:Kt,GetEaseFunction:mu,GetNewValue:SE,GetProps:AE,GetTargets:CE,GetTweens:ME,GetValueOp:FE,NumberTweenBuilder:YE,StaggerBuilder:UE,TimelineBuilder:WE,TweenBuilder:XE},HE=new at({initialize:function(t){
 /**
          * The Scene which owns this Tween Manager.
          *
@@ -80027,7 +80027,7 @@ timeline:function(t){var e=WE(this,t);return e.paused||(this._add.push(e),this._
      *
      * @return {Phaser.Tweens.Tween} The created Tween object.
      */
-create:function(t){return UE(this,t)},
+create:function(t){return XE(this,t)},
 /**
      * Create a Tween and add it to the active Tween list.
      *
@@ -80038,7 +80038,7 @@ create:function(t){return UE(this,t)},
      *
      * @return {Phaser.Tweens.Tween} The created Tween.
      */
-add:function(t){var e=UE(this,t);return this._add.push(e),this._toProcess++,e},
+add:function(t){var e=XE(this,t);return this._add.push(e),this._toProcess++,e},
 /**
      * Add an existing tween into the active Tween list.
      *
@@ -80102,7 +80102,7 @@ addCounter:function(t){var e=YE(this,t);return this._add.push(e),this._toProcess
      *
      * @return {function} The stagger function.
      */
-stagger:function(t,e){return XE(t,e)},
+stagger:function(t,e){return UE(t,e)},
 /**
      * Updates the Tween Manager's internal lists at the start of the frame.
      *
@@ -80313,7 +80313,7 @@ destroy:function(){this.shutdown(),this.scene.sys.events.off(rs.START,this.start
  * @namespace Phaser.Tweens
  */
 //   Merge in the consts
-jE=o(!1,jE,Jt);var qE="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",KE=function(t,e){var i=rh(t);for(var s in e)i.hasOwnProperty(s)&&(i[s]=e[s]);return i},ZE={SoundManagerCreator:Xh,Events:bh,BaseSound:Ch,BaseSoundManager:Ah,WebAudioSound:Nh,WebAudioSoundManager:Yh,HTML5AudioSound:Mh,HTML5AudioSoundManager:Rh,NoAudioSound:Lh,NoAudioSoundManager:Fh},JE={Actions:si,Animations:pi,BlendModes:i,Cache:yi,Cameras:os,Core:Oa,Class:at,Create:ka,Curves:Qa,Data:to,Display:wo,DOM:ko,Events:Io,Game:zh,GameObjects:td,Geom:gg,Input:Xg,Loader:am,Math:ar,Physics:YT,Plugins:zT,Renderer:KT,Scale:JT,ScaleModes:s,Scene:uh,Scenes:tw,Structs:ew,Textures:nw,Tilemaps:TE,Time:EE,Tweens:jE,Utils:{Array:rl,Base64:{ArrayBufferToBase64:function(t,e){for(var i=new Uint8Array(t),s=i.length,n=e?"data:"+e+";base64,":"",r=0;r<s;r+=3)n+=qE[i[r]>>2],n+=qE[(3&i[r])<<4|i[r+1]>>4],n+=qE[(15&i[r+1])<<2|i[r+2]>>6],n+=qE[63&i[r+2]];return s%3==2?n=n.substring(0,n.length-1)+"=":s%3==1&&(n=n.substring(0,n.length-2)+"=="),n},Base64ToArrayBuffer:Bh},Objects:{Clone:rh,DeepCopy:te,Extend:o,GetAdvancedValue:yl,GetFastValue:$,GetMinMaxValue:function(t,e,i,s,n){void 0===n&&(n=i);var r=Zt(t,e,n);return ct(r,i,s)},GetValue:Zt,HasAll:function(t,e){for(var i=0;i<e.length;i++)if(!t.hasOwnProperty(e[i]))return!1;return!0},HasAny:Eu,HasValue:Su,IsPlainObject:r,Merge:ah,MergeRight:KE,Pick:Vb,SetValue:Oc},String:{Format:function(t,e){return t.replace(/%([0-9]+)/g,(function(t,i){return e[Number(i)-1]}))},Pad:ui,RemoveAt:function(t,e){return 0===e?t.slice(1):t.slice(0,e-1)+t.slice(e)},Reverse:function(t){return t.split("").reverse().join("")},UppercaseFirst:ih,UUID:Uu},NOOP:tt}};
+jE=o(!1,jE,Jt);var qE="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",KE=function(t,e){var i=rh(t);for(var s in e)i.hasOwnProperty(s)&&(i[s]=e[s]);return i},ZE={SoundManagerCreator:Uh,Events:bh,BaseSound:Ch,BaseSoundManager:Ah,WebAudioSound:Nh,WebAudioSoundManager:Yh,HTML5AudioSound:Mh,HTML5AudioSoundManager:Rh,NoAudioSound:Lh,NoAudioSoundManager:Fh},JE={Actions:si,Animations:pi,BlendModes:i,Cache:yi,Cameras:os,Core:Oa,Class:at,Create:ka,Curves:Qa,Data:to,Display:wo,DOM:ko,Events:Io,Game:zh,GameObjects:td,Geom:gg,Input:Ug,Loader:am,Math:ar,Physics:YT,Plugins:zT,Renderer:KT,Scale:JT,ScaleModes:s,Scene:uh,Scenes:tw,Structs:ew,Textures:nw,Tilemaps:TE,Time:EE,Tweens:jE,Utils:{Array:rl,Base64:{ArrayBufferToBase64:function(t,e){for(var i=new Uint8Array(t),s=i.length,n=e?"data:"+e+";base64,":"",r=0;r<s;r+=3)n+=qE[i[r]>>2],n+=qE[(3&i[r])<<4|i[r+1]>>4],n+=qE[(15&i[r+1])<<2|i[r+2]>>6],n+=qE[63&i[r+2]];return s%3==2?n=n.substring(0,n.length-1)+"=":s%3==1&&(n=n.substring(0,n.length-2)+"=="),n},Base64ToArrayBuffer:Bh},Objects:{Clone:rh,DeepCopy:te,Extend:o,GetAdvancedValue:yl,GetFastValue:$,GetMinMaxValue:function(t,e,i,s,n){void 0===n&&(n=i);var r=Zt(t,e,n);return ct(r,i,s)},GetValue:Zt,HasAll:function(t,e){for(var i=0;i<e.length;i++)if(!t.hasOwnProperty(e[i]))return!1;return!0},HasAny:Eu,HasValue:Su,IsPlainObject:r,Merge:ah,MergeRight:KE,Pick:Vb,SetValue:Oc},String:{Format:function(t,e){return t.replace(/%([0-9]+)/g,(function(t,i){return e[Number(i)-1]}))},Pad:ui,RemoveAt:function(t,e){return 0===e?t.slice(1):t.slice(0,e-1)+t.slice(e)},Reverse:function(t){return t.split("").reverse().join("")},UppercaseFirst:ih,UUID:Xu},NOOP:tt}};
 /**
  * @author       Niklas von Hertzen (https://github.com/niklasvh/base64-arraybuffer)
  * @author       Richard Davey <rich@photonstorm.com>
@@ -80642,8 +80642,11 @@ t.prototype.reset=function(){this.currentState=this._startState},
 /**
          * Whether or not the current state equals the given state
          */
-t.prototype.is=function(t){return this.currentState===t},t.prototype._transitionTo=function(t,e){var i=this;this._exitCallbacks[this.currentState.toString()]||(this._exitCallbacks[this.currentState.toString()]=[]),this._enterCallbacks[t.toString()]||(this._enterCallbacks[t.toString()]=[]),this._onCallbacks[t.toString()]||(this._onCallbacks[t.toString()]=[]);var s=this._exitCallbacks[this.currentState.toString()].reduce((function(e,s){return e&&s.call(i,t)}),!0),n=this._enterCallbacks[t.toString()].reduce((function(t,s){return t&&s.call(i,i.currentState,e)}),!0);if(s&&n){var r=this.currentState;this.currentState=t,this._onCallbacks[this.currentState.toString()].forEach((function(t){t.call(i,r,e)})),this.onTransition(r,t)}},t}();t.FiniteStateMachine=s}(iS||(iS={}));var oS,hS,lS,uS,cS,dS,fS=iS;class pS{}pS.soundEffectConfig={mute:!1,volume:1,rate:1,detune:0,seek:0,loop:!1,delay:0};class gS{}gS.resourceCount=300;class vS{}vS.Neutral=0,vS.Player=1,vS.Enemy=2;class mS{}mS.Base="Base",mS.Factory="Factory",mS.Mine="Mine",mS.Scaffold="Scaffold",function(t){class e{}e.Selected="Select",e.Move="Move",e.Mine="Mine",t.EntityActions=e;class i{}var s;i.CreateEngineer="CreateEngineer",i.CreateGlider="CreateGlider",i.CreateBase="CreateBase",i.CreateFactory="CreateFactory",i.CreateBuilding="CreateBuilding",i.DestroyScaffold="DestroyScaffold",t.EntityBuild=i,(s=t.BuildingStates||(t.BuildingStates={})).Idle="Idle",s.Building="Building";class n{}n.BuildEngineer="BuildEngineer",n.BuildGlider="BuildGlider",n.RequestBuildEngineer="RequestBuildEngineer",n.RequestCancelEngineer="RequestCancelEngineer",n.RequestBuildGlider="RequestBuildGlider",n.RequestCancelGlider="RequestCancelGlider",n.RequestBuildBase="RequestBuildBase",n.RequestBuildScaffold="RequestBuildScaffold",n.RequestBuildFactory="RequestBuildFactory",n.Cancel="Create",t.Input=n;class r{}r.UpdateResourceCount="UpdateResourceCount",r.AddResources="AddResources",r.RemoveResources="RemoveResources",r.DestroyEntity="DestroyEntity",t.Game=r}(oS||(oS={}));class yS extends Phaser.Events.EventEmitter{constructor(t){super(),this.scene=t,this.EngineerMining=t.sound.add("Engineer_Mining",pS.soundEffectConfig),this.EngineerMoving1=t.sound.add("Engineer_Moving_1",pS.soundEffectConfig),this.EngineerMoving2=t.sound.add("Engineer_Moving_2",pS.soundEffectConfig),this.EngineerAttacking=t.sound.add("Engineer_Attacking",pS.soundEffectConfig),this.IdleEngineerSelected2=t.sound.add("Engineer_Idle_Selected_2",pS.soundEffectConfig),this.IdleEngineerSelected1=t.sound.add("Engineer_Idle_Selected_1",pS.soundEffectConfig)}static getInstance(t){return this.instance||(this.instance=new this(t)),this.instance}}class xS extends Phaser.Events.EventEmitter{constructor(){super()}static getInstance(){return this.instance||(this.instance=new this),this.instance}}class TS extends Phaser.GameObjects.Sprite{constructor(t,e,i,s,n,r,a,o,h){let l=Phaser.Tilemaps.Components.IsometricTileToWorldXY(n,r,new Phaser.Math.Vector2,s.cameras.main,t.getLayer("Tile Layer 1"));super(s,l.x,l.y,a,h),this.selectedRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y,this.width,this.height,16777215,0).setStrokeStyle(1,16777215),this.healthBackgroundRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y-(10+this.displayHeight/2),40,5,16777215,1),this.healthForegroundRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y-(10+this.displayHeight/2),38,3,413459,1),s.add.existing(this.selectedRectangle),s.add.existing(this.healthBackgroundRectangle),s.add.existing(this.healthForegroundRectangle),this.selectedRectangle.setVisible(!1),this.eventEmitter=xS.getInstance(),this.setDepth(n+r),this.subscribers=[],this.setInteractive(new Phaser.Geom.Circle(this.width/2,this.height/2,this.width/3),this.handler),this.on("pointerup",((t,e,i,s)=>{this.emitSelected(t,e,i,s)}),this),this.mapReference=t,s.add.existing(this),this.icon=e,this.health=100,this.status="Idle",this.name=i,this.selected=!1,this.team=o}GetTileLocation(){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)}subscribe(t){this.subscribers.push(t)}unsubscribe(t){const e=this.subscribers.indexOf(t);e>-1&&this.subscribers.splice(e,1)}handler(t,e,i,s){return t.radius>0&&e>=t.left&&e<=t.right&&i>=t.top&&i<=t.bottom&&(t.x-e)*(t.x-e)+(t.y-i)*(t.y-i)<=t.radius*t.radius}emitSelected(t,e,i,s){this.selected||(s.stopPropagation(),this.eventEmitter.emit(oS.EntityActions.Selected,this))}getIconString(){return this.icon}getHealth(){return this.health}getStatus(){return this.status}getName(){return this.name}damage(t){this.health-=t,this.health<=0?this.eventEmitter.emit(oS.Game.DestroyEntity,this):this.healthForegroundRectangle.displayWidth=this.health/100*38}updateRenderDepth(){var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-16,this.y-16,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer);this.selectedRectangle.setX(this.x),this.selectedRectangle.setY(this.y),this.selectedRectangle.setDepth(250),this.healthBackgroundRectangle.setX(this.x),this.healthBackgroundRectangle.setY(this.y-(10+this.displayHeight/2)),this.healthBackgroundRectangle.setDepth(250),this.healthForegroundRectangle.setX(this.x-19*(1-this.health/100)),this.healthForegroundRectangle.setY(this.y-(10+this.displayHeight/2)),this.healthForegroundRectangle.setDepth(250),this.setDepth(t.x+t.y)}update(t){this.updateRenderDepth()}destroy(){this.selectedRectangle.destroy(),this.healthBackgroundRectangle.destroy(),this.healthForegroundRectangle.destroy(),super.destroy()}updateSelected(t){this.selectedRectangle.setVisible(t),this.selected=t}}class wS extends TS{constructor(t,e,i,s,n,r,a,o,h){super(t,e,i,s,n,r,a,o,h),this.speed=100,this.path=[]}requestMove(t){}update(t){super.update(t)}}!function(t){t.Idle="Idle",t.Moving="Moving",t.Mining="Mining",t.Building="Building"}(hS||(hS={})),function(t){t.Initial="InitialMine",t.GoingToMine="GoingToMine",t.InMine="InMine",t.GoingToBase="GoingToBase",t.InBase="InBase"}(lS||(lS={})),function(t){t.Initial="InitialBuilding",t.GoingToBuilding="GoingToBuilding",t.Building="Building"}(uS||(uS={})),function(t){t.Default="",t.Mining="Mining",t.Action="Action"}(cS||(cS={}));class bS extends wS{constructor(t,e,i,s,n){super(t,"Portrait_Engineer","Engineer",e,i,s,"player-"+n,n),this.engineerFSM=this.createFSM(),this.miningFSM=this.createMiningFSM(),this.buildingFSM=this.createBuildingFSM(),this.pathFinder=rS.getInstance(),this.anims.play("engineer-"+n+"-SW",!0),this.currentAnimation=cS.Default}createBuildingFSM(){let t=new fS.FiniteStateMachine(uS.Initial);return t.from(uS.Initial).to(uS.GoingToBuilding),t.from(uS.GoingToBuilding).to(uS.Building),t.from(uS.Building).to(uS.Initial),t.on(uS.Building,(t=>{this.currentAnimation=cS.Action,this.updateAngle(Math.PI/2),this.ProcessBuilding()})),t.onExit(uS.Building,(t=>(this.currentAnimation=cS.Default,this.updateAngle(Math.PI/2),!0))),t.on(uS.GoingToBuilding,(t=>{this.updatePathToBuilding()})),t}createFSM(){let t=new fS.FiniteStateMachine(hS.Idle);return t.from(hS.Idle).to(hS.Moving),t.from(hS.Idle).to(hS.Mining),t.from(hS.Idle).to(hS.Building),t.from(hS.Moving).to(hS.Building),t.from(hS.Building).to(hS.Moving),t.from(hS.Building).to(hS.Idle),t.from(hS.Mining).to(hS.Building),t.from(hS.Moving).to(hS.Idle),t.from(hS.Mining).to(hS.Idle),t.from(hS.Moving).to(hS.Mining),t.from(hS.Mining).to(hS.Moving),t.on(hS.Building,(t=>{for(let t of this.subscribers)t.notify(hS.Building)})),t.on(hS.Idle,(t=>{for(let t of this.subscribers)t.notify(hS.Idle)})),t.on(hS.Moving,(t=>{for(let t of this.subscribers)t.notify(hS.Moving);this.Move()})),t.on(hS.Mining,(t=>{for(let t of this.subscribers)t.notify(hS.Mining);this.Mine()})),t.onExit(hS.Mining,(t=>(this.miningFSM.reset(),this.currentAnimation=cS.Default,this.alpha=1,!0))),t.onExit(hS.Building,(t=>(this.buildingFSM.reset(),this.currentAnimation=cS.Default,!0))),t}updateNearestBase(t){this.nearestBase=t}updatePathToMine(){var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,t,this.scene.cameras.main,this.mapReference.layer),e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.targetMine.x,this.targetMine.y,!0,e,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(t.x-1,t.y,e.x-3,e.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift())})),this.pathFinder.calculate()}updatePathToBuilding(){this.path=[];var t=this.GetTileLocation(),e=new Phaser.Math.Vector2(this.targetBuilding.desiredBuildingCoordinates.x-2,this.targetBuilding.desiredBuildingCoordinates.y-2);this.pathFinder.findPath(t.x-1,t.y,e.x-1,e.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToBuilding())})),this.pathFinder.calculate()}createMiningFSM(){let t=new fS.FiniteStateMachine(lS.Initial);return t.from(lS.Initial).to(lS.GoingToMine),t.from(lS.GoingToMine).to(lS.InMine),t.from(lS.InMine).to(lS.GoingToBase),t.from(lS.GoingToBase).to(lS.InBase),t.from(lS.InBase).to(lS.GoingToMine),t.on(lS.GoingToMine,(t=>{var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer),i=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.targetMine.x,this.targetMine.y,!0,i,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(e.x-1,e.y,i.x-3,i.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToMine())})),this.pathFinder.calculate()})),t.on(lS.GoingToBase,(t=>{var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer),i=this.nearestBase.GetTileLocation();this.pathFinder.findPath(e.x-1,e.y,i.x,i.y-1,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToBase())})),this.pathFinder.calculate()})),t.on(lS.InMine,(t=>{this.MoveInsideMine()})),t.on(lS.InBase,(t=>{this.MoveInsideBase()})),t}requestMine(t){this.targetMine==t&&this.engineerFSM.is(hS.Mining)||(yS.getInstance(this.scene).EngineerMining.play(),this.targetMine=t,this.miningFSM.is(lS.GoingToMine)?this.updatePathToMine():!this.miningFSM.canGo(lS.GoingToMine)||this.miningFSM.go(lS.GoingToMine),this.engineerFSM.is(hS.Mining)||this.engineerFSM.go(hS.Mining))}requestBuild(t){this.targetBuilding==t&&this.engineerFSM.is(hS.Building)||(this.targetBuilding=t,this.buildingFSM.is(uS.GoingToBuilding)?this.updatePathToBuilding():!this.buildingFSM.canGo(uS.GoingToBuilding)||this.buildingFSM.go(uS.GoingToBuilding),this.engineerFSM.is(hS.Building)||this.engineerFSM.go(hS.Building))}Mine(){}MoveInsideMineExit(){var t=[];t.push({targets:this,alpha:{value:1,duration:500},x:{value:this.x+3*this.mapReference.layer.tileWidth/2,duration:1500},onComplete:()=>{this.miningFSM.go(lS.GoingToBase)}}),this.currentAnimation=cS.Mining,this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x+3*this.mapReference.layer.tileWidth/2,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideMine(){var t=[];t.push({targets:this,alpha:{value:0,duration:500},x:{value:this.x+this.mapReference.layer.tileWidth,duration:1e3},onComplete:()=>{this.MoveInsideMineExit()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x+this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideBaseExit(){var t=[];t.push({targets:this,alpha:{value:1,duration:1e3},x:{value:this.x-this.mapReference.layer.tileWidth,duration:1e3},onComplete:()=>{this.eventEmitter.emit(oS.Game.AddResources,25),this.miningFSM.go(lS.GoingToMine)}}),this.currentAnimation=cS.Default,this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x-this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideBase(){var t=[];t.push({targets:this,alpha:{value:0,duration:500},x:{value:this.x-this.mapReference.layer.tileWidth/2,duration:1e3},onComplete:()=>{this.MoveInsideBaseExit()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x-this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveToMine(){var t=[];let e=500;if(this.miningFSM.is(lS.GoingToMine)&&null!=this.path&&this.path.length>0){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);this.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&this.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,x:{value:n.x+this.mapReference.layer.tileWidth/2,duration:e},y:{value:n.y+this.mapReference.layer.tileWidth/2,duration:e},onComplete:()=>{this.MoveToMine()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,n.x+this.mapReference.layer.tileWidth/2,n.y+this.mapReference.layer.tileWidth/2)),this.scene.tweens.timeline({tweens:t}),this.path.shift()}else{if(!this.miningFSM.is(lS.GoingToMine))return;this.miningFSM.go(lS.InMine)}}ProcessBuilding(){var t=[];t.push({targets:this,x:{value:this.x,duration:1e3},y:{value:this.y,duration:1e3},onComplete:()=>{this.targetBuilding.increaseBuildingCompletionProgress()?(this.buildingFSM.go(uS.Initial),this.engineerFSM.go(hS.Idle)):this.ProcessBuilding()}}),this.scene.tweens.timeline({tweens:t})}MoveToBuilding(){var t=[];let e=500;if(this.buildingFSM.is(uS.GoingToBuilding)&&null!=this.path&&this.path.length>0){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);this.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&this.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,x:{value:n.x+this.mapReference.layer.tileWidth/2,duration:e},y:{value:n.y+this.mapReference.layer.tileWidth/2,duration:e},onComplete:()=>{this.MoveToBuilding()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,n.x+this.mapReference.layer.tileWidth/2,n.y+this.mapReference.layer.tileWidth/2)),this.scene.tweens.timeline({tweens:t}),this.path.shift()}else this.buildingFSM.is(uS.GoingToBuilding)&&(t.push({targets:this,x:{value:this.x,duration:e},y:{value:this.y,duration:e},onComplete:()=>{this.buildingFSM.go(uS.Building)}}),this.scene.tweens.timeline({tweens:t}))}MoveToBase(){var t=[];let e=500;if(this.miningFSM.is(lS.GoingToBase)&&null!=this.path&&this.path.length>0){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);this.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&this.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,x:{value:n.x+this.mapReference.layer.tileWidth/2,duration:e},y:{value:n.y+this.mapReference.layer.tileWidth/2,duration:e},onComplete:()=>{this.MoveToBase()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,n.x+this.mapReference.layer.tileWidth/2,n.y+this.mapReference.layer.tileWidth/2)),this.scene.tweens.timeline({tweens:t}),this.path.shift()}else this.miningFSM.is(lS.GoingToBase)&&this.miningFSM.go(lS.InBase)}requestMove(t){console.log("X:"+t.x+" , Y:"+t.y),this.targetDestination=t;var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(e.x-1,e.y,t.x-1,t.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),//first move is current position
-Math.random()>.5?yS.getInstance(this.scene).EngineerMoving1.play():yS.getInstance(this.scene).EngineerMoving2.play(),this.engineerFSM.go(hS.Moving))})),this.pathFinder.calculate()}updateAngle(t){t=Phaser.Math.Angle.Normalize(t),(t=Phaser.Math.RadToDeg(t)+90)>360&&(t-=360),t>337.5&&t<=360||t>0&&t<=22.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-N",!0):t>22.5&&t<=67.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-NE",!0):t>67.5&&t<=112.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-E",!0):t>112.5&&t<=157.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-SE",!0):t>157.5&&t<=202.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-S",!0):t>202.5&&t<=247.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-SW",!0):t>247.5&&t<=292.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-W",!0):t>292.5&&t<=337.5&&this.anims.play(this.currentAnimation+"engineer-"+this.team+"-NW",!0)}Move(){var t=[];let e=500;if(this.engineerFSM.is(hS.Moving)&&null!=this.path&&this.path.length>0){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);this.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&this.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,x:{value:n.x+this.mapReference.layer.tileWidth/2,duration:e},y:{value:n.y+this.mapReference.layer.tileWidth/2,duration:e},onComplete:()=>{this.Move()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,n.x+this.mapReference.layer.tileWidth/2,n.y+this.mapReference.layer.tileWidth/2)),this.scene.tweens.timeline({tweens:t}),this.path.shift()}else this.engineerFSM.go(hS.Idle)}delay(t){return new Promise((e=>setTimeout(e,t)))}cancelMove(){this.engineerFSM.go(hS.Idle)}getStatus(){return this.engineerFSM.currentState.toString()}}
+t.prototype.is=function(t){return this.currentState===t},t.prototype._transitionTo=function(t,e){var i=this;this._exitCallbacks[this.currentState.toString()]||(this._exitCallbacks[this.currentState.toString()]=[]),this._enterCallbacks[t.toString()]||(this._enterCallbacks[t.toString()]=[]),this._onCallbacks[t.toString()]||(this._onCallbacks[t.toString()]=[]);var s=this._exitCallbacks[this.currentState.toString()].reduce((function(e,s){return e&&s.call(i,t)}),!0),n=this._enterCallbacks[t.toString()].reduce((function(t,s){return t&&s.call(i,i.currentState,e)}),!0);if(s&&n){var r=this.currentState;this.currentState=t,this._onCallbacks[this.currentState.toString()].forEach((function(t){t.call(i,r,e)})),this.onTransition(r,t)}},t}();t.FiniteStateMachine=s}(iS||(iS={}));var oS,hS,lS,uS,cS,dS,fS=iS;class pS{}pS.soundEffectConfig={mute:!1,volume:1,rate:1,detune:0,seek:0,loop:!1,delay:0};class gS{}gS.resourceCount=300;class vS{}vS.Neutral=0,vS.Player=1,vS.Enemy=2;class mS{}mS.Base="Base",mS.Factory="Factory",mS.Mine="Mine",mS.Scaffold="Scaffold",function(t){class e{}e.Selected="Select",e.Move="Move",e.Mine="Mine",t.EntityActions=e;class i{}i.FinishedMoving="FinishedMoving",t.EntityMovingUpdates=i;class s{}var n;s.CreateEngineer="CreateEngineer",s.CreateGlider="CreateGlider",s.CreateBase="CreateBase",s.CreateFactory="CreateFactory",s.CreateBuilding="CreateBuilding",s.DestroyScaffold="DestroyScaffold",t.EntityBuild=s,(n=t.BuildingStates||(t.BuildingStates={})).Idle="Idle",n.Building="Building";class r{}r.BuildEngineer="BuildEngineer",r.BuildGlider="BuildGlider",r.RequestBuildEngineer="RequestBuildEngineer",r.RequestCancelEngineer="RequestCancelEngineer",r.RequestBuildGlider="RequestBuildGlider",r.RequestCancelGlider="RequestCancelGlider",r.RequestBuildBase="RequestBuildBase",r.RequestBuildScaffold="RequestBuildScaffold",r.RequestBuildFactory="RequestBuildFactory",r.Cancel="Create",t.Input=r;class a{}a.UpdateResourceCount="UpdateResourceCount",a.AddResources="AddResources",a.RemoveResources="RemoveResources",a.DestroyEntity="DestroyEntity",t.Game=a}(oS||(oS={}));class yS extends Phaser.Events.EventEmitter{constructor(t){super(),this.scene=t,this.EngineerMining=t.sound.add("Engineer_Mining",pS.soundEffectConfig),this.EngineerMoving1=t.sound.add("Engineer_Moving_1",pS.soundEffectConfig),this.EngineerMoving2=t.sound.add("Engineer_Moving_2",pS.soundEffectConfig),this.EngineerAttacking=t.sound.add("Engineer_Attacking",pS.soundEffectConfig),this.IdleEngineerSelected2=t.sound.add("Engineer_Idle_Selected_2",pS.soundEffectConfig),this.IdleEngineerSelected1=t.sound.add("Engineer_Idle_Selected_1",pS.soundEffectConfig)}static getInstance(t){return this.instance||(this.instance=new this(t)),this.instance}}class xS extends Phaser.Events.EventEmitter{constructor(){super()}static getInstance(){return this.instance||(this.instance=new this),this.instance}}class TS extends Phaser.GameObjects.Sprite{constructor(t,e,i,s,n,r,a,o,h){let l=Phaser.Tilemaps.Components.IsometricTileToWorldXY(n,r,new Phaser.Math.Vector2,s.cameras.main,t.getLayer("Tile Layer 1"));super(s,l.x,l.y,a,h),this.selectedRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y,this.width,this.height,16777215,0).setStrokeStyle(1,16777215),this.healthBackgroundRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y-(10+this.displayHeight/2),40,5,16777215,1),this.healthForegroundRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y-(10+this.displayHeight/2),38,3,413459,1),s.add.existing(this.selectedRectangle),s.add.existing(this.healthBackgroundRectangle),s.add.existing(this.healthForegroundRectangle),this.selectedRectangle.setVisible(!1),this.eventEmitter=xS.getInstance(),this.setDepth(n+r),this.subscribers=[],this.setInteractive(new Phaser.Geom.Circle(this.width/2,this.height/2,this.width/3),this.handler),this.on("pointerup",((t,e,i,s)=>{this.emitSelected(t,e,i,s)}),this),this.mapReference=t,s.add.existing(this),this.icon=e,this.health=100,this.status="Idle",this.name=i,this.selected=!1,this.team=o}GetTileLocation(){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)}subscribe(t){this.subscribers.push(t)}unsubscribe(t){const e=this.subscribers.indexOf(t);e>-1&&this.subscribers.splice(e,1)}handler(t,e,i,s){return t.radius>0&&e>=t.left&&e<=t.right&&i>=t.top&&i<=t.bottom&&(t.x-e)*(t.x-e)+(t.y-i)*(t.y-i)<=t.radius*t.radius}emitSelected(t,e,i,s){this.selected||(s.stopPropagation(),this.eventEmitter.emit(oS.EntityActions.Selected,this))}getIconString(){return this.icon}getHealth(){return this.health}getStatus(){return this.status}getName(){return this.name}damage(t){this.health-=t,this.health<=0?this.eventEmitter.emit(oS.Game.DestroyEntity,this):this.healthForegroundRectangle.displayWidth=this.health/100*38}updateRenderDepth(){var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-16,this.y-16,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer);this.selectedRectangle.setX(this.x),this.selectedRectangle.setY(this.y),this.selectedRectangle.setDepth(250),this.healthBackgroundRectangle.setX(this.x),this.healthBackgroundRectangle.setY(this.y-(10+this.displayHeight/2)),this.healthBackgroundRectangle.setDepth(250),this.healthForegroundRectangle.setX(this.x-19*(1-this.health/100)),this.healthForegroundRectangle.setY(this.y-(10+this.displayHeight/2)),this.healthForegroundRectangle.setDepth(250),this.setDepth(t.x+t.y)}update(t){this.updateRenderDepth()}destroy(){this.selectedRectangle.destroy(),this.healthBackgroundRectangle.destroy(),this.healthForegroundRectangle.destroy(),super.destroy()}updateSelected(t){this.selectedRectangle.setVisible(t),this.selected=t}}class wS extends TS{constructor(t,e,i,s,n,r,a,o,h){super(t,e,i,s,n,r,a,o,h),this.speed=100,this.centerToTileOffset=0,this.path=[],this.movingEventEmitter=new Phaser.Events.EventEmitter}requestMove(t){}updateAngle(t){}//stub
+update(t){super.update(t);let e=this.speed*t*.001;for(;this.path.length>0;){var i=this.path[0].x,s=this.path[0].y;let t=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);t.x+=this.mapReference.layer.tileWidth/2,t.y+=this.mapReference.layer.tileWidth/2-this.centerToTileOffset;let n=new Phaser.Math.Vector2(this.x,this.y);
+//v*t = d;
+if(t.distance(n)<e&&this.path.length>1)this.path.shift(),e-=t.distance(n);else{if(!(t.distance(n)<e&&1==this.path.length)){this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,t.x,t.y));let i=e/t.distance(n);return this.x+=(t.x-this.x)*i,void(this.y+=(t.y-this.y)*i)}this.path.shift(),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,t.x,t.y)),this.x=t.x,this.y=t.y,this.movingEventEmitter.emit(oS.EntityMovingUpdates.FinishedMoving)}}}}!function(t){t.Idle="Idle",t.Moving="Moving",t.Mining="Mining",t.Building="Building"}(hS||(hS={})),function(t){t.Initial="InitialMine",t.GoingToMine="GoingToMine",t.InMine="InMine",t.GoingToBase="GoingToBase",t.InBase="InBase"}(lS||(lS={})),function(t){t.Initial="InitialBuilding",t.GoingToBuilding="GoingToBuilding",t.Building="Building"}(uS||(uS={})),function(t){t.Default="",t.Mining="Mining",t.Action="Action"}(cS||(cS={}));class bS extends wS{constructor(t,e,i,s,n){super(t,"Portrait_Engineer","Engineer",e,i,s,"player-"+n,n),this.engineerFSM=this.createFSM(),this.miningFSM=this.createMiningFSM(),this.buildingFSM=this.createBuildingFSM(),this.pathFinder=rS.getInstance(),this.anims.play("engineer-"+n+"-SW",!0),this.currentAnimation=cS.Default,this.speed=80}createBuildingFSM(){let t=new fS.FiniteStateMachine(uS.Initial);return t.from(uS.Initial).to(uS.GoingToBuilding),t.from(uS.GoingToBuilding).to(uS.Building),t.from(uS.Building).to(uS.Initial),t.on(uS.Building,(t=>{this.currentAnimation=cS.Action,this.updateAngle(Math.PI/2),this.ProcessBuilding()})),t.onExit(uS.Building,(t=>(this.currentAnimation=cS.Default,this.updateAngle(Math.PI/2),!0))),t.on(uS.GoingToBuilding,(t=>{this.updatePathToBuilding()})),t}createFSM(){let t=new fS.FiniteStateMachine(hS.Idle);return t.from(hS.Idle).to(hS.Moving),t.from(hS.Idle).to(hS.Mining),t.from(hS.Idle).to(hS.Building),t.from(hS.Moving).to(hS.Building),t.from(hS.Building).to(hS.Moving),t.from(hS.Building).to(hS.Idle),t.from(hS.Mining).to(hS.Building),t.from(hS.Moving).to(hS.Idle),t.from(hS.Mining).to(hS.Idle),t.from(hS.Moving).to(hS.Mining),t.from(hS.Mining).to(hS.Moving),t.on(hS.Building,(t=>{for(let t of this.subscribers)t.notify(hS.Building)})),t.on(hS.Idle,(t=>{for(let t of this.subscribers)t.notify(hS.Idle)})),t.on(hS.Moving,(t=>{for(let t of this.subscribers)t.notify(hS.Moving);this.Move()})),t.on(hS.Mining,(t=>{for(let t of this.subscribers)t.notify(hS.Mining);this.Mine()})),t.onExit(hS.Mining,(t=>(this.miningFSM.reset(),this.currentAnimation=cS.Default,this.alpha=1,!0))),t.onExit(hS.Building,(t=>(this.buildingFSM.reset(),this.currentAnimation=cS.Default,!0))),t}updateNearestBase(t){this.nearestBase=t}updatePathToMine(){var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,t,this.scene.cameras.main,this.mapReference.layer),e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.targetMine.x,this.targetMine.y,!0,e,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(t.x-1,t.y,e.x-3,e.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift())})),this.pathFinder.calculate()}updatePathToBuilding(){this.path=[];var t=this.GetTileLocation(),e=new Phaser.Math.Vector2(this.targetBuilding.desiredBuildingCoordinates.x-2,this.targetBuilding.desiredBuildingCoordinates.y-2);this.pathFinder.findPath(t.x-1,t.y,e.x-1,e.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToBuilding())})),this.pathFinder.calculate()}createMiningFSM(){let t=new fS.FiniteStateMachine(lS.Initial);return t.from(lS.Initial).to(lS.GoingToMine),t.from(lS.GoingToMine).to(lS.InMine),t.from(lS.InMine).to(lS.GoingToBase),t.from(lS.GoingToBase).to(lS.InBase),t.from(lS.InBase).to(lS.GoingToMine),t.on(lS.GoingToMine,(t=>{var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer),i=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.targetMine.x,this.targetMine.y,!0,i,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(e.x-1,e.y,i.x-3,i.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToMine())})),this.pathFinder.calculate()})),t.on(lS.GoingToBase,(t=>{var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer),i=this.nearestBase.GetTileLocation();this.pathFinder.findPath(e.x-1,e.y,i.x,i.y-1,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToBase())})),this.pathFinder.calculate()})),t.on(lS.InMine,(t=>{this.MoveInsideMine()})),t.on(lS.InBase,(t=>{this.MoveInsideBase()})),t}requestMine(t){this.targetMine==t&&this.engineerFSM.is(hS.Mining)||(yS.getInstance(this.scene).EngineerMining.play(),this.targetMine=t,this.miningFSM.is(lS.GoingToMine)?this.updatePathToMine():!this.miningFSM.canGo(lS.GoingToMine)||this.miningFSM.go(lS.GoingToMine),this.engineerFSM.is(hS.Mining)||this.engineerFSM.go(hS.Mining))}requestBuild(t){this.targetBuilding==t&&this.engineerFSM.is(hS.Building)||(this.targetBuilding=t,this.buildingFSM.is(uS.GoingToBuilding)?this.updatePathToBuilding():!this.buildingFSM.canGo(uS.GoingToBuilding)||this.buildingFSM.go(uS.GoingToBuilding),this.engineerFSM.is(hS.Building)||this.engineerFSM.go(hS.Building))}Mine(){}MoveInsideMineExit(){var t=[];t.push({targets:this,alpha:{value:1,duration:500},x:{value:this.x+3*this.mapReference.layer.tileWidth/2,duration:1500},onComplete:()=>{this.miningFSM.go(lS.GoingToBase)}}),this.currentAnimation=cS.Mining,this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x+3*this.mapReference.layer.tileWidth/2,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideMine(){var t=[];t.push({targets:this,alpha:{value:0,duration:500},x:{value:this.x+this.mapReference.layer.tileWidth,duration:1e3},onComplete:()=>{this.MoveInsideMineExit()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x+this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideBaseExit(){var t=[];t.push({targets:this,alpha:{value:1,duration:1e3},x:{value:this.x-this.mapReference.layer.tileWidth,duration:1e3},onComplete:()=>{this.eventEmitter.emit(oS.Game.AddResources,25),this.miningFSM.go(lS.GoingToMine)}}),this.currentAnimation=cS.Default,this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x-this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideBase(){var t=[];t.push({targets:this,alpha:{value:0,duration:500},x:{value:this.x-this.mapReference.layer.tileWidth/2,duration:1e3},onComplete:()=>{this.MoveInsideBaseExit()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x-this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveToMine(){this.miningFSM.is(lS.GoingToMine)&&null!=this.path&&this.path.length>0&&this.movingEventEmitter.once(oS.EntityMovingUpdates.FinishedMoving,(()=>{this.miningFSM.is(lS.GoingToMine)&&this.miningFSM.go(lS.InMine)}))}ProcessBuilding(){var t=[];t.push({targets:this,NOTHING:{value:0,duration:1e3},onComplete:()=>{this.targetBuilding.increaseBuildingCompletionProgress()?(this.buildingFSM.go(uS.Initial),this.engineerFSM.go(hS.Idle)):this.ProcessBuilding()}}),this.scene.tweens.timeline({tweens:t})}MoveToBuilding(){this.buildingFSM.is(uS.GoingToBuilding)&&null!=this.path&&this.path.length>0&&this.movingEventEmitter.once(oS.EntityMovingUpdates.FinishedMoving,(()=>{this.buildingFSM.is(uS.GoingToBuilding)&&this.buildingFSM.go(uS.Building)}))}MoveToBase(){this.miningFSM.is(lS.GoingToBase)&&null!=this.path&&this.path.length>0&&this.movingEventEmitter.once(oS.EntityMovingUpdates.FinishedMoving,(()=>{this.miningFSM.is(lS.GoingToBase)&&this.miningFSM.go(lS.InBase)}))}requestMove(t){console.log("X:"+t.x+" , Y:"+t.y),this.targetDestination=t;var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(e.x-1,e.y,t.x-1,t.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),//first move is current position
+Math.random()>.5?yS.getInstance(this.scene).EngineerMoving1.play():yS.getInstance(this.scene).EngineerMoving2.play(),this.engineerFSM.go(hS.Moving))})),this.pathFinder.calculate()}updateAngle(t){t=Phaser.Math.Angle.Normalize(t),(t=Phaser.Math.RadToDeg(t)+90)>360&&(t-=360),t>337.5&&t<=360||t>0&&t<=22.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-N",!0):t>22.5&&t<=67.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-NE",!0):t>67.5&&t<=112.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-E",!0):t>112.5&&t<=157.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-SE",!0):t>157.5&&t<=202.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-S",!0):t>202.5&&t<=247.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-SW",!0):t>247.5&&t<=292.5?this.anims.play(this.currentAnimation+"engineer-"+this.team+"-W",!0):t>292.5&&t<=337.5&&this.anims.play(this.currentAnimation+"engineer-"+this.team+"-NW",!0)}Move(){var t=[];this.engineerFSM.is(hS.Moving)&&null!=this.path&&this.path.length>0?(t.push({targets:this,NOTHING:{value:0,duration:500},onComplete:()=>{this.Move()}}),this.scene.tweens.timeline({tweens:t})):this.engineerFSM.is(hS.Moving)&&this.engineerFSM.go(hS.Idle)}delay(t){return new Promise((e=>setTimeout(e,t)))}cancelMove(){this.engineerFSM.go(hS.Idle)}getStatus(){return this.engineerFSM.currentState.toString()}}
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -80657,11 +80660,9 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
-***************************************************************************** */function ES(t,e,i,s){return new(i||(i=Promise))((function(n,r){function a(t){try{h(s.next(t))}catch(t){r(t)}}function o(t){try{h(s.throw(t))}catch(t){r(t)}}function h(t){var e;t.done?n(t.value):(e=t.value,e instanceof i?e:new i((function(t){t(e)}))).then(a,o)}h((s=s.apply(t,e||[])).next())}))}class SS extends TS{constructor(t,e,i,s,n,r,a,o,h){super(t,e,i,s,n,r,a,o),this.blockedTiles=[],this.blockedTiles.push(new Phaser.Math.Vector2(n-1,r)),this.blockedTiles.push(new Phaser.Math.Vector2(n-2,r)),this.blockedTiles.push(new Phaser.Math.Vector2(n-1,r-1)),this.blockedTiles.push(new Phaser.Math.Vector2(n-2,r-1)),this.avoidAdditionalPoints()}avoidAdditionalPoints(){for(let t of this.blockedTiles)rS.getInstance().avoidAdditionalPoint(t.x,t.y)}stopAvoidingAdditionalPoints(){for(let t of this.blockedTiles)rS.getInstance().stopAvoidingAdditionalPoint(t.x,t.y)}destroy(){this.stopAvoidingAdditionalPoints(),super.destroy()}}class _S extends SS{constructor(t,e,i,s,n,r,a,o,h,l,u){super(t,e,i,s,n,r,h,l),this.createEntityEvent=o,this.eventEmitter.on(a,(()=>{!this.selected||this.requestBuild()})),this.eventEmitter.on(oS.Input.Cancel,(()=>{!this.selected||this.requestCancel()})),this.buildingFSM=this.createFSM(),this.buildCounter=0}createFSM(){let t=new fS.FiniteStateMachine(oS.BuildingStates.Idle);return t.from(oS.BuildingStates.Idle).to(oS.BuildingStates.Building),t.from(oS.BuildingStates.Building).to(oS.BuildingStates.Idle),t.on(oS.BuildingStates.Building,(t=>ES(this,void 0,void 0,(function*(){for(let t of this.subscribers)t.notify(oS.BuildingStates.Building);yield this.Build()})))),t.on(oS.BuildingStates.Idle,(t=>ES(this,void 0,void 0,(function*(){for(let t of this.subscribers)t.notify(oS.BuildingStates.Idle)})))),t}requestBuild(){this.buildingFSM.go(oS.BuildingStates.Building)}requestCancel(){this.buildCounter=0,this.buildingFSM.go(oS.BuildingStates.Idle)}getStatus(){return this.buildingFSM.currentState.toString()}Build(){return ES(this,void 0,void 0,(function*(){yield this.delay(500),this.buildingFSM.is(oS.BuildingStates.Building)&&(this.buildCounter++,10!=this.buildCounter?yield this.Build():(this.buildCounter=0,this.eventEmitter.emit(this.createEntityEvent,Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-32,this.y-32,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)),this.buildingFSM.go(oS.BuildingStates.Idle)))}))}delay(t){return new Promise((e=>setTimeout(e,t)))}}class AS extends _S{constructor(t,e,i,s,n){super(t,"home_base-"+n,"Base",e,i,s,oS.Input.BuildEngineer,oS.EntityBuild.CreateEngineer,"home_base-"+n,n)}}class CS extends SS{constructor(t,e,i,s){super(t,"mine","Mine",e,i,s,"mine",0),this.status="Operating",this.healthForegroundRectangle.setVisible(!1),this.healthBackgroundRectangle.setVisible(!1)}}class MS extends TS{constructor(t,e,i,s,n){super(t,"turret-"+n,"Turret",e,i,s,"turret-"+n,n),this.y+=this.mapReference.layer.tileWidth/4,rS.getInstance().avoidAdditionalPoint(i-1,s),this.status="Operating"}}!function(t){t.Idle="Idle",t.Moving="Moving",t.Attacking="Attacking"}(dS||(dS={}));class RS extends wS{constructor(t,e,i,s,n){super(t,"glider-"+n,"Glider",e,i,s,"glider-"+n,n),this.y+=this.mapReference.layer.tileWidth/4,this.removeInteractive(),this.setInteractive(new Phaser.Geom.Circle(this.displayWidth/2,1*this.displayWidth/4,this.displayWidth/2),this.handler),this.pathFinder=aS.getInstance(),this.gliderFSM=this.createFSM(),this.anims.play("glider-"+this.team+"-NW",!0),this.tweenManager=new Phaser.Tweens.TweenManager(e)}createFSM(){let t=new fS.FiniteStateMachine(dS.Idle);return t.from(dS.Idle).to(dS.Moving),t.from(dS.Moving).to(dS.Idle),t.from(dS.Moving).to(dS.Attacking),t.from(dS.Attacking).to(dS.Moving),t.from(dS.Attacking).to(dS.Idle),t.from(dS.Idle).to(dS.Attacking),t.on(dS.Idle,(t=>{for(let t of this.subscribers)t.notify(dS.Idle)})),t.on(dS.Moving,(t=>{for(let t of this.subscribers)t.notify(dS.Moving);this.Move()})),t.on(dS.Attacking,(t=>{for(let t of this.subscribers)t.notify(dS.Attacking);this.Attack()})),t}destroyBullet(t,e){e.damage(5),t.destroy()}CreateBullet(){return ES(this,void 0,void 0,(function*(){var t=[];let e=new Phaser.GameObjects.PointLight(this.scene,this.x,this.y,240,7,.5,.3);e.setDepth(this.targetEntity.GetTileLocation().x+this.targetEntity.GetTileLocation().y),t.push({targets:e,x:{value:this.targetEntity.x,duration:200},y:{value:this.targetEntity.y,duration:200},onComplete:()=>{this.destroyBullet(e,this.targetEntity)}}),this.scene.tweens.timeline({tweens:t}),this.scene.add.existing(e)}))}Attack(){var t=[];let e=500;if(this.targetEntity&&this.targetEntity.health>0&&this.gliderFSM.is(dS.Attacking)){if(this.targetEntity.GetTileLocation().distance(this.GetTileLocation())<7&&(this.CreateBullet(),this.path=[]),this.gliderFSM.is(dS.Attacking)&&null!=this.path&&this.path.length>0&&this.targetEntity.GetTileLocation().distance(this.GetTileLocation())>4){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);this.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&this.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Attack()}}),this.scene.tweens.timeline({tweens:t})}else this.gliderFSM.is(dS.Attacking)?(t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Attack()}}),this.scene.tweens.timeline({tweens:t})):this.gliderFSM.is(dS.Attacking)||this.gliderFSM.go(dS.Idle);null!=this.path&&this.path.length>0&&this.targetEntity.GetTileLocation().distance(new Phaser.Math.Vector2(this.path[this.path.length-1].x,this.path[this.path.length-1].y))>7&&this.requestAttack(this.targetEntity)}else this.gliderFSM.is(dS.Attacking)&&this.gliderFSM.go(dS.Idle)}Move(){var t=[];let e=500;if(this.gliderFSM.is(dS.Moving)&&null!=this.path&&this.path.length>0){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);this.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&this.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Move()}}),this.scene.tweens.timeline({tweens:t})}else this.gliderFSM.go(dS.Idle)}delay(t){return new Promise((e=>setTimeout(e,t)))}cancelMove(){this.gliderFSM.go(dS.Idle)}getStatus(){return this.gliderFSM.currentState.toString()}updateAngle(t){console.log("OG ANGLE:"+t),console.log(Phaser.Math.RadToDeg(t)),t=Phaser.Math.Angle.Normalize(t),(t=Phaser.Math.RadToDeg(t)+90)>360&&(t-=360),t>337.5&&t<=360||t>0&&t<=22.5?this.anims.play("glider-"+this.team+"-N",!0):t>22.5&&t<=67.5?this.anims.play("glider-"+this.team+"-NE",!0):t>67.5&&t<=112.5?this.anims.play("glider-"+this.team+"-E",!0):t>112.5&&t<=157.5?this.anims.play("glider-"+this.team+"-SE",!0):t>157.5&&t<=202.5?this.anims.play("glider-"+this.team+"-S",!0):t>202.5&&t<=247.5?this.anims.play("glider-"+this.team+"-SW",!0):t>247.5&&t<=292.5?this.anims.play("glider-"+this.team+"-W",!0):t>292.5&&t<=337.5&&this.anims.play("glider-"+this.team+"-NW",!0)}updateRenderDepth(){super.updateRenderDepth();var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-16,this.y-16,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer);this.selectedRectangle.setX(this.x),this.selectedRectangle.setY(this.y),this.selectedRectangle.setDepth(t.x+t.y+3),this.setDepth(t.x+t.y+3)}requestMove(t){console.log("X:"+t.x+" , Y:"+t.y),this.targetDestination=t;var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(e.x-1,e.y,t.x-1,t.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),//first move is current position
+***************************************************************************** */function ES(t,e,i,s){return new(i||(i=Promise))((function(n,r){function a(t){try{h(s.next(t))}catch(t){r(t)}}function o(t){try{h(s.throw(t))}catch(t){r(t)}}function h(t){var e;t.done?n(t.value):(e=t.value,e instanceof i?e:new i((function(t){t(e)}))).then(a,o)}h((s=s.apply(t,e||[])).next())}))}class SS extends TS{constructor(t,e,i,s,n,r,a,o,h){super(t,e,i,s,n,r,a,o),this.blockedTiles=[],this.blockedTiles.push(new Phaser.Math.Vector2(n-1,r)),this.blockedTiles.push(new Phaser.Math.Vector2(n-2,r)),this.blockedTiles.push(new Phaser.Math.Vector2(n-1,r-1)),this.blockedTiles.push(new Phaser.Math.Vector2(n-2,r-1)),this.avoidAdditionalPoints()}avoidAdditionalPoints(){for(let t of this.blockedTiles)rS.getInstance().avoidAdditionalPoint(t.x,t.y)}stopAvoidingAdditionalPoints(){for(let t of this.blockedTiles)rS.getInstance().stopAvoidingAdditionalPoint(t.x,t.y)}destroy(){this.stopAvoidingAdditionalPoints(),super.destroy()}}class _S extends SS{constructor(t,e,i,s,n,r,a,o,h,l,u){super(t,e,i,s,n,r,h,l),this.createEntityEvent=o,this.eventEmitter.on(a,(()=>{!this.selected||this.requestBuild()})),this.eventEmitter.on(oS.Input.Cancel,(()=>{!this.selected||this.requestCancel()})),this.buildingFSM=this.createFSM(),this.buildCounter=0}createFSM(){let t=new fS.FiniteStateMachine(oS.BuildingStates.Idle);return t.from(oS.BuildingStates.Idle).to(oS.BuildingStates.Building),t.from(oS.BuildingStates.Building).to(oS.BuildingStates.Idle),t.on(oS.BuildingStates.Building,(t=>ES(this,void 0,void 0,(function*(){for(let t of this.subscribers)t.notify(oS.BuildingStates.Building);yield this.Build()})))),t.on(oS.BuildingStates.Idle,(t=>ES(this,void 0,void 0,(function*(){for(let t of this.subscribers)t.notify(oS.BuildingStates.Idle)})))),t}requestBuild(){this.buildingFSM.go(oS.BuildingStates.Building)}requestCancel(){this.buildCounter=0,this.buildingFSM.go(oS.BuildingStates.Idle)}getStatus(){return this.buildingFSM.currentState.toString()}Build(){return ES(this,void 0,void 0,(function*(){yield this.delay(500),this.buildingFSM.is(oS.BuildingStates.Building)&&(this.buildCounter++,10!=this.buildCounter?yield this.Build():(this.buildCounter=0,this.eventEmitter.emit(this.createEntityEvent,Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-32,this.y-32,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)),this.buildingFSM.go(oS.BuildingStates.Idle)))}))}delay(t){return new Promise((e=>setTimeout(e,t)))}}class AS extends _S{constructor(t,e,i,s,n){super(t,"home_base-"+n,"Base",e,i,s,oS.Input.BuildEngineer,oS.EntityBuild.CreateEngineer,"home_base-"+n,n)}}class CS extends SS{constructor(t,e,i,s){super(t,"mine","Mine",e,i,s,"mine",0),this.status="Operating",this.healthForegroundRectangle.setVisible(!1),this.healthBackgroundRectangle.setVisible(!1)}}class MS extends TS{constructor(t,e,i,s,n){super(t,"turret-"+n,"Turret",e,i,s,"turret-"+n,n),this.y+=this.mapReference.layer.tileWidth/4,rS.getInstance().avoidAdditionalPoint(i-1,s),this.status="Operating"}}!function(t){t.Idle="Idle",t.Moving="Moving",t.Attacking="Attacking"}(dS||(dS={}));class RS extends wS{constructor(t,e,i,s,n){super(t,"gliderPortrait-"+n,"Glider",e,i,s,"glider-"+n,n),this.y+=this.mapReference.layer.tileWidth/4,this.removeInteractive(),this.setInteractive(new Phaser.Geom.Circle(this.displayWidth/2,1*this.displayWidth/4,this.displayWidth/2),this.handler),this.pathFinder=aS.getInstance(),this.gliderFSM=this.createFSM(),this.anims.play("glider-"+this.team+"-NW",!0),this.tweenManager=new Phaser.Tweens.TweenManager(e),this.centerToTileOffset=16}createFSM(){let t=new fS.FiniteStateMachine(dS.Idle);return t.from(dS.Idle).to(dS.Moving),t.from(dS.Moving).to(dS.Idle),t.from(dS.Moving).to(dS.Attacking),t.from(dS.Attacking).to(dS.Moving),t.from(dS.Attacking).to(dS.Idle),t.from(dS.Idle).to(dS.Attacking),t.on(dS.Idle,(t=>{for(let t of this.subscribers)t.notify(dS.Idle)})),t.on(dS.Moving,(t=>{for(let t of this.subscribers)t.notify(dS.Moving);this.Move()})),t.on(dS.Attacking,(t=>{for(let t of this.subscribers)t.notify(dS.Attacking);this.Attack()})),t}destroyBullet(t,e){e.damage(5),t.destroy()}CreateBullet(){return ES(this,void 0,void 0,(function*(){var t=[];let e=new Phaser.GameObjects.PointLight(this.scene,this.x,this.y,240,7,.5,.3);e.setDepth(this.targetEntity.GetTileLocation().x+this.targetEntity.GetTileLocation().y),t.push({targets:e,x:{value:this.targetEntity.x,duration:200},y:{value:this.targetEntity.y,duration:200},onComplete:()=>{this.destroyBullet(e,this.targetEntity)}}),this.scene.tweens.timeline({tweens:t}),this.scene.add.existing(e)}))}Attack(){var t=[];let e=500,i=this.GetTileLocation();if(this.targetEntity&&this.targetEntity.health>0&&this.gliderFSM.is(dS.Attacking)){if(this.targetEntity.GetTileLocation().distance(i)<7&&(this.CreateBullet(),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.targetEntity.x,this.targetEntity.y))),this.gliderFSM.is(dS.Attacking)&&null!=this.path&&this.path.length>0&&this.targetEntity.GetTileLocation().distance(i)>4){var s=this.path[0].x,n=this.path[0].y,r=Phaser.Tilemaps.Components.IsometricTileToWorldXY(s,n,undefined,this.scene.cameras.main,this.mapReference.layer);i.y-(r.y+this.mapReference.layer.tileWidth/2)>-2&&i.y-(r.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Attack()}}),this.scene.tweens.timeline({tweens:t})}else this.gliderFSM.is(dS.Attacking)?(t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Attack()}}),this.scene.tweens.timeline({tweens:t}),this.path=[]):this.gliderFSM.is(dS.Attacking)||this.gliderFSM.go(dS.Idle);null!=this.path&&this.path.length>0&&this.targetEntity.GetTileLocation().distance(new Phaser.Math.Vector2(this.path[this.path.length-1].x,this.path[this.path.length-1].y))>7&&this.requestAttack(this.targetEntity)}else this.gliderFSM.is(dS.Attacking)&&this.gliderFSM.go(dS.Idle)}Move(){var t=[];let e=500;if(this.gliderFSM.is(dS.Moving)&&null!=this.path&&this.path.length>0){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);let r=this.GetTileLocation();r.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&r.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Move()}}),this.scene.tweens.timeline({tweens:t})}else this.gliderFSM.is(dS.Moving)&&this.gliderFSM.go(dS.Idle)}delay(t){return new Promise((e=>setTimeout(e,t)))}cancelMove(){this.gliderFSM.go(dS.Idle)}getStatus(){return this.gliderFSM.currentState.toString()}updateAngle(t){t=Phaser.Math.Angle.Normalize(t),(t=Phaser.Math.RadToDeg(t)+90)>360&&(t-=360),t>337.5&&t<=360||t>0&&t<=22.5?this.anims.play("glider-"+this.team+"-N",!0):t>22.5&&t<=67.5?this.anims.play("glider-"+this.team+"-NE",!0):t>67.5&&t<=112.5?this.anims.play("glider-"+this.team+"-E",!0):t>112.5&&t<=157.5?this.anims.play("glider-"+this.team+"-SE",!0):t>157.5&&t<=202.5?this.anims.play("glider-"+this.team+"-S",!0):t>202.5&&t<=247.5?this.anims.play("glider-"+this.team+"-SW",!0):t>247.5&&t<=292.5?this.anims.play("glider-"+this.team+"-W",!0):t>292.5&&t<=337.5&&this.anims.play("glider-"+this.team+"-NW",!0)}updateRenderDepth(){super.updateRenderDepth();var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y+16,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer);this.selectedRectangle.setX(this.x),this.selectedRectangle.setY(this.y),this.selectedRectangle.setDepth(t.x+t.y+3),this.setDepth(t.x+t.y+3)}requestMove(t){this.targetDestination=t;var e=this.GetTileLocation();this.pathFinder.findPath(e.x-1,e.y,t.x-1,t.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),//first move is current position
 Math.random()>.5?yS.getInstance(this.scene).EngineerMoving1.play():yS.getInstance(this.scene).EngineerMoving2.play(),this.gliderFSM.go(dS.Moving))})),this.pathFinder.calculate()}requestAttack(t){this.targetEntity=t,this.targetDestination=t.GetTileLocation();var e=this.GetTileLocation();this.pathFinder.findPath(e.x-1,e.y,this.targetDestination.x-1,this.targetDestination.y,(t=>{null!=t&&t.length>0?(this.path=t,this.path.shift(),//first move is current position
-Math.random(),yS.getInstance(this.scene).EngineerAttacking.play(),this.gliderFSM.go(dS.Attacking)):this.gliderFSM.go(dS.Idle)})),this.pathFinder.calculate()}update(t){if(super.update(t),this.path.length>0){var e,i=!1,s=this.path[0].x,n=this.path[0].y;let r=Phaser.Tilemaps.Components.IsometricTileToWorldXY(s,n,e,this.scene.cameras.main,this.mapReference.layer);r.x+=this.mapReference.layer.tileWidth/2,r.y+=this.mapReference.layer.tileWidth/2;let a=new Phaser.Math.Vector2(this.x,this.y),o=this.speed*t*.001;
-//v*t = d;
-if(!(r.distance(a)<o)){this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,r.x,r.y));let t=o/r.distance(a);return this.x+=(r.x-this.x)*t,void(this.y+=(r.y-this.y)*t)}if(this.path.shift(),i=!0,o-=r.distance(a),this.path.length>0){s=this.path[0].x,n=this.path[0].y,r=Phaser.Tilemaps.Components.IsometricTileToWorldXY(s,n,e,this.scene.cameras.main,this.mapReference.layer),r.x+=this.mapReference.layer.tileWidth/2,r.y+=this.mapReference.layer.tileWidth/2,a=new Phaser.Math.Vector2(this.x,this.y),i&&this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,r.x,r.y));let t=o/r.distance(a);this.x+=(r.x-this.x)*t,this.y+=(r.y-this.y)*t}}}}class PS extends _S{constructor(t,e,i,s,n){super(t,"factory-"+n,"Factory",e,i,s,oS.Input.BuildGlider,oS.EntityBuild.CreateGlider,"factory-"+n,n),this.setInteractive(new Phaser.Geom.Circle(this.width/2,this.height/2,this.width/4),this.handler)}}class OS extends SS{constructor(t,e,i,s,n,r){super(t,"scaffold",n,e,i,s,"scaffold",r),this.desiredBuilding=n,this.desiredBuildingCoordinates=new Phaser.Math.Vector2(i,s),this.status="...",this.buildingCompletionTarget=10,this.buildingCompletionProgress=0}increaseBuildingCompletionProgress(){return this.buildingCompletionProgress++,this.buildingCompletionProgress>=this.buildingCompletionTarget&&(this.eventEmitter.emit(oS.EntityBuild.DestroyScaffold,this),this.eventEmitter.emit(oS.EntityBuild.CreateBuilding,this.desiredBuildingCoordinates.x,this.desiredBuildingCoordinates.y,this.desiredBuilding),!0)}}class LS{constructor(t,e){this.scene=t,this.map=e,this.entityList=new Array,this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.EntityBuild.CreateEngineer,(t=>{this.createEngineerEntity(t.x,t.y,1)})),this.eventEmitter.on(oS.EntityBuild.CreateGlider,(t=>{this.createGliderEntity(t.x,t.y,1)})),this.eventEmitter.on(oS.Game.DestroyEntity,(t=>{this.deleteEntity(t)})),this.resources=gS.resourceCount,this.eventEmitter.emit(oS.EntityBuild.DestroyScaffold),this.eventEmitter.emit(oS.EntityBuild.CreateBuilding),this.eventEmitter.on(oS.EntityBuild.DestroyScaffold,(t=>{this.deleteEntity(t)})),this.eventEmitter.on(oS.EntityBuild.CreateBuilding,((t,e,i)=>{this.createEntity(t,e,i,1)})),this.eventEmitter.on(oS.Input.RequestBuildScaffold,((t,e)=>{if(e==mS.Base){if(!(this.resources>=500))return;this.resources-=500,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}else if(e==mS.Factory){if(!(this.resources>=300))return;this.resources-=300,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}let i=this.createScaffoldEntity(t.GetTileLocation().x,t.GetTileLocation().y,e,1);t.requestBuild(i)})),this.eventEmitter.on(oS.Game.AddResources,(t=>{this.resources+=t,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Game.RemoveResources,(t=>{this.resources-=t,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Input.RequestBuildEngineer,(()=>{this.resources>=100&&(this.resources-=100,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources),this.eventEmitter.emit(oS.Input.BuildEngineer,{}))})),this.eventEmitter.on(oS.Input.RequestCancelEngineer,(()=>{this.resources+=100,this.eventEmitter.emit(oS.Input.Cancel,{}),this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Input.RequestBuildGlider,(()=>{this.resources>=300&&(this.resources-=300,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources),this.eventEmitter.emit(oS.Input.BuildGlider,{}))})),this.eventEmitter.on(oS.Input.RequestCancelGlider,(()=>{this.resources+=300,this.eventEmitter.emit(oS.Input.Cancel,{}),this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}))}getNearestBaseToEntity(t){let e;for(let i of this.entityList)i instanceof AS&&(null==e||new Phaser.Math.Vector2(e.x,e.y).distance(new Phaser.Math.Vector2(t.x,t.y))>new Phaser.Math.Vector2(i.x,i.y).distance(new Phaser.Math.Vector2(t.x,t.y)))&&(e=i);return e}createEntity(t,e,i,s){switch(i){case mS.Base:this.createBaseEntity(t,e,s);break;case mS.Factory:this.createFactoryEntity(t,e,s)}}createEngineerEntity(t,e,i){let s=new bS(this.map,this.scene,t,e,i);return this.entityList.push(s),s.updateNearestBase(this.getNearestBaseToEntity(s)),s}createBaseEntity(t,e,i){let s=new AS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createMineEntity(t,e){let i=new CS(this.map,this.scene,t,e);return this.entityList.push(i),i}createTurretEntity(t,e,i){let s=new MS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createScaffoldEntity(t,e,i,s){let n=new OS(this.map,this.scene,t,e,i,s);return this.entityList.push(n),n}createGliderEntity(t,e,i){let s=new RS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createFactoryEntity(t,e,i){let s=new PS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}deleteEntity(t){let e=this.entityList.indexOf(t);t.destroy(),-1!==e&&this.entityList.splice(e,1)}update(t){this.entityList.forEach((e=>e.update(t)))}}class FS extends Phaser.Scene{constructor(){super("GameScene")}preload(){this.load.image("tileset","assets/tileset.png"),this.load.spritesheet("tileset_spritesheet","assets/tileset.png",{frameWidth:64,frameHeight:64}),this.load.image("home_base-1","assets/home_base.png"),this.load.image("portrait_base","assets/Portrait_Base.png"),this.load.image("factory-1","assets/Factory.png"),this.load.image("scaffold","assets/scaffold.png"),this.load.image("mine","assets/mine.png"),this.load.tilemapTiledJSON("map","assets/tiledmap2.json"),this.load.spritesheet("player-1","assets/spritesheet.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-rock-1","assets/spritesheet_rock.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-action-1","assets/spritesheet_build.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("turret-1","assets/turret_spritesheet.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("glider-1","assets/glider_spritesheet.png",{frameWidth:64,frameHeight:96}),this.load.image("home_base-2","assets/home_base-2.png"),this.load.image("factory-2","assets/Factory-2.png"),this.load.spritesheet("player-2","assets/spritesheet-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-rock-2","assets/spritesheet_rock-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-action-2","assets/spritesheet_build-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("turret-2","assets/turret_spritesheet-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("glider-2","assets/glider_spritesheet-2.png",{frameWidth:64,frameHeight:96}),this.load.image("ui_button","assets/ui_button.png"),this.load.image("ui_button_Attack","assets/ui_button_Attack.png"),this.load.image("ui_button_Build","assets/ui_button_Build.png"),this.load.image("ui_button_Cancel","assets/ui_button_Cancel.png"),this.load.image("ui_button_Gather","assets/ui_button_Gather.png"),this.load.image("Portrait_Engineer","assets/engineer_portrait.png"),this.load.image("ui_button_not_pressed","assets/ui_button_not_pressed.png"),this.load.image("ui_button_Attack_No_Background","assets/ui_button_Attack_No_Background.png"),this.load.image("resource","assets/resource.png"),this.load.image("ui_button_Build_No_Background","assets/ui_button_Build_No_Background.png"),this.load.image("ui_button_Gather_No_Background","assets/ui_button_Gather_No_Background.png"),this.load.image("ui_button_Cancel_No_Background","assets/ui_button_Cancel_No_Background.png"),this.load.image("ui_button_Build_Engineer_No_Background","assets/ui_button_Engineer_Build_No_Background.png"),this.load.audio("background_music","assets/background_music.mp3"),// urls: an array of file url
+Math.random(),yS.getInstance(this.scene).EngineerAttacking.play(),this.gliderFSM.go(dS.Attacking)):this.gliderFSM.go(dS.Idle)})),this.pathFinder.calculate()}update(t){super.update(t)}GetTileLocation(){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y+this.centerToTileOffset,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)}}class PS extends _S{constructor(t,e,i,s,n){super(t,"factory-"+n,"Factory",e,i,s,oS.Input.BuildGlider,oS.EntityBuild.CreateGlider,"factory-"+n,n),this.setInteractive(new Phaser.Geom.Circle(this.width/2,this.height/2,this.width/4),this.handler)}}class OS extends SS{constructor(t,e,i,s,n,r){super(t,"scaffold",n,e,i,s,"scaffold",r),this.desiredBuilding=n,this.desiredBuildingCoordinates=new Phaser.Math.Vector2(i,s),this.status="...",this.buildingCompletionTarget=10,this.buildingCompletionProgress=0}increaseBuildingCompletionProgress(){return this.buildingCompletionProgress++,this.buildingCompletionProgress>=this.buildingCompletionTarget&&(this.eventEmitter.emit(oS.EntityBuild.DestroyScaffold,this),this.eventEmitter.emit(oS.EntityBuild.CreateBuilding,this.desiredBuildingCoordinates.x,this.desiredBuildingCoordinates.y,this.desiredBuilding),!0)}}class LS{constructor(t,e){this.scene=t,this.map=e,this.entityList=new Array,this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.EntityBuild.CreateEngineer,(t=>{this.createEngineerEntity(t.x,t.y,1)})),this.eventEmitter.on(oS.EntityBuild.CreateGlider,(t=>{this.createGliderEntity(t.x,t.y,1)})),this.eventEmitter.on(oS.Game.DestroyEntity,(t=>{this.deleteEntity(t)})),this.resources=gS.resourceCount,this.eventEmitter.emit(oS.EntityBuild.DestroyScaffold),this.eventEmitter.emit(oS.EntityBuild.CreateBuilding),this.eventEmitter.on(oS.EntityBuild.DestroyScaffold,(t=>{this.deleteEntity(t)})),this.eventEmitter.on(oS.EntityBuild.CreateBuilding,((t,e,i)=>{this.createEntity(t,e,i,1)})),this.eventEmitter.on(oS.Input.RequestBuildScaffold,((t,e)=>{if(e==mS.Base){if(!(this.resources>=500))return;this.resources-=500,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}else if(e==mS.Factory){if(!(this.resources>=300))return;this.resources-=300,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}let i=this.createScaffoldEntity(t.GetTileLocation().x,t.GetTileLocation().y,e,1);t.requestBuild(i)})),this.eventEmitter.on(oS.Game.AddResources,(t=>{this.resources+=t,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Game.RemoveResources,(t=>{this.resources-=t,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Input.RequestBuildEngineer,(()=>{this.resources>=100&&(this.resources-=100,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources),this.eventEmitter.emit(oS.Input.BuildEngineer,{}))})),this.eventEmitter.on(oS.Input.RequestCancelEngineer,(()=>{this.resources+=100,this.eventEmitter.emit(oS.Input.Cancel,{}),this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Input.RequestBuildGlider,(()=>{this.resources>=300&&(this.resources-=300,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources),this.eventEmitter.emit(oS.Input.BuildGlider,{}))})),this.eventEmitter.on(oS.Input.RequestCancelGlider,(()=>{this.resources+=300,this.eventEmitter.emit(oS.Input.Cancel,{}),this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}))}getNearestBaseToEntity(t){let e;for(let i of this.entityList)i instanceof AS&&(null==e||new Phaser.Math.Vector2(e.x,e.y).distance(new Phaser.Math.Vector2(t.x,t.y))>new Phaser.Math.Vector2(i.x,i.y).distance(new Phaser.Math.Vector2(t.x,t.y)))&&(e=i);return e}createEntity(t,e,i,s){switch(i){case mS.Base:this.createBaseEntity(t,e,s);break;case mS.Factory:this.createFactoryEntity(t,e,s)}}createEngineerEntity(t,e,i){let s=new bS(this.map,this.scene,t,e,i);return this.entityList.push(s),s.updateNearestBase(this.getNearestBaseToEntity(s)),s}createBaseEntity(t,e,i){let s=new AS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createMineEntity(t,e){let i=new CS(this.map,this.scene,t,e);return this.entityList.push(i),i}createTurretEntity(t,e,i){let s=new MS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createScaffoldEntity(t,e,i,s){let n=new OS(this.map,this.scene,t,e,i,s);return this.entityList.push(n),n}createGliderEntity(t,e,i){let s=new RS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createFactoryEntity(t,e,i){let s=new PS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}deleteEntity(t){let e=this.entityList.indexOf(t);t.destroy(),-1!==e&&this.entityList.splice(e,1)}update(t){this.entityList.forEach((e=>e.update(t)))}}class FS extends Phaser.Scene{constructor(){super("GameScene")}preload(){this.load.image("tileset","assets/tileset.png"),this.load.spritesheet("tileset_spritesheet","assets/tileset.png",{frameWidth:64,frameHeight:64}),this.load.image("home_base-1","assets/home_base.png"),this.load.image("portrait_base","assets/Portrait_Base.png"),this.load.image("factory-1","assets/Factory.png"),this.load.image("scaffold","assets/scaffold.png"),this.load.image("mine","assets/mine.png"),this.load.tilemapTiledJSON("map","assets/tiledmap3.json"),this.load.spritesheet("player-1","assets/spritesheet.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-rock-1","assets/spritesheet_rock.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-action-1","assets/spritesheet_build.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("turret-1","assets/turret_spritesheet.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("glider-1","assets/glider_spritesheet.png",{frameWidth:64,frameHeight:96}),this.load.spritesheet("gliderPortrait-1","assets/glider_portrait.png",{frameWidth:64,frameHeight:96}),this.load.image("home_base-2","assets/home_base-2.png"),this.load.image("factory-2","assets/Factory-2.png"),this.load.spritesheet("player-2","assets/spritesheet-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-rock-2","assets/spritesheet_rock-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-action-2","assets/spritesheet_build-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("turret-2","assets/turret_spritesheet-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("glider-2","assets/glider_spritesheet-2.png",{frameWidth:64,frameHeight:96}),this.load.image("ui_button","assets/ui_button.png"),this.load.image("ui_button_Attack","assets/ui_button_Attack.png"),this.load.image("ui_button_Build","assets/ui_button_Build.png"),this.load.image("ui_button_Cancel","assets/ui_button_Cancel.png"),this.load.image("ui_button_Gather","assets/ui_button_Gather.png"),this.load.image("Portrait_Engineer","assets/engineer_portrait.png"),this.load.image("ui_button_not_pressed","assets/ui_button_not_pressed.png"),this.load.image("ui_button_Attack_No_Background","assets/ui_button_Attack_No_Background.png"),this.load.image("resource","assets/resource.png"),this.load.image("ui_button_Build_No_Background","assets/ui_button_Build_No_Background.png"),this.load.image("ui_button_Gather_No_Background","assets/ui_button_Gather_No_Background.png"),this.load.image("ui_button_Cancel_No_Background","assets/ui_button_Cancel_No_Background.png"),this.load.image("ui_button_Build_Engineer_No_Background","assets/ui_button_Engineer_Build_No_Background.png"),this.load.audio("background_music","assets/background_music.mp3"),// urls: an array of file url
 this.load.audio("Engineer_Attacking","assets/Engineer_Attacking.mp3"),// urls: an array of file url
 this.load.audio("Engineer_Idle_Selected_1","assets/Engineer_Idle_Selected_1.mp3"),// urls: an array of file url
 this.load.audio("Engineer_Idle_Selected_2","assets/Engineer_Idle_Selected_2.mp3"),// urls: an array of file url
@@ -80671,9 +80672,9 @@ this.load.audio("Engineer_Moving_2","assets/Engineer_Moving_2.mp3"),// urls: an 
 this.load.image("Portrait","assets/portrait.png"),// urls: an array of file url
 this.load.scenePlugin({key:"rexuiplugin",url:"https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexuiplugin.min.js",sceneKey:"rexUI"})}create(){this.eventEmitterSingleton=xS.getInstance(),this.input.setGlobalTopOnly(!0),this.input.setTopOnly(!0),this.map=this.add.tilemap("map"),this.scene.launch("UI"),console.log(this.map),this.sound.add("background_music",{mute:!1,volume:.5,rate:1,detune:0,seek:0,loop:!0,delay:0}).play();var t=this.map.addTilesetImage("tileset","tileset");this.layer1=this.map.createLayer("Tile Layer 1",[t]),this.layer2=this.map.createLayer("Tile Layer 2",[t]),this.cameras.main.setZoom(1),this.cameras.main.setScroll(-800,0),this.add.rectangle(1400,15,2100,1800,16777215,0).setInteractive().setScrollFactor(0).setDepth(1).on("pointerup",((t,e)=>{var i=this.cameras.main.scrollX+t.x,s=this.cameras.main.scrollY+t.y;this.eventEmitterSingleton.emit(oS.EntityActions.Move,new Phaser.Math.Vector2(this.getTileLocation(i,s)))})),
 //N,NE,E,SE,S,SW,W,NW,N
-this.anims.create({key:"glider-1-N",frames:this.anims.generateFrameNumbers("glider-1",{start:0,end:7}),frameRate:15,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-NW",frames:this.anims.generateFrameNumbers("glider-1",{start:8,end:15}),frameRate:15,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-W",frames:this.anims.generateFrameNumbers("glider-1",{start:16,end:23}),frameRate:15,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-SW",frames:this.anims.generateFrameNumbers("glider-1",{start:24,end:31}),frameRate:15,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-S",frames:this.anims.generateFrameNumbers("glider-1",{start:32,end:39}),frameRate:15,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-SE",frames:this.anims.generateFrameNumbers("glider-1",{start:40,end:47}),frameRate:15,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-E",frames:this.anims.generateFrameNumbers("glider-1",{start:48,end:55}),frameRate:15,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-NE",frames:this.anims.generateFrameNumbers("glider-1",{start:56,end:63}),frameRate:15,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-N",frames:this.anims.generateFrameNumbers("player-1",{start:0,end:4}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-NW",frames:this.anims.generateFrameNumbers("player-1",{start:5,end:9}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-W",frames:this.anims.generateFrameNumbers("player-1",{start:10,end:14}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-SW",frames:this.anims.generateFrameNumbers("player-1",{start:15,end:19}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-S",frames:this.anims.generateFrameNumbers("player-1",{start:20,end:24}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-SE",frames:this.anims.generateFrameNumbers("player-1",{start:25,end:29}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-E",frames:this.anims.generateFrameNumbers("player-1",{start:30,end:34}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-NE",frames:this.anims.generateFrameNumbers("player-1",{start:35,end:39}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-N",frames:this.anims.generateFrameNumbers("player-rock-1",{start:0,end:4}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-NW",frames:this.anims.generateFrameNumbers("player-rock-1",{start:5,end:9}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-W",frames:this.anims.generateFrameNumbers("player-rock-1",{start:10,end:14}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-SW",frames:this.anims.generateFrameNumbers("player-rock-1",{start:15,end:19}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-S",frames:this.anims.generateFrameNumbers("player-rock-1",{start:20,end:24}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-SE",frames:this.anims.generateFrameNumbers("player-rock-1",{start:25,end:29}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-E",frames:this.anims.generateFrameNumbers("player-rock-1",{start:30,end:34}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-NE",frames:this.anims.generateFrameNumbers("player-rock-1",{start:35,end:39}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-N",frames:this.anims.generateFrameNumbers("player-action-1",{start:0,end:4}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-NW",frames:this.anims.generateFrameNumbers("player-action-1",{start:5,end:9}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-W",frames:this.anims.generateFrameNumbers("player-action-1",{start:10,end:14}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-SW",frames:this.anims.generateFrameNumbers("player-action-1",{start:15,end:19}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-S",frames:this.anims.generateFrameNumbers("player-action-1",{start:20,end:24}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-SE",frames:this.anims.generateFrameNumbers("player-action-1",{start:25,end:29}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-E",frames:this.anims.generateFrameNumbers("player-action-1",{start:30,end:34}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-NE",frames:this.anims.generateFrameNumbers("player-action-1",{start:35,end:39}),frameRate:25,repeat:-1,yoyo:!0}),
+this.anims.create({key:"glider-1-N",frames:this.anims.generateFrameNumbers("glider-1",{start:0,end:7}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-NW",frames:this.anims.generateFrameNumbers("glider-1",{start:8,end:15}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-W",frames:this.anims.generateFrameNumbers("glider-1",{start:16,end:23}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-SW",frames:this.anims.generateFrameNumbers("glider-1",{start:24,end:31}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-S",frames:this.anims.generateFrameNumbers("glider-1",{start:32,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-SE",frames:this.anims.generateFrameNumbers("glider-1",{start:40,end:47}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-E",frames:this.anims.generateFrameNumbers("glider-1",{start:48,end:55}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-NE",frames:this.anims.generateFrameNumbers("glider-1",{start:56,end:63}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-N",frames:this.anims.generateFrameNumbers("player-1",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-NW",frames:this.anims.generateFrameNumbers("player-1",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-W",frames:this.anims.generateFrameNumbers("player-1",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-SW",frames:this.anims.generateFrameNumbers("player-1",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-S",frames:this.anims.generateFrameNumbers("player-1",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-SE",frames:this.anims.generateFrameNumbers("player-1",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-E",frames:this.anims.generateFrameNumbers("player-1",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-NE",frames:this.anims.generateFrameNumbers("player-1",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-N",frames:this.anims.generateFrameNumbers("player-rock-1",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-NW",frames:this.anims.generateFrameNumbers("player-rock-1",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-W",frames:this.anims.generateFrameNumbers("player-rock-1",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-SW",frames:this.anims.generateFrameNumbers("player-rock-1",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-S",frames:this.anims.generateFrameNumbers("player-rock-1",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-SE",frames:this.anims.generateFrameNumbers("player-rock-1",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-E",frames:this.anims.generateFrameNumbers("player-rock-1",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-NE",frames:this.anims.generateFrameNumbers("player-rock-1",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-N",frames:this.anims.generateFrameNumbers("player-action-1",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-NW",frames:this.anims.generateFrameNumbers("player-action-1",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-W",frames:this.anims.generateFrameNumbers("player-action-1",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-SW",frames:this.anims.generateFrameNumbers("player-action-1",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-S",frames:this.anims.generateFrameNumbers("player-action-1",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-SE",frames:this.anims.generateFrameNumbers("player-action-1",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-E",frames:this.anims.generateFrameNumbers("player-action-1",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-NE",frames:this.anims.generateFrameNumbers("player-action-1",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),
 //N,NE,E,SE,S,SW,W,NW,N
-this.anims.create({key:"glider-2-N",frames:this.anims.generateFrameNumbers("glider-2",{start:0,end:7}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-NW",frames:this.anims.generateFrameNumbers("glider-2",{start:8,end:15}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-W",frames:this.anims.generateFrameNumbers("glider-2",{start:16,end:23}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-SW",frames:this.anims.generateFrameNumbers("glider-2",{start:24,end:31}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-S",frames:this.anims.generateFrameNumbers("glider-2",{start:32,end:39}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-SE",frames:this.anims.generateFrameNumbers("glider-2",{start:40,end:47}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-E",frames:this.anims.generateFrameNumbers("glider-2",{start:48,end:55}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-NE",frames:this.anims.generateFrameNumbers("glider-2",{start:56,end:63}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-N",frames:this.anims.generateFrameNumbers("player-2",{start:0,end:4}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-NW",frames:this.anims.generateFrameNumbers("player-2",{start:5,end:9}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-W",frames:this.anims.generateFrameNumbers("player-2",{start:10,end:14}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-SW",frames:this.anims.generateFrameNumbers("player-2",{start:15,end:19}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-S",frames:this.anims.generateFrameNumbers("player-2",{start:20,end:24}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-SE",frames:this.anims.generateFrameNumbers("player-2",{start:25,end:29}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-E",frames:this.anims.generateFrameNumbers("player-2",{start:30,end:34}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-NE",frames:this.anims.generateFrameNumbers("player-2",{start:35,end:39}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-N",frames:this.anims.generateFrameNumbers("player-rock-2",{start:0,end:4}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-NW",frames:this.anims.generateFrameNumbers("player-rock-2",{start:5,end:9}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-W",frames:this.anims.generateFrameNumbers("player-rock-2",{start:10,end:14}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-SW",frames:this.anims.generateFrameNumbers("player-rock-2",{start:15,end:19}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-S",frames:this.anims.generateFrameNumbers("player-rock-2",{start:20,end:24}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-SE",frames:this.anims.generateFrameNumbers("player-rock-2",{start:25,end:29}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-E",frames:this.anims.generateFrameNumbers("player-rock-2",{start:30,end:34}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-NE",frames:this.anims.generateFrameNumbers("player-rock-2",{start:35,end:39}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-N",frames:this.anims.generateFrameNumbers("player-action-2",{start:0,end:4}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-NW",frames:this.anims.generateFrameNumbers("player-action-2",{start:5,end:9}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-W",frames:this.anims.generateFrameNumbers("player-action-2",{start:10,end:14}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-SW",frames:this.anims.generateFrameNumbers("player-action-2",{start:15,end:19}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-S",frames:this.anims.generateFrameNumbers("player-action-2",{start:20,end:24}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-SE",frames:this.anims.generateFrameNumbers("player-action-2",{start:25,end:29}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-E",frames:this.anims.generateFrameNumbers("player-action-2",{start:30,end:34}),frameRate:25,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-NE",frames:this.anims.generateFrameNumbers("player-action-2",{start:35,end:39}),frameRate:25,repeat:-1,yoyo:!0}),this.entityManager=new LS(this,this.map),this.mine=this.entityManager.createMineEntity(6,6),this.base=this.entityManager.createBaseEntity(14,5,1),this.base=this.entityManager.createBaseEntity(16,16,1),this.mine=this.entityManager.createMineEntity(6,14),this.entityManager.createTurretEntity(9,9,2),this.entityManager.createGliderEntity(15,7,1),this.entityManager.createFactoryEntity(20,20,2),this.entityManager.createScaffoldEntity(25,20,mS.Base,1),this.player=this.entityManager.createEngineerEntity(3,4,1),this.player=this.entityManager.createEngineerEntity(17,17,2),
+this.anims.create({key:"glider-2-N",frames:this.anims.generateFrameNumbers("glider-2",{start:0,end:7}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-NW",frames:this.anims.generateFrameNumbers("glider-2",{start:8,end:15}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-W",frames:this.anims.generateFrameNumbers("glider-2",{start:16,end:23}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-SW",frames:this.anims.generateFrameNumbers("glider-2",{start:24,end:31}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-S",frames:this.anims.generateFrameNumbers("glider-2",{start:32,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-SE",frames:this.anims.generateFrameNumbers("glider-2",{start:40,end:47}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-E",frames:this.anims.generateFrameNumbers("glider-2",{start:48,end:55}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-NE",frames:this.anims.generateFrameNumbers("glider-2",{start:56,end:63}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-N",frames:this.anims.generateFrameNumbers("player-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-NW",frames:this.anims.generateFrameNumbers("player-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-W",frames:this.anims.generateFrameNumbers("player-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-SW",frames:this.anims.generateFrameNumbers("player-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-S",frames:this.anims.generateFrameNumbers("player-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-SE",frames:this.anims.generateFrameNumbers("player-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-E",frames:this.anims.generateFrameNumbers("player-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-NE",frames:this.anims.generateFrameNumbers("player-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-N",frames:this.anims.generateFrameNumbers("player-rock-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-NW",frames:this.anims.generateFrameNumbers("player-rock-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-W",frames:this.anims.generateFrameNumbers("player-rock-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-SW",frames:this.anims.generateFrameNumbers("player-rock-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-S",frames:this.anims.generateFrameNumbers("player-rock-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-SE",frames:this.anims.generateFrameNumbers("player-rock-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-E",frames:this.anims.generateFrameNumbers("player-rock-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-NE",frames:this.anims.generateFrameNumbers("player-rock-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-N",frames:this.anims.generateFrameNumbers("player-action-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-NW",frames:this.anims.generateFrameNumbers("player-action-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-W",frames:this.anims.generateFrameNumbers("player-action-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-SW",frames:this.anims.generateFrameNumbers("player-action-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-S",frames:this.anims.generateFrameNumbers("player-action-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-SE",frames:this.anims.generateFrameNumbers("player-action-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-E",frames:this.anims.generateFrameNumbers("player-action-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-NE",frames:this.anims.generateFrameNumbers("player-action-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.entityManager=new LS(this,this.map),this.mine=this.entityManager.createMineEntity(6,6),this.base=this.entityManager.createBaseEntity(14,5,1),this.base=this.entityManager.createBaseEntity(16,16,1),this.mine=this.entityManager.createMineEntity(6,14),this.entityManager.createTurretEntity(9,9,2),this.entityManager.createGliderEntity(15,7,1),this.entityManager.createFactoryEntity(20,20,2),this.entityManager.createScaffoldEntity(25,20,mS.Base,1),this.player=this.entityManager.createEngineerEntity(3,4,1),this.player=this.entityManager.createEngineerEntity(17,17,2),
 //let uiPortraitParentLayout:UIParentLayout = new UIParentLayout(this,portraitLayout,uiLayout,110,400)
 this.finder=rS.getInstance(),//new EasyStarWrapper();
 this.setupPathFinder(this.finder,this.layer1),this.setupPathFinder(aS.getInstance(),this.layer2);for(var e=0;e<=16;e++)this.SetupLargeTiles(e);
@@ -80684,10 +80685,10 @@ this.setupPathFinder(this.finder,this.layer1),this.setupPathFinder(aS.getInstanc
 n.push(e.getTileAt(r,s).index);i.push(n)}t.setGrid(i);for(var a=this.map.tilesets[0],o=a.tileProperties,h=[],l=a.firstgid-1;l<a.total;l++)// firstgid and total are fields from Tiled that indicate the range of IDs that the tiles can take in that tileset
 o.hasOwnProperty(l)?(o[l].collide||h.push(l+1),o[l].cost&&this.finder.setTileCost(l+1,o[l].cost)):
 // If there is no property indicated at all, it means it's a walkable tile
-h.push(l+1);t.setAcceptableTiles(h),t.enableDiagonals(),t.setIterationsPerCalculation(1e3)}update(t,e){this.entityManager.update(e)}SetupLargeTiles(t){var e=this.layer1.createFromTiles(t,18,{key:"tileset_spritesheet",frame:t-1},this,this.cameras.main);this.addDepthsToTiles(e)}addDepthsToTiles(t){for(let i of t){var e=this.layer1.worldToTileXY(i.x,i.y);i.setDepth(e.x+e.y),i.setPosition(i.x+32,i.y+32)}}getTileLocation(t,e){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(t,e-16,!0,new Phaser.Math.Vector2,this.cameras.main,this.map.getLayer(0))}}class kS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){let r=t.add.image(2,2,e),a=t.add.image(0,0,i),o=t.add.image(0,0,s),h=r.displayWidth/o.displayWidth;o.displayWidth=r.displayWidth,o.displayHeight=o.displayHeight*h,super(t,0,0,[r,a,o]),this.setDepth(251),this.setScrollFactor(0,0,!0),n&&(this.add(t.add.image(0,23,"resource").setScale(.3)),this.add(new Phaser.GameObjects.Text(t,5,18,n,{fontFamily:"Courier",fontSize:"14px",color:"#ffffff"}))),t.add.existing(this),this.setSize(72,72),this.setInteractive().on("pointerdown",(function(t,e,i,s){this.list[1].x+=2,this.list[2].x+=2,this.list[1].y+=2,this.list[2].y+=2})),this.setInteractive().on("pointerup",(function(t,e,i,s){this.list[1].x-=2,this.list[2].x-=2,this.list[1].y-=2,this.list[2].y-=2}))}}class DS extends kS{constructor(t,e){super(t,"ui_button_not_pressed","ui_button","ui_button_Cancel_No_Background"),this.setInteractive().on("pointerup",(function(t,i,s,n){xS.getInstance().emit(e)}))}}class IS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","ui_button_Build_Engineer_No_Background","100"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildEngineer)}))}}class BS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","glider-1","300"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildGlider)}))}}class NS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","home_base-1","500"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildBase)}))}}class YS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","factory-1","300"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildFactory)}))}}class XS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){let r=0;for(let t of i)t.x=r%2!=0?100:0,t.y=0+100*Math.floor(r/2),r++;super(e,s,n,i),t.subscribe(this),this.publisher=t,this.setScrollFactor(0).setDepth(251).setScale(1.5),e.add.existing(this)}notify(t){}destroy(){this.publisher.unsubscribe(this),super.destroy()}}class US extends XS{constructor(t,e,i,s,n,r,a){super(e,i,[s,n],r,a),this.buildingFSM=this.createFSM(),this.buildButton=s,this.cancelButton=n,t!=oS.BuildingStates.Idle?(this.buildButton.setVisible(!1),this.cancelButton.setVisible(!0),this.buildingFSM.go(t)):(this.buildButton.setVisible(!0),this.cancelButton.setVisible(!1))}createFSM(){let t=new fS.FiniteStateMachine(oS.BuildingStates.Idle);return t.from(oS.BuildingStates.Idle).to(oS.BuildingStates.Building),t.from(oS.BuildingStates.Building).to(oS.BuildingStates.Idle),t.on(oS.BuildingStates.Building,(t=>ES(this,void 0,void 0,(function*(){this.buildButton.setVisible(!1),this.cancelButton.setVisible(!0)})))),t.on(oS.BuildingStates.Idle,(t=>ES(this,void 0,void 0,(function*(){this.buildButton.setVisible(!0),this.cancelButton.setVisible(!1)})))),t}notify(t){this.buildingFSM.go(t)}}class zS extends US{constructor(t,e,i,s,n){super(t,e,i,new IS(i),new DS(i,oS.Input.RequestCancelEngineer),s,n)}}class GS extends US{constructor(t,e,i,s,n){super(t,e,i,new BS(i),new DS(i,oS.Input.RequestCancelGlider),s,n)}}class WS extends XS{constructor(t,e,i,s){super(t,e,[new NS(e),new YS(e)],i,s)}}class VS{constructor(){this.x=0,this.y=200}CreateUI(t,e){return t instanceof AS?new zS(t.getStatus(),t,t.scene,this.x,this.y):t instanceof PS?new GS(t.getStatus(),t,t.scene,this.x,this.y):t instanceof bS?new WS(t,t.scene,this.x,this.y):new XS(t,t.scene,[],this.x,this.y)}}class HS extends Phaser.GameObjects.Container{constructor(t,e,i,s){let n=new Phaser.GameObjects.Image(t,0,0,e.getIconString()),r=n.height/n.width;n.displayWidth=80,n.displayHeight=n.displayWidth*r;let a=new Phaser.GameObjects.Text(t,45,0,e.getName(),{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"}),o=new Phaser.GameObjects.Text(t,-30,40,"Status: "+e.getStatus(),{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"});super(t,i,s,[n,a,o]),this.publisher=e,this.publisher.subscribe(this),this.EntityStatus=o,t.add.existing(this),this.setScale(1.5),this.setDepth(251),this.setScrollFactor(0)}notify(t){this.EntityStatus.setText("Status: "+t)}destroy(){this.publisher.unsubscribe(this),super.destroy()}}class jS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){super(t,s,n,[e,i]),this.setDepth(250),t.add.existing(this)}}class qS{constructor(){}GetUI(t,e){let i=(new VS).CreateUI(t,e),s=new HS(e,t,0,0);return new jS(e,i,s,110,400)}}class KS extends Phaser.GameObjects.Container{constructor(t){super(t,1360,35,[]),this.resourceCountString=gS.resourceCount.toString(),this.resourceCount=new Phaser.GameObjects.Text(t,65,0,this.resourceCountString,{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"}),this.add(this.resourceCount),this.add(t.add.image(0,0,"resource")),this.setDepth(251),this.setScrollFactor(0,0,!0),this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.Game.UpdateResourceCount,(t=>{console.log(this),this.resourceCount.setText(t.toString())})),t.add.existing(this)}destroy(){this.eventEmitter.removeListener(oS.Game.UpdateResourceCount),super.destroy()}}class ZS{constructor(t,e,i){this.uiFactory=new qS,this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.EntityActions.Selected,this.updateSelected,this),this.eventEmitter.on(oS.Input.RequestBuildBase,(()=>{this.eventEmitter.emit(oS.Input.RequestBuildScaffold,this.selectedEntity,mS.Base)})),this.eventEmitter.on(oS.Input.RequestBuildFactory,(()=>{this.eventEmitter.emit(oS.Input.RequestBuildScaffold,this.selectedEntity,mS.Factory)})),this.entityScene=e;let s=e.input.keyboard.createCursorKeys();var n={camera:e.cameras.main,left:s.left,right:s.right,up:s.up,down:s.down,acceleration:.04,drag:5e-4,maxSpeed:.4};this.LeftArrowDown=!1,this.RightArrowDown=!1,this.UpArrowDown=!1,this.BottomArrowDown=!1,this.controls=new Phaser.Cameras.Controls.SmoothedKeyControl(n),
+h.push(l+1);t.setAcceptableTiles(h),t.enableDiagonals(),t.setIterationsPerCalculation(100)}update(t,e){this.entityManager.update(e)}SetupLargeTiles(t){var e=this.layer1.createFromTiles(t,18,{key:"tileset_spritesheet",frame:t-1},this,this.cameras.main);this.addDepthsToTiles(e)}addDepthsToTiles(t){for(let i of t){var e=this.layer1.worldToTileXY(i.x,i.y);i.setDepth(e.x+e.y),i.setPosition(i.x+32,i.y+32)}}getTileLocation(t,e){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(t,e-16,!0,new Phaser.Math.Vector2,this.cameras.main,this.map.getLayer(0))}}class kS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){let r=t.add.image(2,2,e),a=t.add.image(0,0,i),o=t.add.image(0,0,s),h=r.displayWidth/o.displayWidth;o.displayWidth=r.displayWidth,o.displayHeight=o.displayHeight*h,super(t,0,0,[r,a,o]),this.setDepth(251),this.setScrollFactor(0,0,!0),n&&(this.add(t.add.image(0,23,"resource").setScale(.3)),this.add(new Phaser.GameObjects.Text(t,5,18,n,{fontFamily:"Courier",fontSize:"14px",color:"#ffffff"}))),t.add.existing(this),this.setSize(72,72),this.setInteractive().on("pointerdown",(function(t,e,i,s){this.list[1].x+=2,this.list[2].x+=2,this.list[1].y+=2,this.list[2].y+=2})),this.setInteractive().on("pointerup",(function(t,e,i,s){this.list[1].x-=2,this.list[2].x-=2,this.list[1].y-=2,this.list[2].y-=2}))}}class DS extends kS{constructor(t,e){super(t,"ui_button_not_pressed","ui_button","ui_button_Cancel_No_Background"),this.setInteractive().on("pointerup",(function(t,i,s,n){xS.getInstance().emit(e)}))}}class IS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","ui_button_Build_Engineer_No_Background","100"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildEngineer)}))}}class BS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","glider-1","300"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildGlider)}))}}class NS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","home_base-1","500"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildBase)}))}}class YS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","factory-1","300"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildFactory)}))}}class US extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){let r=0;for(let t of i)t.x=r%2!=0?100:0,t.y=0+100*Math.floor(r/2),r++;super(e,s,n,i),t.subscribe(this),this.publisher=t,this.setScrollFactor(0).setDepth(251).setScale(1.5),e.add.existing(this)}notify(t){}destroy(){this.publisher.unsubscribe(this),super.destroy()}}class XS extends US{constructor(t,e,i,s,n,r,a){super(e,i,[s,n],r,a),this.buildingFSM=this.createFSM(),this.buildButton=s,this.cancelButton=n,t!=oS.BuildingStates.Idle?(this.buildButton.setVisible(!1),this.cancelButton.setVisible(!0),this.buildingFSM.go(t)):(this.buildButton.setVisible(!0),this.cancelButton.setVisible(!1))}createFSM(){let t=new fS.FiniteStateMachine(oS.BuildingStates.Idle);return t.from(oS.BuildingStates.Idle).to(oS.BuildingStates.Building),t.from(oS.BuildingStates.Building).to(oS.BuildingStates.Idle),t.on(oS.BuildingStates.Building,(t=>ES(this,void 0,void 0,(function*(){this.buildButton.setVisible(!1),this.cancelButton.setVisible(!0)})))),t.on(oS.BuildingStates.Idle,(t=>ES(this,void 0,void 0,(function*(){this.buildButton.setVisible(!0),this.cancelButton.setVisible(!1)})))),t}notify(t){this.buildingFSM.go(t)}}class zS extends XS{constructor(t,e,i,s,n){super(t,e,i,new IS(i),new DS(i,oS.Input.RequestCancelEngineer),s,n)}}class GS extends XS{constructor(t,e,i,s,n){super(t,e,i,new BS(i),new DS(i,oS.Input.RequestCancelGlider),s,n)}}class WS extends US{constructor(t,e,i,s){super(t,e,[new NS(e),new YS(e)],i,s)}}class VS{constructor(){this.x=0,this.y=200}CreateUI(t,e){return t instanceof AS?new zS(t.getStatus(),t,t.scene,this.x,this.y):t instanceof PS?new GS(t.getStatus(),t,t.scene,this.x,this.y):t instanceof bS?new WS(t,t.scene,this.x,this.y):new US(t,t.scene,[],this.x,this.y)}}class HS extends Phaser.GameObjects.Container{constructor(t,e,i,s){let n=new Phaser.GameObjects.Image(t,0,0,e.getIconString()),r=n.height/n.width;n.displayWidth=80,n.displayHeight=n.displayWidth*r;let a=new Phaser.GameObjects.Text(t,45,0,e.getName(),{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"}),o=new Phaser.GameObjects.Text(t,-30,40,"Status: "+e.getStatus(),{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"});super(t,i,s,[n,a,o]),this.publisher=e,this.publisher.subscribe(this),this.EntityStatus=o,t.add.existing(this),this.setScale(1.5),this.setDepth(251),this.setScrollFactor(0)}notify(t){this.EntityStatus.setText("Status: "+t)}destroy(){this.publisher.unsubscribe(this),super.destroy()}}class jS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){super(t,s,n,[e,i]),this.setDepth(250),t.add.existing(this)}}class qS{constructor(){}GetUI(t,e){let i=(new VS).CreateUI(t,e),s=new HS(e,t,0,0);return new jS(e,i,s,110,440)}}class KS extends Phaser.GameObjects.Container{constructor(t){super(t,1360,35,[]),this.resourceCountString=gS.resourceCount.toString(),this.resourceCount=new Phaser.GameObjects.Text(t,65,0,this.resourceCountString,{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"}),this.add(this.resourceCount),this.add(t.add.image(0,0,"resource")),this.setDepth(251),this.setScrollFactor(0,0,!0),this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.Game.UpdateResourceCount,(t=>{console.log(this),this.resourceCount.setText(t.toString())})),t.add.existing(this)}destroy(){this.eventEmitter.removeListener(oS.Game.UpdateResourceCount),super.destroy()}}class ZS{constructor(t,e,i){this.uiFactory=new qS,this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.EntityActions.Selected,this.updateSelected,this),this.eventEmitter.on(oS.Input.RequestBuildBase,(()=>{this.eventEmitter.emit(oS.Input.RequestBuildScaffold,this.selectedEntity,mS.Base)})),this.eventEmitter.on(oS.Input.RequestBuildFactory,(()=>{this.eventEmitter.emit(oS.Input.RequestBuildScaffold,this.selectedEntity,mS.Factory)})),this.entityScene=e;let s=e.input.keyboard.createCursorKeys();var n={camera:e.cameras.main,left:s.left,right:s.right,up:s.up,down:s.down,acceleration:.04,drag:5e-4,maxSpeed:.4};this.LeftArrowDown=!1,this.RightArrowDown=!1,this.UpArrowDown=!1,this.BottomArrowDown=!1,this.controls=new Phaser.Cameras.Controls.SmoothedKeyControl(n),
 //scene.add.rectangle(1400,15,2100,1800,0xffffff,0x0).setInteractive().setScrollFactor(0).setDepth(1).on('pointerup', (pointer, gameObject)=>{this.handleClick(pointer,gameObject)});
-t.add.image(800,450,"ui_overlay").setScrollFactor(0).setScale(2).setDepth(250),t.add.image(180,252,"Up_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.UpArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.UpArrowDown=!1})),t.add.image(180,342,"Down_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.BottomArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.BottomArrowDown=!1})),t.add.image(125,297,"Left_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.LeftArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.LeftArrowDown=!1})),t.add.image(235,297,"Right_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.RightArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.RightArrowDown=!1})),this.eventEmitter.on(oS.EntityActions.Move,this.handleMovement,this),null!=i&&(this.selectedEntity=i,this.uiLayout=this.uiFactory.GetUI(this.selectedEntity,t)),this.uiScene=t,this.resourceLayout=new KS(this.uiScene)}moveSelected(t){this.selectedEntity instanceof wS&&this.selectedEntity.requestMove(t)}updateSelected(t){null!=t&&(this.selectedEntity instanceof bS&&t instanceof CS?this.selectedEntity.requestMine(t):this.selectedEntity instanceof bS&&t instanceof OS?this.selectedEntity.requestBuild(t):t.team==vS.Player?(null==this.selectedEntity||this.selectedEntity.updateSelected(!1),this.selectedEntity=t,this.selectedEntity.updateSelected(!0),Math.random()>.5?yS.getInstance(this.selectedEntity.scene).IdleEngineerSelected1.play():yS.getInstance(this.selectedEntity.scene).IdleEngineerSelected2.play()):t.team==vS.Enemy&&this.selectedEntity instanceof RS&&this.selectedEntity.requestAttack(t),null!=this.uiLayout&&this.uiLayout.destroy(),this.uiLayout=this.uiFactory.GetUI(this.selectedEntity,this.uiScene))}handleMovement(t){this.moveSelected(t)}update(t){this.controls.update(t),this.UpArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX,this.entityScene.cameras.main.scrollY-t/1e3*500),this.BottomArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX,this.entityScene.cameras.main.scrollY+t/1e3*500),this.RightArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX+t/1e3*500,this.entityScene.cameras.main.scrollY),this.LeftArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX-t/1e3*500,this.entityScene.cameras.main.scrollY)}}class JS extends Phaser.Scene{constructor(){super("UI")}preload(){this.load.image("tileset","assets/tileset.png"),this.load.spritesheet("tileset_spritesheet","assets/tileset.png",{frameWidth:64,frameHeight:64}),this.load.image("portrait_base","assets/Portrait_Base.png"),this.load.image("mine","assets/mine.png"),this.load.image("ui_overlay","assets/ui_overlay_2.png"),this.load.image("ui_button","assets/ui_button.png"),this.load.image("ui_button_Attack","assets/ui_button_Attack.png"),this.load.image("ui_button_Build","assets/ui_button_Build.png"),this.load.image("ui_button_Cancel","assets/ui_button_Cancel.png"),this.load.image("ui_button_Gather","assets/ui_button_Gather.png"),this.load.image("Portrait_Engineer","assets/engineer_portrait.png"),this.load.image("ui_button_not_pressed","assets/ui_button_not_pressed.png"),this.load.image("ui_button_Attack_No_Background","assets/ui_button_Attack_No_Background.png"),this.load.image("resource","assets/resource.png"),this.load.image("ui_button_Build_No_Background","assets/ui_button_Build_No_Background.png"),this.load.image("ui_button_Gather_No_Background","assets/ui_button_Gather_No_Background.png"),this.load.image("ui_button_Cancel_No_Background","assets/ui_button_Cancel_No_Background.png"),this.load.image("ui_button_Build_Engineer_No_Background","assets/ui_button_Engineer_Build_No_Background.png"),this.load.image("Portrait","assets/portrait.png"),// urls: an array of file url
+t.add.image(800,450,"ui_overlay").setScrollFactor(0).setScale(2).setDepth(250),t.add.image(190,252,"Up_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.UpArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.UpArrowDown=!1})),t.add.image(190,342,"Down_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.BottomArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.BottomArrowDown=!1})),t.add.image(135,297,"Left_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.LeftArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.LeftArrowDown=!1})),t.add.image(245,297,"Right_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.RightArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.RightArrowDown=!1})),this.eventEmitter.on(oS.EntityActions.Move,this.handleMovement,this),null!=i&&(this.selectedEntity=i,this.uiLayout=this.uiFactory.GetUI(this.selectedEntity,t)),this.uiScene=t,this.resourceLayout=new KS(this.uiScene)}moveSelected(t){this.selectedEntity instanceof wS&&this.selectedEntity.requestMove(t)}updateSelected(t){null!=t&&(this.selectedEntity instanceof bS&&t instanceof CS?this.selectedEntity.requestMine(t):this.selectedEntity instanceof bS&&t instanceof OS?this.selectedEntity.requestBuild(t):t.team==vS.Player?(null==this.selectedEntity||this.selectedEntity.updateSelected(!1),this.selectedEntity=t,this.selectedEntity.updateSelected(!0),Math.random()>.5?yS.getInstance(this.selectedEntity.scene).IdleEngineerSelected1.play():yS.getInstance(this.selectedEntity.scene).IdleEngineerSelected2.play()):t.team==vS.Enemy&&this.selectedEntity instanceof RS&&this.selectedEntity.requestAttack(t),null!=this.uiLayout&&this.uiLayout.destroy(),this.uiLayout=this.uiFactory.GetUI(this.selectedEntity,this.uiScene))}handleMovement(t){this.moveSelected(t)}update(t){this.controls.update(t),this.UpArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX,this.entityScene.cameras.main.scrollY-t/1e3*500),this.BottomArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX,this.entityScene.cameras.main.scrollY+t/1e3*500),this.RightArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX+t/1e3*500,this.entityScene.cameras.main.scrollY),this.LeftArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX-t/1e3*500,this.entityScene.cameras.main.scrollY)}}class JS extends Phaser.Scene{constructor(){super("UI")}preload(){this.load.image("tileset","assets/tileset.png"),this.load.spritesheet("tileset_spritesheet","assets/tileset.png",{frameWidth:64,frameHeight:64}),this.load.image("portrait_base","assets/Portrait_Base.png"),this.load.image("mine","assets/mine.png"),this.load.image("ui_overlay","assets/ui_overlay_2.png"),this.load.image("ui_button","assets/ui_button.png"),this.load.image("ui_button_Attack","assets/ui_button_Attack.png"),this.load.image("ui_button_Build","assets/ui_button_Build.png"),this.load.image("ui_button_Cancel","assets/ui_button_Cancel.png"),this.load.image("ui_button_Gather","assets/ui_button_Gather.png"),this.load.image("Portrait_Engineer","assets/engineer_portrait.png"),this.load.image("ui_button_not_pressed","assets/ui_button_not_pressed.png"),this.load.image("ui_button_Attack_No_Background","assets/ui_button_Attack_No_Background.png"),this.load.image("resource","assets/resource.png"),this.load.image("ui_button_Build_No_Background","assets/ui_button_Build_No_Background.png"),this.load.image("ui_button_Gather_No_Background","assets/ui_button_Gather_No_Background.png"),this.load.image("ui_button_Cancel_No_Background","assets/ui_button_Cancel_No_Background.png"),this.load.image("ui_button_Build_Engineer_No_Background","assets/ui_button_Engineer_Build_No_Background.png"),this.load.image("Portrait","assets/portrait.png"),// urls: an array of file url
 this.load.image("Up_Button","assets/UI_Up_Button.png"),// urls: an array of file url
 this.load.image("Down_Button","assets/UI_Bottom_Button.png"),// urls: an array of file url
 this.load.image("Left_Button","assets/UI_Left_Button.png"),// urls: an array of file url
-this.load.image("Right_Button","assets/UI_Right_Button.png")}create(){this.input.setGlobalTopOnly(!0),this.input.setTopOnly(!0),this.gameScene=this.scene.get("GameScene"),this.minimap=this.gameScene.cameras.add(8,17,360,190).setZoom(.05).setName("mini"),this.minimap.setScroll(-100,1400),this.minimap.setBackgroundColor(8772),this.uiManager=new ZS(this,this.gameScene,null)}update(t,e){this.uiManager.update(e)}}class QS extends Phaser.Scene{constructor(){super("Menu")}preload(){this.load.html("connectionMenu","assets/DOMUI/ConnectionMenu.html"),this.load.html("hostMenu","assets/DOMUI/Host.html"),this.load.html("joinMenu","assets/DOMUI/Join.html")}create(){var t=this.add.dom(400,400).createFromCache("connectionMenu");t.addListener("click"),t.on("click",(e=>{(t.destroy(),"Host"===e.target.id)?this.add.dom(400,400).createFromCache("hostMenu").getChildByProperty("id","GameID").innerHTML="012345678":"Connect"===e.target.id?t=this.add.dom(400,400).createFromCache("joinMenu"):"SinglePlayer"===e.target.id&&this.scene.start("GameScene")}))}update(t,e){}}const $S={type:Phaser.AUTO,parent:"game",dom:{createContainer:!0},backgroundColor:"#125555",width:1600,height:900,scene:[QS,FS,JS],antialias:!0,plugins:{}};new Phaser.Game($S)}();
+this.load.image("Right_Button","assets/UI_Right_Button.png")}create(){this.input.setGlobalTopOnly(!0),this.input.setTopOnly(!0),this.gameScene=this.scene.get("GameScene"),this.minimap=this.gameScene.cameras.add(8,17,360,190).setZoom(.1).setName("mini"),this.minimap.setScroll(-110,670),this.minimap.setBackgroundColor(8772),this.uiManager=new ZS(this,this.gameScene,null)}update(t,e){this.uiManager.update(e)}}class QS extends Phaser.Scene{constructor(){super("Menu")}preload(){this.load.html("connectionMenu","assets/DOMUI/ConnectionMenu.html"),this.load.html("hostMenu","assets/DOMUI/Host.html"),this.load.html("joinMenu","assets/DOMUI/Join.html")}create(){var t=this.add.dom(400,400).createFromCache("connectionMenu");t.addListener("click"),t.on("click",(e=>{(t.destroy(),"Host"===e.target.id)?this.add.dom(400,400).createFromCache("hostMenu").getChildByProperty("id","GameID").innerHTML="012345678":"Connect"===e.target.id?t=this.add.dom(400,400).createFromCache("joinMenu"):"SinglePlayer"===e.target.id&&this.scene.start("GameScene")}))}update(t,e){}}const $S={type:Phaser.AUTO,parent:"game",dom:{createContainer:!0},backgroundColor:"#125555",width:1600,height:900,scene:[QS,FS,JS],antialias:!0,plugins:{}};new Phaser.Game($S)}();
