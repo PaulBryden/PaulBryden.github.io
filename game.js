@@ -598,7 +598,7 @@ var k=function(t,e,i,s,n){return F[i](t,e,s,n)},D=function(t,e,i,s){for(var n=t[
 //  Start to End
 for(a=n;a<h;a++)t[a][e]+=i+o*s,o++;else
 //  End to Start
-for(a=n;a>=0;a--)t[a][e]+=i+o*s,o++;return t},B=function(t,e,i,s,n){return I(t,"angle",e,i,s,n)},N=function(t,e,i){for(var s=0;s<t.length;s++){var n=t[s];e.call(i,n)}return t},Y=function(t,e,i){void 0===i&&(i=0);for(var s=i;s<t.length;s++){var n=t[s],r=!0;for(var a in e)n[a]!==e[a]&&(r=!1);if(r)return n}return null},U=function(t,e,i){void 0===i&&(i=0);for(var s=i;s<t.length;s++){var n=t[s],r=!0;for(var a in e)n[a]!==e[a]&&(r=!1);if(r)return n}return null},X=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),c(t,u(e)+i),T(t,l(e)+s),t},z=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),T(t,l(e)+s),t},G=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),T(t,l(e)+s),t},W=function(t,e,i){return c(t,e),E(t,i)},V=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),W(t,u(e)+i,b(e)+s),t},H=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),E(t,b(e)+s),t},j=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),E(t,b(e)+s),t},q=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),c(t,u(e)+i),d(t,_(e)-s),t},K=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),d(t,_(e)-s),t},Z=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),d(t,_(e)-s),t},J=[];J[h.BOTTOM_CENTER]=X,J[h.BOTTOM_LEFT]=z,J[h.BOTTOM_RIGHT]=G,J[h.CENTER]=V,J[h.LEFT_CENTER]=H,J[h.RIGHT_CENTER]=j,J[h.TOP_CENTER]=q,J[h.TOP_LEFT]=K,J[h.TOP_RIGHT]=Z,J[h.LEFT_BOTTOM]=J[h.BOTTOM_LEFT],J[h.LEFT_TOP]=J[h.TOP_LEFT],J[h.RIGHT_BOTTOM]=J[h.BOTTOM_RIGHT],J[h.RIGHT_TOP]=J[h.TOP_RIGHT];
+for(a=n;a>=0;a--)t[a][e]+=i+o*s,o++;return t},B=function(t,e,i,s,n){return I(t,"angle",e,i,s,n)},N=function(t,e,i){for(var s=0;s<t.length;s++){var n=t[s];e.call(i,n)}return t},Y=function(t,e,i){void 0===i&&(i=0);for(var s=i;s<t.length;s++){var n=t[s],r=!0;for(var a in e)n[a]!==e[a]&&(r=!1);if(r)return n}return null},U=function(t,e,i){void 0===i&&(i=0);for(var s=i;s<t.length;s++){var n=t[s],r=!0;for(var a in e)n[a]!==e[a]&&(r=!1);if(r)return n}return null},X=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),c(t,u(e)+i),T(t,l(e)+s),t},G=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),T(t,l(e)+s),t},z=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),T(t,l(e)+s),t},W=function(t,e,i){return c(t,e),E(t,i)},V=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),W(t,u(e)+i,b(e)+s),t},H=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),E(t,b(e)+s),t},j=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),E(t,b(e)+s),t},q=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),c(t,u(e)+i),d(t,_(e)-s),t},K=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),g(t,p(e)-i),d(t,_(e)-s),t},Z=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=0),y(t,m(e)+i),d(t,_(e)-s),t},J=[];J[h.BOTTOM_CENTER]=X,J[h.BOTTOM_LEFT]=G,J[h.BOTTOM_RIGHT]=z,J[h.CENTER]=V,J[h.LEFT_CENTER]=H,J[h.RIGHT_CENTER]=j,J[h.TOP_CENTER]=q,J[h.TOP_LEFT]=K,J[h.TOP_RIGHT]=Z,J[h.LEFT_BOTTOM]=J[h.BOTTOM_LEFT],J[h.LEFT_TOP]=J[h.TOP_LEFT],J[h.RIGHT_BOTTOM]=J[h.BOTTOM_RIGHT],J[h.RIGHT_TOP]=J[h.TOP_RIGHT];
 /**
  * Takes given Game Object and aligns it so that it is positioned relative to the other.
  * The alignment used is based on the `position` argument, which is an `ALIGN_CONST` value, such as `LEFT_CENTER` or `TOP_RIGHT`.
@@ -2668,7 +2668,7 @@ getBounds:function(t){
 var e,i,s,n,r,a,o,h;
 // Instead of doing a check if parent container is 
 // defined per corner we only do it once.
-if(void 0===t&&(t=new Yt),this.parentContainer){var l=this.parentContainer.getBoundsTransformMatrix();this.getTopLeft(t),l.transformPoint(t.x,t.y,t),e=t.x,i=t.y,this.getTopRight(t),l.transformPoint(t.x,t.y,t),s=t.x,n=t.y,this.getBottomLeft(t),l.transformPoint(t.x,t.y,t),r=t.x,a=t.y,this.getBottomRight(t),l.transformPoint(t.x,t.y,t),o=t.x,h=t.y}else this.getTopLeft(t),e=t.x,i=t.y,this.getTopRight(t),s=t.x,n=t.y,this.getBottomLeft(t),r=t.x,a=t.y,this.getBottomRight(t),o=t.x,h=t.y;return t.x=Math.min(e,s,r,o),t.y=Math.min(i,n,a,h),t.width=Math.max(e,s,r,o)-t.x,t.height=Math.max(i,n,a,h)-t.y,t}},zt={BLUR:"blur",BOOT:"boot",CONTEXT_LOST:"contextlost",CONTEXT_RESTORED:"contextrestored",DESTROY:"destroy",FOCUS:"focus",HIDDEN:"hidden",PAUSE:"pause",POST_RENDER:"postrender",POST_STEP:"poststep",PRE_RENDER:"prerender",PRE_STEP:"prestep",READY:"ready",RESUME:"resume",STEP:"step",VISIBLE:"visible"},Gt={POST_RENDER:"postrender",PRE_RENDER:"prerender",RENDER:"render",RESIZE:"resize"},Wt=new at({initialize:function(t,e){var i=t.sys.renderer;
+if(void 0===t&&(t=new Yt),this.parentContainer){var l=this.parentContainer.getBoundsTransformMatrix();this.getTopLeft(t),l.transformPoint(t.x,t.y,t),e=t.x,i=t.y,this.getTopRight(t),l.transformPoint(t.x,t.y,t),s=t.x,n=t.y,this.getBottomLeft(t),l.transformPoint(t.x,t.y,t),r=t.x,a=t.y,this.getBottomRight(t),l.transformPoint(t.x,t.y,t),o=t.x,h=t.y}else this.getTopLeft(t),e=t.x,i=t.y,this.getTopRight(t),s=t.x,n=t.y,this.getBottomLeft(t),r=t.x,a=t.y,this.getBottomRight(t),o=t.x,h=t.y;return t.x=Math.min(e,s,r,o),t.y=Math.min(i,n,a,h),t.width=Math.max(e,s,r,o)-t.x,t.height=Math.max(i,n,a,h)-t.y,t}},Gt={BLUR:"blur",BOOT:"boot",CONTEXT_LOST:"contextlost",CONTEXT_RESTORED:"contextrestored",DESTROY:"destroy",FOCUS:"focus",HIDDEN:"hidden",PAUSE:"pause",POST_RENDER:"postrender",POST_STEP:"poststep",PRE_RENDER:"prerender",PRE_STEP:"prestep",READY:"ready",RESUME:"resume",STEP:"step",VISIBLE:"visible"},zt={POST_RENDER:"postrender",PRE_RENDER:"prerender",RENDER:"render",RESIZE:"resize"},Wt=new at({initialize:function(t,e){var i=t.sys.renderer;
 /**
          * A reference to either the Canvas or WebGL Renderer that this Mask is using.
          *
@@ -2746,7 +2746,7 @@ this.invertAlpha=!1,
          * @readonly
          * @since 3.17.0
          */
-this.isStencil=!1,this.createMask(),t.sys.game.events.on(zt.CONTEXT_RESTORED,this.createMask,this),i.on(Gt.RESIZE,this.createMask,this)},
+this.isStencil=!1,this.createMask(),t.sys.game.events.on(Gt.CONTEXT_RESTORED,this.createMask,this),i.on(zt.RESIZE,this.createMask,this)},
 /**
      * Creates the WebGL Texture2D objects and Framebuffers required for this
      * mask. If this mask has already been created, then `clearMask` is called first.
@@ -2832,7 +2832,7 @@ postRenderCanvas:function(){
      * @method Phaser.Display.Masks.BitmapMask#destroy
      * @since 3.7.0
      */
-destroy:function(){this.clearMask(),this.renderer.off(Gt.RESIZE,this.createMask,this),this.bitmapMask=null,this.prevFramebuffer=null,this.renderer=null}}),Vt=new at({initialize:function(t,e){
+destroy:function(){this.clearMask(),this.renderer.off(zt.RESIZE,this.createMask,this),this.bitmapMask=null,this.prevFramebuffer=null,this.renderer=null}}),Vt=new at({initialize:function(t,e){
 /**
          * The Graphics object which describes the Geometry Mask.
          *
@@ -6196,7 +6196,7 @@ for(a=n;a>=0;a--)t[a][e]=i+o*s,o++;return t},Oe=function(t,e){void 0===e&&(e=new
 //  Basis vectors
 var i=t.x2-t.x1,s=t.y2-t.y1,n=t.x3-t.x1,r=t.y3-t.y1,a=Math.random(),o=Math.random();
 //  Point outside the triangle? Remap it.
-return a+o>=1&&(a=1-a,o=1-o),e.x=t.x1+(i*a+n*o),e.y=t.y1+(s*a+r*o),e},Fe=function(t,e,i,s,n){return I(t,"rotation",e,i,s,n)},ke=function(t,e,i,s,n){var r=s+Math.atan2(t.y-i,t.x-e);return t.x=e+n*Math.cos(r),t.y=i+n*Math.sin(r),t},De=function(t,e,i,s){var n=t-i,r=e-s;return Math.sqrt(n*n+r*r)},Ie=function(t,e,i,s,n){return I(t,"scaleX",e,i,s,n)},Be=function(t,e,i,s,n,r,a){return null==i&&(i=e),I(t,"scaleX",e,s,r,a),I(t,"scaleY",i,n,r,a)},Ne=function(t,e,i,s,n){return I(t,"scaleY",e,i,s,n)},Ye=function(t,e,i,s,n){return Pe(t,"alpha",e,i,s,n)},Ue=function(t,e,i,s){return Pe(t,"blendMode",e,0,i,s)},Xe=function(t,e,i,s,n){return Pe(t,"depth",e,i,s,n)},ze=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"originX",e,s,r,a),Pe(t,"originY",i,n,r,a),t.forEach((function(t){t.updateDisplayOrigin()})),t},Ge=function(t,e,i,s,n){return Pe(t,"rotation",e,i,s,n)},We=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"scaleX",e,s,r,a),Pe(t,"scaleY",i,n,r,a)},Ve=function(t,e,i,s,n){return Pe(t,"scaleX",e,i,s,n)},He=function(t,e,i,s,n){return Pe(t,"scaleY",e,i,s,n)},je=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"scrollFactorX",e,s,r,a),Pe(t,"scrollFactorY",i,n,r,a)},qe=function(t,e,i,s,n){return Pe(t,"scrollFactorX",e,i,s,n)},Ke=function(t,e,i,s,n){return Pe(t,"scrollFactorY",e,i,s,n)},Ze=function(t,e,i,s){return Pe(t,"visible",e,0,i,s)},Je=function(t,e,i,s,n){return Pe(t,"x",e,i,s,n)},Qe=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"x",e,s,r,a),Pe(t,"y",i,n,r,a)},$e=function(t,e,i,s,n){return Pe(t,"y",e,i,s,n)},ti=function(t){for(var e=t.length-1;e>0;e--){var i=Math.floor(Math.random()*(e+1)),s=t[e];t[e]=t[i],t[i]=s}return t},ei=function(t,e,i){return(t=Math.max(0,Math.min(1,(t-e)/(i-e))))*t*t*(t*(6*t-15)+10)},ii=function(t,e,i){return t<=e?0:t>=i?1:(t=(t-e)/(i-e))*t*(3-2*t)},si={AlignTo:D,Angle:B,Call:N,GetFirst:Y,GetLast:U,GridAlign:function(t,e){void 0===e&&(e={});var i=e.hasOwnProperty("width"),s=e.hasOwnProperty("height"),n=$(e,"width",-1),r=$(e,"height",-1),a=$(e,"cellWidth",1),o=$(e,"cellHeight",a),l=$(e,"position",h.TOP_LEFT),u=$(e,"x",0),c=$(e,"y",0),d=0,f=0,p=n*a,g=r*o;_e.setPosition(u,c),_e.setSize(a,o);for(var v=0;v<t.length;v++)if(Q(t[v],_e,l),i&&-1===n)
+return a+o>=1&&(a=1-a,o=1-o),e.x=t.x1+(i*a+n*o),e.y=t.y1+(s*a+r*o),e},Fe=function(t,e,i,s,n){return I(t,"rotation",e,i,s,n)},ke=function(t,e,i,s,n){var r=s+Math.atan2(t.y-i,t.x-e);return t.x=e+n*Math.cos(r),t.y=i+n*Math.sin(r),t},De=function(t,e,i,s){var n=t-i,r=e-s;return Math.sqrt(n*n+r*r)},Ie=function(t,e,i,s,n){return I(t,"scaleX",e,i,s,n)},Be=function(t,e,i,s,n,r,a){return null==i&&(i=e),I(t,"scaleX",e,s,r,a),I(t,"scaleY",i,n,r,a)},Ne=function(t,e,i,s,n){return I(t,"scaleY",e,i,s,n)},Ye=function(t,e,i,s,n){return Pe(t,"alpha",e,i,s,n)},Ue=function(t,e,i,s){return Pe(t,"blendMode",e,0,i,s)},Xe=function(t,e,i,s,n){return Pe(t,"depth",e,i,s,n)},Ge=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"originX",e,s,r,a),Pe(t,"originY",i,n,r,a),t.forEach((function(t){t.updateDisplayOrigin()})),t},ze=function(t,e,i,s,n){return Pe(t,"rotation",e,i,s,n)},We=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"scaleX",e,s,r,a),Pe(t,"scaleY",i,n,r,a)},Ve=function(t,e,i,s,n){return Pe(t,"scaleX",e,i,s,n)},He=function(t,e,i,s,n){return Pe(t,"scaleY",e,i,s,n)},je=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"scrollFactorX",e,s,r,a),Pe(t,"scrollFactorY",i,n,r,a)},qe=function(t,e,i,s,n){return Pe(t,"scrollFactorX",e,i,s,n)},Ke=function(t,e,i,s,n){return Pe(t,"scrollFactorY",e,i,s,n)},Ze=function(t,e,i,s){return Pe(t,"visible",e,0,i,s)},Je=function(t,e,i,s,n){return Pe(t,"x",e,i,s,n)},Qe=function(t,e,i,s,n,r,a){return null==i&&(i=e),Pe(t,"x",e,s,r,a),Pe(t,"y",i,n,r,a)},$e=function(t,e,i,s,n){return Pe(t,"y",e,i,s,n)},ti=function(t){for(var e=t.length-1;e>0;e--){var i=Math.floor(Math.random()*(e+1)),s=t[e];t[e]=t[i],t[i]=s}return t},ei=function(t,e,i){return(t=Math.max(0,Math.min(1,(t-e)/(i-e))))*t*t*(t*(6*t-15)+10)},ii=function(t,e,i){return t<=e?0:t>=i?1:(t=(t-e)/(i-e))*t*(3-2*t)},si={AlignTo:D,Angle:B,Call:N,GetFirst:Y,GetLast:U,GridAlign:function(t,e){void 0===e&&(e={});var i=e.hasOwnProperty("width"),s=e.hasOwnProperty("height"),n=$(e,"width",-1),r=$(e,"height",-1),a=$(e,"cellWidth",1),o=$(e,"cellHeight",a),l=$(e,"position",h.TOP_LEFT),u=$(e,"x",0),c=$(e,"y",0),d=0,f=0,p=n*a,g=r*o;_e.setPosition(u,c),_e.setSize(a,o);for(var v=0;v<t.length;v++)if(Q(t[v],_e,l),i&&-1===n)
 //  We keep laying them out horizontally until we've done them all
 _e.x+=a;else if(s&&-1===r)
 //  We keep laying them out vertically until we've done them all
@@ -6212,7 +6212,7 @@ break;return t},IncAlpha:function(t,e,i,s,n){return I(t,"alpha",e,i,s,n)},IncX:f
 //  Remove overlaps
 s.pop(),n.pop(),r.pop();for(var a=(s=s.concat(n,r)).length/t.length,o=0,h=0;h<t.length;h++){var l=t[h],u=s[Math.floor(o)];l.x=u.x,l.y=u.y,o+=a}return t},PlayAnimation:function(t,e,i){for(var s=0;s<t.length;s++)t[s].anims.play(e,i);return t},PropertyValueInc:I,PropertyValueSet:Pe,RandomCircle:function(t,e){for(var i=0;i<t.length;i++)mt(e,t[i]);return t},RandomEllipse:function(t,e){for(var i=0;i<t.length;i++)Oe(e,t[i]);return t},RandomLine:function(t,e){for(var i=0;i<t.length;i++)Ft(e,t[i]);return t},RandomRectangle:function(t,e){for(var i=0;i<t.length;i++)Nt(e,t[i]);return t},RandomTriangle:function(t,e){for(var i=0;i<t.length;i++)Le(e,t[i]);return t},Rotate:Fe,RotateAround:function(t,e,i){for(var s=e.x,n=e.y,r=0;r<t.length;r++){var a=t[r];ke(a,s,n,i,Math.max(1,De(a.x,a.y,s,n)))}return t},RotateAroundDistance:function(t,e,i,s){var n=e.x,r=e.y;
 //  There's nothing to do
-if(0===s)return t;for(var a=0;a<t.length;a++)ke(t[a],n,r,i,s);return t},ScaleX:Ie,ScaleXY:Be,ScaleY:Ne,SetAlpha:Ye,SetBlendMode:Ue,SetDepth:Xe,SetHitArea:function(t,e,i){for(var s=0;s<t.length;s++)t[s].setInteractive(e,i);return t},SetOrigin:ze,SetRotation:Ge,SetScale:We,SetScaleX:Ve,SetScaleY:He,SetScrollFactor:je,SetScrollFactorX:qe,SetScrollFactorY:Ke,SetTint:function(t,e,i,s,n){for(var r=0;r<t.length;r++)t[r].setTint(e,i,s,n);return t},SetVisible:Ze,SetX:Je,SetXY:Qe,SetY:$e,ShiftPosition:function(t,e,i,s,n){var r,a,o,h,l,u;if(void 0===s&&(s=0),void 0===n&&(n=new It),t.length>1)if(0===s){
+if(0===s)return t;for(var a=0;a<t.length;a++)ke(t[a],n,r,i,s);return t},ScaleX:Ie,ScaleXY:Be,ScaleY:Ne,SetAlpha:Ye,SetBlendMode:Ue,SetDepth:Xe,SetHitArea:function(t,e,i){for(var s=0;s<t.length;s++)t[s].setInteractive(e,i);return t},SetOrigin:Ge,SetRotation:ze,SetScale:We,SetScaleX:Ve,SetScaleY:He,SetScrollFactor:je,SetScrollFactorX:qe,SetScrollFactorY:Ke,SetTint:function(t,e,i,s,n){for(var r=0;r<t.length;r++)t[r].setTint(e,i,s,n);return t},SetVisible:Ze,SetX:Je,SetXY:Qe,SetY:$e,ShiftPosition:function(t,e,i,s,n){var r,a,o,h,l,u;if(void 0===s&&(s=0),void 0===n&&(n=new It),t.length>1)if(0===s){
 //  Bottom to Top
 var c=t.length-1;for(r=t[c].x,a=t[c].y,o=c-1;o>=0;o--)
 //  Current item
@@ -7004,7 +7004,7 @@ this.paused=!1,
          * @type {string}
          * @since 3.0.0
          */
-this.name="AnimationManager",t.events.once(zt.BOOT,this.boot,this)},
+this.name="AnimationManager",t.events.once(Gt.BOOT,this.boot,this)},
 /**
      * Registers event listeners after the Game boots.
      *
@@ -7012,7 +7012,7 @@ this.name="AnimationManager",t.events.once(zt.BOOT,this.boot,this)},
      * @listens Phaser.Core.Events#DESTROY
      * @since 3.0.0
      */
-boot:function(){this.textureManager=this.game.textures,this.game.events.once(zt.DESTROY,this.destroy,this)},
+boot:function(){this.textureManager=this.game.textures,this.game.events.once(Gt.DESTROY,this.destroy,this)},
 /**
      * Adds a mix between two animations.
      *
@@ -8747,7 +8747,7 @@ this.xml=new vi,
          * @type {Object.<Phaser.Cache.BaseCache>}
          * @since 3.0.0
          */
-this.custom={},this.game.events.once(zt.DESTROY,this.destroy,this)},
+this.custom={},this.game.events.once(Gt.DESTROY,this.destroy,this)},
 /**
      * Add your own custom Cache for storing your own files.
      * The cache will be available under `Cache.custom.key`.
@@ -11119,7 +11119,7 @@ reset:function(){this.isRunning=!1,this._onUpdate=null,this._onUpdateScope=null}
      * @method Phaser.Cameras.Scene2D.Effects.Flash#destroy
      * @since 3.5.0
      */
-destroy:function(){this.reset(),this.camera=null}}),Ni={In:function(t,e){return void 0===e&&(e=1.70158),t*t*((e+1)*t-e)},Out:function(t,e){return void 0===e&&(e=1.70158),--t*t*((e+1)*t+e)+1},InOut:function(t,e){void 0===e&&(e=1.70158);var i=1.525*e;return(t*=2)<1?t*t*((i+1)*t-i)*.5:.5*((t-=2)*t*((i+1)*t+i)+2)}},Yi={In:function(t){return(t=1-t)<1/2.75?1-7.5625*t*t:t<2/2.75?1-(7.5625*(t-=1.5/2.75)*t+.75):t<2.5/2.75?1-(7.5625*(t-=2.25/2.75)*t+.9375):1-(7.5625*(t-=2.625/2.75)*t+.984375)},Out:function(t){return t<1/2.75?7.5625*t*t:t<2/2.75?7.5625*(t-=1.5/2.75)*t+.75:t<2.5/2.75?7.5625*(t-=2.25/2.75)*t+.9375:7.5625*(t-=2.625/2.75)*t+.984375},InOut:function(t){var e=!1;return t<.5?(t=1-2*t,e=!0):t=2*t-1,t<1/2.75?t*=7.5625*t:t=t<2/2.75?7.5625*(t-=1.5/2.75)*t+.75:t<2.5/2.75?7.5625*(t-=2.25/2.75)*t+.9375:7.5625*(t-=2.625/2.75)*t+.984375,e?.5*(1-t):.5*t+.5}},Ui={In:function(t){return 1-Math.sqrt(1-t*t)},Out:function(t){return Math.sqrt(1- --t*t)},InOut:function(t){return(t*=2)<1?-.5*(Math.sqrt(1-t*t)-1):.5*(Math.sqrt(1-(t-=2)*t)+1)}},Xi={In:function(t){return t*t*t},Out:function(t){return--t*t*t+1},InOut:function(t){return(t*=2)<1?.5*t*t*t:.5*((t-=2)*t*t+2)}},zi={In:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),-e*Math.pow(2,10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)},Out:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),e*Math.pow(2,-10*t)*Math.sin((t-s)*(2*Math.PI)/i)+1},InOut:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),(t*=2)<1?e*Math.pow(2,10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)*-.5:e*Math.pow(2,-10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)*.5+1}},Gi={In:function(t){return Math.pow(2,10*(t-1))-.001},Out:function(t){return 1-Math.pow(2,-10*t)},InOut:function(t){return(t*=2)<1?.5*Math.pow(2,10*(t-1)):.5*(2-Math.pow(2,-10*(t-1)))}},Wi=function(t){return t},Vi={In:function(t){return t*t},Out:function(t){return t*(2-t)},InOut:function(t){return(t*=2)<1?.5*t*t:-.5*(--t*(t-2)-1)}},Hi={In:function(t){return t*t*t*t},Out:function(t){return 1- --t*t*t*t},InOut:function(t){return(t*=2)<1?.5*t*t*t*t:-.5*((t-=2)*t*t*t-2)}},ji={In:function(t){return t*t*t*t*t},Out:function(t){return--t*t*t*t*t+1},InOut:function(t){return(t*=2)<1?.5*t*t*t*t*t:.5*((t-=2)*t*t*t*t+2)}},qi={In:function(t){return 0===t?0:1===t?1:1-Math.cos(t*Math.PI/2)},Out:function(t){return 0===t?0:1===t?1:Math.sin(t*Math.PI/2)},InOut:function(t){return 0===t?0:1===t?1:.5*(1-Math.cos(Math.PI*t))}},Ki=function(t,e){return void 0===e&&(e=1),t<=0?0:t>=1?1:1/e*(1+(e*t|0))},Zi={Power0:Wi,Power1:Vi.Out,Power2:Xi.Out,Power3:Hi.Out,Power4:ji.Out,Linear:Wi,Quad:Vi.Out,Cubic:Xi.Out,Quart:Hi.Out,Quint:ji.Out,Sine:qi.Out,Expo:Gi.Out,Circ:Ui.Out,Elastic:zi.Out,Back:Ni.Out,Bounce:Yi.Out,Stepped:Ki,"Quad.easeIn":Vi.In,"Cubic.easeIn":Xi.In,"Quart.easeIn":Hi.In,"Quint.easeIn":ji.In,"Sine.easeIn":qi.In,"Expo.easeIn":Gi.In,"Circ.easeIn":Ui.In,"Elastic.easeIn":zi.In,"Back.easeIn":Ni.In,"Bounce.easeIn":Yi.In,"Quad.easeOut":Vi.Out,"Cubic.easeOut":Xi.Out,"Quart.easeOut":Hi.Out,"Quint.easeOut":ji.Out,"Sine.easeOut":qi.Out,"Expo.easeOut":Gi.Out,"Circ.easeOut":Ui.Out,"Elastic.easeOut":zi.Out,"Back.easeOut":Ni.Out,"Bounce.easeOut":Yi.Out,"Quad.easeInOut":Vi.InOut,"Cubic.easeInOut":Xi.InOut,"Quart.easeInOut":Hi.InOut,"Quint.easeInOut":ji.InOut,"Sine.easeInOut":qi.InOut,"Expo.easeInOut":Gi.InOut,"Circ.easeInOut":Ui.InOut,"Elastic.easeInOut":zi.InOut,"Back.easeInOut":Ni.InOut,"Bounce.easeInOut":Yi.InOut},Ji={Fade:Ii,Flash:Bi,Pan:new at({initialize:function(t){
+destroy:function(){this.reset(),this.camera=null}}),Ni={In:function(t,e){return void 0===e&&(e=1.70158),t*t*((e+1)*t-e)},Out:function(t,e){return void 0===e&&(e=1.70158),--t*t*((e+1)*t+e)+1},InOut:function(t,e){void 0===e&&(e=1.70158);var i=1.525*e;return(t*=2)<1?t*t*((i+1)*t-i)*.5:.5*((t-=2)*t*((i+1)*t+i)+2)}},Yi={In:function(t){return(t=1-t)<1/2.75?1-7.5625*t*t:t<2/2.75?1-(7.5625*(t-=1.5/2.75)*t+.75):t<2.5/2.75?1-(7.5625*(t-=2.25/2.75)*t+.9375):1-(7.5625*(t-=2.625/2.75)*t+.984375)},Out:function(t){return t<1/2.75?7.5625*t*t:t<2/2.75?7.5625*(t-=1.5/2.75)*t+.75:t<2.5/2.75?7.5625*(t-=2.25/2.75)*t+.9375:7.5625*(t-=2.625/2.75)*t+.984375},InOut:function(t){var e=!1;return t<.5?(t=1-2*t,e=!0):t=2*t-1,t<1/2.75?t*=7.5625*t:t=t<2/2.75?7.5625*(t-=1.5/2.75)*t+.75:t<2.5/2.75?7.5625*(t-=2.25/2.75)*t+.9375:7.5625*(t-=2.625/2.75)*t+.984375,e?.5*(1-t):.5*t+.5}},Ui={In:function(t){return 1-Math.sqrt(1-t*t)},Out:function(t){return Math.sqrt(1- --t*t)},InOut:function(t){return(t*=2)<1?-.5*(Math.sqrt(1-t*t)-1):.5*(Math.sqrt(1-(t-=2)*t)+1)}},Xi={In:function(t){return t*t*t},Out:function(t){return--t*t*t+1},InOut:function(t){return(t*=2)<1?.5*t*t*t:.5*((t-=2)*t*t+2)}},Gi={In:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),-e*Math.pow(2,10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)},Out:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),e*Math.pow(2,-10*t)*Math.sin((t-s)*(2*Math.PI)/i)+1},InOut:function(t,e,i){if(void 0===e&&(e=.1),void 0===i&&(i=.1),0===t)return 0;if(1===t)return 1;var s=i/4;return e<1?e=1:s=i*Math.asin(1/e)/(2*Math.PI),(t*=2)<1?e*Math.pow(2,10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)*-.5:e*Math.pow(2,-10*(t-=1))*Math.sin((t-s)*(2*Math.PI)/i)*.5+1}},zi={In:function(t){return Math.pow(2,10*(t-1))-.001},Out:function(t){return 1-Math.pow(2,-10*t)},InOut:function(t){return(t*=2)<1?.5*Math.pow(2,10*(t-1)):.5*(2-Math.pow(2,-10*(t-1)))}},Wi=function(t){return t},Vi={In:function(t){return t*t},Out:function(t){return t*(2-t)},InOut:function(t){return(t*=2)<1?.5*t*t:-.5*(--t*(t-2)-1)}},Hi={In:function(t){return t*t*t*t},Out:function(t){return 1- --t*t*t*t},InOut:function(t){return(t*=2)<1?.5*t*t*t*t:-.5*((t-=2)*t*t*t-2)}},ji={In:function(t){return t*t*t*t*t},Out:function(t){return--t*t*t*t*t+1},InOut:function(t){return(t*=2)<1?.5*t*t*t*t*t:.5*((t-=2)*t*t*t*t+2)}},qi={In:function(t){return 0===t?0:1===t?1:1-Math.cos(t*Math.PI/2)},Out:function(t){return 0===t?0:1===t?1:Math.sin(t*Math.PI/2)},InOut:function(t){return 0===t?0:1===t?1:.5*(1-Math.cos(Math.PI*t))}},Ki=function(t,e){return void 0===e&&(e=1),t<=0?0:t>=1?1:1/e*(1+(e*t|0))},Zi={Power0:Wi,Power1:Vi.Out,Power2:Xi.Out,Power3:Hi.Out,Power4:ji.Out,Linear:Wi,Quad:Vi.Out,Cubic:Xi.Out,Quart:Hi.Out,Quint:ji.Out,Sine:qi.Out,Expo:zi.Out,Circ:Ui.Out,Elastic:Gi.Out,Back:Ni.Out,Bounce:Yi.Out,Stepped:Ki,"Quad.easeIn":Vi.In,"Cubic.easeIn":Xi.In,"Quart.easeIn":Hi.In,"Quint.easeIn":ji.In,"Sine.easeIn":qi.In,"Expo.easeIn":zi.In,"Circ.easeIn":Ui.In,"Elastic.easeIn":Gi.In,"Back.easeIn":Ni.In,"Bounce.easeIn":Yi.In,"Quad.easeOut":Vi.Out,"Cubic.easeOut":Xi.Out,"Quart.easeOut":Hi.Out,"Quint.easeOut":ji.Out,"Sine.easeOut":qi.Out,"Expo.easeOut":zi.Out,"Circ.easeOut":Ui.Out,"Elastic.easeOut":Gi.Out,"Back.easeOut":Ni.Out,"Bounce.easeOut":Yi.Out,"Quad.easeInOut":Vi.InOut,"Cubic.easeInOut":Xi.InOut,"Quart.easeInOut":Hi.InOut,"Quint.easeInOut":ji.InOut,"Sine.easeInOut":qi.InOut,"Expo.easeInOut":zi.InOut,"Circ.easeInOut":Ui.InOut,"Elastic.easeInOut":Gi.InOut,"Back.easeInOut":Ni.InOut,"Bounce.easeInOut":Yi.InOut},Ji={Fade:Ii,Flash:Bi,Pan:new at({initialize:function(t){
 /**
          * The Camera this effect belongs to.
          *
@@ -12889,7 +12889,7 @@ t.putImageData(e,1,0);
 //  Get those values
 var i=t.getImageData(1,0,1,1);
 //  Compare and return
-return i.data[0]===e.data[0]&&i.data[1]===e.data[1]&&i.data[2]===e.data[2]&&i.data[3]===e.data[3]}()),Rs),ks={os:ls,browser:fs,features:Ts,input:bs,audio:Ss,video:As,fullscreen:Ms,canvasFeatures:Fs},Ds=function(t,e,i,s){return Math.atan2(s-e,i-t)},Is=function(t,e){return Math.atan2(e.y-t.y,e.x-t.x)},Bs=function(t){return(t%=2*Math.PI)>=0?t:t+2*Math.PI},Ns=function(t,e){return Math.random()*(e-t)+t},Ys=function(t){return Bs(t+Math.PI)},Us={Between:Ds,BetweenPoints:Is,BetweenPointsY:function(t,e){return Math.atan2(e.x-t.x,e.y-t.y)},BetweenY:function(t,e,i,s){return Math.atan2(i-t,s-e)},CounterClockwise:function(t){return t>Math.PI&&(t-=ft.PI2),Math.abs(((t+ft.TAU)%ft.PI2-ft.PI2)%ft.PI2)},Normalize:Bs,Random:function(){return Ns(-Math.PI,Math.PI)},RandomDegrees:function(){return Ns(-180,180)},Reverse:Ys,RotateTo:function(t,e,i){return void 0===i&&(i=.05),t===e||(Math.abs(e-t)<=i||Math.abs(e-t)>=ft.PI2-i?t=e:(Math.abs(e-t)>Math.PI&&(e<t?e+=ft.PI2:e-=ft.PI2),e>t?t+=i:e<t&&(t-=i))),t},ShortestBetween:function(t,e){var i=e-t;return 0===i?0:i-360*Math.floor((i- -180)/360)},Wrap:fe,WrapDegrees:pe},Xs=function(t,e){var i=t.x-e.x,s=t.y-e.y;return Math.sqrt(i*i+s*s)},zs=function(t,e,i,s){var n=t-i,r=e-s;return n*n+r*r},Gs={Between:De,BetweenPoints:Xs,BetweenPointsSquared:function(t,e){var i=t.x-e.x,s=t.y-e.y;return i*i+s*s},Chebyshev:function(t,e,i,s){return Math.max(Math.abs(t-i),Math.abs(e-s))},Power:function(t,e,i,s,n){return void 0===n&&(n=2),Math.sqrt(Math.pow(i-t,n)+Math.pow(s-e,n))},Snake:function(t,e,i,s){return Math.abs(t-i)+Math.abs(e-s)},Squared:zs},Ws={Back:Ni,Bounce:Yi,Circular:Ui,Cubic:Xi,Elastic:zi,Expo:Gi,Linear:Wi,Quadratic:Vi,Quartic:Hi,Quintic:ji,Sine:qi,Stepped:Ki},Vs=function(t,e,i){return void 0===i&&(i=1e-4),t>e-i},Hs=function(t,e,i){return void 0===i&&(i=1e-4),t<e+i},js={Ceil:function(t,e){return void 0===e&&(e=1e-4),Math.ceil(t-e)},Equal:kt,Floor:function(t,e){return void 0===e&&(e=1e-4),Math.floor(t+e)},GreaterThan:Vs,LessThan:Hs},qs=function(t){if(0===t)return 1;for(var e=t;--t;)e*=t;return e},Ks=function(t,e){return qs(t)/qs(e)/qs(t-e)},Zs=function(t,e,i,s,n){var r=.5*(s-e),a=.5*(n-i),o=t*t;return(2*i-2*s+r+a)*(t*o)+(-3*i+3*s-2*r-a)*o+r*t+i};
+return i.data[0]===e.data[0]&&i.data[1]===e.data[1]&&i.data[2]===e.data[2]&&i.data[3]===e.data[3]}()),Rs),ks={os:ls,browser:fs,features:Ts,input:bs,audio:Ss,video:As,fullscreen:Ms,canvasFeatures:Fs},Ds=function(t,e,i,s){return Math.atan2(s-e,i-t)},Is=function(t,e){return Math.atan2(e.y-t.y,e.x-t.x)},Bs=function(t){return(t%=2*Math.PI)>=0?t:t+2*Math.PI},Ns=function(t,e){return Math.random()*(e-t)+t},Ys=function(t){return Bs(t+Math.PI)},Us={Between:Ds,BetweenPoints:Is,BetweenPointsY:function(t,e){return Math.atan2(e.x-t.x,e.y-t.y)},BetweenY:function(t,e,i,s){return Math.atan2(i-t,s-e)},CounterClockwise:function(t){return t>Math.PI&&(t-=ft.PI2),Math.abs(((t+ft.TAU)%ft.PI2-ft.PI2)%ft.PI2)},Normalize:Bs,Random:function(){return Ns(-Math.PI,Math.PI)},RandomDegrees:function(){return Ns(-180,180)},Reverse:Ys,RotateTo:function(t,e,i){return void 0===i&&(i=.05),t===e||(Math.abs(e-t)<=i||Math.abs(e-t)>=ft.PI2-i?t=e:(Math.abs(e-t)>Math.PI&&(e<t?e+=ft.PI2:e-=ft.PI2),e>t?t+=i:e<t&&(t-=i))),t},ShortestBetween:function(t,e){var i=e-t;return 0===i?0:i-360*Math.floor((i- -180)/360)},Wrap:fe,WrapDegrees:pe},Xs=function(t,e){var i=t.x-e.x,s=t.y-e.y;return Math.sqrt(i*i+s*s)},Gs=function(t,e,i,s){var n=t-i,r=e-s;return n*n+r*r},zs={Between:De,BetweenPoints:Xs,BetweenPointsSquared:function(t,e){var i=t.x-e.x,s=t.y-e.y;return i*i+s*s},Chebyshev:function(t,e,i,s){return Math.max(Math.abs(t-i),Math.abs(e-s))},Power:function(t,e,i,s,n){return void 0===n&&(n=2),Math.sqrt(Math.pow(i-t,n)+Math.pow(s-e,n))},Snake:function(t,e,i,s){return Math.abs(t-i)+Math.abs(e-s)},Squared:Gs},Ws={Back:Ni,Bounce:Yi,Circular:Ui,Cubic:Xi,Elastic:Gi,Expo:zi,Linear:Wi,Quadratic:Vi,Quartic:Hi,Quintic:ji,Sine:qi,Stepped:Ki},Vs=function(t,e,i){return void 0===i&&(i=1e-4),t>e-i},Hs=function(t,e,i){return void 0===i&&(i=1e-4),t<e+i},js={Ceil:function(t,e){return void 0===e&&(e=1e-4),Math.ceil(t-e)},Equal:kt,Floor:function(t,e){return void 0===e&&(e=1e-4),Math.floor(t+e)},GreaterThan:Vs,LessThan:Hs},qs=function(t){if(0===t)return 1;for(var e=t;--t;)e*=t;return e},Ks=function(t,e){return qs(t)/qs(e)/qs(t-e)},Zs=function(t,e,i,s,n){var r=.5*(s-e),a=.5*(n-i),o=t*t;return(2*i-2*s+r+a)*(t*o)+(-3*i+3*s-2*r-a)*o+r*t+i};
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -14399,7 +14399,7 @@ return t==parseFloat(t)?!(t%2):void 0},Rn=function(t){
 // Use strict equality === for "is number" test
 return t===parseFloat(t)?!(t%2):void 0},Pn=function(t,e,i){return Math.min(t+e,i)},On=function(t,e,i){return Math.max(t-e,i)},Ln=function(t,e,i,s){void 0===i&&(i=e+1);var n=(t-e)/(i-e);return n>1?void 0!==s?(n=(s-t)/(s-i))<0&&(n=0):n=1:n<0&&(n=0),n},Fn=function(t){return t*ft.RAD_TO_DEG},kn=function(t,e){void 0===e&&(e=1);var i=2*Math.random()*Math.PI;return t.x=Math.cos(i)*e,t.y=Math.sin(i)*e,t},Dn=function(t,e){void 0===e&&(e=1);var i=2*Math.random()*Math.PI,s=2*Math.random()-1,n=Math.sqrt(1-s*s)*e;return t.x=Math.cos(i)*n,t.y=Math.sin(i)*n,t.z=s*e,t},In=function(t,e){return void 0===e&&(e=1),t.x=(2*Math.random()-1)*e,t.y=(2*Math.random()-1)*e,t.z=(2*Math.random()-1)*e,t.w=(2*Math.random()-1)*e,t},Bn=function(t,e){var i=t.x,s=t.y;return t.x=i*Math.cos(e)-s*Math.sin(e),t.y=i*Math.sin(e)+s*Math.cos(e),t},Nn=function(t,e,i,s,n){return t.x=e+n*Math.cos(s),t.y=i+n*Math.sin(s),t},Yn=function(t){
 // "Opposite" of truncate.
-return t>0?Math.ceil(t):Math.floor(t)},Un=function(t,e,i){void 0===e&&(e=0),void 0===i&&(i=10);var s=Math.pow(i,-e);return Math.round(t*s)/s},Xn=function(t,e,i,s){void 0===e&&(e=1),void 0===i&&(i=1),void 0===s&&(s=1),s*=Math.PI/t;for(var n=[],r=[],a=0;a<t;a++)e+=(i-=e*s)*s,n[a]=i,r[a]=e;return{sin:r,cos:n,length:t}},zn=function(t,e,i,s){void 0===s&&(s=new It);var n=0,r=0;return t>0&&t<=e*i&&(n=t>e-1?t-(r=Math.floor(t/e))*e:t,s.set(n,r)),s},Gn=function(t,e,i){return Math.abs(t-e)<=i},Wn=new at({initialize:function(t,e,i,s){
+return t>0?Math.ceil(t):Math.floor(t)},Un=function(t,e,i){void 0===e&&(e=0),void 0===i&&(i=10);var s=Math.pow(i,-e);return Math.round(t*s)/s},Xn=function(t,e,i,s){void 0===e&&(e=1),void 0===i&&(i=1),void 0===s&&(s=1),s*=Math.PI/t;for(var n=[],r=[],a=0;a<t;a++)e+=(i-=e*s)*s,n[a]=i,r[a]=e;return{sin:r,cos:n,length:t}},Gn=function(t,e,i,s){void 0===s&&(s=new It);var n=0,r=0;return t>0&&t<=e*i&&(n=t>e-1?t-(r=Math.floor(t/e))*e:t,s.set(n,r)),s},zn=function(t,e,i){return Math.abs(t-e)<=i},Wn=new at({initialize:function(t,e,i,s){
 /**
          * The x component of this Vector.
          *
@@ -15242,11 +15242,11 @@ var n=0;i[4]>i[0]&&(n=1),i[8]>i[3*n+n]&&(n=2);var r=Kn[n],a=Kn[r];
 //  This isn't quite as clean without array access
 e=Math.sqrt(i[3*n+n]-i[3*r+r]-i[3*a+a]+1),Zn[n]=.5*e,e=.5/e,Zn[r]=(i[3*r+n]+i[3*n+r])*e,Zn[a]=(i[3*a+n]+i[3*n+a])*e,this._x=Zn[0],this._y=Zn[1],this._z=Zn[2],this._w=(i[3*a+r]-i[3*r+a])*e}return this.onChangeCallback(this),this}}),ir=new bn,sr=new er,nr=new pn,rr={
 //  Collections of functions
-Angle:Us,Distance:Gs,Easing:Ws,Fuzzy:js,Interpolation:tn,Pow2:nn,Snap:on,
+Angle:Us,Distance:zs,Easing:Ws,Fuzzy:js,Interpolation:tn,Pow2:nn,Snap:on,
 //  Expose the RNG Class
 RandomDataGenerator:hn,
 //  Single functions
-Average:ln,Bernstein:Ks,Between:un,CatmullRom:Zs,CeilTo:cn,Clamp:ct,DegToRad:qt,Difference:dn,Euler:_n,Factorial:qs,FloatBetween:Ns,FloorTo:An,FromPercent:dt,GetSpeed:Cn,IsEven:Mn,IsEvenStrict:Rn,Linear:Qi,MaxAdd:Pn,MinSub:On,Percent:Ln,RadToDeg:Fn,RandomXY:kn,RandomXYZ:Dn,RandomXYZW:In,Rotate:Bn,RotateAround:Ut,RotateAroundDistance:ke,RotateTo:Nn,RoundAwayFromZero:Yn,RoundTo:Un,SinCosTableGenerator:Xn,SmootherStep:ei,SmoothStep:ii,ToXY:zn,TransformXY:ce,Within:Gn,Wrap:de,
+Average:ln,Bernstein:Ks,Between:un,CatmullRom:Zs,CeilTo:cn,Clamp:ct,DegToRad:qt,Difference:dn,Euler:_n,Factorial:qs,FloatBetween:Ns,FloorTo:An,FromPercent:dt,GetSpeed:Cn,IsEven:Mn,IsEvenStrict:Rn,Linear:Qi,MaxAdd:Pn,MinSub:On,Percent:Ln,RadToDeg:Fn,RandomXY:kn,RandomXYZ:Dn,RandomXYZW:In,Rotate:Bn,RotateAround:Ut,RotateAroundDistance:ke,RotateTo:Nn,RoundAwayFromZero:Yn,RoundTo:Un,SinCosTableGenerator:Xn,SmootherStep:ei,SmoothStep:ii,ToXY:Gn,TransformXY:ce,Within:zn,Wrap:de,
 //  Vector classes
 Vector2:It,Vector3:pn,Vector4:Vn,Matrix3:jn,Matrix4:bn,Quaternion:er,RotateVec3:function(t,e,i){
 //  Multiply our vector by the rotation matrix
@@ -15862,7 +15862,7 @@ e.width===this.width&&e.height===this.height||this.resize(e.width,e.height)},
      * @param {number} [width] - The new width of the renderer.
      * @param {number} [height] - The new height of the renderer.
      */
-resize:function(t,e){this.width=t,this.height=e,this.emit(Gt.RESIZE,t,e)},
+resize:function(t,e){this.width=t,this.height=e,this.emit(zt.RESIZE,t,e)},
 /**
      * Resets the transformation matrix of the current context to the identity matrix, thus resetting any transformation.
      *
@@ -15910,7 +15910,7 @@ setAlpha:function(t){return this.currentContext.globalAlpha=t,this},
      * @fires Phaser.Renderer.Events#PRE_RENDER
      * @since 3.0.0
      */
-preRender:function(){var t=this.gameContext,e=this.config,i=this.width,s=this.height;t.globalAlpha=1,t.globalCompositeOperation="source-over",t.setTransform(1,0,0,1,0,0),e.clearBeforeRender&&(t.clearRect(0,0,i,s),e.transparent||(t.fillStyle=e.backgroundColor.rgba,t.fillRect(0,0,i,s))),t.save(),this.drawCount=0,this.emit(Gt.PRE_RENDER)},
+preRender:function(){var t=this.gameContext,e=this.config,i=this.width,s=this.height;t.globalAlpha=1,t.globalCompositeOperation="source-over",t.setTransform(1,0,0,1,0,0),e.clearBeforeRender&&(t.clearRect(0,0,i,s),e.transparent||(t.fillStyle=e.backgroundColor.rgba,t.fillRect(0,0,i,s))),t.save(),this.drawCount=0,this.emit(zt.PRE_RENDER)},
 /**
      * The core render step for a Scene Camera.
      *
@@ -15929,7 +15929,7 @@ preRender:function(){var t=this.gameContext,e=this.config,i=this.width,s=this.he
      * @param {Phaser.GameObjects.GameObject[]} children - An array of filtered Game Objects that can be rendered by the given Camera.
      * @param {Phaser.Cameras.Scene2D.Camera} camera - The Scene Camera to render with.
      */
-render:function(t,e,i){var s=e.length;this.emit(Gt.RENDER,t,i);var n=i.x,r=i.y,a=i.width,o=i.height,h=i.renderToTexture?i.context:t.sys.context;
+render:function(t,e,i){var s=e.length;this.emit(zt.RENDER,t,i);var n=i.x,r=i.y,a=i.width,o=i.height,h=i.renderToTexture?i.context:t.sys.context;
 //  Save context pre-clip
 h.save(),this.game.scene.customViewports&&(h.beginPath(),h.rect(n,r,a,o),h.clip()),this.currentContext=h;var l=i.mask;l&&l.preRenderCanvas(this,null,i._maskCamera),i.transparent||(h.fillStyle=i.backgroundColor.rgba,h.fillRect(n,r,a,o)),h.globalAlpha=i.alpha,h.globalCompositeOperation="source-over",this.drawCount+=s,i.renderToTexture&&i.emit(Ti.PRE_RENDER,i),i.matrix.copyToContext(h);for(var u=0;u<s;u++){var c=e[u];c.mask&&c.mask.preRenderCanvas(this,c,i),c.renderCanvas(this,c,i),c.mask&&c.mask.postRenderCanvas(this,c,i)}h.setTransform(1,0,0,1,0,0),h.globalCompositeOperation="source-over",h.globalAlpha=1,i.flashEffect.postRenderCanvas(h),i.fadeEffect.postRenderCanvas(h),i.dirty=!1,l&&l.postRenderCanvas(this),
 //  Restore pre-clip context
@@ -15943,7 +15943,7 @@ h.restore(),i.renderToTexture&&(i.emit(Ti.POST_RENDER,i),i.renderToGame&&t.sys.c
      * @fires Phaser.Renderer.Events#POST_RENDER
      * @since 3.0.0
      */
-postRender:function(){this.gameContext.restore(),this.emit(Gt.POST_RENDER);var t=this.snapshotState;t.callback&&(ur(this.gameCanvas,t),t.callback=null)},
+postRender:function(){this.gameContext.restore(),this.emit(zt.POST_RENDER);var t=this.snapshotState;t.callback&&(ur(this.gameCanvas,t),t.callback=null)},
 /**
      * Takes a snapshot of the given area of the given canvas.
      *
@@ -16220,7 +16220,7 @@ this.autoResize=!1,this.resize(e,i),a&&this.setAutoResize(!0)},
      *
      * @return {this} This RenderTarget instance.
      */
-setAutoResize:function(t){return t&&!this.autoResize?(this.renderer.on(Gt.RESIZE,this.resize,this),this.autoResize=!0):!t&&this.autoResize&&(this.renderer.off(Gt.RESIZE,this.resize,this),this.autoResize=!1),this},
+setAutoResize:function(t){return t&&!this.autoResize?(this.renderer.on(zt.RESIZE,this.resize,this),this.autoResize=!0):!t&&this.autoResize&&(this.renderer.off(zt.RESIZE,this.resize,this),this.autoResize=!1),this},
 /**
      * Resizes this Render Target.
      *
@@ -16289,7 +16289,7 @@ unbind:function(t){void 0===t&&(t=!1);var e=this.renderer;return t&&e.flush(),e.
      * @name Phaser.Renderer.WebGL.RenderTarget#destroy
      * @since 3.50.0
      */
-destroy:function(){var t=this.renderer;t.deleteFramebuffer(this.framebuffer),t.deleteTexture(this.texture),t.off(Gt.RESIZE,this.resize,this),this.renderer=null,this.framebuffer=null,this.texture=null}});
+destroy:function(){var t=this.renderer;t.deleteFramebuffer(this.framebuffer),t.deleteTexture(this.texture),t.off(zt.RESIZE,this.resize,this),this.renderer=null,this.framebuffer=null,this.texture=null}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -17357,7 +17357,7 @@ var c=this.shaders,d=0;for(t=0;t<c.length;t++)c[t].vertexSize>d&&(d=c[t].vertexS
 //  * 6 because there are 6 vertices in a quad and 'batchSize' represents the quantity of quads in the batch
 this.vertexCapacity=6*f;var p=new ArrayBuffer(this.vertexCapacity*d);this.vertexData=p,this.bytes=new Uint8Array(p),this.vertexViewF32=new Float32Array(p),this.vertexViewU32=new Uint32Array(p);var g=$(i,"vertices",null);for(g?(this.vertexViewF32.set(g),this.vertexBuffer=s.createVertexBuffer(p,e.STATIC_DRAW)):this.vertexBuffer=s.createVertexBuffer(p.byteLength,e.DYNAMIC_DRAW),
 //  Set-up shaders
-this.setVertexBuffer(),t=c.length-1;t>=0;t--)c[t].rebind();this.hasBooted=!0,s.on(Gt.RESIZE,this.resize,this),s.on(Gt.PRE_RENDER,this.onPreRender,this),s.on(Gt.RENDER,this.onRender,this),s.on(Gt.POST_RENDER,this.onPostRender,this),this.emit(yr.BOOT,this),this.onBoot()},
+this.setVertexBuffer(),t=c.length-1;t>=0;t--)c[t].rebind();this.hasBooted=!0,s.on(zt.RESIZE,this.resize,this),s.on(zt.PRE_RENDER,this.onPreRender,this),s.on(zt.RENDER,this.onRender,this),s.on(zt.POST_RENDER,this.onPostRender,this),this.emit(yr.BOOT,this),this.onBoot()},
 /**
      * This method is called once when this pipeline has finished being set-up
      * at the end of the boot process. By the time this method is called, all
@@ -18311,7 +18311,7 @@ setMatrix4fv:function(t,e,i,s){return void 0===s&&(s=this.currentShader),s.setMa
      *
      * @return {this} This WebGLPipeline instance.
      */
-destroy:function(){var t;this.emit(yr.DESTROY,this);var e=this.shaders;for(t=0;t<e.length;t++)e[t].destroy();var i=this.renderTargets;for(t=0;t<i.length;t++)i[t].destroy();this.gl.deleteBuffer(this.vertexBuffer);var s=this.renderer;return s.off(Gt.RESIZE,this.resize,this),s.off(Gt.PRE_RENDER,this.onPreRender,this),s.off(Gt.RENDER,this.onRender,this),s.off(Gt.POST_RENDER,this.onPostRender,this),this.removeAllListeners(),this.game=null,this.renderer=null,this.manager=null,this.gl=null,this.view=null,this.shaders=null,this.renderTargets=null,this.bytes=null,this.vertexViewF32=null,this.vertexViewU32=null,this.vertexData=null,this.vertexBuffer=null,this.currentShader=null,this.currentRenderTarget=null,this}}),Sr=new at({Extends:Er,initialize:function(t){t.fragShader=$(t,"fragShader",gr),t.vertShader=$(t,"vertShader",vr),t.batchSize=$(t,"batchSize",1),t.vertices=$(t,"vertices",[-1,1,-1,-7,7,1]),t.attributes=$(t,"attributes",[{name:"inPosition",size:2,type:mr.FLOAT}]),Er.call(this,t)},boot:function(){Er.prototype.boot.call(this),this.set1i("uMainSampler",0),this.set1i("uMaskSampler",1)},resize:function(t,e){Er.prototype.resize.call(this,t,e),this.set2f("uResolution",t,e)},
+destroy:function(){var t;this.emit(yr.DESTROY,this);var e=this.shaders;for(t=0;t<e.length;t++)e[t].destroy();var i=this.renderTargets;for(t=0;t<i.length;t++)i[t].destroy();this.gl.deleteBuffer(this.vertexBuffer);var s=this.renderer;return s.off(zt.RESIZE,this.resize,this),s.off(zt.PRE_RENDER,this.onPreRender,this),s.off(zt.RENDER,this.onRender,this),s.off(zt.POST_RENDER,this.onPostRender,this),this.removeAllListeners(),this.game=null,this.renderer=null,this.manager=null,this.gl=null,this.view=null,this.shaders=null,this.renderTargets=null,this.bytes=null,this.vertexViewF32=null,this.vertexViewU32=null,this.vertexData=null,this.vertexBuffer=null,this.currentShader=null,this.currentRenderTarget=null,this}}),Sr=new at({Extends:Er,initialize:function(t){t.fragShader=$(t,"fragShader",gr),t.vertShader=$(t,"vertShader",vr),t.batchSize=$(t,"batchSize",1),t.vertices=$(t,"vertices",[-1,1,-1,-7,7,1]),t.attributes=$(t,"attributes",[{name:"inPosition",size:2,type:mr.FLOAT}]),Er.call(this,t)},boot:function(){Er.prototype.boot.call(this),this.set1i("uMainSampler",0),this.set1i("uMaskSampler",1)},resize:function(t,e){Er.prototype.resize.call(this,t,e),this.set2f("uResolution",t,e)},
 /**
      * Binds necessary resources and renders the mask to a separated framebuffer.
      * The framebuffer for the masked object is also bound for further use.
@@ -18435,7 +18435,7 @@ for(;f&&f.z>=c;){if(f!==t.prev&&f!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,f.x,f.y)&
 // look for remaining points in increasing z-order
 for(;p&&p.z<=d;){if(p!==t.prev&&p!==t.next&&Nr(n.x,n.y,r.x,r.y,a.x,a.y,p.x,p.y)&&Ur(p.prev,p,p.next)>=0)return!1;p=p.nextZ}return!0}
 // go through all polygon nodes and cure small local self-intersections
-function Or(t,e,i){var s=t;do{var n=s.prev,r=s.next.next;!Xr(n,r)&&zr(n,s,s.next,r)&&Vr(n,r)&&Vr(r,n)&&(e.push(n.i/i),e.push(s.i/i),e.push(r.i/i),
+function Or(t,e,i){var s=t;do{var n=s.prev,r=s.next.next;!Xr(n,r)&&Gr(n,s,s.next,r)&&Vr(n,r)&&Vr(r,n)&&(e.push(n.i/i),e.push(s.i/i),e.push(r.i/i),
 // remove two nodes involved
 qr(s),qr(s.next),s=t=r),s=s.next}while(s!==t);return Cr(s)}
 // try splitting polygon into two and triangulate them independently
@@ -18473,7 +18473,7 @@ function Nr(t,e,i,s,n,r,a,o){return(n-a)*(e-o)-(t-a)*(r-o)>=0&&(t-a)*(s-o)-(i-a)
 // check if a diagonal between two polygon nodes is valid (lies in polygon interior)
 function Yr(t,e){return t.next.i!==e.i&&t.prev.i!==e.i&&!
 // check if a polygon diagonal intersects any polygon segments
-function(t,e){var i=t;do{if(i.i!==t.i&&i.next.i!==t.i&&i.i!==e.i&&i.next.i!==e.i&&zr(i,i.next,t,e))return!0;i=i.next}while(i!==t);return!1}
+function(t,e){var i=t;do{if(i.i!==t.i&&i.next.i!==t.i&&i.i!==e.i&&i.next.i!==e.i&&Gr(i,i.next,t,e))return!0;i=i.next}while(i!==t);return!1}
 // check if a polygon diagonal is locally inside the polygon
 (t,e)&&(// dones't intersect other edges
 Vr(t,e)&&Vr(e,t)&&
@@ -18490,12 +18490,12 @@ function Ur(t,e,i){return(e.y-t.y)*(i.x-e.x)-(e.x-t.x)*(i.y-e.y)}
 // check if two points are equal
 function Xr(t,e){return t.x===e.x&&t.y===e.y}
 // check if two segments intersect
-function zr(t,e,i,s){var n=Wr(Ur(t,e,i)),r=Wr(Ur(t,e,s)),a=Wr(Ur(i,s,t)),o=Wr(Ur(i,s,e));return n!==r&&a!==o||(// general case
-!(0!==n||!Gr(t,i,e))||(// p1, q1 and p2 are collinear and p2 lies on p1q1
-!(0!==r||!Gr(t,s,e))||(// p1, q1 and q2 are collinear and q2 lies on p1q1
-!(0!==a||!Gr(i,t,s))||!(0!==o||!Gr(i,e,s)))))}
+function Gr(t,e,i,s){var n=Wr(Ur(t,e,i)),r=Wr(Ur(t,e,s)),a=Wr(Ur(i,s,t)),o=Wr(Ur(i,s,e));return n!==r&&a!==o||(// general case
+!(0!==n||!zr(t,i,e))||(// p1, q1 and p2 are collinear and p2 lies on p1q1
+!(0!==r||!zr(t,s,e))||(// p1, q1 and q2 are collinear and q2 lies on p1q1
+!(0!==a||!zr(i,t,s))||!(0!==o||!zr(i,e,s)))))}
 // for collinear points p, q, r, check if point q lies on segment pr
-function Gr(t,e,i){return e.x<=Math.max(t.x,i.x)&&e.x>=Math.min(t.x,i.x)&&e.y<=Math.max(t.y,i.y)&&e.y>=Math.min(t.y,i.y)}function Wr(t){return t>0?1:t<0?-1:0}function Vr(t,e){return Ur(t.prev,t,t.next)<0?Ur(t,e,t.next)>=0&&Ur(t,t.prev,e)>=0:Ur(t,e,t.prev)<0||Ur(t,t.next,e)<0}function Hr(t,e){var i=new Kr(t.i,t.x,t.y),s=new Kr(e.i,e.x,e.y),n=t.next,r=e.prev;return t.next=e,e.prev=t,i.next=n,n.prev=i,s.next=i,i.prev=s,r.next=s,s.prev=r,s}
+function zr(t,e,i){return e.x<=Math.max(t.x,i.x)&&e.x>=Math.min(t.x,i.x)&&e.y<=Math.max(t.y,i.y)&&e.y>=Math.min(t.y,i.y)}function Wr(t){return t>0?1:t<0?-1:0}function Vr(t,e){return Ur(t.prev,t,t.next)<0?Ur(t,e,t.next)>=0&&Ur(t,t.prev,e)>=0:Ur(t,e,t.prev)<0||Ur(t,t.next,e)<0}function Hr(t,e){var i=new Kr(t.i,t.x,t.y),s=new Kr(e.i,e.x,e.y),n=t.next,r=e.prev;return t.next=e,e.prev=t,i.next=n,n.prev=i,s.next=i,i.prev=s,r.next=s,s.prev=r,s}
 // create a node and optionally link it with previous one (in a circular doubly linked list)
 function jr(t,e,i,s){var n=new Kr(t,e,i);return s?(n.next=s.next,n.prev=s,s.next.prev=n,s.next=n):(n.prev=n,n.next=n),n}function qr(t){t.next.prev=t.prev,t.prev.next=t.next,t.prevZ&&(t.prevZ.nextZ=t.nextZ),t.nextZ&&(t.nextZ.prevZ=t.prevZ)}function Kr(t,e,i){
 // vertex index in coordinates array
@@ -18901,15 +18901,15 @@ s.multiply(n,r);var S=x+p,_=T+g,A=e.roundPixels,C=r.getXRound(x,T,A),M=r.getYRou
      * @param {boolean} [skipFlip=false] - Skip the renderTexture check.
      * @param {number} [textureUnit] - Use the currently bound texture unit?
      */
-batchTexture:function(t,e,i,s,n,r,a,o,h,l,u,c,d,f,p,g,v,m,y,x,T,w,b,E,S,_,A,C,M,R,P,O){this.manager.set(this,t);var L=this._tempMatrix1,F=this._tempMatrix2,k=this._tempMatrix3,D=m/i+A,I=y/s+C,B=(m+x)/i+A,N=(y+T)/s+C,Y=a,U=o,X=-g,z=-v;if(t.isCropped){var G=t._crop,W=G.width,V=G.height;Y=W,U=V,a=W,o=V;var H=m=G.x,j=y=G.y;c&&(H=x-G.x-W),d&&(j=T-G.y-V),D=H/i+A,I=j/s+C,B=(H+W)/i+A,N=(j+V)/s+C,X=-g+m,z=-v+y}
+batchTexture:function(t,e,i,s,n,r,a,o,h,l,u,c,d,f,p,g,v,m,y,x,T,w,b,E,S,_,A,C,M,R,P,O){this.manager.set(this,t);var L=this._tempMatrix1,F=this._tempMatrix2,k=this._tempMatrix3,D=m/i+A,I=y/s+C,B=(m+x)/i+A,N=(y+T)/s+C,Y=a,U=o,X=-g,G=-v;if(t.isCropped){var z=t._crop,W=z.width,V=z.height;Y=W,U=V,a=W,o=V;var H=m=z.x,j=y=z.y;c&&(H=x-z.x-W),d&&(j=T-z.y-V),D=H/i+A,I=j/s+C,B=(H+W)/i+A,N=(j+V)/s+C,X=-g+m,G=-v+y}
 //  Invert the flipY if this is a RenderTexture
-c&&(Y*=-1,X+=a),(d^=!P&&e.isRenderTexture?1:0)&&(U*=-1,z+=o);var q=X+Y,K=z+U;F.applyITRS(n,r,u,h,l),L.copyFrom(M.matrix),R?(
+c&&(Y*=-1,X+=a),(d^=!P&&e.isRenderTexture?1:0)&&(U*=-1,G+=o);var q=X+Y,K=G+U;F.applyITRS(n,r,u,h,l),L.copyFrom(M.matrix),R?(
 //  Multiply the camera by the parent matrix
 L.multiplyWithOffset(R,-M.scrollX*f,-M.scrollY*p),
 //  Undo the camera scroll
 F.e=n,F.f=r):(F.e-=M.scrollX*f,F.f-=M.scrollY*p),
 //  Multiply by the Sprite matrix, store result in calcMatrix
-L.multiply(F,k);var Z=M.roundPixels,J=k.getXRound(X,z,Z),Q=k.getYRound(X,z,Z),$=k.getXRound(X,K,Z),tt=k.getYRound(X,K,Z),et=k.getXRound(q,K,Z),it=k.getYRound(q,K,Z),st=k.getXRound(q,z,Z),nt=k.getYRound(q,z,Z);void 0===O&&(O=this.renderer.setTexture2D(e)),t&&this.manager.preBatch(t),this.batchQuad(t,J,Q,$,tt,et,it,st,nt,D,I,B,N,w,b,E,S,_,e,O),t&&this.manager.postBatch(t)},
+L.multiply(F,k);var Z=M.roundPixels,J=k.getXRound(X,G,Z),Q=k.getYRound(X,G,Z),$=k.getXRound(X,K,Z),tt=k.getYRound(X,K,Z),et=k.getXRound(q,K,Z),it=k.getYRound(q,K,Z),st=k.getXRound(q,G,Z),nt=k.getYRound(q,G,Z);void 0===O&&(O=this.renderer.setTexture2D(e)),t&&this.manager.preBatch(t),this.batchQuad(t,J,Q,$,tt,et,it,st,nt,D,I,B,N,w,b,E,S,_,e,O),t&&this.manager.postBatch(t)},
 /**
      * Adds a Texture Frame into the batch for rendering.
      *
@@ -20865,7 +20865,7 @@ this.projectionHeight=0,this.init(this.config)},
      */
 init:function(t){var e,i=this.game,s=this.canvas,r=t.backgroundColor;if(!(
 //  Did they provide their own context?
-e=i.config.context?i.config.context:s.getContext("webgl",t.contextCreation)||s.getContext("experimental-webgl",t.contextCreation))||e.isContextLost())throw this.contextLost=!0,new Error("WebGL unsupported");this.gl=e;var a=this;this.contextLostHandler=function(t){a.contextLost=!0,a.game.events.emit(zt.CONTEXT_LOST,a),t.preventDefault()},this.contextRestoredHandler=function(){a.contextLost=!1,a.init(a.config),a.game.events.emit(zt.CONTEXT_RESTORED,a)},s.addEventListener("webglcontextlost",this.contextLostHandler,!1),s.addEventListener("webglcontextrestored",this.contextRestoredHandler,!1),
+e=i.config.context?i.config.context:s.getContext("webgl",t.contextCreation)||s.getContext("experimental-webgl",t.contextCreation))||e.isContextLost())throw this.contextLost=!0,new Error("WebGL unsupported");this.gl=e;var a=this;this.contextLostHandler=function(t){a.contextLost=!0,a.game.events.emit(Gt.CONTEXT_LOST,a),t.preventDefault()},this.contextRestoredHandler=function(){a.contextLost=!1,a.init(a.config),a.game.events.emit(Gt.CONTEXT_RESTORED,a)},s.addEventListener("webglcontextlost",this.contextLostHandler,!1),s.addEventListener("webglcontextrestored",this.contextRestoredHandler,!1),
 //  Set it back into the Game, so developers can access it from there too
 i.context=e;for(var o=0;o<=27;o++)this.blendModes.push({func:[e.ONE,e.ONE_MINUS_SRC_ALPHA],equation:e.FUNC_ADD});
 //  ADD
@@ -20952,7 +20952,7 @@ endCapture:function(){return this.renderTarget.unbind(!0),this.resetProjectionMa
      *
      * @return {this} This WebGLRenderer instance.
      */
-resize:function(t,e){var i=this.gl;return this.width=t,this.height=e,this.setProjectionMatrix(t,e),i.viewport(0,0,t,e),this.drawingBufferHeight=i.drawingBufferHeight,i.scissor(0,i.drawingBufferHeight-e,t,e),this.defaultScissor[2]=t,this.defaultScissor[3]=e,this.emit(Gt.RESIZE,t,e),this},
+resize:function(t,e){var i=this.gl;return this.width=t,this.height=e,this.setProjectionMatrix(t,e),i.viewport(0,0,t,e),this.drawingBufferHeight=i.drawingBufferHeight,i.scissor(0,i.drawingBufferHeight-e,t,e),this.defaultScissor[2]=t,this.defaultScissor[3]=e,this.emit(zt.RESIZE,t,e),this},
 /**
      * Gets the aspect ratio of the WebGLRenderer dimensions.
      *
@@ -21491,7 +21491,7 @@ postRenderCamera:function(t){var e=t.flashEffect,i=t.fadeEffect;if(e.isRunning||
      */
 preRender:function(){if(!this.contextLost){var t=this.gl;
 //  Make sure we are bound to the main frame buffer
-if(t.bindFramebuffer(t.FRAMEBUFFER,null),this.config.clearBeforeRender){var e=this.config.backgroundColor;t.clearColor(e.redGL,e.greenGL,e.blueGL,e.alphaGL),t.clear(t.COLOR_BUFFER_BIT|t.DEPTH_BUFFER_BIT|t.STENCIL_BUFFER_BIT)}t.enable(t.SCISSOR_TEST),this.currentScissor=this.defaultScissor,this.scissorStack.length=0,this.scissorStack.push(this.currentScissor),this.game.scene.customViewports&&t.scissor(0,this.drawingBufferHeight-this.height,this.width,this.height),this.currentMask.mask=null,this.currentCameraMask.mask=null,this.maskStack.length=0,this.textureFlush=0,this.emit(Gt.PRE_RENDER)}},
+if(t.bindFramebuffer(t.FRAMEBUFFER,null),this.config.clearBeforeRender){var e=this.config.backgroundColor;t.clearColor(e.redGL,e.greenGL,e.blueGL,e.alphaGL),t.clear(t.COLOR_BUFFER_BIT|t.DEPTH_BUFFER_BIT|t.STENCIL_BUFFER_BIT)}t.enable(t.SCISSOR_TEST),this.currentScissor=this.defaultScissor,this.scissorStack.length=0,this.scissorStack.push(this.currentScissor),this.game.scene.customViewports&&t.scissor(0,this.drawingBufferHeight-this.height,this.width,this.height),this.currentMask.mask=null,this.currentCameraMask.mask=null,this.maskStack.length=0,this.textureFlush=0,this.emit(zt.PRE_RENDER)}},
 /**
      * The core render step for a Scene Camera.
      *
@@ -21512,7 +21512,7 @@ if(t.bindFramebuffer(t.FRAMEBUFFER,null),this.config.clearBeforeRender){var e=th
      */
 render:function(t,e,i){if(!this.contextLost){var s=e.length;
 //  Nothing to render, so bail out
-if(this.emit(Gt.RENDER,t,i),
+if(this.emit(zt.RENDER,t,i),
 //   Apply scissor for cam region + render background color, if not transparent
 this.preRenderCamera(i),0===s)return this.setBlendMode(n.BlendModes.NORMAL),void
 //  Applies camera effects and pops the scissor, if set
@@ -21532,7 +21532,7 @@ this.postRenderCamera(i)}},
      * @fires Phaser.Renderer.Events#POST_RENDER
      * @since 3.0.0
      */
-postRender:function(){if(!this.contextLost){this.flush(),this.emit(Gt.POST_RENDER);var t=this.snapshotState;t.callback&&(Sa(this.canvas,t),t.callback=null),this.textureFlush>0&&(this.startActiveTexture++,this.currentActiveTexture=1)}},
+postRender:function(){if(!this.contextLost){this.flush(),this.emit(zt.POST_RENDER);var t=this.snapshotState;t.callback&&(Sa(this.canvas,t),t.callback=null),this.textureFlush>0&&(this.startActiveTexture++,this.currentActiveTexture=1)}},
 /**
      * Schedules a snapshot of the entire game viewport to be taken after the current frame is rendered.
      *
@@ -22319,9 +22319,9 @@ stop:function(){return this.running=!1,this.started=!1,this.raf.stop(),this},
      * @method Phaser.Core.TimeStep#destroy
      * @since 3.0.0
      */
-destroy:function(){this.stop(),this.callback=tt,this.raf=null,this.game=null}}),Pa=function(t){var e,i=t.events;if(void 0!==document.hidden)e="visibilitychange";else{["webkit","moz","ms"].forEach((function(t){void 0!==document[t+"Hidden"]&&(document.hidden=function(){return document[t+"Hidden"]},e=t+"visibilitychange")}))}e&&document.addEventListener(e,(function(t){document.hidden||"pause"===t.type?i.emit(zt.HIDDEN):i.emit(zt.VISIBLE)}),!1),window.onblur=function(){i.emit(zt.BLUR)},window.onfocus=function(){i.emit(zt.FOCUS)},
+destroy:function(){this.stop(),this.callback=tt,this.raf=null,this.game=null}}),Pa=function(t){var e,i=t.events;if(void 0!==document.hidden)e="visibilitychange";else{["webkit","moz","ms"].forEach((function(t){void 0!==document[t+"Hidden"]&&(document.hidden=function(){return document[t+"Hidden"]},e=t+"visibilitychange")}))}e&&document.addEventListener(e,(function(t){document.hidden||"pause"===t.type?i.emit(Gt.HIDDEN):i.emit(Gt.VISIBLE)}),!1),window.onblur=function(){i.emit(Gt.BLUR)},window.onfocus=function(){i.emit(Gt.FOCUS)},
 //  Automatically give the window focus unless config says otherwise
-window.focus&&t.config.autoFocus&&window.focus()},Oa={Config:hr,CreateRenderer:Aa,DebugHeader:Ca,Events:zt,TimeStep:Ra,VisibilityHandler:Pa},La={0:"#000",1:"#9D9D9D",2:"#FFF",3:"#BE2633",4:"#E06F8B",5:"#493C2B",6:"#A46422",7:"#EB8931",8:"#F7E26B",9:"#2F484E",A:"#44891A",B:"#A3CE27",C:"#1B2632",D:"#005784",E:"#31A2F2",F:"#B2DCEF"},Fa=function(t){var e=Zt(t,"data",[]),i=Zt(t,"canvas",null),s=Zt(t,"palette",La),n=Zt(t,"pixelWidth",1),r=Zt(t,"pixelHeight",n),a=Zt(t,"resizeCanvas",!0),o=Zt(t,"clearCanvas",!0),h=Zt(t,"preRender",null),l=Zt(t,"postRender",null),u=Math.floor(Math.abs(e[0].length*n)),c=Math.floor(Math.abs(e.length*r));i||(i=ys.create2D(this,u,c),a=!1,o=!1),a&&(i.width=u,i.height=c);var d=i.getContext("2d");o&&d.clearRect(0,0,u,c),
+window.focus&&t.config.autoFocus&&window.focus()},Oa={Config:hr,CreateRenderer:Aa,DebugHeader:Ca,Events:Gt,TimeStep:Ra,VisibilityHandler:Pa},La={0:"#000",1:"#9D9D9D",2:"#FFF",3:"#BE2633",4:"#E06F8B",5:"#493C2B",6:"#A46422",7:"#EB8931",8:"#F7E26B",9:"#2F484E",A:"#44891A",B:"#A3CE27",C:"#1B2632",D:"#005784",E:"#31A2F2",F:"#B2DCEF"},Fa=function(t){var e=Zt(t,"data",[]),i=Zt(t,"canvas",null),s=Zt(t,"palette",La),n=Zt(t,"pixelWidth",1),r=Zt(t,"pixelHeight",n),a=Zt(t,"resizeCanvas",!0),o=Zt(t,"clearCanvas",!0),h=Zt(t,"preRender",null),l=Zt(t,"postRender",null),u=Math.floor(Math.abs(e[0].length*n)),c=Math.floor(Math.abs(e.length*r));i||(i=ys.create2D(this,u,c),a=!1,o=!1),a&&(i.width=u,i.height=c);var d=i.getContext("2d");o&&d.clearRect(0,0,u,c),
 //  preRender Callback?
 h&&h(i,d);
 //  Draw it
@@ -23216,7 +23216,7 @@ Xa.register=function(t,e){Xa.prototype.hasOwnProperty(t)||(Xa.prototype[t]=e)},
  *
  * @param {string} factoryType - The key of the factory that you want to remove from the GameObjectFactory.
  */
-Xa.remove=function(t){Xa.prototype.hasOwnProperty(t)&&delete Xa.prototype[t]},ss.register("GameObjectFactory",Xa,"add");var za=Xa,Ga=new It,Wa=new at({Extends:Ia,initialize:
+Xa.remove=function(t){Xa.prototype.hasOwnProperty(t)&&delete Xa.prototype[t]},ss.register("GameObjectFactory",Xa,"add");var Ga=Xa,za=new It,Wa=new at({Extends:Ia,initialize:
 //  vec2s or array
 function(t,e){Ia.call(this,"LineCurve"),Array.isArray(t)&&(e=new It(t[2],t[3]),t=new It(t[0],t[1]))
 /**
@@ -23320,7 +23320,7 @@ getPointAt:function(t,e){return this.getPoint(t,e)},
      *
      * @return {Phaser.Math.Vector2} The tangent vector.
      */
-getTangent:function(){return Ga.copy(this.p1).subtract(this.p0).normalize()},
+getTangent:function(){return za.copy(this.p1).subtract(this.p0).normalize()},
 /**
      * Given u ( 0 .. 1 ), get a t to find p. This gives you points which are equidistant.
      *
@@ -24108,7 +24108,7 @@ destroy:function(){this.curves.length=0,this.cacheLengths.length=0,this.startPoi
  *
  * @return {Phaser.Curves.Path} The Path Object that was created.
  */
-za.register("path",(function(t,e){return new Ja(t,e)}));
+Ga.register("path",(function(t,e){return new Ja(t,e)}));
 //  When registering a factory function 'this' refers to the GameObjectFactory context.
 //  There are several properties available to use:
 //  this.scene - a reference to the Scene that owns the GameObjectFactory
@@ -24174,7 +24174,7 @@ destroy:function(){xe.prototype.destroy.call(this),this.events.off(rs.START,this
  */
 /**
  * @namespace Phaser.Curves
- */ss.register("DataManagerPlugin",$a,"data");var to={DataManager:xe,DataManagerPlugin:$a,Events:ye},eo={In:{BottomCenter:X,BottomLeft:z,BottomRight:G,Center:V,LeftCenter:H,QuickSet:Q,RightCenter:j,TopCenter:q,TopLeft:K,TopRight:Z},To:{BottomCenter:f,BottomLeft:v,BottomRight:x,LeftBottom:w,LeftCenter:S,LeftTop:A,QuickSet:k,RightBottom:C,RightCenter:M,RightTop:R,TopCenter:P,TopLeft:O,TopRight:L}},io=
+ */ss.register("DataManagerPlugin",$a,"data");var to={DataManager:xe,DataManagerPlugin:$a,Events:ye},eo={In:{BottomCenter:X,BottomLeft:G,BottomRight:z,Center:V,LeftCenter:H,QuickSet:Q,RightCenter:j,TopCenter:q,TopLeft:K,TopRight:Z},To:{BottomCenter:f,BottomLeft:v,BottomRight:x,LeftBottom:w,LeftCenter:S,LeftTop:A,QuickSet:k,RightBottom:C,RightCenter:M,RightTop:R,TopCenter:P,TopLeft:O,TopRight:L}},io=
 //   Merge in the consts
 eo=o(!1,eo,h),so=new at({initialize:function(t,e,i,s){e&&""!==e||(e=["precision mediump float;","uniform vec2 resolution;","varying vec2 fragCoord;","void main () {","    vec2 uv = fragCoord / resolution.xy;","    gl_FragColor = vec4(uv.xyx, 1.0);","}"].join("\n")),i&&""!==i||(i=["precision mediump float;","uniform mat4 uProjectionMatrix;","uniform mat4 uViewMatrix;","uniform vec2 uResolution;","attribute vec2 inPosition;","varying vec2 fragCoord;","varying vec2 outTexCoord;","void main () {","   gl_Position = uProjectionMatrix * uViewMatrix * vec4(inPosition, 1.0, 1.0);","   fragCoord = vec2(inPosition.x, uResolution.y - inPosition.y);","   outTexCoord = vec2(inPosition.x / uResolution.x, fragCoord.y / uResolution.y);","}"].join("\n")),void 0===s&&(s=null)
 /**
@@ -25613,7 +25613,7 @@ this.onKeyUp=tt,t.events.once(Yo.MANAGER_BOOT,this.boot,this)},
      * @private
      * @since 3.16.0
      */
-boot:function(){var t=this.manager.config;this.enabled=t.inputKeyboard,this.target=t.inputKeyboardEventTarget,this.addCapture(t.inputKeyboardCapture),!this.target&&window&&(this.target=window),this.enabled&&this.target&&this.startListeners(),this.manager.game.events.on(zt.POST_STEP,this.postUpdate,this)},
+boot:function(){var t=this.manager.config;this.enabled=t.inputKeyboard,this.target=t.inputKeyboardEventTarget,this.addCapture(t.inputKeyboardCapture),!this.target&&window&&(this.target=window),this.enabled&&this.target&&this.startListeners(),this.manager.game.events.on(Gt.POST_STEP,this.postUpdate,this)},
 /**
      * Starts the Keyboard Event listeners running.
      * This is called automatically and does not need to be manually invoked.
@@ -25728,7 +25728,7 @@ clearCaptures:function(){this.captures=[],this.preventDefault=!1},
      * @method Phaser.Input.Keyboard.KeyboardManager#destroy
      * @since 3.16.0
      */
-destroy:function(){this.stopListeners(),this.clearCaptures(),this.queue=[],this.manager.game.events.off(zt.POST_RENDER,this.postUpdate,this),this.target=null,this.enabled=!1,this.manager=null}}),zo=new at({initialize:function(t){
+destroy:function(){this.stopListeners(),this.clearCaptures(),this.queue=[],this.manager.game.events.off(Gt.POST_RENDER,this.postUpdate,this),this.target=null,this.enabled=!1,this.manager=null}}),Go=new at({initialize:function(t){
 /**
          * A reference to the Input Manager.
          *
@@ -25983,7 +25983,7 @@ stopListeners:function(){var t=this.target;t.removeEventListener("mousemove",thi
      * @method Phaser.Input.Mouse.MouseManager#destroy
      * @since 3.0.0
      */
-destroy:function(){this.stopListeners(),this.target=null,this.enabled=!1,this.manager=null}}),Go=new at({initialize:function(t,e){
+destroy:function(){this.stopListeners(),this.target=null,this.enabled=!1,this.manager=null}}),zo=new at({initialize:function(t,e){
 /**
          * A reference to the Input Manager.
          *
@@ -27044,7 +27044,7 @@ this.keyboard=e.inputKeyboard?new Xo(this):null,
          * @type {?Phaser.Input.Mouse.MouseManager}
          * @since 3.0.0
          */
-this.mouse=e.inputMouse?new zo(this):null,
+this.mouse=e.inputMouse?new Go(this):null,
 /**
          * A reference to the Touch Manager class, if enabled via the `input.touch` Game Config property.
          *
@@ -27076,7 +27076,7 @@ this.pointers=[],
          * @readonly
          * @since 3.10.0
          */
-this.pointersTotal=e.inputActivePointers,e.inputTouch&&1===this.pointersTotal&&(this.pointersTotal=2);for(var i=0;i<=this.pointersTotal;i++){var s=new Go(this,i);s.smoothFactor=e.inputSmoothFactor,this.pointers.push(s)}
+this.pointersTotal=e.inputActivePointers,e.inputTouch&&1===this.pointersTotal&&(this.pointersTotal=2);for(var i=0;i<=this.pointersTotal;i++){var s=new zo(this,i);s.smoothFactor=e.inputSmoothFactor,this.pointers.push(s)}
 /**
          * The mouse has its own unique Pointer object, which you can reference directly if making a _desktop specific game_.
          * If you are supporting both desktop and touch devices then do not use this property, instead use `activePointer`
@@ -27175,7 +27175,7 @@ this._tempSkip=!1,
          * @private
          * @since 3.18.0
          */
-this.mousePointerContainer=[this.mousePointer],t.events.once(zt.BOOT,this.boot,this)},
+this.mousePointerContainer=[this.mousePointer],t.events.once(Gt.BOOT,this.boot,this)},
 /**
      * The Boot handler is called by Phaser.Game when it first starts up.
      * The renderer is available by now.
@@ -27185,7 +27185,7 @@ this.mousePointerContainer=[this.mousePointer],t.events.once(zt.BOOT,this.boot,t
      * @fires Phaser.Input.Events#MANAGER_BOOT
      * @since 3.0.0
      */
-boot:function(){this.canvas=this.game.canvas,this.scaleManager=this.game.scale,this.events.emit(Yo.MANAGER_BOOT),this.game.events.on(zt.PRE_RENDER,this.preRender,this),this.game.events.once(zt.DESTROY,this.destroy,this)},
+boot:function(){this.canvas=this.game.canvas,this.scaleManager=this.game.scale,this.events.emit(Yo.MANAGER_BOOT),this.game.events.on(Gt.PRE_RENDER,this.preRender,this),this.game.events.once(Gt.DESTROY,this.destroy,this)},
 /**
      * Internal canvas state change, called automatically by the Mouse Manager.
      *
@@ -27288,7 +27288,7 @@ resetCursor:function(t){t.cursor&&this.canvas&&(this.canvas.style.cursor=this.de
      *
      * @return {Phaser.Input.Pointer[]} An array containing all of the new Pointer objects that were created.
      */
-addPointer:function(t){void 0===t&&(t=1);var e=[];this.pointersTotal+t>10&&(t=10-this.pointersTotal);for(var i=0;i<t;i++){var s=this.pointers.length,n=new Go(this,s);n.smoothFactor=this.config.inputSmoothFactor,this.pointers.push(n),this.pointersTotal++,e.push(n)}return e},
+addPointer:function(t){void 0===t&&(t=1);var e=[];this.pointersTotal+t>10&&(t=10-this.pointersTotal);for(var i=0;i<t;i++){var s=this.pointers.length,n=new zo(this,s);n.smoothFactor=this.config.inputSmoothFactor,this.pointers.push(n),this.pointersTotal++,e.push(n)}return e},
 /**
      * Internal method that gets a list of all the active Input Plugins in the game
      * and updates each of them in turn, in reverse order (top to bottom), to allow
@@ -27508,7 +27508,7 @@ n.x=a,n.y=o)},
      * @method Phaser.Input.InputManager#destroy
      * @since 3.0.0
      */
-destroy:function(){this.events.removeAllListeners(),this.game.events.off(zt.PRE_RENDER),this.keyboard&&this.keyboard.destroy(),this.mouse&&this.mouse.destroy(),this.touch&&this.touch.destroy();for(var t=0;t<this.pointers.length;t++)this.pointers[t].destroy();this.pointers=[],this._tempHitTest=[],this._tempMatrix.destroy(),this.canvas=null,this.game=null}}),Ho={},jo={
+destroy:function(){this.events.removeAllListeners(),this.game.events.off(Gt.PRE_RENDER),this.keyboard&&this.keyboard.destroy(),this.mouse&&this.mouse.destroy(),this.touch&&this.touch.destroy();for(var t=0;t<this.pointers.length;t++)this.pointers[t].destroy();this.pointers=[],this._tempHitTest=[],this._tempMatrix.destroy(),this.canvas=null,this.game=null}}),Ho={},jo={
 /**
      * Static method called when a LoaderPlugin is created.
      * 
@@ -27674,7 +27674,7 @@ this._pendingGlobal=[],
          * @type {array}
          * @since 3.8.0
          */
-this._pendingScene=[],t.isBooted?this.boot():t.events.once(zt.BOOT,this.boot,this)},
+this._pendingScene=[],t.isBooted?this.boot():t.events.once(Gt.BOOT,this.boot,this)},
 /**
      * Run once the game has booted and installs all of the plugins configured in the Game Config.
      *
@@ -27692,7 +27692,7 @@ for(
 //  Any plugins added outside of the game config, but before the game booted?
 h=(h=o.installScenePlugins).concat(this._pendingScene),t=0;t<h.length;t++)e=h[t],
 // { key: 'moveSpritePlugin', plugin: MoveSpritePlugin, , mapping: 'move' }
-i=$(e,"key",null),s=$(e,"plugin",null),r=$(e,"mapping",null),i&&(s?this.installScenePlugin(i,s,r):console.warn("Missing `plugin` for key: "+i));this._pendingGlobal=[],this._pendingScene=[],this.game.events.once(zt.DESTROY,this.destroy,this)},
+i=$(e,"key",null),s=$(e,"plugin",null),r=$(e,"mapping",null),i&&(s?this.installScenePlugin(i,s,r):console.warn("Missing `plugin` for key: "+i));this._pendingGlobal=[],this._pendingScene=[],this.game.events.once(Gt.DESTROY,this.destroy,this)},
 /**
      * Called by the Scene Systems class. Tells the plugin manager to install all Scene plugins into it.
      *
@@ -27972,7 +27972,7 @@ removeScenePlugin:function(t){pr(this.scenePlugins,t),ss.remove(t)},
      * @param {function} [factoryCallback] - The callback to invoke when the Game Object Factory is called.
      * @param {function} [creatorCallback] - The callback to invoke when the Game Object Creator is called.
      */
-registerGameObject:function(t,e,i){return e&&za.register(t,e),i&&Ko.register(t,i),this},
+registerGameObject:function(t,e,i){return e&&Ga.register(t,e),i&&Ko.register(t,i),this},
 /**
      * Removes a previously registered Game Object from the global Game Object Factory and / or Creator.
      * This is usually called from within your Plugin destruction code to help clean-up after your plugin has been removed.
@@ -27984,7 +27984,7 @@ registerGameObject:function(t,e,i){return e&&za.register(t,e),i&&Ko.register(t,i
      * @param {boolean} [removeFromFactory=true] - Should the Game Object be removed from the Game Object Factory?
      * @param {boolean} [removeFromCreator=true] - Should the Game Object be removed from the Game Object Creator?
      */
-removeGameObject:function(t,e,i){return void 0===e&&(e=!0),void 0===i&&(i=!0),e&&za.remove(t),i&&Ko.remove(t),this},
+removeGameObject:function(t,e,i){return void 0===e&&(e=!0),void 0===i&&(i=!0),e&&Ga.remove(t),i&&Ko.remove(t),this},
 /**
      * Registers a new file type with the global File Types Manager, making it available to all Loader
      * Plugins created after this.
@@ -28806,7 +28806,7 @@ this.listeners={orientationChange:tt,windowResize:tt,fullScreenChange:tt,fullScr
      */
 preBoot:function(){
 //  Parse the config to get the scaling values we need
-this.parseConfig(this.game.config),this.game.events.once(zt.BOOT,this.boot,this)},
+this.parseConfig(this.game.config),this.game.events.once(Gt.BOOT,this.boot,this)},
 /**
      * The Boot handler is called by Phaser.Game when it first starts up.
      * The renderer is available by now and the canvas has been added to the DOM.
@@ -28818,7 +28818,7 @@ this.parseConfig(this.game.config),this.game.events.once(zt.BOOT,this.boot,this)
      */
 boot:function(){var t=this.game;this.canvas=t.canvas,this.fullscreen=t.device.fullscreen,this.scaleMode!==Ro.SCALE_MODE.RESIZE&&this.displaySize.setAspectMode(this.scaleMode),this.scaleMode===Ro.SCALE_MODE.NONE?this.resize(this.width,this.height):(this.getParentBounds(),
 //  Only set the parent bounds if the parent has an actual size
-this.parentSize.width>0&&this.parentSize.height>0&&this.displaySize.setParent(this.parentSize),this.refresh()),t.events.on(zt.PRE_STEP,this.step,this),t.events.once(zt.READY,this.refresh,this),t.events.once(zt.DESTROY,this.destroy,this),this.startListeners()},
+this.parentSize.width>0&&this.parentSize.height>0&&this.displaySize.setParent(this.parentSize),this.refresh()),t.events.on(Gt.PRE_STEP,this.step,this),t.events.once(Gt.READY,this.refresh,this),t.events.once(Gt.DESTROY,this.destroy,this),this.startListeners()},
 /**
      * Parses the game configuration to set-up the scale defaults.
      *
@@ -30259,7 +30259,7 @@ this.isBooted=!1,
          */
 this.customViewports=0,e){Array.isArray(e)||(e=[e]);for(var i=0;i<e.length;i++)
 //  The i === 0 part just autostarts the first Scene given (unless it says otherwise in its config)
-this._pending.push({key:"default",scene:e[i],autoStart:0===i,data:{}})}t.events.once(zt.READY,this.bootQueue,this)},
+this._pending.push({key:"default",scene:e[i],autoStart:0===i,data:{}})}t.events.once(Gt.READY,this.bootQueue,this)},
 /**
      * Internal first-time Scene boot handler.
      *
@@ -32103,7 +32103,7 @@ this._tempContext=this._tempCanvas.getContext("2d"),
          * @default 0
          * @since 3.0.0
          */
-this._pending=0,t.events.once(zt.BOOT,this.boot,this)},
+this._pending=0,t.events.once(Gt.BOOT,this.boot,this)},
 /**
      * The Boot Handler called by Phaser.Game when it first starts up.
      *
@@ -32111,7 +32111,7 @@ this._pending=0,t.events.once(zt.BOOT,this.boot,this)},
      * @private
      * @since 3.0.0
      */
-boot:function(){this.on(dr.LOAD,this.updatePending,this),this.on(dr.ERROR,this.updatePending,this);var t=this.game.config;this.addBase64("__DEFAULT",t.defaultImage),this.addBase64("__MISSING",t.missingImage),this.addBase64("__WHITE",t.whiteImage),this._pending=3,this.game.events.once(zt.DESTROY,this.destroy,this)},
+boot:function(){this.on(dr.LOAD,this.updatePending,this),this.on(dr.ERROR,this.updatePending,this);var t=this.game.config;this.addBase64("__DEFAULT",t.defaultImage),this.addBase64("__MISSING",t.missingImage),this.addBase64("__WHITE",t.whiteImage),this._pending=3,this.game.events.once(Gt.DESTROY,this.destroy,this)},
 /**
      * After 'onload' or 'onerror' invoked twice, emit 'ready' event.
      *
@@ -32710,7 +32710,7 @@ this.locked=this.locked||!1,
          * @private
          * @since 3.0.0
          */
-this.unlocked=!1,t.events.on(zt.BLUR,this.onGameBlur,this),t.events.on(zt.FOCUS,this.onGameFocus,this),t.events.on(zt.PRE_STEP,this.update,this),t.events.once(zt.DESTROY,this.destroy,this)},
+this.unlocked=!1,t.events.on(Gt.BLUR,this.onGameBlur,this),t.events.on(Gt.FOCUS,this.onGameFocus,this),t.events.on(Gt.PRE_STEP,this.update,this),t.events.once(Gt.DESTROY,this.destroy,this)},
 /**
      * Adds a new sound into the sound manager.
      *
@@ -32924,7 +32924,7 @@ update:function(t,e){this.unlocked&&(this.unlocked=!1,this.locked=!1,this.emit(b
      * @method Phaser.Sound.BaseSoundManager#destroy
      * @since 3.0.0
      */
-destroy:function(){this.game.events.off(zt.BLUR,this.onGameBlur,this),this.game.events.off(zt.FOCUS,this.onGameFocus,this),this.game.events.off(zt.PRE_STEP,this.update,this),this.removeAllListeners(),this.removeAll(),this.sounds.length=0,this.sounds=null,this.game=null},
+destroy:function(){this.game.events.off(Gt.BLUR,this.onGameBlur,this),this.game.events.off(Gt.FOCUS,this.onGameFocus,this),this.game.events.off(Gt.PRE_STEP,this.update,this),this.removeAllListeners(),this.removeAll(),this.sounds.length=0,this.sounds=null,this.game=null},
 /**
      * Method used internally for iterating only over active sounds and skipping sounds that are marked for removal.
      *
@@ -34459,7 +34459,7 @@ this.masterVolumeNode=this.context.createGain(),this.masterMuteNode.connect(this
          * @type {AudioNode}
          * @since 3.0.0
          */
-this.destination=this.masterMuteNode,this.locked="suspended"===this.context.state&&("ontouchstart"in window||"onclick"in window),Ah.call(this,t),this.locked&&t.isBooted?this.unlock():t.events.once(zt.BOOT,this.unlock,this)},
+this.destination=this.masterMuteNode,this.locked="suspended"===this.context.state&&("ontouchstart"in window||"onclick"in window),Ah.call(this,t),this.locked&&t.isBooted?this.unlock():t.events.once(Gt.BOOT,this.unlock,this)},
 /**
      * Method responsible for instantiating and returning AudioContext instance.
      * If an instance of an AudioContext class was provided through the game config,
@@ -34599,7 +34599,7 @@ setVolume:function(t){return this.volume=t,this},
      * @fires Phaser.Sound.Events#GLOBAL_VOLUME
      * @since 3.0.0
      */
-volume:{get:function(){return this.masterVolumeNode.gain.value},set:function(t){this.masterVolumeNode.gain.setValueAtTime(t,0),this.emit(bh.GLOBAL_VOLUME,this,t)}}}),Uh={create:function(t){var e=t.config.audio,i=t.device.audio;return e.noAudio||!i.webAudio&&!i.audioData?new Fh(t):i.webAudio&&!e.disableWebAudio?new Yh(t):new Rh(t)}},Xh=Uh,zh=new at({initialize:function(t){
+volume:{get:function(){return this.masterVolumeNode.gain.value},set:function(t){this.masterVolumeNode.gain.setValueAtTime(t,0),this.emit(bh.GLOBAL_VOLUME,this,t)}}}),Uh={create:function(t){var e=t.config.audio,i=t.device.audio;return e.noAudio||!i.webAudio&&!i.audioData?new Fh(t):i.webAudio&&!e.disableWebAudio?new Yh(t):new Rh(t)}},Xh=Uh,Gh=new at({initialize:function(t){
 /**
          * The parsed Game Configuration object.
          *
@@ -34847,7 +34847,7 @@ Eo(this.boot.bind(this))},
 boot:function(){ss.hasCore("EventEmitter")?(this.isBooted=!0,this.config.preBoot(this),this.scale.preBoot(),Aa(this),Bo(this),Ca(this),bo(this.canvas,this.config.parent),
 //  The Texture Manager has to wait on a couple of non-blocking events before it's fully ready.
 //  So it will emit this internal event when done:
-this.textures.once(dr.READY,this.texturesReady,this),this.events.emit(zt.BOOT)):console.warn("Aborting. Core Plugins missing.")},
+this.textures.once(dr.READY,this.texturesReady,this),this.events.emit(Gt.BOOT)):console.warn("Aborting. Core Plugins missing.")},
 /**
      * Called automatically when the Texture Manager has finished setting up and preparing the
      * default textures.
@@ -34859,7 +34859,7 @@ this.textures.once(dr.READY,this.texturesReady,this),this.events.emit(zt.BOOT)):
      */
 texturesReady:function(){
 //  Start all the other systems
-this.events.emit(zt.READY),this.start()},
+this.events.emit(Gt.READY),this.start()},
 /**
      * Called automatically by Game.boot once all of the global systems have finished setting themselves up.
      * By this point the Game is now ready to start the main loop running.
@@ -34869,7 +34869,7 @@ this.events.emit(zt.READY),this.start()},
      * @protected
      * @since 3.0.0
      */
-start:function(){this.isRunning=!0,this.config.postBoot(this),this.renderer?this.loop.start(this.step.bind(this)):this.loop.start(this.headlessStep.bind(this)),Pa(this);var t=this.events;t.on(zt.HIDDEN,this.onHidden,this),t.on(zt.VISIBLE,this.onVisible,this),t.on(zt.BLUR,this.onBlur,this),t.on(zt.FOCUS,this.onFocus,this)},
+start:function(){this.isRunning=!0,this.config.postBoot(this),this.renderer?this.loop.start(this.step.bind(this)):this.loop.start(this.headlessStep.bind(this)),Pa(this);var t=this.events;t.on(Gt.HIDDEN,this.onHidden,this),t.on(Gt.VISIBLE,this.onVisible,this),t.on(Gt.BLUR,this.onBlur,this),t.on(Gt.FOCUS,this.onFocus,this)},
 /**
      * The main Game Step. Called automatically by the Time Step, once per browser frame (typically as a result of
      * Request Animation Frame, or Set Timeout on very old browsers.)
@@ -34891,21 +34891,21 @@ start:function(){this.isRunning=!0,this.config.postBoot(this),this.renderer?this
      */
 step:function(t,e){if(this.pendingDestroy)return this.runDestroy();var i=this.events;
 //  Global Managers like Input and Sound update in the prestep
-i.emit(zt.PRE_STEP,t,e),
+i.emit(Gt.PRE_STEP,t,e),
 //  This is mostly meant for user-land code and plugins
-i.emit(zt.STEP,t,e),
+i.emit(Gt.STEP,t,e),
 //  Update the Scene Manager and all active Scenes
 this.scene.update(t,e),
 //  Our final event before rendering starts
-i.emit(zt.POST_STEP,t,e);var s=this.renderer;
+i.emit(Gt.POST_STEP,t,e);var s=this.renderer;
 //  Run the Pre-render (clearing the canvas, setting background colors, etc)
-s.preRender(),i.emit(zt.PRE_RENDER,s,t,e),
+s.preRender(),i.emit(Gt.PRE_RENDER,s,t,e),
 //  The main render loop. Iterates all Scenes and all Cameras in those scenes, rendering to the renderer instance.
 this.scene.render(s),
 //  The Post-Render call. Tidies up loose end, takes snapshots, etc.
 s.postRender(),
 //  The final event before the step repeats. Your last chance to do anything to the canvas before it all starts again.
-i.emit(zt.POST_RENDER,s,t,e)},
+i.emit(Gt.POST_RENDER,s,t,e)},
 /**
      * A special version of the Game Step for the HEADLESS renderer only.
      *
@@ -34926,11 +34926,11 @@ i.emit(zt.POST_RENDER,s,t,e)},
      */
 headlessStep:function(t,e){if(this.pendingDestroy)return this.runDestroy();var i=this.events;
 //  Global Managers
-i.emit(zt.PRE_STEP,t,e),i.emit(zt.STEP,t,e),
+i.emit(Gt.PRE_STEP,t,e),i.emit(Gt.STEP,t,e),
 //  Scenes
-this.scene.update(t,e),i.emit(zt.POST_STEP,t,e),
+this.scene.update(t,e),i.emit(Gt.POST_STEP,t,e),
 //  Render
-i.emit(zt.PRE_RENDER),i.emit(zt.POST_RENDER)},
+i.emit(Gt.PRE_RENDER),i.emit(Gt.POST_RENDER)},
 /**
      * Called automatically by the Visibility Handler.
      * This will pause the main loop and then emit a pause event.
@@ -34940,7 +34940,7 @@ i.emit(zt.PRE_RENDER),i.emit(zt.POST_RENDER)},
      * @fires Phaser.Core.Events#PAUSE
      * @since 3.0.0
      */
-onHidden:function(){this.loop.pause(),this.events.emit(zt.PAUSE)},
+onHidden:function(){this.loop.pause(),this.events.emit(Gt.PAUSE)},
 /**
      * Called automatically by the Visibility Handler.
      * This will resume the main loop and then emit a resume event.
@@ -34950,7 +34950,7 @@ onHidden:function(){this.loop.pause(),this.events.emit(zt.PAUSE)},
      * @fires Phaser.Core.Events#RESUME
      * @since 3.0.0
      */
-onVisible:function(){this.loop.resume(),this.events.emit(zt.RESUME)},
+onVisible:function(){this.loop.resume(),this.events.emit(Gt.RESUME)},
 /**
      * Called automatically by the Visibility Handler.
      * This will set the main loop into a 'blurred' state, which pauses it.
@@ -35014,10 +35014,10 @@ destroy:function(t,e){void 0===e&&(e=!1),this.pendingDestroy=!0,this.removeCanva
      * @private
      * @since 3.5.0
      */
-runDestroy:function(){this.scene.destroy(),this.events.emit(zt.DESTROY),this.events.removeAllListeners(),this.renderer&&this.renderer.destroy(),this.removeCanvas&&this.canvas&&(ys.remove(this.canvas),this.canvas.parentNode&&this.canvas.parentNode.removeChild(this.canvas)),this.domContainer&&this.domContainer.parentNode.removeChild(this.domContainer),this.loop.destroy(),this.pendingDestroy=!1}}),Gh=function(t){if(!Array.isArray(t)||t.length<2||!Array.isArray(t[0]))return!1;
+runDestroy:function(){this.scene.destroy(),this.events.emit(Gt.DESTROY),this.events.removeAllListeners(),this.renderer&&this.renderer.destroy(),this.removeCanvas&&this.canvas&&(ys.remove(this.canvas),this.canvas.parentNode&&this.canvas.parentNode.removeChild(this.canvas)),this.domContainer&&this.domContainer.parentNode.removeChild(this.domContainer),this.loop.destroy(),this.pendingDestroy=!1}}),zh=function(t){if(!Array.isArray(t)||t.length<2||!Array.isArray(t[0]))return!1;
 //  How long is the first row?
 //  Validate the rest of the rows are the same length
-for(var e=t[0].length,i=1;i<t.length;i++)if(t[i].length!==e)return!1;return!0},Wh=function(t){var e="";if(!Gh(t))return e;for(var i=0;i<t.length;i++){for(var s=0;s<t[i].length;s++){var n=t[i][s].toString();e+="undefined"!==n?ui(n,2):"?",s<t[i].length-1&&(e+=" |")}if(i<t.length-1){e+="\n";for(var r=0;r<t[i].length;r++)e+="---",r<t[i].length-1&&(e+="+");e+="\n"}}return e},Vh=function(t){for(var e=t.length,i=t[0].length,s=new Array(i),n=0;n<i;n++){s[n]=new Array(e);for(var r=e-1;r>-1;r--)s[n][r]=t[r][n]}return s},Hh=function(t,e){if(void 0===e&&(e=90),!Gh(t))return null;if("string"!=typeof e&&(e=(e%360+360)%360),90===e||-270===e||"rotateLeft"===e)(t=Vh(t)).reverse();else if(-90===e||270===e||"rotateRight"===e)t.reverse(),t=Vh(t);else if(180===Math.abs(e)||"rotate180"===e){for(var i=0;i<t.length;i++)t[i].reverse();t.reverse()}return t},jh=function(t){return Hh(t,-90)},qh=function(t,e,i){void 0===e&&(e=0),void 0===i&&(i=t.length);var s=e+Math.floor(Math.random()*i);return void 0===t[s]?null:t[s]};
+for(var e=t[0].length,i=1;i<t.length;i++)if(t[i].length!==e)return!1;return!0},Wh=function(t){var e="";if(!zh(t))return e;for(var i=0;i<t.length;i++){for(var s=0;s<t[i].length;s++){var n=t[i][s].toString();e+="undefined"!==n?ui(n,2):"?",s<t[i].length-1&&(e+=" |")}if(i<t.length-1){e+="\n";for(var r=0;r<t[i].length;r++)e+="---",r<t[i].length-1&&(e+="+");e+="\n"}}return e},Vh=function(t){for(var e=t.length,i=t[0].length,s=new Array(i),n=0;n<i;n++){s[n]=new Array(e);for(var r=e-1;r>-1;r--)s[n][r]=t[r][n]}return s},Hh=function(t,e){if(void 0===e&&(e=90),!zh(t))return null;if("string"!=typeof e&&(e=(e%360+360)%360),90===e||-270===e||"rotateLeft"===e)(t=Vh(t)).reverse();else if(-90===e||270===e||"rotateRight"===e)t.reverse(),t=Vh(t);else if(180===Math.abs(e)||"rotate180"===e){for(var i=0;i<t.length;i++)t[i].reverse();t.reverse()}return t},jh=function(t){return Hh(t,-90)},qh=function(t,e,i){void 0===e&&(e=0),void 0===i&&(i=t.length);var s=e+Math.floor(Math.random()*i);return void 0===t[s]?null:t[s]};
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -35126,7 +35126,7 @@ var i=t.length;if(i<=1)return t;
 // Stop when the left-hand covers all of the array.
 for(var s=new Array(i),n=1;n<i;n*=2){sl(t,e,n,s);var r=t;t=s,s=r}return t}(t,e);
 // This simply copies back if the result isn't in the original array, which happens on an odd number of passes.
-return i!==t&&sl(i,null,t.length,t),t},rl={Matrix:{CheckMatrix:Gh,MatrixToString:Wh,ReverseColumns:function(t){return t.reverse()},ReverseRows:function(t){for(var e=0;e<t.length;e++)t[e].reverse();return t},Rotate180:function(t){return Hh(t,180)},RotateLeft:function(t){return Hh(t,90)},RotateMatrix:Hh,RotateRight:jh,Translate:function(t,e,i){
+return i!==t&&sl(i,null,t.length,t),t},rl={Matrix:{CheckMatrix:zh,MatrixToString:Wh,ReverseColumns:function(t){return t.reverse()},ReverseRows:function(t){for(var e=0;e<t.length;e++)t[e].reverse();return t},Rotate180:function(t){return Hh(t,180)},RotateLeft:function(t){return Hh(t,90)},RotateMatrix:Hh,RotateRight:jh,Translate:function(t,e,i){
 //  Horizontal translation
 if(void 0===e&&(e=0),void 0===i&&(i=0),
 //  Vertical translation
@@ -36176,9 +36176,9 @@ N={word:"",i:n,x:x,y:T,w:0,h:m,cr:!1}),N.word=N.word.concat(h[n]),N.w+=b.xOffset
 //  Loop through the words array and see if we've got any > maxWidth
 var U;null!==N&&I.push({word:N.word,i:N.i,x:N.x*C,y:N.y*M,w:N.w*C,h:N.h*M,cr:!1}),
 //  Reset for the next loop
-x=0,T=0,R=null,P=0;var X=0,z=[];for(n=0;n<I.length;n++){var G=I[n],W=G.x,V=G.x+G.w;if(U)X=W-(W-(U.x+U.w)+U.w),U=null;W-X>u||V-X>u?(z.push(G.i-1),G.cr?(z.push(G.i+G.word.length),X=0,U=null):U=G):G.cr&&(z.push(G.i+G.word.length),X=0,U=null)}for(n=z.length-1;n>=0;n--)
+x=0,T=0,R=null,P=0;var X=0,G=[];for(n=0;n<I.length;n++){var z=I[n],W=z.x,V=z.x+z.w;if(U)X=W-(W-(U.x+U.w)+U.w),U=null;W-X>u||V-X>u?(G.push(z.i-1),z.cr?(G.push(z.i+z.word.length),X=0,U=null):U=z):z.cr&&(G.push(z.i+z.word.length),X=0,U=null)}for(n=G.length-1;n>=0;n--)
 // eslint-disable-next-line quotes
-r=h,a=z[n],o="\n",h=r.substr(0,a)+o+r.substr(a+1);s.wrappedText=h,l=h.length,
+r=h,a=G[n],o="\n",h=r.substr(0,a)+o+r.substr(a+1);s.wrappedText=h,l=h.length,
 //  Recalculated in the next loop
 I=[],N=null}var H=0;for(n=0;n<l;n++)if(10!==(w=h.charCodeAt(n))){if(b=v[w]){if(S=x,_=T,null!==R){var j=b.kerning[P];S+=void 0!==j?j:0}d>S&&(d=S),f>_&&(f=_);var q=S+b.xAdvance,K=_+m;p<q&&(p=q),g<K&&(g=K);var Z=b.xOffset+b.xAdvance+(void 0!==j?j:0);w===c?null!==N&&(I.push({word:N.word,i:N.i,x:N.x*C,y:N.y*M,w:N.w*C,h:N.h*M}),N=null):(null===N&&(
 //  We're starting a new word, recording the starting index, etc
@@ -37970,7 +37970,7 @@ l.multiply(u,c)):(d=e.width*e.originX,f=e.height*e.originY,u.applyITRS(e.x-d,e.y
 //  Multiply by the src matrix, store result in calcMatrix
 l.multiply(u,c)),e.transformOnly||(r.display="block",r.opacity=h,r.zIndex=e._depth,r.pointerEvents="auto",r.mixBlendMode=Bl[e._blendMode]),
 // https://developer.mozilla.org/en-US/docs/Web/CSS/transform
-r.transform=c.getCSSMatrix()+" skew("+e.skewX+"rad, "+e.skewY+"rad) rotate3d("+e.rotate3d.x+","+e.rotate3d.y+","+e.rotate3d.z+","+e.rotate3d.w+e.rotate3dAngle+")",r.transformOrigin=p+" "+g}},zl={renderWebGL:Xl,renderCanvas:Xl},Gl=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.Origin,me.ScrollFactor,me.Transform,me.Visible,zl],initialize:function(t,e,i,s,n,r){Ee.call(this,t,"DOMElement"),
+r.transform=c.getCSSMatrix()+" skew("+e.skewX+"rad, "+e.skewY+"rad) rotate3d("+e.rotate3d.x+","+e.rotate3d.y+","+e.rotate3d.z+","+e.rotate3d.w+e.rotate3dAngle+")",r.transformOrigin=p+" "+g}},Gl={renderWebGL:Xl,renderCanvas:Xl},zl=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.Origin,me.ScrollFactor,me.Transform,me.Visible,Gl],initialize:function(t,e,i,s,n,r){Ee.call(this,t,"DOMElement"),
 /**
          * A reference to the parent DOM Container that the Game instance created when it started.
          *
@@ -38528,11 +38528,11 @@ willRender:function(){return!0},
      */
 preDestroy:function(){this.removeElement(),this.scene.sys.events.off(rs.SLEEP,this.handleSceneEvent,this),this.scene.sys.events.off(rs.WAKE,this.handleSceneEvent,this)}}),Wl=new ue,Vl=new at({Extends:Rl,Mixins:[{renderWebGL:function(t,e,i,s){var n=e.text,r=n.length;if(0!==r){i.addToRenderList(e);var a=t.pipelines.set(e.pipeline,e),o=ml(e,i,s),h=o.sprite,l=o.calc,u=Wl,c=e.cropWidth>0||e.cropHeight>0;c&&(a.flush(),t.pushScissor(l.tx,l.ty,e.cropWidth*l.scaleX,e.cropHeight*l.scaleY));var d,f,p=e.frame.glTexture,g=e.tintFill,v=wr.getTintAppendFloatAlpha(e.tintTopLeft,i.alpha*e._alphaTL),m=wr.getTintAppendFloatAlpha(e.tintTopRight,i.alpha*e._alphaTR),y=wr.getTintAppendFloatAlpha(e.tintBottomLeft,i.alpha*e._alphaBL),x=wr.getTintAppendFloatAlpha(e.tintBottomRight,i.alpha*e._alphaBR),T=a.setGameObject(e),w=0,b=0,E=0,S=0,_=e.letterSpacing,A=0,C=0,M=e.scrollX,R=e.scrollY,P=e.fontData,O=P.chars,L=P.lineHeight,F=e.fontSize/P.size,k=0,D=e._align,I=0,B=0,N=e.getTextBounds(!1);
 //  In case the method above changed it (word wrapping)
-e.maxWidth>0&&(r=(n=N.wrappedText).length);var Y=e._bounds.lines;1===D?B=(Y.longest-Y.lengths[0])/2:2===D&&(B=Y.longest-Y.lengths[0]);var U=i.roundPixels,X=e.displayCallback,z=e.callbackData;t.pipelines.preBatch(e);for(var G=0;G<r;G++)
+e.maxWidth>0&&(r=(n=N.wrappedText).length);var Y=e._bounds.lines;1===D?B=(Y.longest-Y.lengths[0])/2:2===D&&(B=Y.longest-Y.lengths[0]);var U=i.roundPixels,X=e.displayCallback,G=e.callbackData;t.pipelines.preBatch(e);for(var z=0;z<r;z++)
 //  Carriage-return
-if(10!==(E=n.charCodeAt(G))){if(d=O[E]){A=d.width,C=d.height;var W=d.xOffset+w-M,V=d.yOffset+b-R;if(null!==f){var H=d.kerning[S];W+=void 0!==H?H:0}
+if(10!==(E=n.charCodeAt(z))){if(d=O[E]){A=d.width,C=d.height;var W=d.xOffset+w-M,V=d.yOffset+b-R;if(null!==f){var H=d.kerning[S];W+=void 0!==H?H:0}
 //  Nothing to render or a space? Then skip to the next glyph
-if(w+=d.xAdvance+_,f=d,S=E,0!==A&&0!==C&&32!==E){if(F=e.fontSize/e.fontData.size,k=0,X){z.color=0,z.tint.topLeft=v,z.tint.topRight=m,z.tint.bottomLeft=y,z.tint.bottomRight=x,z.index=G,z.charCode=E,z.x=W,z.y=V,z.scale=F,z.rotation=k,z.data=d.data;var j=X(z);W=j.x,V=j.y,F=j.scale,k=j.rotation,j.color?(v=j.color,m=j.color,y=j.color,x=j.color):(v=j.tint.topLeft,m=j.tint.topRight,y=j.tint.bottomLeft,x=j.tint.bottomRight),v=wr.getTintAppendFloatAlpha(v,i.alpha*e._alphaTL),m=wr.getTintAppendFloatAlpha(m,i.alpha*e._alphaTR),y=wr.getTintAppendFloatAlpha(y,i.alpha*e._alphaBL),x=wr.getTintAppendFloatAlpha(x,i.alpha*e._alphaBR)}W*=F,V*=F,W-=e.displayOriginX,V-=e.displayOriginY,W+=B,u.applyITRS(W,V,k,F,F),l.multiply(u,h);var q=d.u0,K=d.v0,Z=d.u1,J=d.v1,Q=A,$=C,tt=h.e,et=h.f,it=$*h.c+h.e,st=$*h.d+h.f,nt=Q*h.a+$*h.c+h.e,rt=Q*h.b+$*h.d+h.f,at=Q*h.a+h.e,ot=Q*h.b+h.f;U&&(tt=Math.round(tt),et=Math.round(et),it=Math.round(it),st=Math.round(st),nt=Math.round(nt),rt=Math.round(rt),at=Math.round(at),ot=Math.round(ot)),a.batchQuad(e,tt,et,it,st,nt,rt,at,ot,q,K,Z,J,v,m,y,x,g,p,T)}}}else I++,1===D?B=(Y.longest-Y.lengths[I])/2:2===D&&(B=Y.longest-Y.lengths[I]),w=0,b+=L,f=null;c&&(a.flush(),t.popScissor()),t.pipelines.postBatch(e)}},renderCanvas:function(t,e,i,s){var n=e._text,r=n.length,a=t.currentContext;if(0!==r&&Al(t,a,e,i,s)){i.addToRenderList(e);var o=e.frame,h=e.displayCallback,l=e.callbackData,u=e.fontData.chars,c=e.fontData.lineHeight,d=e._letterSpacing,f=0,p=0,g=0,v=null,m=0,y=0,x=0,T=0,w=0,b=0,E=null,S=0,_=e.frame.source.image,A=o.cutX,C=o.cutY,M=0,R=0,P=e._fontSize/e.fontData.size,O=e._align,L=0,F=0;
+if(w+=d.xAdvance+_,f=d,S=E,0!==A&&0!==C&&32!==E){if(F=e.fontSize/e.fontData.size,k=0,X){G.color=0,G.tint.topLeft=v,G.tint.topRight=m,G.tint.bottomLeft=y,G.tint.bottomRight=x,G.index=z,G.charCode=E,G.x=W,G.y=V,G.scale=F,G.rotation=k,G.data=d.data;var j=X(G);W=j.x,V=j.y,F=j.scale,k=j.rotation,j.color?(v=j.color,m=j.color,y=j.color,x=j.color):(v=j.tint.topLeft,m=j.tint.topRight,y=j.tint.bottomLeft,x=j.tint.bottomRight),v=wr.getTintAppendFloatAlpha(v,i.alpha*e._alphaTL),m=wr.getTintAppendFloatAlpha(m,i.alpha*e._alphaTR),y=wr.getTintAppendFloatAlpha(y,i.alpha*e._alphaBL),x=wr.getTintAppendFloatAlpha(x,i.alpha*e._alphaBR)}W*=F,V*=F,W-=e.displayOriginX,V-=e.displayOriginY,W+=B,u.applyITRS(W,V,k,F,F),l.multiply(u,h);var q=d.u0,K=d.v0,Z=d.u1,J=d.v1,Q=A,$=C,tt=h.e,et=h.f,it=$*h.c+h.e,st=$*h.d+h.f,nt=Q*h.a+$*h.c+h.e,rt=Q*h.b+$*h.d+h.f,at=Q*h.a+h.e,ot=Q*h.b+h.f;U&&(tt=Math.round(tt),et=Math.round(et),it=Math.round(it),st=Math.round(st),nt=Math.round(nt),rt=Math.round(rt),at=Math.round(at),ot=Math.round(ot)),a.batchQuad(e,tt,et,it,st,nt,rt,at,ot,q,K,Z,J,v,m,y,x,g,p,T)}}}else I++,1===D?B=(Y.longest-Y.lengths[I])/2:2===D&&(B=Y.longest-Y.lengths[I]),w=0,b+=L,f=null;c&&(a.flush(),t.popScissor()),t.pipelines.postBatch(e)}},renderCanvas:function(t,e,i,s){var n=e._text,r=n.length,a=t.currentContext;if(0!==r&&Al(t,a,e,i,s)){i.addToRenderList(e);var o=e.frame,h=e.displayCallback,l=e.callbackData,u=e.fontData.chars,c=e.fontData.lineHeight,d=e._letterSpacing,f=0,p=0,g=0,v=null,m=0,y=0,x=0,T=0,w=0,b=0,E=null,S=0,_=e.frame.source.image,A=o.cutX,C=o.cutY,M=0,R=0,P=e._fontSize/e.fontData.size,O=e._align,L=0,F=0;
 //  Update the bounds - skipped internally if not dirty
 e.getTextBounds(!1);var k=e._bounds.lines;1===O?F=(k.longest-k.lengths[0])/2:2===O&&(F=k.longest-k.lengths[0]),a.translate(-e.displayOriginX,-e.displayOriginY);var D=i.roundPixels;e.cropWidth>0&&e.cropHeight>0&&(a.beginPath(),a.rect(0,0,e.cropWidth,e.cropHeight),a.clip());for(var I=0;I<r;I++)if(
 //  Reset the scale (in case the callback changed it)
@@ -44104,7 +44104,7 @@ setBlendMode:function(){}}),Nu={EmitterOp:yu,GravityWell:xu,Particle:Tu,Particle
      * @param {number} time - The current timestamp as generated by the Request Animation Frame or SetTimeout.
      * @param {number} delta - The delta time, in ms, elapsed since the last frame.
      */
-preUpdate:function(t,e){this.anims.update(t,e),this.pathUpdate(t)}}),Uu={renderWebGL:function(t,e,i,s){i.addToRenderList(e);var n=i.alpha,r=e.renderTarget,a=r.width,o=r.height,h=wr.getTintAppendFloatAlpha,l=t.pipelines.set(e.pipeline),u=l.setTexture2D(r.texture);t.pipelines.preBatch(e),l.batchTexture(e,r.texture,a,o,e.x,e.y,a,o,e.scaleX,e.scaleY,e.rotation,e.flipX,!e.flipY,e.scrollFactorX,e.scrollFactorY,e.displayOriginX,e.displayOriginY,0,0,a,o,h(e.tintTopLeft,n*e._alphaTL),h(e.tintTopRight,n*e._alphaTR),h(e.tintBottomLeft,n*e._alphaBL),h(e.tintBottomRight,n*e._alphaBR),e.tintFill,0,0,i,s,!0,u),t.resetTextures(),t.pipelines.postBatch(e)},renderCanvas:function(t,e,i,s){i.addToRenderList(e),t.batchSprite(e,e.frame,i,s)}},Xu=function(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,(function(t){var e=16*Math.random()|0;return("x"===t?e:3&e|8).toString(16)}))},zu=new at({Extends:Ee,Mixins:[me.Alpha,me.BlendMode,me.ComputedSize,me.Crop,me.Depth,me.Flip,me.GetBounds,me.Mask,me.Origin,me.Pipeline,me.ScrollFactor,me.Tint,me.Transform,me.Visible,Uu],initialize:function(t,e,i,s,r,a,o){void 0===e&&(e=0),void 0===i&&(i=0),void 0===s&&(s=32),void 0===r&&(r=32),Ee.call(this,t,"RenderTexture"),
+preUpdate:function(t,e){this.anims.update(t,e),this.pathUpdate(t)}}),Uu={renderWebGL:function(t,e,i,s){i.addToRenderList(e);var n=i.alpha,r=e.renderTarget,a=r.width,o=r.height,h=wr.getTintAppendFloatAlpha,l=t.pipelines.set(e.pipeline),u=l.setTexture2D(r.texture);t.pipelines.preBatch(e),l.batchTexture(e,r.texture,a,o,e.x,e.y,a,o,e.scaleX,e.scaleY,e.rotation,e.flipX,!e.flipY,e.scrollFactorX,e.scrollFactorY,e.displayOriginX,e.displayOriginY,0,0,a,o,h(e.tintTopLeft,n*e._alphaTL),h(e.tintTopRight,n*e._alphaTR),h(e.tintBottomLeft,n*e._alphaBL),h(e.tintBottomRight,n*e._alphaBR),e.tintFill,0,0,i,s,!0,u),t.resetTextures(),t.pipelines.postBatch(e)},renderCanvas:function(t,e,i,s){i.addToRenderList(e),t.batchSprite(e,e.frame,i,s)}},Xu=function(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,(function(t){var e=16*Math.random()|0;return("x"===t?e:3&e|8).toString(16)}))},Gu=new at({Extends:Ee,Mixins:[me.Alpha,me.BlendMode,me.ComputedSize,me.Crop,me.Depth,me.Flip,me.GetBounds,me.Mask,me.Origin,me.Pipeline,me.ScrollFactor,me.Tint,me.Transform,me.Visible,Uu],initialize:function(t,e,i,s,r,a,o){void 0===e&&(e=0),void 0===i&&(i=0),void 0===s&&(s=32),void 0===r&&(r=32),Ee.call(this,t,"RenderTexture"),
 /**
          * A reference to either the Canvas or WebGL Renderer that the Game instance is using.
          *
@@ -44857,9 +44857,9 @@ snapshotPixel:function(t,e,i){return this.renderTarget?this.renderer.snapshotFra
      * @protected
      * @since 3.9.0
      */
-preDestroy:function(){this._saved||(ys.remove(this.canvas),this.renderTarget&&this.renderTarget.destroy(),this.texture.destroy(),this.camera.destroy(),this.canvas=null,this.context=null,this.texture=null)}}),Gu={Parse:function(t,e){var i=e.width,s=e.height,n=Math.floor(i/2),r=Math.floor(s/2),a=Zt(e,"chars","");if(""!==a){var o=Zt(e,"image",""),h=t.sys.textures.getFrame(o),l=h.cutX,u=h.cutY,c=h.source.width,d=h.source.height,f=Zt(e,"offset.x",0),p=Zt(e,"offset.y",0),g=Zt(e,"spacing.x",0),v=Zt(e,"spacing.y",0),m=Zt(e,"lineSpacing",0),y=Zt(e,"charsPerRow",null);null===y&&(y=c/i)>a.length&&(y=a.length);for(var x=f,T=p,w={retroFont:!0,font:o,size:i,lineHeight:s+m,chars:{}},b=0,E=0;E<a.length;E++){var S=a.charCodeAt(E),_=(l+x)/c,A=(u+T)/d,C=(l+x+i)/c,M=(u+T+s)/d;w.chars[S]={x:x,y:T,width:i,height:s,centerX:n,centerY:r,xOffset:0,yOffset:0,xAdvance:i,data:{},kerning:{},u0:_,v0:A,u1:C,v1:M},++b===y?(b=0,x=f,T+=s+v):x+=i+g}return{data:w,frame:null,texture:o}}}},Wu=
+preDestroy:function(){this._saved||(ys.remove(this.canvas),this.renderTarget&&this.renderTarget.destroy(),this.texture.destroy(),this.camera.destroy(),this.canvas=null,this.context=null,this.texture=null)}}),zu={Parse:function(t,e){var i=e.width,s=e.height,n=Math.floor(i/2),r=Math.floor(s/2),a=Zt(e,"chars","");if(""!==a){var o=Zt(e,"image",""),h=t.sys.textures.getFrame(o),l=h.cutX,u=h.cutY,c=h.source.width,d=h.source.height,f=Zt(e,"offset.x",0),p=Zt(e,"offset.y",0),g=Zt(e,"spacing.x",0),v=Zt(e,"spacing.y",0),m=Zt(e,"lineSpacing",0),y=Zt(e,"charsPerRow",null);null===y&&(y=c/i)>a.length&&(y=a.length);for(var x=f,T=p,w={retroFont:!0,font:o,size:i,lineHeight:s+m,chars:{}},b=0,E=0;E<a.length;E++){var S=a.charCodeAt(E),_=(l+x)/c,A=(u+T)/d,C=(l+x+i)/c,M=(u+T+s)/d;w.chars[S]={x:x,y:T,width:i,height:s,centerX:n,centerY:r,xOffset:0,yOffset:0,xAdvance:i,data:{},kerning:{},u0:_,v0:A,u1:C,v1:M},++b===y?(b=0,x=f,T+=s+v):x+=i+g}return{data:w,frame:null,texture:o}}}},Wu=
 //   Merge in the consts
-Gu=o(!1,Gu,{
+zu=o(!1,zu,{
 /**
      * Text Set 1 =  !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
      * 
@@ -46215,7 +46215,7 @@ this.frame=this.texture.get(),
 //  Set the resolution
 this.frame.source.resolution=this.style.resolution,this.renderer&&this.renderer.gl&&(
 //  Clear the default 1x1 glTexture, as we override it later
-this.renderer.deleteTexture(this.frame.source.glTexture),this.frame.source.glTexture=null),this.initRTL(),this.setText(s),n&&n.padding&&this.setPadding(n.padding),n&&n.lineSpacing&&this.setLineSpacing(n.lineSpacing),t.sys.game.events.on(zt.CONTEXT_RESTORED,(function(){this.dirty=!0}),this)},
+this.renderer.deleteTexture(this.frame.source.glTexture),this.frame.source.glTexture=null),this.initRTL(),this.setText(s),n&&n.padding&&this.setPadding(n.padding),n&&n.lineSpacing&&this.setLineSpacing(n.lineSpacing),t.sys.game.events.on(Gt.CONTEXT_RESTORED,(function(){this.dirty=!0}),this)},
 /**
      * Initialize right to left text.
      *
@@ -46888,7 +46888,7 @@ this.fillContext=this.fillCanvas.getContext("2d"),
          * @type {?(WebGLTexture|CanvasPattern)}
          * @since 3.12.0
          */
-this.fillPattern=null,this.setPosition(e,i),this.setSize(s,n),this.setFrame(a),this.setOriginFromFrame(),this.initPipeline(),t.sys.game.events.on(zt.CONTEXT_RESTORED,(function(t){var e=t.gl;this.dirty=!0,this.fillPattern=null,this.fillPattern=t.createTexture2D(0,e.LINEAR,e.LINEAR,e.REPEAT,e.REPEAT,e.RGBA,this.fillCanvas,this.potWidth,this.potHeight)}),this)},
+this.fillPattern=null,this.setPosition(e,i),this.setSize(s,n),this.setFrame(a),this.setOriginFromFrame(),this.initPipeline(),t.sys.game.events.on(Gt.CONTEXT_RESTORED,(function(t){var e=t.gl;this.dirty=!0,this.fillPattern=null,this.fillPattern=t.createTexture2D(0,e.LINEAR,e.LINEAR,e.REPEAT,e.REPEAT,e.RGBA,this.fillCanvas,this.potWidth,this.potHeight)}),this)},
 /**
      * Sets the texture and frame this Game Object will use to render with.
      *
@@ -47229,7 +47229,7 @@ this._isSeeking=!1,
          * @type {boolean}
          * @since 3.21.0
          */
-this.removeVideoElementOnDestroy=!1,this.setPosition(e,i),this.initPipeline(),s&&this.changeSource(s,!1);var n=t.sys.game.events;n.on(zt.PAUSE,this.globalPause,this),n.on(zt.RESUME,this.globalResume,this);var r=t.sys.sound;r&&r.on(bh.GLOBAL_MUTE,this.globalMute,this)},
+this.removeVideoElementOnDestroy=!1,this.setPosition(e,i),this.initPipeline(),s&&this.changeSource(s,!1);var n=t.sys.game.events;n.on(Gt.PAUSE,this.globalPause,this),n.on(Gt.RESUME,this.globalResume,this);var r=t.sys.sound;r&&r.on(bh.GLOBAL_MUTE,this.globalMute,this)},
 //  Overrides Game Object method
 addedToScene:function(){this.scene.sys.updateList.add(this)},
 //  Overrides Game Object method
@@ -47903,7 +47903,7 @@ removeVideoElement:function(){var t=this.video;if(t){for(t.parentNode&&t.parentN
      * @private
      * @since 3.21.0
      */
-preDestroy:function(){this.stop(),this.removeVideoElementOnDestroy&&this.removeVideoElement();var t=this.scene.sys.game.events;t.off(zt.PAUSE,this.globalPause,this),t.off(zt.RESUME,this.globalResume,this);var e=this.scene.sys.sound;e&&e.off(bh.GLOBAL_MUTE,this.globalMute,this),this._retryID&&window.clearTimeout(this._retryID)}}),sc=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.GetBounds,me.Mask,me.Origin,me.Pipeline,me.ScrollFactor,me.Transform,me.Visible],initialize:function(t,e,i){void 0===e&&(e="Shape"),Ee.call(this,t,e),
+preDestroy:function(){this.stop(),this.removeVideoElementOnDestroy&&this.removeVideoElement();var t=this.scene.sys.game.events;t.off(Gt.PAUSE,this.globalPause,this),t.off(Gt.RESUME,this.globalResume,this);var e=this.scene.sys.sound;e&&e.off(bh.GLOBAL_MUTE,this.globalMute,this),this._retryID&&window.clearTimeout(this._retryID)}}),sc=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.GetBounds,me.Mask,me.Origin,me.Pipeline,me.ScrollFactor,me.Transform,me.Visible],initialize:function(t,e,i){void 0===e&&(e="Shape"),Ee.call(this,t,e),
 /**
          * The source Shape data. Typically a geometry object.
          * You should not manipulate this directly.
@@ -49394,7 +49394,7 @@ updateData:function(){var t=[],e=this.geom,i=this._tempLine;return e.getLineA(i)
  *
  * @return {Phaser.GameObjects.Blitter} The Game Object that was created.
  */
-za.register("blitter",(function(t,e,i,s){return this.displayList.add(new Fl(this.scene,t,e,i,s))}));
+Ga.register("blitter",(function(t,e,i,s){return this.displayList.add(new Fl(this.scene,t,e,i,s))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @author       Felipe Alfonso <@bitnenfer>
@@ -49415,7 +49415,7 @@ za.register("blitter",(function(t,e,i,s){return this.displayList.add(new Fl(this
  *
  * @return {Phaser.GameObjects.Container} The Game Object that was created.
  */
-za.register("container",(function(t,e,i){return this.displayList.add(new Il(this.scene,t,e,i))}));
+Ga.register("container",(function(t,e,i){return this.displayList.add(new Il(this.scene,t,e,i))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49487,7 +49487,7 @@ za.register("container",(function(t,e,i){return this.displayList.add(new Il(this
  *
  * @return {Phaser.GameObjects.DOMElement} The Game Object that was created.
  */
-za.register("dom",(function(t,e,i,s,n){var r=new Gl(this.scene,t,e,i,s,n);return this.displayList.add(r),r}));
+Ga.register("dom",(function(t,e,i,s,n){var r=new zl(this.scene,t,e,i,s,n);return this.displayList.add(r),r}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49535,7 +49535,7 @@ za.register("dom",(function(t,e,i,s,n){var r=new Gl(this.scene,t,e,i,s,n);return
  *
  * @return {Phaser.GameObjects.DynamicBitmapText} The Game Object that was created.
  */
-za.register("dynamicBitmapText",(function(t,e,i,s,n){return this.displayList.add(new Vl(this.scene,t,e,i,s,n))}));
+Ga.register("dynamicBitmapText",(function(t,e,i,s,n){return this.displayList.add(new Vl(this.scene,t,e,i,s,n))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49551,7 +49551,7 @@ za.register("dynamicBitmapText",(function(t,e,i,s,n){return this.displayList.add
  *
  * @return {Phaser.GameObjects.Extern} The Game Object that was created.
  */
-za.register("extern",(function(){var t=new jl(this.scene);return this.displayList.add(t),t}));
+Ga.register("extern",(function(){var t=new jl(this.scene);return this.displayList.add(t),t}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49569,7 +49569,7 @@ za.register("extern",(function(){var t=new jl(this.scene);return this.displayLis
  *
  * @return {Phaser.GameObjects.Graphics} The Game Object that was created.
  */
-za.register("graphics",(function(t){return this.displayList.add(new ou(this.scene,t))}));
+Ga.register("graphics",(function(t){return this.displayList.add(new ou(this.scene,t))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49588,7 +49588,7 @@ za.register("graphics",(function(t){return this.displayList.add(new ou(this.scen
  *
  * @return {Phaser.GameObjects.Group} The Game Object that was created.
  */
-za.register("group",(function(t,e){return this.updateList.add(new du(this.scene,t,e))}));
+Ga.register("group",(function(t,e){return this.updateList.add(new du(this.scene,t,e))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49609,7 +49609,7 @@ za.register("group",(function(t,e){return this.updateList.add(new du(this.scene,
  *
  * @return {Phaser.GameObjects.Image} The Game Object that was created.
  */
-za.register("image",(function(t,e,i,s){return this.displayList.add(new pu(this.scene,t,e,i,s))}));
+Ga.register("image",(function(t,e,i,s){return this.displayList.add(new pu(this.scene,t,e,i,s))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49627,7 +49627,7 @@ za.register("image",(function(t,e,i,s){return this.displayList.add(new pu(this.s
  *
  * @return {Phaser.GameObjects.Layer} The Game Object that was created.
  */
-za.register("layer",(function(t){return this.displayList.add(new vu(this.scene,t))}));
+Ga.register("layer",(function(t){return this.displayList.add(new vu(this.scene,t))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49647,7 +49647,7 @@ za.register("layer",(function(t){return this.displayList.add(new vu(this.scene,t
  *
  * @return {Phaser.GameObjects.Particles.ParticleEmitterManager} The Game Object that was created.
  */
-za.register("particles",(function(t,e,i){return this.displayList.add(new Bu(this.scene,t,e,i))}));
+Ga.register("particles",(function(t,e,i){return this.displayList.add(new Bu(this.scene,t,e,i))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49669,7 +49669,7 @@ za.register("particles",(function(t,e,i){return this.displayList.add(new Bu(this
  *
  * @return {Phaser.GameObjects.PathFollower} The Game Object that was created.
  */
-za.register("follower",(function(t,e,i,s,n){var r=new Yu(this.scene,t,e,i,s,n);return this.displayList.add(r),this.updateList.add(r),r}));
+Ga.register("follower",(function(t,e,i,s,n){var r=new Yu(this.scene,t,e,i,s,n);return this.displayList.add(r),this.updateList.add(r),r}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49696,7 +49696,7 @@ za.register("follower",(function(t,e,i,s,n){var r=new Yu(this.scene,t,e,i,s,n);r
  * 
  * @return {Phaser.GameObjects.RenderTexture} The Game Object that was created.
  */
-za.register("renderTexture",(function(t,e,i,s,n,r){return this.displayList.add(new zu(this.scene,t,e,i,s,n,r))}));za.register("rope",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new Hu(this.scene,t,e,i,s,n,r,a,o))}));
+Ga.register("renderTexture",(function(t,e,i,s,n,r){return this.displayList.add(new Gu(this.scene,t,e,i,s,n,r))}));Ga.register("rope",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new Hu(this.scene,t,e,i,s,n,r,a,o))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49717,7 +49717,7 @@ za.register("renderTexture",(function(t,e,i,s,n,r){return this.displayList.add(n
  *
  * @return {Phaser.GameObjects.Sprite} The Game Object that was created.
  */
-za.register("sprite",(function(t,e,i,s){var n=new cu(this.scene,t,e,i,s);return this.displayList.add(n),n}));
+Ga.register("sprite",(function(t,e,i,s){var n=new cu(this.scene,t,e,i,s);return this.displayList.add(n),n}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49760,7 +49760,7 @@ za.register("sprite",(function(t,e,i,s){var n=new cu(this.scene,t,e,i,s);return 
  *
  * @return {Phaser.GameObjects.BitmapText} The Game Object that was created.
  */
-za.register("bitmapText",(function(t,e,i,s,n,r){return this.displayList.add(new Rl(this.scene,t,e,i,s,n,r))}));
+Ga.register("bitmapText",(function(t,e,i,s,n,r){return this.displayList.add(new Rl(this.scene,t,e,i,s,n,r))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49804,7 +49804,7 @@ za.register("bitmapText",(function(t,e,i,s,n,r){return this.displayList.add(new 
  *
  * @return {Phaser.GameObjects.Text} The Game Object that was created.
  */
-za.register("text",(function(t,e,i,s){return this.displayList.add(new Qu(this.scene,t,e,i,s))}));
+Ga.register("text",(function(t,e,i,s){return this.displayList.add(new Qu(this.scene,t,e,i,s))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49827,7 +49827,7 @@ za.register("text",(function(t,e,i,s){return this.displayList.add(new Qu(this.sc
  *
  * @return {Phaser.GameObjects.TileSprite} The Game Object that was created.
  */
-za.register("tileSprite",(function(t,e,i,s,n,r){return this.displayList.add(new tc(this.scene,t,e,i,s,n,r))}));
+Ga.register("tileSprite",(function(t,e,i,s,n,r){return this.displayList.add(new tc(this.scene,t,e,i,s,n,r))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49848,7 +49848,7 @@ za.register("tileSprite",(function(t,e,i,s,n,r){return this.displayList.add(new 
  * 
  * @return {Phaser.GameObjects.Zone} The Game Object that was created.
  */
-za.register("zone",(function(t,e,i,s){return this.displayList.add(new Se(this.scene,t,e,i,s))}));
+Ga.register("zone",(function(t,e,i,s){return this.displayList.add(new Se(this.scene,t,e,i,s))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49868,7 +49868,7 @@ za.register("zone",(function(t,e,i,s){return this.displayList.add(new Se(this.sc
  *
  * @return {Phaser.GameObjects.Video} The Game Object that was created.
  */
-za.register("video",(function(t,e,i){return this.displayList.add(new ic(this.scene,t,e,i))}));
+Ga.register("video",(function(t,e,i){return this.displayList.add(new ic(this.scene,t,e,i))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49905,7 +49905,7 @@ za.register("video",(function(t,e,i){return this.displayList.add(new ic(this.sce
  *
  * @return {Phaser.GameObjects.Arc} The Game Object that was created.
  */
-za.register("arc",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new hc(this.scene,t,e,i,s,n,r,a,o))})),
+Ga.register("arc",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new hc(this.scene,t,e,i,s,n,r,a,o))})),
 /**
  * Creates a new Circle Shape Game Object and adds it to the Scene.
  * 
@@ -49924,7 +49924,7 @@ za.register("arc",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new hc(
  *
  * @return {Phaser.GameObjects.Arc} The Game Object that was created.
  */
-za.register("circle",(function(t,e,i,s,n){return this.displayList.add(new hc(this.scene,t,e,i,0,360,!1,s,n))}));
+Ga.register("circle",(function(t,e,i,s,n){return this.displayList.add(new hc(this.scene,t,e,i,0,360,!1,s,n))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -49961,7 +49961,7 @@ za.register("circle",(function(t,e,i,s,n){return this.displayList.add(new hc(thi
  *
  * @return {Phaser.GameObjects.Curve} The Game Object that was created.
  */
-za.register("curve",(function(t,e,i,s,n){return this.displayList.add(new lc(this.scene,t,e,i,s,n))}));
+Ga.register("curve",(function(t,e,i,s,n){return this.displayList.add(new lc(this.scene,t,e,i,s,n))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50000,7 +50000,7 @@ za.register("curve",(function(t,e,i,s,n){return this.displayList.add(new lc(this
  *
  * @return {Phaser.GameObjects.Ellipse} The Game Object that was created.
  */
-za.register("ellipse",(function(t,e,i,s,n,r){return this.displayList.add(new uc(this.scene,t,e,i,s,n,r))}));
+Ga.register("ellipse",(function(t,e,i,s,n,r){return this.displayList.add(new uc(this.scene,t,e,i,s,n,r))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50042,7 +50042,7 @@ za.register("ellipse",(function(t,e,i,s,n,r){return this.displayList.add(new uc(
  *
  * @return {Phaser.GameObjects.Grid} The Game Object that was created.
  */
-za.register("grid",(function(t,e,i,s,n,r,a,o,h,l){return this.displayList.add(new cc(this.scene,t,e,i,s,n,r,a,o,h,l))}));
+Ga.register("grid",(function(t,e,i,s,n,r,a,o,h,l){return this.displayList.add(new cc(this.scene,t,e,i,s,n,r,a,o,h,l))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50080,7 +50080,7 @@ za.register("grid",(function(t,e,i,s,n,r,a,o,h,l){return this.displayList.add(ne
  *
  * @return {Phaser.GameObjects.IsoBox} The Game Object that was created.
  */
-za.register("isobox",(function(t,e,i,s,n,r,a){return this.displayList.add(new dc(this.scene,t,e,i,s,n,r,a))}));
+Ga.register("isobox",(function(t,e,i,s,n,r,a){return this.displayList.add(new dc(this.scene,t,e,i,s,n,r,a))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50120,7 +50120,7 @@ za.register("isobox",(function(t,e,i,s,n,r,a){return this.displayList.add(new dc
  *
  * @return {Phaser.GameObjects.IsoTriangle} The Game Object that was created.
  */
-za.register("isotriangle",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new fc(this.scene,t,e,i,s,n,r,a,o))}));
+Ga.register("isotriangle",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new fc(this.scene,t,e,i,s,n,r,a,o))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50158,7 +50158,7 @@ za.register("isotriangle",(function(t,e,i,s,n,r,a,o){return this.displayList.add
  *
  * @return {Phaser.GameObjects.Line} The Game Object that was created.
  */
-za.register("line",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new pc(this.scene,t,e,i,s,n,r,a,o))}));
+Ga.register("line",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new pc(this.scene,t,e,i,s,n,r,a,o))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50198,7 +50198,7 @@ za.register("line",(function(t,e,i,s,n,r,a,o){return this.displayList.add(new pc
  *
  * @return {Phaser.GameObjects.Polygon} The Game Object that was created.
  */
-za.register("polygon",(function(t,e,i,s,n){return this.displayList.add(new Ec(this.scene,t,e,i,s,n))}));
+Ga.register("polygon",(function(t,e,i,s,n){return this.displayList.add(new Ec(this.scene,t,e,i,s,n))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50230,7 +50230,7 @@ za.register("polygon",(function(t,e,i,s,n){return this.displayList.add(new Ec(th
  *
  * @return {Phaser.GameObjects.Rectangle} The Game Object that was created.
  */
-za.register("rectangle",(function(t,e,i,s,n,r){return this.displayList.add(new Sc(this.scene,t,e,i,s,n,r))}));
+Ga.register("rectangle",(function(t,e,i,s,n,r){return this.displayList.add(new Sc(this.scene,t,e,i,s,n,r))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50269,7 +50269,7 @@ za.register("rectangle",(function(t,e,i,s,n,r){return this.displayList.add(new S
  *
  * @return {Phaser.GameObjects.Star} The Game Object that was created.
  */
-za.register("star",(function(t,e,i,s,n,r,a){return this.displayList.add(new _c(this.scene,t,e,i,s,n,r,a))}));
+Ga.register("star",(function(t,e,i,s,n,r,a){return this.displayList.add(new _c(this.scene,t,e,i,s,n,r,a))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50307,7 +50307,7 @@ za.register("star",(function(t,e,i,s,n,r,a){return this.displayList.add(new _c(t
  *
  * @return {Phaser.GameObjects.Triangle} The Game Object that was created.
  */
-za.register("triangle",(function(t,e,i,s,n,r,a,o,h,l){return this.displayList.add(new Pc(this.scene,t,e,i,s,n,r,a,o,h,l))}));
+Ga.register("triangle",(function(t,e,i,s,n,r,a,o,h,l){return this.displayList.add(new Pc(this.scene,t,e,i,s,n,r,a,o,h,l))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -50478,7 +50478,7 @@ Ko.register("particles",(function(t,e){void 0===t&&(t={});var i=yl(t,"key",null)
  *
  * @return {Phaser.GameObjects.RenderTexture} The Game Object that was created.
  */
-Ko.register("renderTexture",(function(t,e){void 0===t&&(t={});var i=yl(t,"x",0),s=yl(t,"y",0),n=yl(t,"width",32),r=yl(t,"height",32),a=yl(t,"key",void 0),o=yl(t,"frame",void 0),h=new zu(this.scene,i,s,n,r,a,o);return void 0!==e&&(t.add=e),xl(this.scene,h,t),h}));
+Ko.register("renderTexture",(function(t,e){void 0===t&&(t={});var i=yl(t,"x",0),s=yl(t,"y",0),n=yl(t,"width",32),r=yl(t,"height",32),a=yl(t,"key",void 0),o=yl(t,"frame",void 0),h=new Gu(this.scene,i,s,n,r,a,o);return void 0!==e&&(t.add=e),xl(this.scene,h,t),h}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -51669,9 +51669,9 @@ update:function(t,e,i,s,n,r,a,o){var h=this.vx*t+this.vy*i+n,l=this.vx*e+this.vy
      *
      * @return {number} The new array offset.
      */
-load:function(t,e,i,s,n){return t[++i]=this.tx,t[++i]=this.ty,t[++i]=this.u,t[++i]=this.v,t[++i]=s,t[++i]=n,e[++i]=wr.getTintAppendFloatAlpha(this.color,this.ta),i}}),Nc=function(t,e,i,s,n,r,a){if(void 0===s&&(s=!1),void 0===r&&(r=16777215),void 0===a&&(a=1),t.length===e.length){var o,h,l,u,c,d,f,p,g,v,m,y={faces:[],vertices:[]},x=s?3:2,T=Array.isArray(r),w=Array.isArray(a);if(Array.isArray(i)&&i.length>0)for(o=0;o<i.length;o++){var b=i[o],E=2*i[o],S=i[o]*x;h=t[S],l=t[S+1],u=s?t[S+2]:0,c=e[E],d=e[E+1],f=T?r[b]:r,p=w?a[b]:a,g=0,v=0,m=0,n&&(g=n[S],v=n[S+1],m=s?n[S+2]:0),y.vertices.push(new Bc(h,l,u,c,d,f,p,g,v,m))}else{var _=0,A=0;for(o=0;o<t.length;o+=x)h=t[o],l=t[o+1],u=s?t[o+2]:0,c=e[_],d=e[_+1],f=T?r[A]:r,p=w?a[A]:a,g=0,v=0,m=0,n&&(g=n[o],v=n[o+1],m=s?n[o+2]:0),y.vertices.push(new Bc(h,l,u,c,d,f,p,g,v,m)),_+=2,A++}for(o=0;o<y.vertices.length;o+=3){var C=y.vertices[o],M=y.vertices[o+1],R=y.vertices[o+2];y.faces.push(new Ic(C,M,R))}return y}console.warn("GenerateVerts: vertices and uvs count not equal")},Yc=new pn,Uc=new pn,Xc=new bn,zc=function(t,e,i,s,n,r,a,o,h,l){void 0===i&&(i=1),void 0===s&&(s=0),void 0===n&&(n=0),void 0===r&&(r=0),void 0===a&&(a=0),void 0===o&&(o=0),void 0===h&&(h=0),void 0===l&&(l=!0);var u={faces:[],verts:[]},c=t.materials;Yc.set(s,n,r),Uc.set(a,o,h),Xc.fromRotationXYTranslation(Uc,Yc,l);for(var d=0;d<t.models.length;d++)for(var f=t.models[d],p=f.vertices,g=f.textureCoords,v=f.faces,m=0;m<v.length;m++){var y=v[m],x=y.vertices[0],T=y.vertices[1],w=y.vertices[2],b=p[x.vertexIndex],E=p[T.vertexIndex],S=p[w.vertexIndex],_=x.textureCoordsIndex,A=T.textureCoordsIndex,C=w.textureCoordsIndex,M=-1===_?{u:0,v:1}:g[_],R=-1===A?{u:0,v:0}:g[A],P=-1===C?{u:1,v:1}:g[C],O=16777215;""!==y.material&&c[y.material]&&(O=c[y.material]);var L=new Bc(b.x*i,b.y*i,b.z*i,M.u,M.v,O).transformMat4(Xc),F=new Bc(E.x*i,E.y*i,E.z*i,R.u,R.v,O).transformMat4(Xc),k=new Bc(S.x*i,S.y*i,S.z*i,P.u,P.v,O).transformMat4(Xc);u.verts.push(L,F,k),u.faces.push(new Ic(L,F,k))}return e&&(e.faces=e.faces.concat(u.faces),e.vertices=e.vertices.concat(u.verts)),u},Gc={renderWebGL:function(t,e,i,s){var n=e.faces,r=n.length;if(0!==r){i.addToRenderList(e);var a=t.pipelines.set(e.pipeline,e),o=ml(e,i,s).calc,h=a.setGameObject(e),l=a.vertexViewF32,u=a.vertexViewU32,c=a.vertexCount*a.currentShader.vertexComponentCount-1,d=e.tintFill,f=[],p=e.debugCallback,g=o.a,v=o.b,m=o.c,y=o.d,x=o.e,T=o.f,w=e.viewPosition.z,b=e.hideCCW,E=i.roundPixels,S=i.alpha*e.alpha,_=0;t.pipelines.preBatch(e);for(var A=0;A<r;A++){var C=n[A];
+load:function(t,e,i,s,n){return t[++i]=this.tx,t[++i]=this.ty,t[++i]=this.u,t[++i]=this.v,t[++i]=s,t[++i]=n,e[++i]=wr.getTintAppendFloatAlpha(this.color,this.ta),i}}),Nc=function(t,e,i,s,n,r,a){if(void 0===s&&(s=!1),void 0===r&&(r=16777215),void 0===a&&(a=1),t.length===e.length){var o,h,l,u,c,d,f,p,g,v,m,y={faces:[],vertices:[]},x=s?3:2,T=Array.isArray(r),w=Array.isArray(a);if(Array.isArray(i)&&i.length>0)for(o=0;o<i.length;o++){var b=i[o],E=2*i[o],S=i[o]*x;h=t[S],l=t[S+1],u=s?t[S+2]:0,c=e[E],d=e[E+1],f=T?r[b]:r,p=w?a[b]:a,g=0,v=0,m=0,n&&(g=n[S],v=n[S+1],m=s?n[S+2]:0),y.vertices.push(new Bc(h,l,u,c,d,f,p,g,v,m))}else{var _=0,A=0;for(o=0;o<t.length;o+=x)h=t[o],l=t[o+1],u=s?t[o+2]:0,c=e[_],d=e[_+1],f=T?r[A]:r,p=w?a[A]:a,g=0,v=0,m=0,n&&(g=n[o],v=n[o+1],m=s?n[o+2]:0),y.vertices.push(new Bc(h,l,u,c,d,f,p,g,v,m)),_+=2,A++}for(o=0;o<y.vertices.length;o+=3){var C=y.vertices[o],M=y.vertices[o+1],R=y.vertices[o+2];y.faces.push(new Ic(C,M,R))}return y}console.warn("GenerateVerts: vertices and uvs count not equal")},Yc=new pn,Uc=new pn,Xc=new bn,Gc=function(t,e,i,s,n,r,a,o,h,l){void 0===i&&(i=1),void 0===s&&(s=0),void 0===n&&(n=0),void 0===r&&(r=0),void 0===a&&(a=0),void 0===o&&(o=0),void 0===h&&(h=0),void 0===l&&(l=!0);var u={faces:[],verts:[]},c=t.materials;Yc.set(s,n,r),Uc.set(a,o,h),Xc.fromRotationXYTranslation(Uc,Yc,l);for(var d=0;d<t.models.length;d++)for(var f=t.models[d],p=f.vertices,g=f.textureCoords,v=f.faces,m=0;m<v.length;m++){var y=v[m],x=y.vertices[0],T=y.vertices[1],w=y.vertices[2],b=p[x.vertexIndex],E=p[T.vertexIndex],S=p[w.vertexIndex],_=x.textureCoordsIndex,A=T.textureCoordsIndex,C=w.textureCoordsIndex,M=-1===_?{u:0,v:1}:g[_],R=-1===A?{u:0,v:0}:g[A],P=-1===C?{u:1,v:1}:g[C],O=16777215;""!==y.material&&c[y.material]&&(O=c[y.material]);var L=new Bc(b.x*i,b.y*i,b.z*i,M.u,M.v,O).transformMat4(Xc),F=new Bc(E.x*i,E.y*i,E.z*i,R.u,R.v,O).transformMat4(Xc),k=new Bc(S.x*i,S.y*i,S.z*i,P.u,P.v,O).transformMat4(Xc);u.verts.push(L,F,k),u.faces.push(new Ic(L,F,k))}return e&&(e.faces=e.faces.concat(u.faces),e.vertices=e.vertices.concat(u.verts)),u},zc={renderWebGL:function(t,e,i,s){var n=e.faces,r=n.length;if(0!==r){i.addToRenderList(e);var a=t.pipelines.set(e.pipeline,e),o=ml(e,i,s).calc,h=a.setGameObject(e),l=a.vertexViewF32,u=a.vertexViewU32,c=a.vertexCount*a.currentShader.vertexComponentCount-1,d=e.tintFill,f=[],p=e.debugCallback,g=o.a,v=o.b,m=o.c,y=o.d,x=o.e,T=o.f,w=e.viewPosition.z,b=e.hideCCW,E=i.roundPixels,S=i.alpha*e.alpha,_=0;t.pipelines.preBatch(e);for(var A=0;A<r;A++){var C=n[A];
 //  If face has alpha <= 0, or hideCCW + clockwise, or isn't in camera view, then don't draw it
-C.isInView(i,b,w,S,g,v,m,y,x,T,E)&&(a.shouldFlush(3)&&(a.flush(),c=0),c=C.load(l,u,c,h,d),_++,a.vertexCount+=3,p&&f.push(C))}e.totalFrame+=_,p&&p.call(e,e,f),t.pipelines.postBatch(e)}},renderCanvas:function(){}},Wc=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.Mask,me.Pipeline,me.Size,me.Texture,me.Transform,me.Visible,me.ScrollFactor,Gc],initialize:function(t,e,i,s,n,r,a,o,h,l,u,c){void 0===e&&(e=0),void 0===i&&(i=0),void 0===s&&(s="__WHITE"),Ee.call(this,t,"Mesh"),
+C.isInView(i,b,w,S,g,v,m,y,x,T,E)&&(a.shouldFlush(3)&&(a.flush(),c=0),c=C.load(l,u,c,h,d),_++,a.vertexCount+=3,p&&f.push(C))}e.totalFrame+=_,p&&p.call(e,e,f),t.pipelines.postBatch(e)}},renderCanvas:function(){}},Wc=new at({Extends:Ee,Mixins:[me.AlphaSingle,me.BlendMode,me.Depth,me.Mask,me.Pipeline,me.Size,me.Texture,me.Transform,me.Visible,me.ScrollFactor,zc],initialize:function(t,e,i,s,n,r,a,o,h,l,u,c){void 0===e&&(e=0),void 0===i&&(i=0),void 0===s&&(s="__WHITE"),Ee.call(this,t,"Mesh"),
 /**
          * An array containing the Face instances belonging to this Mesh.
          *
@@ -52004,7 +52004,7 @@ clear:function(){return this.faces.forEach((function(t){t.destroy()})),this.face
      *
      * @return {this} This Mesh Game Object.
      */
-addVerticesFromObj:function(t,e,i,s,n,r,a,o,h){var l=this.scene.sys.cache.obj.get(t);return l&&zc(l,this,e,i,s,n,r,a,o,h),this},
+addVerticesFromObj:function(t,e,i,s,n,r,a,o,h){var l=this.scene.sys.cache.obj.get(t);return l&&Gc(l,this,e,i,s,n,r,a,o,h),this},
 /**
      * Compare the depth of two Faces.
      *
@@ -52320,7 +52320,7 @@ this.width=2*n,this.height=2*n,this._radius=n},
      * @type {number}
      * @since 3.50.0
      */
-radius:{get:function(){return this._radius},set:function(t){this._radius=t,this.width=2*t,this.height=2*t}},originX:{get:function(){return.5}},originY:{get:function(){return.5}},displayOriginX:{get:function(){return this._radius}},displayOriginY:{get:function(){return this._radius}}});za.register("shader",(function(t,e,i,s,n,r,a){return this.displayList.add(new Fc(this.scene,t,e,i,s,n,r,a))}));za.register("mesh",(function(t,e,i,s,n,r,a,o,h,l,u){return this.displayList.add(new Wc(this.scene,t,e,i,s,n,r,a,o,h,l,u))}));
+radius:{get:function(){return this._radius},set:function(t){this._radius=t,this.width=2*t,this.height=2*t}},originX:{get:function(){return.5}},originY:{get:function(){return.5}},displayOriginX:{get:function(){return this._radius}},displayOriginY:{get:function(){return this._radius}}});Ga.register("shader",(function(t,e,i,s,n,r,a){return this.displayList.add(new Fc(this.scene,t,e,i,s,n,r,a))}));Ga.register("mesh",(function(t,e,i,s,n,r,a,o,h,l,u){return this.displayList.add(new Wc(this.scene,t,e,i,s,n,r,a,o,h,l,u))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -52367,7 +52367,7 @@ radius:{get:function(){return this._radius},set:function(t){this._radius=t,this.
  *
  * @return {Phaser.GameObjects.PointLight} The Game Object that was created.
  */
-za.register("pointlight",(function(t,e,i,s,n,r){return this.displayList.add(new Hc(this.scene,t,e,i,s,n,r))}));
+Ga.register("pointlight",(function(t,e,i,s,n,r){return this.displayList.add(new Hc(this.scene,t,e,i,s,n,r))}));
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -52797,7 +52797,7 @@ destroy:function(){this.shutdown(),this.scene=void 0,this.systems=void 0}});
  * @param {Phaser.Geom.Rectangle} rect - The rectangle to be checked.
  *
  * @return {boolean} `true` if the two objects intersect, otherwise `false`.
- */ss.register("LightsPlugin",Jc,"lights");var Qc=Jc,$c={Events:we,DisplayList:hl,GameObjectCreator:Ko,GameObjectFactory:za,UpdateList:dl,Components:me,GetCalcMatrix:ml,BuildGameObject:xl,BuildGameObjectAnimation:Tl,GameObject:Ee,BitmapText:Rl,Blitter:Fl,Bob:Ll,Container:Il,DOMElement:Gl,DynamicBitmapText:Vl,Extern:jl,Graphics:ou,Group:du,Image:pu,Layer:vu,Particles:Nu,PathFollower:Yu,RenderTexture:zu,RetroFont:Wu,Rope:Hu,Sprite:cu,Text:Qu,GetTextSize:ju,MeasureText:Ku,TextStyle:Ju,TileSprite:tc,Zone:Se,Video:ic,
+ */ss.register("LightsPlugin",Jc,"lights");var Qc=Jc,$c={Events:we,DisplayList:hl,GameObjectCreator:Ko,GameObjectFactory:Ga,UpdateList:dl,Components:me,GetCalcMatrix:ml,BuildGameObject:xl,BuildGameObjectAnimation:Tl,GameObject:Ee,BitmapText:Rl,Blitter:Fl,Bob:Ll,Container:Il,DOMElement:zl,DynamicBitmapText:Vl,Extern:jl,Graphics:ou,Group:du,Image:pu,Layer:vu,Particles:Nu,PathFollower:Yu,RenderTexture:Gu,RetroFont:Wu,Rope:Hu,Sprite:cu,Text:Qu,GetTextSize:ju,MeasureText:Ku,TextStyle:Ju,TileSprite:tc,Zone:Se,Video:ic,
 //  Shapes
 Shape:sc,Arc:hc,Curve:lc,Ellipse:uc,Grid:cc,IsoBox:dc,IsoTriangle:fc,Line:pc,Polygon:Ec,Rectangle:Sc,Star:_c,Triangle:Pc,
 //  Game Object Factories
@@ -52930,7 +52930,7 @@ function Bd(t,e,i,s,n){var r=Math.cos(t),a=Math.sin(t);Id.setTo(e,i,e+r,i+a);var
  * @param {Phaser.Geom.Polygon | Phaser.Geom.Polygon[]} polygons - A single polygon, or array of polygons, to check against the rays.
  *
  * @return {Phaser.Math.Vector4[]} An array containing all intersections in Vector4s.
- */var Yd=function(t,e,i){if(void 0===i&&(i=[]),kc(t,e)){var s=t.getLineA(),n=t.getLineB(),r=t.getLineC(),a=t.getLineD();Dd(s,e,i),Dd(n,e,i),Dd(r,e,i),Dd(a,e,i)}return i},Ud=function(t,e,i,s){void 0===i&&(i=!1),void 0===s&&(s=[]);for(var n,r,a,o,h,l,u=t.x3-t.x1,c=t.y3-t.y1,d=t.x2-t.x1,f=t.y2-t.y1,p=u*u+c*c,g=u*d+c*f,v=d*d+f*f,m=p*v-g*g,y=0===m?0:1/m,x=t.x1,T=t.y1,w=0;w<e.length&&(r=(p*(l=d*(a=e[w].x-x)+f*(o=e[w].y-T))-g*(h=u*a+c*o))*y,!((n=(v*h-g*l)*y)>=0&&r>=0&&n+r<1&&(s.push({x:e[w].x,y:e[w].y}),i)));w++);return s},Xd=function(t,e){return void 0===e&&(e=[]),e.push({x:t.x,y:t.y}),e.push({x:t.right,y:t.y}),e.push({x:t.right,y:t.bottom}),e.push({x:t.x,y:t.bottom}),e},zd=function(t,e){
+ */var Yd=function(t,e,i){if(void 0===i&&(i=[]),kc(t,e)){var s=t.getLineA(),n=t.getLineB(),r=t.getLineC(),a=t.getLineD();Dd(s,e,i),Dd(n,e,i),Dd(r,e,i),Dd(a,e,i)}return i},Ud=function(t,e,i,s){void 0===i&&(i=!1),void 0===s&&(s=[]);for(var n,r,a,o,h,l,u=t.x3-t.x1,c=t.y3-t.y1,d=t.x2-t.x1,f=t.y2-t.y1,p=u*u+c*c,g=u*d+c*f,v=d*d+f*f,m=p*v-g*g,y=0===m?0:1/m,x=t.x1,T=t.y1,w=0;w<e.length&&(r=(p*(l=d*(a=e[w].x-x)+f*(o=e[w].y-T))-g*(h=u*a+c*o))*y,!((n=(v*h-g*l)*y)>=0&&r>=0&&n+r<1&&(s.push({x:e[w].x,y:e[w].y}),i)));w++);return s},Xd=function(t,e){return void 0===e&&(e=[]),e.push({x:t.x,y:t.y}),e.push({x:t.right,y:t.y}),e.push({x:t.right,y:t.bottom}),e.push({x:t.x,y:t.bottom}),e},Gd=function(t,e){
 //  First the cheapest ones:
 if(e.left>t.right||e.right<t.left||e.top>t.bottom||e.bottom<t.top)return!1;var i=e.getLineA(),s=e.getLineB(),n=e.getLineC();
 //  Are any of the triangle points within the rectangle?
@@ -52938,7 +52938,7 @@ if(At(t,i.x1,i.y1)||At(t,i.x2,i.y2))return!0;if(At(t,s.x1,s.y1)||At(t,s.x2,s.y2)
 //  Cheap tests over, now to see if any of the lines intersect ...
 var r=t.getLineA(),a=t.getLineB(),o=t.getLineC(),h=t.getLineD();if(Fd(i,r)||Fd(i,a)||Fd(i,o)||Fd(i,h))return!0;if(Fd(s,r)||Fd(s,a)||Fd(s,o)||Fd(s,h))return!0;if(Fd(n,r)||Fd(n,a)||Fd(n,o)||Fd(n,h))return!0;
 //  None of the lines intersect, so are any rectangle points within the triangle?
-var l=Xd(t);return Ud(e,l,!0).length>0},Gd=function(t,e,i){if(void 0===i&&(i=[]),zd(t,e)){var s=e.getLineA(),n=e.getLineB(),r=e.getLineC();Dd(s,t,i),Dd(n,t,i),Dd(r,t,i)}return i},Wd=function(t,e){
+var l=Xd(t);return Ud(e,l,!0).length>0},zd=function(t,e,i){if(void 0===i&&(i=[]),Gd(t,e)){var s=e.getLineA(),n=e.getLineB(),r=e.getLineC();Dd(s,t,i),Dd(n,t,i),Dd(r,t,i)}return i},Wd=function(t,e){
 //  First the cheapest ones:
 return!(t.left>e.right||t.right<e.left||t.top>e.bottom||t.bottom<e.top)&&(!!Ac(t,e.x,e.y)||(!!Sd(t.getLineA(),e)||(!!Sd(t.getLineB(),e)||!!Sd(t.getLineC(),e))))},Vd=function(t,e,i){if(void 0===i&&(i=[]),Wd(t,e)){var s=t.getLineA(),n=t.getLineB(),r=t.getLineC();_d(s,e,i),_d(n,e,i),_d(r,e,i)}return i},Hd=function(t,e){
 //  If the Triangle contains either the start or end point of the line, it intersects
@@ -52962,7 +52962,7 @@ var c=((n-h)*(r-s)-(s-o)*(a-n))/l;return Math.abs(c)*Math.sqrt(l)<=i}
 //  Outside line2
 return Math.sqrt((r-o)*(r-o)+(a-h)*(a-h))<=i},Qd=function(t,e){if(!Jd(t,e))return!1;var i=Math.min(e.x1,e.x2),s=Math.max(e.x1,e.x2),n=Math.min(e.y1,e.y2),r=Math.max(e.y1,e.y2);return t.x>=i&&t.x<=s&&t.y>=n&&t.y<=r},$d={CircleToCircle:wd,CircleToRectangle:Kc,GetCircleToCircle:bd,GetCircleToRectangle:Ad,GetLineToCircle:_d,GetLineToLine:Cd,GetLineToPoints:Pd,GetLineToPolygon:Ld,GetLineToRectangle:Dd,GetRaysFromPointToPolygon:function(t,e,i){Array.isArray(i)||(i=[i]);for(var s=[],n=[],r=0;r<i.length;r++)for(var a=i[r].points,o=0;o<a.length;o++){var h=Math.atan2(a[o].y-e,a[o].x-t);-1===n.indexOf(h)&&(
 //  +- 0.00001 rads to catch lines behind segment corners
-Bd(h,t,e,i,s),Bd(h-1e-5,t,e,i,s),Bd(h+1e-5,t,e,i,s),n.push(h))}return s.sort(Nd)},GetRectangleIntersection:function(t,e,i){return void 0===i&&(i=new Yt),kc(t,e)&&(i.x=Math.max(t.x,e.x),i.y=Math.max(t.y,e.y),i.width=Math.min(t.right,e.right)-i.x,i.height=Math.min(t.bottom,e.bottom)-i.y),i},GetRectangleToRectangle:Yd,GetRectangleToTriangle:Gd,GetTriangleToCircle:Vd,GetTriangleToLine:jd,GetTriangleToTriangle:Zd,LineToCircle:Sd,LineToLine:Fd,LineToRectangle:kd,PointToLine:Jd,PointToLineSegment:Qd,RectangleToRectangle:kc,RectangleToTriangle:zd,RectangleToValues:function(t,e,i,s,n,r){return void 0===r&&(r=0),!(e>t.right+r||i<t.left-r||s>t.bottom+r||n<t.top-r)},TriangleToCircle:Wd,TriangleToLine:Hd,TriangleToTriangle:Kd},tf=function(t){return Math.atan2(t.y2-t.y1,t.x2-t.x1)},ef=function(t,e,i){var s=e-(t.x1+t.x2)/2,n=i-(t.y1+t.y2)/2;return t.x1+=s,t.y1+=n,t.x2+=s,t.y2+=n,t},sf=function(t){return new Bt(t.x1,t.y1,t.x2,t.y2)},nf=function(t,e){return e.setTo(t.x1,t.y1,t.x2,t.y2)},rf=function(t,e){return t.x1===e.x1&&t.y1===e.y1&&t.x2===e.x2&&t.y2===e.y2},af=function(t,e,i){void 0===i&&(i=e);var s=Ot(t),n=t.x2-t.x1,r=t.y2-t.y1;return e&&(t.x1=t.x1-n/s*e,t.y1=t.y1-r/s*e),i&&(t.x2=t.x2+n/s*i,t.y2=t.y2+r/s*i),t},of=function(t,e,i,s,n){void 0===s&&(s=0),void 0===n&&(n=[]);var r,a,o=[],h=t.x1,l=t.y1,u=t.x2-h,c=t.y2-l,d=mu(e,n),f=i-1;for(r=0;r<f;r++)a=d(r/f),o.push(new lt(h+u*a,l+c*a));
+Bd(h,t,e,i,s),Bd(h-1e-5,t,e,i,s),Bd(h+1e-5,t,e,i,s),n.push(h))}return s.sort(Nd)},GetRectangleIntersection:function(t,e,i){return void 0===i&&(i=new Yt),kc(t,e)&&(i.x=Math.max(t.x,e.x),i.y=Math.max(t.y,e.y),i.width=Math.min(t.right,e.right)-i.x,i.height=Math.min(t.bottom,e.bottom)-i.y),i},GetRectangleToRectangle:Yd,GetRectangleToTriangle:zd,GetTriangleToCircle:Vd,GetTriangleToLine:jd,GetTriangleToTriangle:Zd,LineToCircle:Sd,LineToLine:Fd,LineToRectangle:kd,PointToLine:Jd,PointToLineSegment:Qd,RectangleToRectangle:kc,RectangleToTriangle:Gd,RectangleToValues:function(t,e,i,s,n,r){return void 0===r&&(r=0),!(e>t.right+r||i<t.left-r||s>t.bottom+r||n<t.top-r)},TriangleToCircle:Wd,TriangleToLine:Hd,TriangleToTriangle:Kd},tf=function(t){return Math.atan2(t.y2-t.y1,t.x2-t.x1)},ef=function(t,e,i){var s=e-(t.x1+t.x2)/2,n=i-(t.y1+t.y2)/2;return t.x1+=s,t.y1+=n,t.x2+=s,t.y2+=n,t},sf=function(t){return new Bt(t.x1,t.y1,t.x2,t.y2)},nf=function(t,e){return e.setTo(t.x1,t.y1,t.x2,t.y2)},rf=function(t,e){return t.x1===e.x1&&t.y1===e.y1&&t.x2===e.x2&&t.y2===e.y2},af=function(t,e,i){void 0===i&&(i=e);var s=Ot(t),n=t.x2-t.x1,r=t.y2-t.y1;return e&&(t.x1=t.x1-n/s*e,t.y1=t.y1-r/s*e),i&&(t.x2=t.x2+n/s*i,t.y2=t.y2+r/s*i),t},of=function(t,e,i,s,n){void 0===s&&(s=0),void 0===n&&(n=[]);var r,a,o=[],h=t.x1,l=t.y1,u=t.x2-h,c=t.y2-l,d=mu(e,n),f=i-1;for(r=0;r<f;r++)a=d(r/f),o.push(new lt(h+u*a,l+c*a));
 //  Always include the end of the line
 //  Remove collinear parts
 if(a=d(1),o.push(new lt(h+u*a,l+c*a)),s>0){var p=o[0],g=[p];
@@ -52979,7 +52979,7 @@ Bt.Angle=tf,Bt.BresenhamPoints=Re,Bt.CenterOn=ef,Bt.Clone=sf,Bt.CopyFrom=nf,Bt.E
 //  There's nothing more we can do without a texture
 return w;i=e.scene.sys.textures.get(i)}var b=i.get(s);
 //  If the Mesh is ortho and no width / height is given, we'll default to texture sizes (if set!)
-!T&&g&&i&&e&&(n=b.width/e.height,r=b.height/e.height);var E,S,_=n/2,A=r/2,C=Math.floor(a),M=Math.floor(o),R=C+1,P=M+1,O=n/C,L=r/M,F=[],k=[],D=0,I=1,B=0,N=1;b&&(D=b.u0,I=b.u1,x?(B=b.v1,N=b.v0):(B=b.v0,N=b.v1));var Y=I-D,U=N-B;for(S=0;S<P;S++){var X=S*L-A;for(E=0;E<R;E++){var z=E*O-_;k.push(z,-X);var G=D+Y*(E/C),W=B+U*(S/M);F.push(G,W)}}Array.isArray(v)||(v=[v]),Array.isArray(m)||(m=[m]);var V=0,H=0;for(S=0;S<M;S++)for(E=0;E<C;E++){var j=2*(E+R*S),q=2*(E+R*(S+1)),K=2*(E+1+R*(S+1)),Z=2*(E+1+R*S),J=v[H],Q=m[V],tt=new Bc(k[j],k[j+1],0,F[j],F[j+1],J,Q).transformMat4(Mf),et=new Bc(k[q],k[q+1],0,F[q],F[q+1],J,Q).transformMat4(Mf),it=new Bc(k[Z],k[Z+1],0,F[Z],F[Z+1],J,Q).transformMat4(Mf),st=new Bc(k[q],k[q+1],0,F[q],F[q+1],J,Q).transformMat4(Mf),nt=new Bc(k[K],k[K+1],0,F[K],F[K+1],J,Q).transformMat4(Mf),rt=new Bc(k[Z],k[Z+1],0,F[Z],F[Z+1],J,Q).transformMat4(Mf);y&&(tt.setUVs(D,N),et.setUVs(D,B),it.setUVs(I,N),st.setUVs(D,B),nt.setUVs(I,B),rt.setUVs(I,N)),++H===v.length&&(H=0),++V===m.length&&(V=0),w.verts.push(tt,et,it,st,nt,rt),w.faces.push(new Ic(tt,et,it),new Ic(st,nt,rt))}return e&&(e.faces=e.faces.concat(w.faces),e.vertices=e.vertices.concat(w.verts)),w},Pf=!0,Of="untitled",Lf="",Ff="";
+!T&&g&&i&&e&&(n=b.width/e.height,r=b.height/e.height);var E,S,_=n/2,A=r/2,C=Math.floor(a),M=Math.floor(o),R=C+1,P=M+1,O=n/C,L=r/M,F=[],k=[],D=0,I=1,B=0,N=1;b&&(D=b.u0,I=b.u1,x?(B=b.v1,N=b.v0):(B=b.v0,N=b.v1));var Y=I-D,U=N-B;for(S=0;S<P;S++){var X=S*L-A;for(E=0;E<R;E++){var G=E*O-_;k.push(G,-X);var z=D+Y*(E/C),W=B+U*(S/M);F.push(z,W)}}Array.isArray(v)||(v=[v]),Array.isArray(m)||(m=[m]);var V=0,H=0;for(S=0;S<M;S++)for(E=0;E<C;E++){var j=2*(E+R*S),q=2*(E+R*(S+1)),K=2*(E+1+R*(S+1)),Z=2*(E+1+R*S),J=v[H],Q=m[V],tt=new Bc(k[j],k[j+1],0,F[j],F[j+1],J,Q).transformMat4(Mf),et=new Bc(k[q],k[q+1],0,F[q],F[q+1],J,Q).transformMat4(Mf),it=new Bc(k[Z],k[Z+1],0,F[Z],F[Z+1],J,Q).transformMat4(Mf),st=new Bc(k[q],k[q+1],0,F[q],F[q+1],J,Q).transformMat4(Mf),nt=new Bc(k[K],k[K+1],0,F[K],F[K+1],J,Q).transformMat4(Mf),rt=new Bc(k[Z],k[Z+1],0,F[Z],F[Z+1],J,Q).transformMat4(Mf);y&&(tt.setUVs(D,N),et.setUVs(D,B),it.setUVs(I,N),st.setUVs(D,B),nt.setUVs(I,B),rt.setUVs(I,N)),++H===v.length&&(H=0),++V===m.length&&(V=0),w.verts.push(tt,et,it,st,nt,rt),w.faces.push(new Ic(tt,et,it),new Ic(st,nt,rt))}return e&&(e.faces=e.faces.concat(w.faces),e.vertices=e.vertices.concat(w.verts)),w},Pf=!0,Of="untitled",Lf="",Ff="";
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -53015,10 +53015,10 @@ function kf(t){var e=t.indexOf("#");return e>-1?t.substring(0,e):t}
 o<0&&(o=Df(e).vertices.length+1+o),h-=1,o-=1,l-=1,s.vertices.push({textureCoordsIndex:h,vertexIndex:o,vertexNormalIndex:l}))}}Df(e).faces.push(s)}}
 /**
  * @ignore
- */function zf(t,e){t.length>=2&&e.materialLibraries.push(t[1])}
+ */function Gf(t,e){t.length>=2&&e.materialLibraries.push(t[1])}
 /**
  * @ignore
- */function Gf(t){t.length>=2&&(Ff=t[1])}
+ */function zf(t){t.length>=2&&(Ff=t[1])}
 /**
  * Parses a Wavefront OBJ File, extracting the models from it and returning them in an array.
  *
@@ -53047,12 +53047,12 @@ Uf(r,i);break;case"f":
 // Define a Face/Polygon
 Xf(r,i);break;case"mtllib":
 // Reference to a material library file (.mtl)
-zf(r,i);break;case"usemtl":
+Gf(r,i);break;case"usemtl":
 // Sets the current material to be applied to polygons defined from this point forward
-Gf(r)}}return i},Vf=function(t){for(var e={},i=t.split("\n"),s="",n=0;n<i.length;n++){var r=i[n].trim();if(0!==r.indexOf("#")&&""!==r){var a=r.replace(/\s\s+/g," ").trim().split(" ");switch(a[0].toLowerCase()){case"newmtl":s=a[1];break;
+zf(r)}}return i},Vf=function(t){for(var e={},i=t.split("\n"),s="",n=0;n<i.length;n++){var r=i[n].trim();if(0!==r.indexOf("#")&&""!==r){var a=r.replace(/\s\s+/g," ").trim().split(" ");switch(a[0].toLowerCase()){case"newmtl":s=a[1];break;
 //  The diffuse reflectivity of the current material
 //  Support r, [g], [b] format, where g and b are optional
-case"kd":var o=Math.floor(255*a[1]),h=a.length>=2?Math.floor(255*a[2]):o,l=a.length>=3?Math.floor(255*a[3]):o;e[s]=wi(o,h,l)}}}return e},Hf={Face:Ic,GenerateGridVerts:Rf,GenerateObjVerts:zc,GenerateVerts:Nc,ParseObj:Wf,ParseObjMaterial:Vf,RotateFace:function(t,e,i,s){var n,r;
+case"kd":var o=Math.floor(255*a[1]),h=a.length>=2?Math.floor(255*a[2]):o,l=a.length>=3?Math.floor(255*a[3]):o;e[s]=wi(o,h,l)}}}return e},Hf={Face:Ic,GenerateGridVerts:Rf,GenerateObjVerts:Gc,GenerateVerts:Nc,ParseObj:Wf,ParseObjMaterial:Vf,RotateFace:function(t,e,i,s){var n,r;
 //  No point of rotation? Use the inCenter instead, then.
 if(void 0===i&&void 0===s){var a=t.getInCenter();n=a.x,r=a.y}var o=Math.cos(e),h=Math.sin(e),l=t.vertex1,u=t.vertex2,c=t.vertex3,d=l.x-n,f=l.y-r;l.set(d*o-f*h+n,d*h+f*o+r),d=u.x-n,f=u.y-r,u.set(d*o-f*h+n,d*h+f*o+r),d=c.x-n,f=c.y-r,c.set(d*o-f*h+n,d*h+f*o+r)},Vertex:Bc},jf=function(t){return t.setTo(Math.ceil(t.x),Math.ceil(t.y))},qf=function(t){return new lt(t.x,t.y)},Kf=function(t,e){return e.setTo(t.x,t.y)},Zf=function(t,e){return t.x===e.x&&t.y===e.y},Jf=function(t){return t.setTo(Math.floor(t.x),Math.floor(t.y))},Qf=function(t,e){if(void 0===e&&(e=new lt),!Array.isArray(t))throw new Error("GetCentroid points argument must be an array");var i=t.length;if(i<1)throw new Error("GetCentroid points array must not be empty");if(1===i)e.x=t[0].x,e.y=t[0].y;else{for(var s=0;s<i;s++)e.x+=t[s].x,e.y+=t[s].y;e.x/=i,e.y/=i}return e},$f=function(t){return Math.sqrt(t.x*t.x+t.y*t.y)},tp=function(t){return t.x*t.x+t.y*t.y},ep=function(t,e){void 0===e&&(e=new Yt);for(var i=Number.NEGATIVE_INFINITY,s=Number.POSITIVE_INFINITY,n=Number.NEGATIVE_INFINITY,r=Number.POSITIVE_INFINITY,a=0;a<t.length;a++){var o=t[a];o.x>i&&(i=o.x),o.x<s&&(s=o.x),o.y>n&&(n=o.y),o.y<r&&(r=o.y)}return e.x=s,e.y=r,e.width=i-s,e.height=n-r,e},ip=function(t,e,i,s){return void 0===i&&(i=0),void 0===s&&(s=new lt),s.x=t.x+(e.x-t.x)*i,s.y=t.y+(e.y-t.y)*i,s},sp=function(t){return t.setTo(t.y,t.x)},np=function(t,e){return void 0===e&&(e=new lt),e.setTo(-t.x,-t.y)},rp=function(t,e,i){void 0===i&&(i=new lt);var s=(t.x*e.x+t.y*e.y)/tp(e);return 0!==s&&(i.x=s*e.x,i.y=s*e.y),i},ap=function(t,e,i){void 0===i&&(i=new lt);var s=t.x*e.x+t.y*e.y;return 0!==s&&(i.x=s*e.x,i.y=s*e.y),i},op=function(t,e){if(0!==t.x||0!==t.y){var i=$f(t);t.x/=i,t.y/=i}return t.x*=e,t.y*=e,t};
 /**
@@ -53128,7 +53128,7 @@ t.setSize(e.width,e.width/i),t.setPosition(e.centerX-t.width/2,e.centerY-t.heigh
 //  Wider than Tall
 t.setSize(e.height*i,e.height):
 //  Taller than Wide
-t.setSize(e.width,e.width/i),t.setPosition(e.centerX-t.width/2,e.centerY-t.height/2)},Pp=function(t){return t.x=Math.floor(t.x),t.y=Math.floor(t.y),t},Op=function(t){return t.x=Math.floor(t.x),t.y=Math.floor(t.y),t.width=Math.floor(t.width),t.height=Math.floor(t.height),t},Lp=function(t,e,i,s,n){return void 0===n&&(n=new Yt),n.setTo(Math.min(t,i),Math.min(e,s),Math.abs(t-i),Math.abs(e-s))},Fp=function(t,e){return void 0===e&&(e=new lt),e.x=t.centerX,e.y=t.centerY,e},kp=function(t,e){return void 0===e&&(e=new lt),e.x=t.width,e.y=t.height,e},Dp=function(t,e,i){var s=t.centerX,n=t.centerY;return t.setSize(t.width+2*e,t.height+2*i),Di(t,s,n)},Ip=function(t,e,i){return void 0===i&&(i=new Yt),kc(t,e)?(i.x=Math.max(t.x,e.x),i.y=Math.max(t.y,e.y),i.width=Math.min(t.right,e.right)-i.x,i.height=Math.min(t.bottom,e.bottom)-i.y):i.setEmpty(),i},Bp=function(t,e){for(var i=t.x,s=t.right,n=t.y,r=t.bottom,a=0;a<e.length;a++)i=Math.min(i,e[a].x),s=Math.max(s,e[a].x),n=Math.min(n,e[a].y),r=Math.max(r,e[a].y);return t.x=i,t.y=n,t.width=s-i,t.height=r-n,t},Np=function(t,e){var i=Math.min(t.x,e.x),s=Math.max(t.right,e.right);t.x=i,t.width=s-i;var n=Math.min(t.y,e.y),r=Math.max(t.bottom,e.bottom);return t.y=n,t.height=r-n,t},Yp=function(t,e,i){var s=Math.min(t.x,e),n=Math.max(t.right,e);t.x=s,t.width=n-s;var r=Math.min(t.y,i),a=Math.max(t.bottom,i);return t.y=r,t.height=a-r,t},Up=function(t,e,i){return t.x+=e,t.y+=i,t},Xp=function(t,e){return t.x+=e.x,t.y+=e.y,t},zp=function(t,e){return t.x<e.right&&t.right>e.x&&t.y<e.bottom&&t.bottom>e.y},Gp=function(t,e,i){void 0===i&&(i=new lt),e=qt(e);var s=Math.sin(e),n=Math.cos(e),r=n>0?t.width/2:t.width/-2,a=s>0?t.height/2:t.height/-2;return Math.abs(r*s)<Math.abs(a*n)?a=r*s/n:r=a*n/s,i.x=r+t.centerX,i.y=a+t.centerY,i},Wp=function(t,e,i){if(void 0===i&&(i=new lt),Sp(t,e))
+t.setSize(e.width,e.width/i),t.setPosition(e.centerX-t.width/2,e.centerY-t.height/2)},Pp=function(t){return t.x=Math.floor(t.x),t.y=Math.floor(t.y),t},Op=function(t){return t.x=Math.floor(t.x),t.y=Math.floor(t.y),t.width=Math.floor(t.width),t.height=Math.floor(t.height),t},Lp=function(t,e,i,s,n){return void 0===n&&(n=new Yt),n.setTo(Math.min(t,i),Math.min(e,s),Math.abs(t-i),Math.abs(e-s))},Fp=function(t,e){return void 0===e&&(e=new lt),e.x=t.centerX,e.y=t.centerY,e},kp=function(t,e){return void 0===e&&(e=new lt),e.x=t.width,e.y=t.height,e},Dp=function(t,e,i){var s=t.centerX,n=t.centerY;return t.setSize(t.width+2*e,t.height+2*i),Di(t,s,n)},Ip=function(t,e,i){return void 0===i&&(i=new Yt),kc(t,e)?(i.x=Math.max(t.x,e.x),i.y=Math.max(t.y,e.y),i.width=Math.min(t.right,e.right)-i.x,i.height=Math.min(t.bottom,e.bottom)-i.y):i.setEmpty(),i},Bp=function(t,e){for(var i=t.x,s=t.right,n=t.y,r=t.bottom,a=0;a<e.length;a++)i=Math.min(i,e[a].x),s=Math.max(s,e[a].x),n=Math.min(n,e[a].y),r=Math.max(r,e[a].y);return t.x=i,t.y=n,t.width=s-i,t.height=r-n,t},Np=function(t,e){var i=Math.min(t.x,e.x),s=Math.max(t.right,e.right);t.x=i,t.width=s-i;var n=Math.min(t.y,e.y),r=Math.max(t.bottom,e.bottom);return t.y=n,t.height=r-n,t},Yp=function(t,e,i){var s=Math.min(t.x,e),n=Math.max(t.right,e);t.x=s,t.width=n-s;var r=Math.min(t.y,i),a=Math.max(t.bottom,i);return t.y=r,t.height=a-r,t},Up=function(t,e,i){return t.x+=e,t.y+=i,t},Xp=function(t,e){return t.x+=e.x,t.y+=e.y,t},Gp=function(t,e){return t.x<e.right&&t.right>e.x&&t.y<e.bottom&&t.bottom>e.y},zp=function(t,e,i){void 0===i&&(i=new lt),e=qt(e);var s=Math.sin(e),n=Math.cos(e),r=n>0?t.width/2:t.width/-2,a=s>0?t.height/2:t.height/-2;return Math.abs(r*s)<Math.abs(a*n)?a=r*s/n:r=a*n/s,i.x=r+t.centerX,i.y=a+t.centerY,i},Wp=function(t,e,i){if(void 0===i&&(i=new lt),Sp(t,e))
 //  Pick a random quadrant
 //  The quadrants don't extend the full widths / heights of the outer rect to give
 //  us a better uniformed distribution, otherwise you get clumping in the corners where
@@ -53158,7 +53158,7 @@ i.x=e.right+Math.random()*(t.right-e.right),i.y=t.y+Math.random()*(e.bottom-t.y)
  * @copyright    2020 Photon Storm Ltd.
  * @license      {@link https://opensource.org/licenses/MIT|MIT License}
  */
-Yt.Area=xp,Yt.Ceil=Tp,Yt.CeilAll=wp,Yt.CenterOn=Di,Yt.Clone=bp,Yt.Contains=At,Yt.ContainsPoint=Ep,Yt.ContainsRect=Sp,Yt.CopyFrom=_p,Yt.Decompose=Xd,Yt.Equals=Ap,Yt.FitInside=Mp,Yt.FitOutside=Rp,Yt.Floor=Pp,Yt.FloorAll=Op,Yt.FromPoints=Da,Yt.FromXY=Lp,Yt.GetAspectRatio=Cp,Yt.GetCenter=Fp,Yt.GetPoint=Mt,Yt.GetPoints=Rt,Yt.GetSize=kp,Yt.Inflate=Dp,Yt.Intersection=Ip,Yt.MarchingAnts=Ae,Yt.MergePoints=Bp,Yt.MergeRect=Np,Yt.MergeXY=Yp,Yt.Offset=Up,Yt.OffsetPoint=Xp,Yt.Overlaps=zp,Yt.Perimeter=Ct,Yt.PerimeterPoint=Gp,Yt.Random=Nt,Yt.RandomOutside=Wp,Yt.SameDimensions=Vp,Yt.Scale=Hp,Yt.Union=Dl;var jp=Yt,qp=function(t){var e=t.x1,i=t.y1,s=t.x2,n=t.y2,r=t.x3,a=t.y3;return Math.abs(((r-e)*(n-i)-(s-e)*(a-i))/2)},Kp=function(t,e,i){var s=i*(Math.sqrt(3)/2);return new Rc(t,e,t+i/2,e+s,t-i/2,e+s)},Zp=function(t,e,i,s,n){void 0===e&&(e=null),void 0===i&&(i=1),void 0===s&&(s=1),void 0===n&&(n=[]);for(var r,a,o,h,l,u,c,d,f,p=Jr(t,e),g=0;g<p.length;g+=3)r=p[g],a=p[g+1],o=p[g+2],h=t[2*r]*i,l=t[2*r+1]*s,u=t[2*a]*i,c=t[2*a+1]*s,d=t[2*o]*i,f=t[2*o+1]*s,n.push(new Rc(h,l,u,c,d,f));return n},Jp=function(t,e,i,s){return void 0===s&&(s=i),new Rc(t,e,t,e-s,t+i,e)},Qp=function(t,e){return void 0===e&&(e=new lt),e.x=(t.x1+t.x2+t.x3)/3,e.y=(t.y1+t.y2+t.y3)/3,e},$p=function(t,e,i){return t.x1+=e,t.y1+=i,t.x2+=e,t.y2+=i,t.x3+=e,t.y3+=i,t},tg=function(t,e,i,s){void 0===s&&(s=Qp);
+Yt.Area=xp,Yt.Ceil=Tp,Yt.CeilAll=wp,Yt.CenterOn=Di,Yt.Clone=bp,Yt.Contains=At,Yt.ContainsPoint=Ep,Yt.ContainsRect=Sp,Yt.CopyFrom=_p,Yt.Decompose=Xd,Yt.Equals=Ap,Yt.FitInside=Mp,Yt.FitOutside=Rp,Yt.Floor=Pp,Yt.FloorAll=Op,Yt.FromPoints=Da,Yt.FromXY=Lp,Yt.GetAspectRatio=Cp,Yt.GetCenter=Fp,Yt.GetPoint=Mt,Yt.GetPoints=Rt,Yt.GetSize=kp,Yt.Inflate=Dp,Yt.Intersection=Ip,Yt.MarchingAnts=Ae,Yt.MergePoints=Bp,Yt.MergeRect=Np,Yt.MergeXY=Yp,Yt.Offset=Up,Yt.OffsetPoint=Xp,Yt.Overlaps=Gp,Yt.Perimeter=Ct,Yt.PerimeterPoint=zp,Yt.Random=Nt,Yt.RandomOutside=Wp,Yt.SameDimensions=Vp,Yt.Scale=Hp,Yt.Union=Dl;var jp=Yt,qp=function(t){var e=t.x1,i=t.y1,s=t.x2,n=t.y2,r=t.x3,a=t.y3;return Math.abs(((r-e)*(n-i)-(s-e)*(a-i))/2)},Kp=function(t,e,i){var s=i*(Math.sqrt(3)/2);return new Rc(t,e,t+i/2,e+s,t-i/2,e+s)},Zp=function(t,e,i,s,n){void 0===e&&(e=null),void 0===i&&(i=1),void 0===s&&(s=1),void 0===n&&(n=[]);for(var r,a,o,h,l,u,c,d,f,p=Jr(t,e),g=0;g<p.length;g+=3)r=p[g],a=p[g+1],o=p[g+2],h=t[2*r]*i,l=t[2*r+1]*s,u=t[2*a]*i,c=t[2*a+1]*s,d=t[2*o]*i,f=t[2*o+1]*s,n.push(new Rc(h,l,u,c,d,f));return n},Jp=function(t,e,i,s){return void 0===s&&(s=i),new Rc(t,e,t,e-s,t+i,e)},Qp=function(t,e){return void 0===e&&(e=new lt),e.x=(t.x1+t.x2+t.x3)/3,e.y=(t.y1+t.y2+t.y3)/3,e},$p=function(t,e,i){return t.x1+=e,t.y1+=i,t.x2+=e,t.y2+=i,t.x3+=e,t.y3+=i,t},tg=function(t,e,i,s){void 0===s&&(s=Qp);
 //  Get the center of the triangle
 var n=s(t),r=e-n.x,a=i-n.y;
 //  Difference
@@ -56178,7 +56178,7 @@ boot:function(){var t=this.settings.input;this.enabled=Zt(t,"keyboard",!0);var e
      * @private
      * @since 3.10.0
      */
-start:function(){this.sceneInputPlugin.manager.events.on(Yo.MANAGER_PROCESS,this.update,this),this.sceneInputPlugin.pluginEvents.once(Yo.SHUTDOWN,this.shutdown,this),this.game.events.on(zt.BLUR,this.resetKeys,this),this.scene.sys.events.on(rs.PAUSE,this.resetKeys,this),this.scene.sys.events.on(rs.SLEEP,this.resetKeys,this)},
+start:function(){this.sceneInputPlugin.manager.events.on(Yo.MANAGER_PROCESS,this.update,this),this.sceneInputPlugin.pluginEvents.once(Yo.SHUTDOWN,this.shutdown,this),this.game.events.on(Gt.BLUR,this.resetKeys,this),this.scene.sys.events.on(rs.PAUSE,this.resetKeys,this),this.scene.sys.events.on(rs.SLEEP,this.resetKeys,this)},
 /**
      * Checks to see if both this plugin and the Scene to which it belongs is active.
      *
@@ -56496,7 +56496,7 @@ t[e]&&t[e].reset();return this},
      * @private
      * @since 3.10.0
      */
-shutdown:function(){this.resetKeys(),this.sceneInputPlugin.manager.events.off(Yo.MANAGER_PROCESS,this.update,this),this.game.events.off(zt.BLUR,this.resetKeys),this.scene.sys.events.off(rs.PAUSE,this.resetKeys,this),this.scene.sys.events.off(rs.SLEEP,this.resetKeys,this),this.removeAllListeners(),this.queue=[]},
+shutdown:function(){this.resetKeys(),this.sceneInputPlugin.manager.events.off(Yo.MANAGER_PROCESS,this.update,this),this.game.events.off(Gt.BLUR,this.resetKeys),this.scene.sys.events.off(rs.PAUSE,this.resetKeys,this),this.scene.sys.events.off(rs.SLEEP,this.resetKeys,this),this.removeAllListeners(),this.queue=[]},
 /**
      * Destroys this Keyboard Plugin instance and all references it holds, plus clears out local arrays.
      *
@@ -56574,7 +56574,7 @@ time:{get:function(){return this.sceneInputPlugin.manager.time}}});
  * @type {?Phaser.Input.Keyboard.KeyboardPlugin}
  * @since 3.10.0
  */
-Sg.register("KeyboardPlugin",Ng,"keyboard","keyboard","inputKeyboard");var Yg={CreatePixelPerfectHandler:vg,CreateInteractiveObject:mg,Events:Yo,Gamepad:Ag,InputManager:Vo,InputPlugin:Mg,InputPluginCache:Sg,Keyboard:{Events:Rg,KeyboardManager:Xo,KeyboardPlugin:Ng,Key:Pg,KeyCodes:Uo,KeyCombo:kg,AdvanceKeyCombo:Og,ProcessKeyCombo:Lg,ResetKeyCombo:Fg,JustDown:function(t){return!!t._justDown&&(t._justDown=!1,!0)},JustUp:function(t){return!!t._justUp&&(t._justUp=!1,!0)},DownDuration:function(t,e){void 0===e&&(e=50);var i=t.plugin.game.loop.time-t.timeDown;return t.isDown&&i<e},UpDuration:function(t,e){void 0===e&&(e=50);var i=t.plugin.game.loop.time-t.timeUp;return t.isUp&&i<e}},Mouse:{MouseManager:zo},Pointer:Go,Touch:{TouchManager:Wo}},Ug=
+Sg.register("KeyboardPlugin",Ng,"keyboard","keyboard","inputKeyboard");var Yg={CreatePixelPerfectHandler:vg,CreateInteractiveObject:mg,Events:Yo,Gamepad:Ag,InputManager:Vo,InputPlugin:Mg,InputPluginCache:Sg,Keyboard:{Events:Rg,KeyboardManager:Xo,KeyboardPlugin:Ng,Key:Pg,KeyCodes:Uo,KeyCombo:kg,AdvanceKeyCombo:Og,ProcessKeyCombo:Lg,ResetKeyCombo:Fg,JustDown:function(t){return!!t._justDown&&(t._justDown=!1,!0)},JustUp:function(t){return!!t._justUp&&(t._justUp=!1,!0)},DownDuration:function(t,e){void 0===e&&(e=50);var i=t.plugin.game.loop.time-t.timeDown;return t.isDown&&i<e},UpDuration:function(t,e){void 0===e&&(e=50);var i=t.plugin.game.loop.time-t.timeUp;return t.isUp&&i<e}},Mouse:{MouseManager:Go},Pointer:zo,Touch:{TouchManager:Wo}},Ug=
 //   Merge in the consts
 Yg=o(!1,Yg,No),Xg={
 /**
@@ -56696,7 +56696,7 @@ FILE_DESTROYED:18,
      * @type {number}
      * @since 3.0.0
      */
-FILE_POPULATED:19},zg=function(t,e){return!!t.url&&(t.url.match(/^(?:blob:|data:|http:\/\/|https:\/\/|\/\/)/)?t.url:e+t.url)},Gg=function(t,e,i,s,n,r){
+FILE_POPULATED:19},Gg=function(t,e){return!!t.url&&(t.url.match(/^(?:blob:|data:|http:\/\/|https:\/\/|\/\/)/)?t.url:e+t.url)},zg=function(t,e,i,s,n,r){
 // Before sending a request, set the xhr.responseType to "text",
 // "arraybuffer", "blob", or "document", depending on your data needs.
 // Note, setting xhr.responseType = '' (or omitting) will default the response to "text".
@@ -56712,7 +56712,7 @@ headers:void 0,header:void 0,headerValue:void 0,requestedWith:!1,
 //  overrideMimeType
 overrideMimeType:void 0,
 //  withCredentials
-withCredentials:r}},Wg=function(t,e){var i=void 0===t?Gg():o({},t);if(e)for(var s in e)void 0!==e[s]&&(i[s]=e[s]);return i},Vg=function(t,e){var i=Wg(e,t.xhrSettings),s=new XMLHttpRequest;if(s.open("GET",t.src,i.async,i.user,i.password),s.responseType=t.xhrSettings.responseType,s.timeout=i.timeout,i.headers)for(var n in i.headers)s.setRequestHeader(n,i.headers[n]);return i.header&&i.headerValue&&s.setRequestHeader(i.header,i.headerValue),i.requestedWith&&s.setRequestHeader("X-Requested-With",i.requestedWith),i.overrideMimeType&&s.overrideMimeType(i.overrideMimeType),i.withCredentials&&(s.withCredentials=!0),
+withCredentials:r}},Wg=function(t,e){var i=void 0===t?zg():o({},t);if(e)for(var s in e)void 0!==e[s]&&(i[s]=e[s]);return i},Vg=function(t,e){var i=Wg(e,t.xhrSettings),s=new XMLHttpRequest;if(s.open("GET",t.src,i.async,i.user,i.password),s.responseType=t.xhrSettings.responseType,s.timeout=i.timeout,i.headers)for(var n in i.headers)s.setRequestHeader(n,i.headers[n]);return i.header&&i.headerValue&&s.setRequestHeader(i.header,i.headerValue),i.requestedWith&&s.setRequestHeader("X-Requested-With",i.requestedWith),i.overrideMimeType&&s.overrideMimeType(i.overrideMimeType),i.withCredentials&&(s.withCredentials=!0),
 // After a successful request, the xhr.response property will contain the requested data as a DOMString, ArrayBuffer, Blob, or Document (depending on what was set for responseType.)
 s.onload=t.onLoad.bind(t,s),s.onerror=t.onError.bind(t,s),s.onprogress=t.onProgress.bind(t),
 //  This is the only standard method, the ones above are browser additions (maybe not universal?)
@@ -56777,7 +56777,7 @@ this.src="",
          * @type {Phaser.Types.Loader.XHRSettingsObject}
          * @since 3.0.0
          */
-this.xhrSettings=Gg($(e,"responseType",void 0)),$(e,"xhrSettings",!1)&&(this.xhrSettings=Wg(this.xhrSettings,$(e,"xhrSettings",{})))
+this.xhrSettings=zg($(e,"responseType",void 0)),$(e,"xhrSettings",!1)&&(this.xhrSettings=Wg(this.xhrSettings,$(e,"xhrSettings",{})))
 /**
          * The XMLHttpRequest instance (as created by XHR Loader) that is loading this File.
          *
@@ -56893,7 +56893,7 @@ resetXHR:function(){this.xhrLoader&&(this.xhrLoader.onload=void 0,this.xhrLoader
      */
 load:function(){this.state===Xg.FILE_POPULATED?
 //  Can happen for example in a JSONFile if they've provided a JSON object instead of a URL
-this.loader.nextFile(this,!0):(this.state=Xg.FILE_LOADING,this.src=zg(this,this.loader.baseURL),0===this.src.indexOf("data:")?console.warn("Local data URIs are not supported: "+this.key):
+this.loader.nextFile(this,!0):(this.state=Xg.FILE_LOADING,this.src=Gg(this,this.loader.baseURL),0===this.src.indexOf("data:")?console.warn("Local data URIs are not supported: "+this.key):
 //  The creation of this XHRLoader starts the load process going.
 //  It will automatically call the following, based on the load outcome:
 // xhr.onload = this.onLoad
@@ -58176,7 +58176,7 @@ onProgress:function(t){var e=t.target;e.oncanplaythrough=null,e.onerror=null,thi
      * @method Phaser.Loader.FileTypes.HTML5AudioFile#load
      * @since 3.0.0
      */
-load:function(){this.data=[];var t=this.config&&this.config.instances||1;this.filesTotal=t,this.filesLoaded=0,this.percentComplete=0;for(var e=0;e<t;e++){var i=new Audio;i.dataset||(i.dataset={}),i.dataset.name=this.key+("0"+e).slice(-2),i.dataset.used="false",this.locked?i.dataset.locked="true":(i.dataset.locked="false",i.preload="auto",i.oncanplaythrough=this.onProgress.bind(this),i.onerror=this.onError.bind(this)),this.data.push(i)}for(e=0;e<this.data.length;e++)(i=this.data[e]).src=zg(this,this.loader.baseURL),this.locked||i.load();this.locked&&
+load:function(){this.data=[];var t=this.config&&this.config.instances||1;this.filesTotal=t,this.filesLoaded=0,this.percentComplete=0;for(var e=0;e<t;e++){var i=new Audio;i.dataset||(i.dataset={}),i.dataset.name=this.key+("0"+e).slice(-2),i.dataset.used="false",this.locked?i.dataset.locked="true":(i.dataset.locked="false",i.preload="auto",i.oncanplaythrough=this.onProgress.bind(this),i.onerror=this.onError.bind(this)),this.data.push(i)}for(e=0;e<this.data.length;e++)(i=this.data[e]).src=Gg(this,this.loader.baseURL),this.locked||i.load();this.locked&&
 //  This is super-dangerous but works. Race condition potential high.
 //  Is there another way?
 setTimeout(this.onLoad.bind(this))}}),uv=new at({Extends:jg,initialize:
@@ -60238,7 +60238,7 @@ this.state=Xg.FILE_PROCESSING,this.data=document.createElement("script"),this.da
  */
 jo.register("scenePlugin",(function(t,e,i,s,n){if(Array.isArray(t))for(var r=0;r<t.length;r++)
 //  If it's an array it has to be an array of Objects, so we get everything out of the 'key' object
-this.addFile(new Xv(this,t[r]));else this.addFile(new Xv(this,t,e,i,s,n));return this}));var zv=Xv,Gv=new at({Extends:$g,initialize:function(t,e,i,s,n){$g.call(this,t,e,i,n,s),this.type="spritesheet"},
+this.addFile(new Xv(this,t[r]));else this.addFile(new Xv(this,t,e,i,s,n));return this}));var Gv=Xv,zv=new at({Extends:$g,initialize:function(t,e,i,s,n){$g.call(this,t,e,i,n,s),this.type="spritesheet"},
 /**
      * Adds this file to its target cache upon successful loading and processing.
      *
@@ -60381,7 +60381,7 @@ addToCache:function(){var t=this.cache.addSpriteSheet(this.key,this.data,this.co
  */
 jo.register("spritesheet",(function(t,e,i,s){if(Array.isArray(t))for(var n=0;n<t.length;n++)
 //  If it's an array it has to be an array of Objects, so we get everything out of the 'key' object
-this.addFile(new Gv(this,t[n]));else this.addFile(new Gv(this,t,e,i,s));return this}));var Wv=Gv,Vv=new at({Extends:jg,initialize:function(t,e,i,s,n){var a="svg";if(r(e)){var o=e;e=$(o,"key"),i=$(o,"url"),s=$(o,"svgConfig",{}),n=$(o,"xhrSettings"),a=$(o,"extension",a)}var h={type:"svg",cache:t.textureManager,extension:a,responseType:"text",key:e,url:i,xhrSettings:n,config:{width:$(s,"width"),height:$(s,"height"),scale:$(s,"scale")}};jg.call(this,t,h)},
+this.addFile(new zv(this,t[n]));else this.addFile(new zv(this,t,e,i,s));return this}));var Wv=zv,Vv=new at({Extends:jg,initialize:function(t,e,i,s,n){var a="svg";if(r(e)){var o=e;e=$(o,"key"),i=$(o,"url"),s=$(o,"svgConfig",{}),n=$(o,"xhrSettings"),a=$(o,"extension",a)}var h={type:"svg",cache:t.textureManager,extension:a,responseType:"text",key:e,url:i,xhrSettings:n,config:{width:$(s,"width"),height:$(s,"height"),scale:$(s,"scale")}};jg.call(this,t,h)},
 /**
      * Called automatically by Loader.nextFile.
      * This method controls what extra work this File does with its loaded data.
@@ -61071,7 +61071,7 @@ onVideoErrorHandler:function(t){var e=t.target;e&&(e.removeEventListener(this.co
      * @method Phaser.Loader.FileTypes.VideoFile#load
      * @since 3.20.0
      */
-load:function(){var t=this.config.loadEvent;if(this.config.asBlob)jg.prototype.load.call(this);else{this.percentComplete=0;var e=this.createVideoElement();e.addEventListener(t,this.onLoadCallback,!0),e.addEventListener("error",this.onErrorCallback,!0),e.src=zg(this,this.loader.baseURL),e.load()}}});
+load:function(){var t=this.config.loadEvent;if(this.config.asBlob)jg.prototype.load.call(this);else{this.percentComplete=0;var e=this.createVideoElement();e.addEventListener(t,this.onLoadCallback,!0),e.addEventListener("error",this.onErrorCallback,!0),e.src=Gg(this,this.loader.baseURL),e.load()}}});
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -61166,7 +61166,7 @@ r(e)&&(i=$(e,"url",[]),s=$(e,"loadEvent","loadeddata"),n=$(e,"asBlob",!1),a=$(e,
  */
 jo.register("video",(function(t,e,i,s,n,r){var a;if(Array.isArray(t))for(var o=0;o<t.length;o++)
 //  If it's an array it has to be an array of Objects, so we get everything out of the 'key' object
-(a=im.create(this,t[o]))&&this.addFile(a);else(a=im.create(this,t,e,i,s,n,r))&&this.addFile(a);return this}));var sm={AnimationJSONFile:Jg,AsepriteFile:iv,AtlasJSONFile:nv,AtlasXMLFile:hv,AudioFile:cv,AudioSpriteFile:{},BinaryFile:pv,BitmapFontFile:vv,CSSFile:yv,GLSLFile:Tv,HTML5AudioFile:lv,HTMLFile:bv,HTMLTextureFile:Sv,ImageFile:$g,JSONFile:Kg,MultiAtlasFile:Av,MultiScriptFile:Pv,OBJFile:kv,PackFile:Iv,PluginFile:Nv,SceneFile:Uv,ScenePluginFile:zv,ScriptFile:Mv,SpriteSheetFile:Wv,SVGFile:Hv,TextFile:Lv,TilemapCSVFile:Kv,TilemapImpactFile:Jv,TilemapJSONFile:$v,UnityAtlasFile:em,VideoFile:im,XMLFile:av},nm=new at({Extends:Te,initialize:function(t){Te.call(this);var e=t.sys.game.config,i=t.sys.settings.loader;
+(a=im.create(this,t[o]))&&this.addFile(a);else(a=im.create(this,t,e,i,s,n,r))&&this.addFile(a);return this}));var sm={AnimationJSONFile:Jg,AsepriteFile:iv,AtlasJSONFile:nv,AtlasXMLFile:hv,AudioFile:cv,AudioSpriteFile:{},BinaryFile:pv,BitmapFontFile:vv,CSSFile:yv,GLSLFile:Tv,HTML5AudioFile:lv,HTMLFile:bv,HTMLTextureFile:Sv,ImageFile:$g,JSONFile:Kg,MultiAtlasFile:Av,MultiScriptFile:Pv,OBJFile:kv,PackFile:Iv,PluginFile:Nv,SceneFile:Uv,ScenePluginFile:Gv,ScriptFile:Mv,SpriteSheetFile:Wv,SVGFile:Hv,TextFile:Lv,TilemapCSVFile:Kv,TilemapImpactFile:Jv,TilemapJSONFile:$v,UnityAtlasFile:em,VideoFile:im,XMLFile:av},nm=new at({Extends:Te,initialize:function(t){Te.call(this);var e=t.sys.game.config,i=t.sys.settings.loader;
 /**
          * The Scene which owns this Loader instance.
          *
@@ -61278,7 +61278,7 @@ this.maxParallelDownloads=$(i,"maxParallelDownloads",e.loaderMaxParallelDownload
          * @type {Phaser.Types.Loader.XHRSettingsObject}
          * @since 3.0.0
          */
-this.xhr=Gg($(i,"responseType",e.loaderResponseType),$(i,"async",e.loaderAsync),$(i,"user",e.loaderUser),$(i,"password",e.loaderPassword),$(i,"timeout",e.loaderTimeout),$(i,"withCredentials",e.loaderWithCredentials)),
+this.xhr=zg($(i,"responseType",e.loaderResponseType),$(i,"async",e.loaderAsync),$(i,"user",e.loaderUser),$(i,"password",e.loaderPassword),$(i,"timeout",e.loaderTimeout),$(i,"withCredentials",e.loaderWithCredentials)),
 /**
          * The crossOrigin value applied to loaded images. Very often this needs to be set to 'anonymous'.
          *
@@ -61749,7 +61749,7 @@ destroy:function(){this.shutdown(),this.state=Xg.LOADER_DESTROYED,this.systems.e
  */
 /**
  * @namespace Phaser.Loader.FileTypes
- */ss.register("Loader",nm,"load");var rm={Events:eh,FileTypes:sm,File:jg,FileTypesManager:jo,GetURL:zg,LoaderPlugin:nm,MergeXHRSettings:Wg,MultiFile:tv,XHRLoader:Vg,XHRSettings:Gg},am=
+ */ss.register("Loader",nm,"load");var rm={Events:eh,FileTypes:sm,File:jg,FileTypesManager:jo,GetURL:Gg,LoaderPlugin:nm,MergeXHRSettings:Wg,MultiFile:tv,XHRLoader:Vg,XHRSettings:zg},am=
 //   Merge in the consts
 rm=o(!1,rm,Xg),om={
 /**
@@ -64484,7 +64484,7 @@ _allDistMargin:function(t,e,i,s){t.children.sort(s);var n,r,a=this.toBBox,o=Rm(t
 // adjust bboxes along the given tree path
 for(var s=i;s>=0;s--)Pm(e[s],t)},_condense:function(t){
 // go through the path, removing empty nodes and updating bboxes
-for(var e,i=t.length-1;i>=0;i--)0===t[i].children.length?i>0?(e=t[i-1].children).splice(e.indexOf(t[i]),1):this.clear():Mm(t[i],this.toBBox)},compareMinX:function(t,e){return t.left-e.left},compareMinY:function(t,e){return t.top-e.top},toBBox:function(t){return{minX:t.left,minY:t.top,maxX:t.right,maxY:t.bottom}}};var Ym,Um,Xm,zm,Gm,Wm,Vm,Hm,jm,qm,Km,Zm,Jm,Qm,$m,ty,ey,iy,sy,ny,ry,ay,oy,hy,ly,uy,cy,dy,fy,py,gy,vy,my,yy,xy=Am,Ty=function(t,e){e<0?(t.blocked.none=!1,t.blocked.left=!0):e>0&&(t.blocked.none=!1,t.blocked.right=!0),t.position.x-=e,0===t.bounce.x?t.velocity.x=0:t.velocity.x=-t.velocity.x*t.bounce.x},wy=function(t,e,i,s,n,r){var a=0,o=e.faceLeft,h=e.faceRight,l=e.collideLeft,u=e.collideRight;return r||(o=!0,h=!0,l=!0,u=!0),t.deltaX()<0&&u&&t.checkCollision.left?
+for(var e,i=t.length-1;i>=0;i--)0===t[i].children.length?i>0?(e=t[i-1].children).splice(e.indexOf(t[i]),1):this.clear():Mm(t[i],this.toBBox)},compareMinX:function(t,e){return t.left-e.left},compareMinY:function(t,e){return t.top-e.top},toBBox:function(t){return{minX:t.left,minY:t.top,maxX:t.right,maxY:t.bottom}}};var Ym,Um,Xm,Gm,zm,Wm,Vm,Hm,jm,qm,Km,Zm,Jm,Qm,$m,ty,ey,iy,sy,ny,ry,ay,oy,hy,ly,uy,cy,dy,fy,py,gy,vy,my,yy,xy=Am,Ty=function(t,e){e<0?(t.blocked.none=!1,t.blocked.left=!0):e>0&&(t.blocked.none=!1,t.blocked.right=!0),t.position.x-=e,0===t.bounce.x?t.velocity.x=0:t.velocity.x=-t.velocity.x*t.bounce.x},wy=function(t,e,i,s,n,r){var a=0,o=e.faceLeft,h=e.faceRight,l=e.collideLeft,u=e.collideRight;return r||(o=!0,h=!0,l=!0,u=!0),t.deltaX()<0&&u&&t.checkCollision.left?
 //  Body is moving LEFT
 h&&t.x<s&&(a=t.x-s)<-n&&(a=0):t.deltaX()>0&&l&&t.checkCollision.right&&o&&t.right>i&&(a=t.right-i)>n&&(a=0),0!==a&&(t.customSeparateX?t.overlapX=a:Ty(t,a)),a},by=function(t,e){e<0?(t.blocked.none=!1,t.blocked.up=!0):e>0&&(t.blocked.none=!1,t.blocked.down=!0),t.position.y-=e,0===t.bounce.y?t.velocity.y=0:t.velocity.y=-t.velocity.y*t.bounce.y},Ey=function(t,e,i,s,n,r){var a=0,o=e.faceTop,h=e.faceBottom,l=e.collideUp,u=e.collideDown;return r||(o=!0,h=!0,l=!0,u=!0),t.deltaY()<0&&u&&t.checkCollision.up?
 //  Body is moving UP
@@ -64509,15 +64509,15 @@ jm&&ty&&Um.blocked.left?(Ym.processX(ey,Vm,!0),1):
 //  Body2 is moving right and Body1 is blocked from going right any further
 Jm&&ty&&Ym.blocked.right?(Um.processX(-ey,Hm,!1,!0),2):
 //  Body2 is moving up and Body1 is blocked from going up any further
-Zm&&$m&&Ym.blocked.left?(Um.processX(ey,Hm,!0),2):0},Cy=function(t){if(Xm&&zm)
+Zm&&$m&&Ym.blocked.left?(Um.processX(ey,Hm,!0),2):0},Cy=function(t){if(Xm&&Gm)
 //  Both pushable, or both moving at the same time, so equal rebound
 ey*=.5,0===t||3===t?(
 //  body1MovingLeft && body2OnLeft
 //  body2MovingRight && body2OnLeft
-Ym.processX(ey,Gm),Um.processX(-ey,Wm)):(
+Ym.processX(ey,zm),Um.processX(-ey,Wm)):(
 //  body2MovingLeft && body1OnLeft
 //  body1MovingRight && body1OnLeft
-Ym.processX(-ey,Gm),Um.processX(ey,Wm));else if(Xm&&!zm)
+Ym.processX(-ey,zm),Um.processX(ey,Wm));else if(Xm&&!Gm)
 //  Body1 pushable, Body2 not
 0===t||3===t?
 //  body1MovingLeft && body2OnLeft
@@ -64525,7 +64525,7 @@ Ym.processX(-ey,Gm),Um.processX(ey,Wm));else if(Xm&&!zm)
 Ym.processX(ey,Vm,!0):
 //  body2MovingLeft && body1OnLeft
 //  body1MovingRight && body1OnLeft
-Ym.processX(-ey,Vm,!1,!0);else if(!Xm&&zm)
+Ym.processX(-ey,Vm,!1,!0);else if(!Xm&&Gm)
 //  Body2 pushable, Body1 not
 0===t||3===t?
 //  body1MovingLeft && body2OnLeft
@@ -64553,13 +64553,13 @@ Km?(Ym.processX(0,null,!0),Um.processX(-ey,0,!1,!0)):jm?(Ym.processX(e,0,!0),Um.
 //  Body1 moving same direction as Body2
 Ym.processX(e,Um.velocity.y,!0),Um.processX(-e,null,!1,!0)))}return!0},My=function(){var t=Ym.velocity.x,e=Um.velocity.x,i=Math.sqrt(e*e*Um.mass/Ym.mass)*(e>0?1:-1),s=Math.sqrt(t*t*Ym.mass/Um.mass)*(t>0?1:-1),n=.5*(i+s);
 //  Body1 hits Body2 on the right hand side
-return s-=n,Gm=n+(i-=n)*Ym.bounce.x,Wm=n+s*Um.bounce.x,jm&&ty?Cy(0):
+return s-=n,zm=n+(i-=n)*Ym.bounce.x,Wm=n+s*Um.bounce.x,jm&&ty?Cy(0):
 //  Body2 hits Body1 on the right hand side
 Zm&&$m?Cy(1):
 //  Body1 hits Body2 on the left hand side
 qm&&$m?Cy(2):
 //  Body2 hits Body1 on the left hand side
-!(!Jm||!ty)&&Cy(3)},Ry=function(t,e,i){Um=e;var s=(Ym=t).velocity.x,n=Um.velocity.x;return Xm=Ym.pushable,jm=Ym._dx<0,qm=Ym._dx>0,Km=0===Ym._dx,$m=Math.abs(Ym.right-Um.x)<=Math.abs(Um.right-Ym.x),Vm=n-s*Ym.bounce.x,zm=Um.pushable,Zm=Um._dx<0,Jm=Um._dx>0,Qm=0===Um._dx,ty=!$m,Hm=s-n*Um.bounce.x,
+!(!Jm||!ty)&&Cy(3)},Ry=function(t,e,i){Um=e;var s=(Ym=t).velocity.x,n=Um.velocity.x;return Xm=Ym.pushable,jm=Ym._dx<0,qm=Ym._dx>0,Km=0===Ym._dx,$m=Math.abs(Ym.right-Um.x)<=Math.abs(Um.right-Ym.x),Vm=n-s*Ym.bounce.x,Gm=Um.pushable,Zm=Um._dx<0,Jm=Um._dx>0,Qm=0===Um._dx,ty=!$m,Hm=s-n*Um.bounce.x,
 //  negative delta = up, positive delta = down (inc. gravity)
 ey=Math.abs(i),Ay()},Py=function(t){1===t?
 //  But Body2 cannot go anywhere either, so we cancel out velocity
@@ -66341,7 +66341,7 @@ shutdown:function(){this.tree.clear(),this.staticTree.clear(),this.bodies.clear(
      * @method Phaser.Physics.Arcade.World#destroy
      * @since 3.0.0
      */
-destroy:function(){this.shutdown(),this.scene=null}}),zy=new at({initialize:function(t){
+destroy:function(){this.shutdown(),this.scene=null}}),Gy=new at({initialize:function(t){
 /**
          * The Scene that this Plugin belongs to.
          *
@@ -66616,7 +66616,7 @@ accelerateToObject:function(t,e,i,s,n){return this.accelerateTo(t,e.x,e.y,i,s,n)
      *
      * @return {?(Phaser.Physics.Arcade.Body|Phaser.Physics.Arcade.StaticBody|Phaser.GameObjects.GameObject)} The target closest to the given source point.
      */
-closest:function(t,e){e||(e=this.world.bodies.entries);for(var i=Number.MAX_VALUE,s=null,n=t.x,r=t.y,a=e.length,o=0;o<a;o++){var h=e[o],l=h.body||h;if(t!==h&&t!==l&&t!==l.gameObject&&t!==l.center){var u=zs(n,r,l.center.x,l.center.y);u<i&&(s=h,i=u)}}return s},
+closest:function(t,e){e||(e=this.world.bodies.entries);for(var i=Number.MAX_VALUE,s=null,n=t.x,r=t.y,a=e.length,o=0;o<a;o++){var h=e[o],l=h.body||h;if(t!==h&&t!==l&&t!==l.gameObject&&t!==l.center){var u=Gs(n,r,l.center.x,l.center.y);u<i&&(s=h,i=u)}}return s},
 /**
      * Finds the Body or Game Object farthest from a source point or object.
      *
@@ -66636,7 +66636,7 @@ closest:function(t,e){e||(e=this.world.bodies.entries);for(var i=Number.MAX_VALU
      *
      * @return {?(Phaser.Physics.Arcade.Body|Phaser.Physics.Arcade.StaticBody|Phaser.GameObjects.GameObject)} The target farthest from the given source point.
      */
-furthest:function(t,e){e||(e=this.world.bodies.entries);for(var i=-1,s=null,n=t.x,r=t.y,a=e.length,o=0;o<a;o++){var h=e[o],l=h.body||h;if(t!==h&&t!==l&&t!==l.gameObject&&t!==l.center){var u=zs(n,r,l.center.x,l.center.y);u>i&&(s=h,i=u)}}return s},
+furthest:function(t,e){e||(e=this.world.bodies.entries);for(var i=-1,s=null,n=t.x,r=t.y,a=e.length,o=0;o<a;o++){var h=e[o],l=h.body||h;if(t!==h&&t!==l&&t!==l.gameObject&&t!==l.center){var u=Gs(n,r,l.center.x,l.center.y);u>i&&(s=h,i=u)}}return s},
 /**
      * Move the given display object towards the x/y coordinates at a steady velocity.
      * If you specify a maxTime then it will adjust the speed (over-writing what you set) so it arrives at the destination in that number of seconds.
@@ -66780,9 +66780,9 @@ destroy:function(){this.shutdown(),this.scene.sys.events.off(rs.START,this.start
  *
  * @param {Phaser.Physics.Arcade.Body} body - The Body object to separate.
  * @param {number} x - The x separation amount.
- */ss.register("ArcadePhysics",zy,"arcadePhysics");var Gy={ArcadePhysics:zy,Body:mm,Collider:ym,Components:um,Events:vm,Factory:gm,GetOverlapX:xm,GetOverlapY:Tm,SeparateX:Ly,SeparateY:Yy,Group:fm,Image:cm,Sprite:dm,StaticBody:Uy,StaticGroup:pm,Tilemap:{ProcessTileCallbacks:_m,ProcessTileSeparationX:Ty,ProcessTileSeparationY:by,SeparateTile:_y,TileCheckX:wy,TileCheckY:Ey,TileIntersectsBody:Sy},World:Xy},Wy=
+ */ss.register("ArcadePhysics",Gy,"arcadePhysics");var zy={ArcadePhysics:Gy,Body:mm,Collider:ym,Components:um,Events:vm,Factory:gm,GetOverlapX:xm,GetOverlapY:Tm,SeparateX:Ly,SeparateY:Yy,Group:fm,Image:cm,Sprite:dm,StaticBody:Uy,StaticGroup:pm,Tilemap:{ProcessTileCallbacks:_m,ProcessTileSeparationX:Ty,ProcessTileSeparationY:by,SeparateTile:_y,TileCheckX:wy,TileCheckY:Ey,TileIntersectsBody:Sy},World:Xy},Wy=
 //   Merge in the consts
-Gy=o(!1,Gy,om),Vy=new at({initialize:function(){
+zy=o(!1,zy,om),Vy=new at({initialize:function(){
 /**
          * A Vector2 that stores the temporary bounds center value during calculations by methods in this class.
          *
@@ -68597,7 +68597,7 @@ u<e&&c<e&&(a[h].isInternal=!0,o[l].isInternal=!0)}}return t};
  * @namespace Phaser.Physics.Matter.PhysicsEditorParser
  * @since 3.10.0
  */
-var zx={
+var Gx={
 /**
      * Parses a body element exported by PhysicsEditor.
      *
@@ -68636,7 +68636,7 @@ parseFixture:function(t){var e,i=Jy.extend({},!1,t);if(delete i.circle,delete i.
      */
 parseVertices:function(t,e){void 0===e&&(e={});for(var i=[],s=0;s<t.length;s++)$y.clockwiseSort(t[s]),i.push(lx.create(Jy.extend({position:$y.centre(t[s]),vertices:t[s]},e)));
 // flag coincident part edges
-return Xx.flagCoincidentParts(i)}},Gx={
+return Xx.flagCoincidentParts(i)}},zx={
 /**
      * Parses a body element from the given JSON data.
      *
@@ -68753,7 +68753,7 @@ setBody:function(t,e){if(!t)return this;var i;
 //  Using defaults
 t={type:t});var s=$(t,"type","rectangle"),n=$(t,"x",this._tempVec2.x),r=$(t,"y",this._tempVec2.y),a=$(t,"width",this.width),o=$(t,"height",this.height);switch(s){case"rectangle":i=Xx.rectangle(n,r,a,o,e);break;case"circle":var h=$(t,"radius",Math.max(a,o)/2),l=$(t,"maxSides",25);i=Xx.circle(n,r,h,e,l);break;case"trapezoid":var u=$(t,"slope",.5);i=Xx.trapezoid(n,r,a,o,u,e);break;case"polygon":var c=$(t,"sides",5),d=$(t,"radius",Math.max(a,o)/2);i=Xx.polygon(n,r,c,d,e);break;case"fromVertices":case"fromVerts":var f=$(t,"verts",null);if(f)if(
 //  Has the verts array come from Vertices.fromPath, or is it raw?
-"string"==typeof f&&(f=$y.fromPath(f)),this.body&&!this.body.hasOwnProperty("temp"))lx.setVertices(this.body,f),i=this.body;else{var p=$(t,"flagInternal",!1),g=$(t,"removeCollinear",.01),v=$(t,"minimumArea",10);i=Xx.fromVertices(n,r,f,e,p,g,v)}break;case"fromPhysicsEditor":i=zx.parseBody(n,r,t,e);break;case"fromPhysicsTracer":i=Gx.parseBody(n,r,t,e)}return i&&this.setExistingBody(i,t.addToWorld),this}},Sleep:{
+"string"==typeof f&&(f=$y.fromPath(f)),this.body&&!this.body.hasOwnProperty("temp"))lx.setVertices(this.body,f),i=this.body;else{var p=$(t,"flagInternal",!1),g=$(t,"removeCollinear",.01),v=$(t,"minimumArea",10);i=Xx.fromVertices(n,r,f,e,p,g,v)}break;case"fromPhysicsEditor":i=Gx.parseBody(n,r,t,e);break;case"fromPhysicsTracer":i=zx.parseBody(n,r,t,e)}return i&&this.setExistingBody(i,t.addToWorld),this}},Sleep:{
 /**
      * Sets this Body to sleep.
      *
@@ -70129,7 +70129,7 @@ fromVertices:function(t,e,i,s,n,r,a){"string"==typeof i&&(i=$y.fromPath(i));var 
      *
      * @return {MatterJS.BodyType} A Matter JS Body.
      */
-fromPhysicsEditor:function(t,e,i,s,n){void 0===n&&(n=!0);var r=zx.parseBody(t,e,i,s);return n&&!this.world.has(r)&&this.world.add(r),r},
+fromPhysicsEditor:function(t,e,i,s,n){void 0===n&&(n=!0);var r=Gx.parseBody(t,e,i,s);return n&&!this.world.has(r)&&this.world.add(r),r},
 /**
      * Creates a body using the path data from an SVG file.
      *
@@ -70212,7 +70212,7 @@ fromSVG:function(t,e,i,s,n,r){void 0===s&&(s=1),void 0===n&&(n={}),void 0===r&&(
      *
      * @return {MatterJS.BodyType} A Matter JS Body.
      */
-fromJSON:function(t,e,i,s,n){void 0===s&&(s={}),void 0===n&&(n=!0);var r=Gx.parseBody(t,e,i,s);return r&&n&&this.world.add(r),r},
+fromJSON:function(t,e,i,s,n){void 0===s&&(s={}),void 0===n&&(n=!0);var r=zx.parseBody(t,e,i,s);return r&&n&&this.world.add(r),r},
 /**
      * Create a new composite containing Matter Image objects created in a grid arrangement.
      * This function uses the body bounds to prevent overlaps.
@@ -72984,7 +72984,7 @@ destroy:function(){this.shutdown(),this.scene.sys.events.off(rs.START,this.start
  * An attractors plugin for matter.js.
  * See the readme for usage and examples.
  * @module MatterAttractors
- */ss.register("MatterPhysics",NT,"matterPhysics");var YT={Arcade:Wy,Matter:{BodyBounds:Vy,Components:Vx,Events:Wx,Factory:cT,MatterGameObject:tT,Image:eT,Matter:PT,MatterPhysics:NT,PolyDecomp:gx,Sprite:iT,TileBody:sT,PhysicsEditorParser:zx,PhysicsJSONParser:Gx,PointerConstraint:uT,World:BT}},UT=new at({initialize:function(t){
+ */ss.register("MatterPhysics",NT,"matterPhysics");var YT={Arcade:Wy,Matter:{BodyBounds:Vy,Components:Vx,Events:Wx,Factory:cT,MatterGameObject:tT,Image:eT,Matter:PT,MatterPhysics:NT,PolyDecomp:gx,Sprite:iT,TileBody:sT,PhysicsEditorParser:Gx,PhysicsJSONParser:zx,PointerConstraint:uT,World:BT}},UT=new at({initialize:function(t){
 /**
          * A handy reference to the Plugin Manager that is responsible for this plugin.
          * Can be used as a route to gain access to game systems and  events.
@@ -73128,7 +73128,7 @@ boot:function(){},
      * @method Phaser.Plugins.ScenePlugin#destroy
      * @since 3.8.0
      */
-destroy:function(){this.pluginManager=null,this.game=null,this.scene=null,this.systems=null}}),zT={BasePlugin:UT,DefaultPlugins:or,PluginCache:ss,PluginManager:Zo,ScenePlugin:XT},GT={CanvasRenderer:fr,GetBlendModes:cr,SetTransform:Al},WT={Canvas:ur,WebGL:Sa},VT=["#define SHADER_NAME PHASER_POSTFX_FS","","precision mediump float;","","uniform sampler2D uMainSampler;","","varying vec2 outTexCoord;","","void main ()","{","    gl_FragColor = texture2D(uMainSampler, outTexCoord);","}",""].join("\n"),HT=new at({Extends:Er,initialize:function(t){t.renderTarget=$(t,"renderTarget",1),t.fragShader=$(t,"fragShader",VT),t.vertShader=$(t,"vertShader",wa),t.attributes=$(t,"attributes",[{name:"inPosition",size:2},{name:"inTexCoord",size:2}]),t.batchSize=1,t.vertices=[-1,-1,0,0,-1,1,0,1,1,1,1,1,-1,-1,0,0,1,1,1,1,1,-1,1,0],Er.call(this,t),this.isPostFX=!0,
+destroy:function(){this.pluginManager=null,this.game=null,this.scene=null,this.systems=null}}),GT={BasePlugin:UT,DefaultPlugins:or,PluginCache:ss,PluginManager:Zo,ScenePlugin:XT},zT={CanvasRenderer:fr,GetBlendModes:cr,SetTransform:Al},WT={Canvas:ur,WebGL:Sa},VT=["#define SHADER_NAME PHASER_POSTFX_FS","","precision mediump float;","","uniform sampler2D uMainSampler;","","varying vec2 outTexCoord;","","void main ()","{","    gl_FragColor = texture2D(uMainSampler, outTexCoord);","}",""].join("\n"),HT=new at({Extends:Er,initialize:function(t){t.renderTarget=$(t,"renderTarget",1),t.fragShader=$(t,"fragShader",VT),t.vertShader=$(t,"vertShader",wa),t.attributes=$(t,"attributes",[{name:"inPosition",size:2},{name:"inTexCoord",size:2}]),t.batchSize=1,t.vertices=[-1,-1,0,0,-1,1,0,1,1,1,1,1,-1,-1,0,0,1,1,1,1,1,-1,1,0],Er.call(this,t),this.isPostFX=!0,
 /**
          * If this post-pipeline belongs to a Game Object or Camera, this contains a reference to it.
          *
@@ -73383,7 +73383,7 @@ var qT={PipelineManager:Ea,Pipelines:jT,RenderTarget:xr,Utils:wr,WebGLPipeline:E
 //   Merge in the consts
 qT=o(!1,qT,mr);
 //  Export it
-var KT={Canvas:GT,Events:Gt,Snapshot:WT,WebGL:qT},ZT={Center:_o,Events:ns,Orientation:Ao,ScaleManager:$o,ScaleModes:Co,Zoom:Mo};
+var KT={Canvas:zT,Events:zt,Snapshot:WT,WebGL:qT},ZT={Center:_o,Events:ns,Orientation:Ao,ScaleManager:$o,ScaleModes:Co,Zoom:Mo};
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -74100,7 +74100,7 @@ var n=tt;t instanceof gg.Circle?n=$d.CircleToRectangle:t instanceof gg.Rectangle
 // Top left corner of the shapes's bounding box, rounded down to include partial tiles
 s.tilemapLayer.worldToTileXY(t.left,t.top,!0,Bw,i);var r=Bw.x,a=Bw.y;
 // Bottom right corner of the shapes's bounding box, rounded up to include partial tiles
-s.tilemapLayer.worldToTileXY(t.right,t.bottom,!0,Nw,i);var o=Math.ceil(Nw.x),h=Math.ceil(Nw.y),l=Math.max(o-r,1),u=Math.max(h-a,1),c=wm(r,a,l,u,e,s),d=s.tileWidth,f=s.tileHeight;s.tilemapLayer&&(d*=s.tilemapLayer.scaleX,f*=s.tilemapLayer.scaleY);for(var p=[],g=new gg.Rectangle(0,0,d,f),v=0;v<c.length;v++){var m=c[v];s.tilemapLayer.tileToWorldXY(m.x,m.y,Iw,i),g.x=Iw.x,g.y=Iw.y,n(t,g)&&p.push(m)}return p},Uw=function(t,e,i){var s=i.baseTileWidth,n=i.tilemapLayer,r=0;return n&&(e||(e=n.scene.cameras.main),r=n.x+e.scrollX*(1-n.scrollFactorX),s*=n.scaleX),r+t*s},Xw=function(t){return t===rw.ORTHOGONAL?Uw:tt},zw=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=n.hexSideLength,c=h+t*r+e%2*(r/2),d=l+e*((a-u)/2+u);return i.set(c,d)},Gw=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=h+r/2*(t-e),c=l+(t+e)*(a/2);return i.set(u,c)},Ww=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=h+t*r+e%2*(r/2),c=l+e*(a/2);return i.set(u,c)},Vw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;return n&&(e||(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY),r+t*s},Hw=function(t,e,i,s,n){return i||(i=new It(0,0)),i.x=Uw(t,s,n),i.y=Vw(e,s,n),i},jw=function(t){return t===rw.ORTHOGONAL?Hw:t===rw.ISOMETRIC?Gw:t===rw.HEXAGONAL?zw:t===rw.STAGGERED?Ww:tt},qw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;n&&(void 0===e&&(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY);var a=n.tilemap.hexSideLength;return r+t*((s-a)/2+a)},Kw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;return n&&(void 0===e&&(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY),r+t*(s/2)},Zw=function(t){return t===rw.ORTHOGONAL?Vw:t===rw.HEXAGONAL?qw:t===rw.STAGGERED?Kw:tt},Jw=function(t,e,i,s){void 0===e&&(e=!0);var n=s.baseTileWidth,r=s.tilemapLayer;return r&&(i||(i=r.scene.cameras.main),
+s.tilemapLayer.worldToTileXY(t.right,t.bottom,!0,Nw,i);var o=Math.ceil(Nw.x),h=Math.ceil(Nw.y),l=Math.max(o-r,1),u=Math.max(h-a,1),c=wm(r,a,l,u,e,s),d=s.tileWidth,f=s.tileHeight;s.tilemapLayer&&(d*=s.tilemapLayer.scaleX,f*=s.tilemapLayer.scaleY);for(var p=[],g=new gg.Rectangle(0,0,d,f),v=0;v<c.length;v++){var m=c[v];s.tilemapLayer.tileToWorldXY(m.x,m.y,Iw,i),g.x=Iw.x,g.y=Iw.y,n(t,g)&&p.push(m)}return p},Uw=function(t,e,i){var s=i.baseTileWidth,n=i.tilemapLayer,r=0;return n&&(e||(e=n.scene.cameras.main),r=n.x+e.scrollX*(1-n.scrollFactorX),s*=n.scaleX),r+t*s},Xw=function(t){return t===rw.ORTHOGONAL?Uw:tt},Gw=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=n.hexSideLength,c=h+t*r+e%2*(r/2),d=l+e*((a-u)/2+u);return i.set(c,d)},zw=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=h+r/2*(t-e),c=l+(t+e)*(a/2);return i.set(u,c)},Ww=function(t,e,i,s,n){i||(i=new It);var r=n.baseTileWidth,a=n.baseTileHeight,o=n.tilemapLayer,h=0,l=0;o&&(s||(s=o.scene.cameras.main),h=o.x+s.scrollX*(1-o.scrollFactorX),r*=o.scaleX,l=o.y+s.scrollY*(1-o.scrollFactorY),a*=o.scaleY);var u=h+t*r+e%2*(r/2),c=l+e*(a/2);return i.set(u,c)},Vw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;return n&&(e||(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY),r+t*s},Hw=function(t,e,i,s,n){return i||(i=new It(0,0)),i.x=Uw(t,s,n),i.y=Vw(e,s,n),i},jw=function(t){return t===rw.ORTHOGONAL?Hw:t===rw.ISOMETRIC?zw:t===rw.HEXAGONAL?Gw:t===rw.STAGGERED?Ww:tt},qw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;n&&(void 0===e&&(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY);var a=n.tilemap.hexSideLength;return r+t*((s-a)/2+a)},Kw=function(t,e,i){var s=i.baseTileHeight,n=i.tilemapLayer,r=0;return n&&(void 0===e&&(e=n.scene.cameras.main),r=n.y+e.scrollY*(1-n.scrollFactorY),s*=n.scaleY),r+t*(s/2)},Zw=function(t){return t===rw.ORTHOGONAL?Vw:t===rw.HEXAGONAL?qw:t===rw.STAGGERED?Kw:tt},Jw=function(t,e,i,s){void 0===e&&(e=!0);var n=s.baseTileWidth,r=s.tilemapLayer;return r&&(i||(i=r.scene.cameras.main),
 // Find the world position relative to the static or dynamic layer's top left origin,
 // factoring in the camera's horizontal scroll
 t-=r.x+i.scrollX*(1-r.scrollFactorX),n*=r.scaleX),e?Math.floor(t/n):t/n},Qw=function(t){return t===rw.ORTHOGONAL?Jw:tt},$w=function(t,e,i,s,n,r){s||(s=new It);var a=r.baseTileWidth,o=r.baseTileHeight,h=r.tilemapLayer;h&&(n||(n=h.scene.cameras.main),
@@ -74699,7 +74699,7 @@ if(r)for(var o=0;o<n.height;o++)for(var h=0;h<n.width;h++){var l=n.data[o][h];l&
 for(var n=0;n<s.height;n++)for(var r=0;r<s.width;r++){var a=s.data[n][r];a&&-1===t.indexOf(a.index)&&(ww(a,e),Sb(a.index,e,s))}i&&cw(0,0,s.width,s.height,s)},Mb=function(t,e,i,s){void 0===e&&(e=!0),void 0===i&&(i=!0);for(var n=0;n<s.height;n++)for(var r=0;r<s.width;r++){var a=s.data[n][r];if(a)for(var o in t)if(Su(a.properties,o)){var h=t[o];Array.isArray(h)||(h=[h]);for(var l=0;l<h.length;l++)a.properties[o]===h[l]&&ww(a,e)}}i&&cw(0,0,s.width,s.height,s)},Rb=function(t,e,i){void 0===t&&(t=!0),void 0===e&&(e=!0);for(var s=0;s<i.height;s++)for(var n=0;n<i.width;n++){var r=i.data[s][n];if(r){var a=r.getCollisionGroup();
 // It's possible in Tiled to have a collision group without any shapes, e.g. create a
 // shape and then delete the shape.
-a&&a.objects&&a.objects.length>0&&ww(r,t)}}e&&cw(0,0,i.width,i.height,i)},Pb=function(t,e,i,s,n,r,a){for(var o=wm(t,e,i,s,null,a),h=0;h<o.length;h++)o[h].setCollisionCallback(n,r)},Ob=function(t,e,i,s,n){var r=wm(t,e,i,s,null,n),a=r.map((function(t){return t.index}));ti(a);for(var o=0;o<r.length;o++)r[o].index=a[o]},Lb=function(t,e,i,s,n,r,a){for(var o=wm(i,s,n,r,null,a),h=0;h<o.length;h++)o[h]&&(o[h].index===t?o[h].index=e:o[h].index===e&&(o[h].index=t))},Fb=function(t,e,i,s,n,r){if(n){var a,o=wm(t,e,i,s,null,r),h=0;for(a=0;a<n.length;a++)h+=n[a].weight;if(!(h<=0))for(a=0;a<o.length;a++){for(var l=Math.random()*h,u=0,c=-1,d=0;d<n.length;d++)if(l<=(u+=n[d].weight)){var f=n[d].index;c=Array.isArray(f)?f[Math.floor(Math.random()*f.length)]:f;break}o[a].index=c}}},kb={CalculateFacesAt:uw,CalculateFacesWithin:cw,CheckIsoBounds:fw,Copy:pw,CreateFromTiles:vw,CullBounds:yw,CullTiles:Tw,Fill:bw,FilterTiles:Ew,FindByIndex:Sw,FindTile:_w,ForEachTile:Aw,GetCullTilesFunction:Lw,GetTileAt:lw,GetTileAtWorldXY:kw,GetTilesWithin:wm,GetTilesWithinShape:Yw,GetTilesWithinWorldXY:Sm,GetTileToWorldXFunction:Xw,GetTileToWorldXYFunction:jw,GetTileToWorldYFunction:Zw,GetWorldToTileXFunction:Qw,GetWorldToTileXYFunction:nb,GetWorldToTileYFunction:ob,HasTileAt:hb,HasTileAtWorldXY:ub,HexagonalCullBounds:Cw,HexagonalCullTiles:Mw,HexagonalTileToWorldXY:zw,HexagonalTileToWorldY:qw,HexagonalWorldToTileXY:$w,HexagonalWorldToTileY:rb,IsInLayerBounds:hw,IsometricCullTiles:Rw,IsometricTileToWorldXY:Gw,IsometricWorldToTileXY:tb,PutTileAt:db,PutTileAtWorldXY:pb,PutTilesAt:gb,Randomize:vb,RemoveTileAt:mb,RemoveTileAtWorldXY:xb,RenderDebug:Eb,ReplaceByIndex:gw,RunCull:xw,SetCollision:_b,SetCollisionBetween:Ab,SetCollisionByExclusion:Cb,SetCollisionByProperty:Mb,SetCollisionFromCollisionGroup:Rb,SetLayerCollisionIndex:Sb,SetTileCollision:ww,SetTileIndexCallback:function(t,e,i,s){if("number"==typeof t)s.callbacks[t]=null!==e?{callback:e,callbackContext:i}:void 0;else for(var n=0,r=t.length;n<r;n++)s.callbacks[t[n]]=null!==e?{callback:e,callbackContext:i}:void 0},SetTileLocationCallback:Pb,Shuffle:Ob,StaggeredCullBounds:Pw,StaggeredCullTiles:Ow,StaggeredTileToWorldXY:Ww,StaggeredTileToWorldY:Kw,StaggeredWorldToTileXY:eb,StaggeredWorldToTileY:ab,SwapByIndex:Lb,TileToWorldX:Uw,TileToWorldXY:Hw,TileToWorldY:Vw,WeightedRandomize:Fb,WorldToTileX:Jw,WorldToTileXY:sb,WorldToTileY:ib},Db=function(t){return"isometric"===(t=t.toLowerCase())?rw.ISOMETRIC:"staggered"===t?rw.STAGGERED:"hexagonal"===t?rw.HEXAGONAL:rw.ORTHOGONAL},Ib=new at({initialize:function(t){void 0===t&&(t={})
+a&&a.objects&&a.objects.length>0&&ww(r,t)}}e&&cw(0,0,i.width,i.height,i)},Pb=function(t,e,i,s,n,r,a){for(var o=wm(t,e,i,s,null,a),h=0;h<o.length;h++)o[h].setCollisionCallback(n,r)},Ob=function(t,e,i,s,n){var r=wm(t,e,i,s,null,n),a=r.map((function(t){return t.index}));ti(a);for(var o=0;o<r.length;o++)r[o].index=a[o]},Lb=function(t,e,i,s,n,r,a){for(var o=wm(i,s,n,r,null,a),h=0;h<o.length;h++)o[h]&&(o[h].index===t?o[h].index=e:o[h].index===e&&(o[h].index=t))},Fb=function(t,e,i,s,n,r){if(n){var a,o=wm(t,e,i,s,null,r),h=0;for(a=0;a<n.length;a++)h+=n[a].weight;if(!(h<=0))for(a=0;a<o.length;a++){for(var l=Math.random()*h,u=0,c=-1,d=0;d<n.length;d++)if(l<=(u+=n[d].weight)){var f=n[d].index;c=Array.isArray(f)?f[Math.floor(Math.random()*f.length)]:f;break}o[a].index=c}}},kb={CalculateFacesAt:uw,CalculateFacesWithin:cw,CheckIsoBounds:fw,Copy:pw,CreateFromTiles:vw,CullBounds:yw,CullTiles:Tw,Fill:bw,FilterTiles:Ew,FindByIndex:Sw,FindTile:_w,ForEachTile:Aw,GetCullTilesFunction:Lw,GetTileAt:lw,GetTileAtWorldXY:kw,GetTilesWithin:wm,GetTilesWithinShape:Yw,GetTilesWithinWorldXY:Sm,GetTileToWorldXFunction:Xw,GetTileToWorldXYFunction:jw,GetTileToWorldYFunction:Zw,GetWorldToTileXFunction:Qw,GetWorldToTileXYFunction:nb,GetWorldToTileYFunction:ob,HasTileAt:hb,HasTileAtWorldXY:ub,HexagonalCullBounds:Cw,HexagonalCullTiles:Mw,HexagonalTileToWorldXY:Gw,HexagonalTileToWorldY:qw,HexagonalWorldToTileXY:$w,HexagonalWorldToTileY:rb,IsInLayerBounds:hw,IsometricCullTiles:Rw,IsometricTileToWorldXY:zw,IsometricWorldToTileXY:tb,PutTileAt:db,PutTileAtWorldXY:pb,PutTilesAt:gb,Randomize:vb,RemoveTileAt:mb,RemoveTileAtWorldXY:xb,RenderDebug:Eb,ReplaceByIndex:gw,RunCull:xw,SetCollision:_b,SetCollisionBetween:Ab,SetCollisionByExclusion:Cb,SetCollisionByProperty:Mb,SetCollisionFromCollisionGroup:Rb,SetLayerCollisionIndex:Sb,SetTileCollision:ww,SetTileIndexCallback:function(t,e,i,s){if("number"==typeof t)s.callbacks[t]=null!==e?{callback:e,callbackContext:i}:void 0;else for(var n=0,r=t.length;n<r;n++)s.callbacks[t[n]]=null!==e?{callback:e,callbackContext:i}:void 0},SetTileLocationCallback:Pb,Shuffle:Ob,StaggeredCullBounds:Pw,StaggeredCullTiles:Ow,StaggeredTileToWorldXY:Ww,StaggeredTileToWorldY:Kw,StaggeredWorldToTileXY:eb,StaggeredWorldToTileY:ab,SwapByIndex:Lb,TileToWorldX:Uw,TileToWorldXY:Hw,TileToWorldY:Vw,WeightedRandomize:Fb,WorldToTileX:Jw,WorldToTileXY:sb,WorldToTileY:ib},Db=function(t){return"isometric"===(t=t.toLowerCase())?rw.ISOMETRIC:"staggered"===t?rw.STAGGERED:"hexagonal"===t?rw.HEXAGONAL:rw.ORTHOGONAL},Ib=new at({initialize:function(t){void 0===t&&(t={})
 /**
          * The name of the layer, if specified in Tiled.
          *
@@ -75297,9 +75297,9 @@ updateTileData:function(t,e){var i=(e-2*this.tileMargin+this.tileSpacing)/(this.
 // - hence the floor when calculating the rows/columns.
 i=Math.floor(i),s=Math.floor(s),this.rows=i,this.columns=s,
 // In Tiled, "empty" spaces in a tileset count as tiles and hence count towards the gid
-this.total=i*s,this.texCoordinates.length=0;for(var n=this.tileMargin,r=this.tileMargin,a=0;a<this.rows;a++){for(var o=0;o<this.columns;o++)this.texCoordinates.push({x:n,y:r}),n+=this.tileWidth+this.tileSpacing;n=this.tileMargin,r+=this.tileHeight+this.tileSpacing}return this}}),zb=function(t){var e,i,s=[];for(e=0;e<t.imageCollections.length;e++)for(var n=t.imageCollections[e],r=n.images,a=0;a<r.length;a++){var o=r[a];(i=new Xb(o.image,o.gid,n.imageWidth,n.imageHeight,0,0)).updateTileData(n.imageWidth,n.imageHeight),t.tilesets.push(i)}for(e=0;e<t.tilesets.length;e++)for(var h=(i=t.tilesets[e]).tileMargin,l=i.tileMargin,u=0,c=0,d=0,f=i.firstgid;f<i.firstgid+i.total&&(
+this.total=i*s,this.texCoordinates.length=0;for(var n=this.tileMargin,r=this.tileMargin,a=0;a<this.rows;a++){for(var o=0;o<this.columns;o++)this.texCoordinates.push({x:n,y:r}),n+=this.tileWidth+this.tileSpacing;n=this.tileMargin,r+=this.tileHeight+this.tileSpacing}return this}}),Gb=function(t){var e,i,s=[];for(e=0;e<t.imageCollections.length;e++)for(var n=t.imageCollections[e],r=n.images,a=0;a<r.length;a++){var o=r[a];(i=new Xb(o.image,o.gid,n.imageWidth,n.imageHeight,0,0)).updateTileData(n.imageWidth,n.imageHeight),t.tilesets.push(i)}for(e=0;e<t.tilesets.length;e++)for(var h=(i=t.tilesets[e]).tileMargin,l=i.tileMargin,u=0,c=0,d=0,f=i.firstgid;f<i.firstgid+i.total&&(
 //  Can add extra properties here as needed
-s[f]=[h,l,e],h+=i.tileWidth+i.tileSpacing,++u!==i.total)&&(++c!==i.columns||(h=i.tileMargin,l+=i.tileHeight+i.tileSpacing,c=0,++d!==i.rows));f++);return s},Gb=function(t,e,i){if(!e)
+s[f]=[h,l,e],h+=i.tileWidth+i.tileSpacing,++u!==i.total)&&(++c!==i.columns||(h=i.tileMargin,l+=i.tileHeight+i.tileSpacing,c=0,++d!==i.rows));f++);return s},zb=function(t,e,i){if(!e)
 // Return a default group state object
 return{i:0,// Current layer array iterator
 layers:t.layers,// Current array of layers
@@ -75308,7 +75308,7 @@ name:"",opacity:1,visible:!0,x:0,y:0};
 // Compute group layer x, y
 var s=e.x+$(e,"startx",0)*t.tilewidth+$(e,"offsetx",0),n=e.y+$(e,"starty",0)*t.tileheight+$(e,"offsety",0);
 // Compute next state inherited from group
-return{i:0,layers:e.layers,name:i.name+e.name+"/",opacity:i.opacity*e.opacity,visible:i.visible&&e.visible,x:i.x+s,y:i.y+n}},Wb=function(t){for(var e=[],i=[],s=Gb(t)
+return{i:0,layers:e.layers,name:i.name+e.name+"/",opacity:i.opacity*e.opacity,visible:i.visible&&e.visible,x:i.x+s,y:i.y+n}},Wb=function(t){for(var e=[],i=[],s=zb(t)
 // State inherited from a parent group
 ;s.i<s.layers.length||i.length>0;)if(s.i>=s.layers.length){
 // Ensure recursion stack is not empty first
@@ -75318,7 +75318,7 @@ s=i.pop()}
 // Get current layer and advance iterator
 else{var n=s.layers[s.i];if(s.i++,"imagelayer"===n.type){var r=$(n,"offsetx",0)+$(n,"startx",0),a=$(n,"offsety",0)+$(n,"starty",0);e.push({name:s.name+n.name,image:n.image,x:s.x+r+n.x,y:s.y+a+n.y,alpha:s.opacity*n.opacity,visible:s.visible&&n.visible,properties:$(n,"properties",{})})}else if("group"===n.type){
 // Compute next state inherited from group
-var o=Gb(t,n,s);
+var o=zb(t,n,s);
 // Preserve current state before recursing
 i.push(s),s=o}
 // Skip this layer OR 'recurse' (iterative style) into the group
@@ -75399,7 +75399,7 @@ this.visible=$(t,"visible",!0),
          * @type {Phaser.Types.Tilemaps.TiledObject[]}
          * @since 3.0.0
          */
-this.objects=$(t,"objects",[])}}),tE=function(t){for(var e=[],i=[],s=Gb(t)
+this.objects=$(t,"objects",[])}}),tE=function(t){for(var e=[],i=[],s=zb(t)
 // State inherited from a parent group
 ;s.i<s.layers.length||i.length>0;)if(s.i>=s.layers.length){
 // Ensure recursion stack is not empty first
@@ -75411,13 +75411,13 @@ else{var n=s.layers[s.i];if(s.i++,
 // Modify inherited properties
 n.opacity*=s.opacity,n.visible=s.visible&&n.visible,"objectgroup"===n.type){n.name=s.name+n.name;for(var r=s.x+$(n,"startx",0)+$(n,"offsetx",0),a=s.y+$(n,"starty",0)+$(n,"offsety",0),o=[],h=0;h<n.objects.length;h++){var l=Qb(n.objects[h],r,a);o.push(l)}var u=new $b(n);u.objects=o,e.push(u)}else if("group"===n.type){
 // Compute next state inherited from group
-var c=Gb(t,n,s);
+var c=zb(t,n,s);
 // Preserve current state before recursing
 i.push(s),s=c}
 // Skip this layer OR 'recurse' (iterative style) into the group
 }return e},eE=function(t){
 // Interpret binaryString as an array of bytes representing little-endian encoded uint32 values.
-for(var e=window.atob(t),i=e.length,s=new Array(i/4),n=0;n<i;n+=4)s[n/4]=(e.charCodeAt(n)|e.charCodeAt(n+1)<<8|e.charCodeAt(n+2)<<16|e.charCodeAt(n+3)<<24)>>>0;return s},iE=function(t,e){for(var i=$(t,"infinite",!1),s=[],n=[],r=Gb(t);r.i<r.layers.length||n.length>0;)if(r.i>=r.layers.length){
+for(var e=window.atob(t),i=e.length,s=new Array(i/4),n=0;n<i;n+=4)s[n/4]=(e.charCodeAt(n)|e.charCodeAt(n+1)<<8|e.charCodeAt(n+2)<<16|e.charCodeAt(n+3)<<24)>>>0;return s},iE=function(t,e){for(var i=$(t,"infinite",!1),s=[],n=[],r=zb(t);r.i<r.layers.length||n.length>0;)if(r.i>=r.layers.length){
 // Ensure recursion stack is not empty first
 if(n.length<1){console.warn("TilemapParser.parseTiledJSON - Invalid layer group hierarchy");break}
 // Return to previous recursive state
@@ -75447,7 +75447,7 @@ for(var A=[],C=0,M=a.data.length;C<M;C++)
 // propeties into flipX, flipY and rotation
 (u=new cb(h,l.gid,f,d.length,t.tilewidth,t.tileheight)).rotation=l.rotation,u.flipX=l.flipped,A.push(u)):(c=e?null:new cb(h,-1,f,d.length,t.tilewidth,t.tileheight),A.push(c)),++f===a.width&&(d.push(A),f=0,A=[])}h.data=d,s.push(h)}else if("group"===a.type){
 // Compute next state inherited from group
-var R=Gb(t,a,r);
+var R=zb(t,a,r);
 // Preserve current state before recursing
 n.push(r),r=R}
 // Skip this layer OR 'recurse' (iterative style) into the group
@@ -75578,7 +75578,7 @@ o.updateTileData(a.imagewidth,a.imageheight),i.push(o)}else{var v=new sE(a.name,
 //  We've got a new Tileset, so set the lastgid into the previous one
 n&&(n.lastgid=a.firstgid-1),n=a}return{tilesets:i,imageCollections:s}},rE=function(t,e,i){
 //  Map data will consist of: layers, objects, images, tilesets, sizes
-var s=new Bb({width:e.width,height:e.height,name:t,tileWidth:e.tilewidth,tileHeight:e.tileheight,orientation:Db(e.orientation),format:jv.TILED_JSON,version:e.version,properties:e.properties,renderOrder:e.renderorder,infinite:e.infinite});s.orientation===rw.HEXAGONAL&&(s.hexSideLength=e.hexsidelength),s.layers=iE(e,i),s.images=Wb(e);var n=nE(e);return s.tilesets=n.tilesets,s.imageCollections=n.imageCollections,s.objects=tE(e),s.tiles=zb(s),Ub(s),s},aE=function(t,e){for(var i=[],s=0;s<t.layer.length;s++){
+var s=new Bb({width:e.width,height:e.height,name:t,tileWidth:e.tilewidth,tileHeight:e.tileheight,orientation:Db(e.orientation),format:jv.TILED_JSON,version:e.version,properties:e.properties,renderOrder:e.renderorder,infinite:e.infinite});s.orientation===rw.HEXAGONAL&&(s.hexSideLength=e.hexsidelength),s.layers=iE(e,i),s.images=Wb(e);var n=nE(e);return s.tilesets=n.tilesets,s.imageCollections=n.imageCollections,s.objects=tE(e),s.tiles=Gb(s),Ub(s),s},aE=function(t,e){for(var i=[],s=0;s<t.layer.length;s++){
 //  Loop through the data field in the JSON. This is a 2D array containing the tile indexes,
 //  one after the other. The indexes are relative to the tileset that contains the tile.
 for(var n=t.layer[s],r=new Ib({name:n.name,width:n.width,height:n.height,tileWidth:n.tilesize,tileHeight:n.tilesize,visible:1===n.visible}),a=[],o=[],h=0;h<n.data.length;h++){for(var l=0;l<n.data[h].length;l++){
@@ -75589,7 +75589,7 @@ var u,c=n.data[h][l]-1;u=c>-1?new cb(r,c,l,h,n.tilesize,n.tilesize):e?null:new c
 ""!==r&&-1===i.indexOf(r)&&(i.push(r),
 // Tiles are stored with an ID relative to the tileset, rather than a globally unique ID
 // across all tilesets. Also, tilesets in Weltmeister have no margin or padding.
-e.push(new Xb(r,0,n.tilesize,n.tilesize,0,0)))}return e},hE=function(t,e,i){if(0===e.layer.length)return console.warn("No layers found in the Weltmeister map: "+t),null;for(var s=0,n=0,r=0;r<e.layer.length;r++)e.layer[r].width>s&&(s=e.layer[r].width),e.layer[r].height>n&&(n=e.layer[r].height);var a=new Bb({width:s,height:n,name:t,tileWidth:e.layer[0].tilesize,tileHeight:e.layer[0].tilesize,format:jv.WELTMEISTER});return a.layers=aE(e,i),a.tilesets=oE(e),a},lE=function(t,e,i,s,n,r){var a;switch(e){case jv.ARRAY_2D:a=Nb(t,i,s,n,r);break;case jv.CSV:a=Yb(t,i,s,n,r);break;case jv.TILED_JSON:a=rE(t,i,r);break;case jv.WELTMEISTER:a=hE(t,i,r);break;default:console.warn("Unrecognized tilemap data format: "+e),a=null}return a},uE={FromOrientationString:Db,Parse:lE,Parse2DArray:Nb,ParseCSV:Yb,Impact:{ParseTileLayers:aE,ParseTilesets:oE,ParseWeltmeister:hE},Tiled:{AssignTileProperties:Ub,Base64Decode:eE,BuildTilesetIndex:zb,CreateGroupLayer:Gb,ParseGID:Kb,ParseImageLayers:Wb,ParseJSONTiled:rE,ParseObject:Qb,ParseObjectLayers:tE,ParseTileLayers:iE,ParseTilesets:nE}},cE=function(t,e,i){var s=e.cull(i),n=s.length,r=i.alpha*e.alpha;if(!(0===n||r<=0)){var a=e.gidMap,o=t.pipelines.set(e.pipeline,e),h=wr.getTintAppendFloatAlpha,l=e.scrollFactorX,u=e.scrollFactorY,c=e.x,d=e.y,f=e.scaleX,p=e.scaleY;t.pipelines.preBatch(e);for(var g=0;g<n;g++){var v=s[g],m=a[v.index];if(m){var y=m.getTileTextureCoordinates(v.index);if(null!==y){var x=m.glTexture,T=o.setTexture2D(x,e),w=m.tileWidth,b=m.tileHeight,E=y.x,S=y.y,_=.5*m.tileWidth,A=.5*m.tileHeight,C=h(v.tint,r*v.alpha);o.batchTexture(e,x,x.width,x.height,c+(_+v.pixelX)*f,d+(A+v.pixelY)*p,v.width,v.height,f,p,v.rotation,v.flipX,v.flipY,l,u,_,A,E,S,w,b,C,C,C,C,!1,0,0,i,null,!0,T)}}}t.pipelines.postBatch(e)}},dE=new ue,fE=new ue,pE=new ue,gE={renderWebGL:cE,renderCanvas:function(t,e,i,s){var n=e.cull(i),r=n.length,a=i.alpha*e.alpha;if(!(0===r||a<=0)){var o=dE,h=fE,l=pE;h.applyITRS(e.x,e.y,e.rotation,e.scaleX,e.scaleY),o.copyFrom(i.matrix);var u=t.currentContext,c=e.gidMap;u.save(),s?(
+e.push(new Xb(r,0,n.tilesize,n.tilesize,0,0)))}return e},hE=function(t,e,i){if(0===e.layer.length)return console.warn("No layers found in the Weltmeister map: "+t),null;for(var s=0,n=0,r=0;r<e.layer.length;r++)e.layer[r].width>s&&(s=e.layer[r].width),e.layer[r].height>n&&(n=e.layer[r].height);var a=new Bb({width:s,height:n,name:t,tileWidth:e.layer[0].tilesize,tileHeight:e.layer[0].tilesize,format:jv.WELTMEISTER});return a.layers=aE(e,i),a.tilesets=oE(e),a},lE=function(t,e,i,s,n,r){var a;switch(e){case jv.ARRAY_2D:a=Nb(t,i,s,n,r);break;case jv.CSV:a=Yb(t,i,s,n,r);break;case jv.TILED_JSON:a=rE(t,i,r);break;case jv.WELTMEISTER:a=hE(t,i,r);break;default:console.warn("Unrecognized tilemap data format: "+e),a=null}return a},uE={FromOrientationString:Db,Parse:lE,Parse2DArray:Nb,ParseCSV:Yb,Impact:{ParseTileLayers:aE,ParseTilesets:oE,ParseWeltmeister:hE},Tiled:{AssignTileProperties:Ub,Base64Decode:eE,BuildTilesetIndex:Gb,CreateGroupLayer:zb,ParseGID:Kb,ParseImageLayers:Wb,ParseJSONTiled:rE,ParseObject:Qb,ParseObjectLayers:tE,ParseTileLayers:iE,ParseTilesets:nE}},cE=function(t,e,i){var s=e.cull(i),n=s.length,r=i.alpha*e.alpha;if(!(0===n||r<=0)){var a=e.gidMap,o=t.pipelines.set(e.pipeline,e),h=wr.getTintAppendFloatAlpha,l=e.scrollFactorX,u=e.scrollFactorY,c=e.x,d=e.y,f=e.scaleX,p=e.scaleY;t.pipelines.preBatch(e);for(var g=0;g<n;g++){var v=s[g],m=a[v.index];if(m){var y=m.getTileTextureCoordinates(v.index);if(null!==y){var x=m.glTexture,T=o.setTexture2D(x,e),w=m.tileWidth,b=m.tileHeight,E=y.x,S=y.y,_=.5*m.tileWidth,A=.5*m.tileHeight,C=h(v.tint,r*v.alpha);o.batchTexture(e,x,x.width,x.height,c+(_+v.pixelX)*f,d+(A+v.pixelY)*p,v.width,v.height,f,p,v.rotation,v.flipX,v.flipY,l,u,_,A,E,S,w,b,C,C,C,C,!1,0,0,i,null,!0,T)}}}t.pipelines.postBatch(e)}},dE=new ue,fE=new ue,pE=new ue,gE={renderWebGL:cE,renderCanvas:function(t,e,i,s){var n=e.cull(i),r=n.length,a=i.alpha*e.alpha;if(!(0===r||a<=0)){var o=dE,h=fE,l=pE;h.applyITRS(e.x,e.y,e.rotation,e.scaleX,e.scaleY),o.copyFrom(i.matrix);var u=t.currentContext,c=e.gidMap;u.save(),s?(
 //  Multiply the camera by the parent matrix
 o.multiplyWithOffset(s,-i.scrollX*e.scrollFactorX,-i.scrollY*e.scrollFactorY),
 //  Undo the camera scroll
@@ -78018,7 +78018,7 @@ var e=void 0!==t?t:{};return yE(this.scene,e.key,e.tileWidth,e.tileHeight,e.widt
  * 
  * @return {Phaser.Tilemaps.Tilemap}
  */
-za.register("tilemap",(function(t,e,i,s,n,r,a){
+Ga.register("tilemap",(function(t,e,i,s,n,r,a){
 // Allow users to specify null to indicate that they want the default value, since null is
 // shorter & more legible than undefined. Convert null to undefined to allow ParseToTilemap
 // defaults to take effect.
@@ -79281,7 +79281,7 @@ IE.TYPES=["onActive","onComplete","onLoop","onRepeat","onStart","onStop","onUpda
  *
  * @return {Phaser.Tweens.Tween} The Tween that was created.
  */
-za.register("tween",(function(t){return this.scene.sys.tweens.add(t)})),
+Ga.register("tween",(function(t){return this.scene.sys.tweens.add(t)})),
 //  When registering a factory function 'this' refers to the GameObjectFactory context.
 //  There are several properties available to use:
 //  this.scene - a reference to the Scene that owns the GameObjectFactory
@@ -79380,7 +79380,7 @@ var E=Zt(e,"callbackScope",b),S=[b,null],_=BE.TYPES,A=0
 //  Callback parameters: 0 = a reference to the Tween itself, 1 = the target/s of the Tween, ... your own params
 ;A<_.length;A++){var C=_[A],M=Zt(e,C,!1);if(M){var R=Zt(e,C+"Scope",E),P=Zt(e,C+"Params",[]);
 //  The null is reset to be the Tween target
-b.setCallback(C,M,S.concat(P),R)}}return b},zE=new at({Extends:Te,initialize:function(t){Te.call(this),
+b.setCallback(C,M,S.concat(P),R)}}return b},GE=new at({Extends:Te,initialize:function(t){Te.call(this),
 /**
          * The Tween Manager which owns this Timeline.
          *
@@ -79750,7 +79750,7 @@ resetTweens:function(t){for(var e=0;e<this.totalData;e++){this.data[e].play(t)}}
      *
      * @return {this} This Timeline object.
      */
-setCallback:function(t,e,i,s){return-1!==zE.TYPES.indexOf(t)&&(this.callbacks[t]={func:e,scope:s,params:i}),this},
+setCallback:function(t,e,i,s){return-1!==GE.TYPES.indexOf(t)&&(this.callbacks[t]={func:e,scope:s,params:i}),this},
 /**
      * Passed a Tween to the Tween Manager and requests it be made active.
      *
@@ -79884,7 +79884,7 @@ destroy:function(){for(var t=0;t<this.data.length;t++)this.data[t].stop()}});
  * @param {boolean} flipY - Should toggleFlipY be called when yoyo or repeat happens?
  *
  * @return {Phaser.Types.Tweens.TweenDataConfig} The config object describing this TweenData.
- */zE.TYPES=["onStart","onUpdate","onLoop","onComplete","onYoyo"];var GE=zE,WE=function(t,e){var i=new GE(t);i.completeDelay=yl(e,"completeDelay",0),i.loop=Math.round(yl(e,"loop",0)),i.loopDelay=Math.round(yl(e,"loopDelay",0)),i.paused=Kt(e,"paused",!1),i.useFrames=Kt(e,"useFrames",!1);
+ */GE.TYPES=["onStart","onUpdate","onLoop","onComplete","onYoyo"];var zE=GE,WE=function(t,e){var i=new zE(t);i.completeDelay=yl(e,"completeDelay",0),i.loop=Math.round(yl(e,"loop",0)),i.loopDelay=Math.round(yl(e,"loopDelay",0)),i.paused=Kt(e,"paused",!1),i.useFrames=Kt(e,"useFrames",!1);
 //  Callbacks
 var s=Zt(e,"callbackScope",i),n=[i],r=Zt(e,"onStart",!1);
 //  The Start of the Timeline
@@ -80303,7 +80303,7 @@ destroy:function(){this.shutdown(),this.scene.sys.events.off(rs.START,this.start
  * @param {Phaser.Types.Tweens.TimelineBuilderConfig} config - The configuration object for the Timeline.
  *
  * @return {Phaser.Tweens.Timeline} The created Timeline.
- */ss.register("TweenManager",HE,"tweens");var jE={Builders:VE,Events:DE,TweenManager:HE,Tween:BE,TweenData:NE,Timeline:GE};
+ */ss.register("TweenManager",HE,"tweens");var jE={Builders:VE,Events:DE,TweenManager:HE,Tween:BE,TweenData:NE,Timeline:zE};
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -80313,7 +80313,7 @@ destroy:function(){this.shutdown(),this.scene.sys.events.off(rs.START,this.start
  * @namespace Phaser.Tweens
  */
 //   Merge in the consts
-jE=o(!1,jE,Jt);var qE="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",KE=function(t,e){var i=rh(t);for(var s in e)i.hasOwnProperty(s)&&(i[s]=e[s]);return i},ZE={SoundManagerCreator:Uh,Events:bh,BaseSound:Ch,BaseSoundManager:Ah,WebAudioSound:Nh,WebAudioSoundManager:Yh,HTML5AudioSound:Mh,HTML5AudioSoundManager:Rh,NoAudioSound:Lh,NoAudioSoundManager:Fh},JE={Actions:si,Animations:pi,BlendModes:i,Cache:yi,Cameras:os,Core:Oa,Class:at,Create:ka,Curves:Qa,Data:to,Display:wo,DOM:ko,Events:Io,Game:zh,GameObjects:td,Geom:gg,Input:Ug,Loader:am,Math:ar,Physics:YT,Plugins:zT,Renderer:KT,Scale:JT,ScaleModes:s,Scene:uh,Scenes:tw,Structs:ew,Textures:nw,Tilemaps:TE,Time:EE,Tweens:jE,Utils:{Array:rl,Base64:{ArrayBufferToBase64:function(t,e){for(var i=new Uint8Array(t),s=i.length,n=e?"data:"+e+";base64,":"",r=0;r<s;r+=3)n+=qE[i[r]>>2],n+=qE[(3&i[r])<<4|i[r+1]>>4],n+=qE[(15&i[r+1])<<2|i[r+2]>>6],n+=qE[63&i[r+2]];return s%3==2?n=n.substring(0,n.length-1)+"=":s%3==1&&(n=n.substring(0,n.length-2)+"=="),n},Base64ToArrayBuffer:Bh},Objects:{Clone:rh,DeepCopy:te,Extend:o,GetAdvancedValue:yl,GetFastValue:$,GetMinMaxValue:function(t,e,i,s,n){void 0===n&&(n=i);var r=Zt(t,e,n);return ct(r,i,s)},GetValue:Zt,HasAll:function(t,e){for(var i=0;i<e.length;i++)if(!t.hasOwnProperty(e[i]))return!1;return!0},HasAny:Eu,HasValue:Su,IsPlainObject:r,Merge:ah,MergeRight:KE,Pick:Vb,SetValue:Oc},String:{Format:function(t,e){return t.replace(/%([0-9]+)/g,(function(t,i){return e[Number(i)-1]}))},Pad:ui,RemoveAt:function(t,e){return 0===e?t.slice(1):t.slice(0,e-1)+t.slice(e)},Reverse:function(t){return t.split("").reverse().join("")},UppercaseFirst:ih,UUID:Xu},NOOP:tt}};
+jE=o(!1,jE,Jt);var qE="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",KE=function(t,e){var i=rh(t);for(var s in e)i.hasOwnProperty(s)&&(i[s]=e[s]);return i},ZE={SoundManagerCreator:Uh,Events:bh,BaseSound:Ch,BaseSoundManager:Ah,WebAudioSound:Nh,WebAudioSoundManager:Yh,HTML5AudioSound:Mh,HTML5AudioSoundManager:Rh,NoAudioSound:Lh,NoAudioSoundManager:Fh},JE={Actions:si,Animations:pi,BlendModes:i,Cache:yi,Cameras:os,Core:Oa,Class:at,Create:ka,Curves:Qa,Data:to,Display:wo,DOM:ko,Events:Io,Game:Gh,GameObjects:td,Geom:gg,Input:Ug,Loader:am,Math:ar,Physics:YT,Plugins:GT,Renderer:KT,Scale:JT,ScaleModes:s,Scene:uh,Scenes:tw,Structs:ew,Textures:nw,Tilemaps:TE,Time:EE,Tweens:jE,Utils:{Array:rl,Base64:{ArrayBufferToBase64:function(t,e){for(var i=new Uint8Array(t),s=i.length,n=e?"data:"+e+";base64,":"",r=0;r<s;r+=3)n+=qE[i[r]>>2],n+=qE[(3&i[r])<<4|i[r+1]>>4],n+=qE[(15&i[r+1])<<2|i[r+2]>>6],n+=qE[63&i[r+2]];return s%3==2?n=n.substring(0,n.length-1)+"=":s%3==1&&(n=n.substring(0,n.length-2)+"=="),n},Base64ToArrayBuffer:Bh},Objects:{Clone:rh,DeepCopy:te,Extend:o,GetAdvancedValue:yl,GetFastValue:$,GetMinMaxValue:function(t,e,i,s,n){void 0===n&&(n=i);var r=Zt(t,e,n);return ct(r,i,s)},GetValue:Zt,HasAll:function(t,e){for(var i=0;i<e.length;i++)if(!t.hasOwnProperty(e[i]))return!1;return!0},HasAny:Eu,HasValue:Su,IsPlainObject:r,Merge:ah,MergeRight:KE,Pick:Vb,SetValue:Oc},String:{Format:function(t,e){return t.replace(/%([0-9]+)/g,(function(t,i){return e[Number(i)-1]}))},Pad:ui,RemoveAt:function(t,e){return 0===e?t.slice(1):t.slice(0,e-1)+t.slice(e)},Reverse:function(t){return t.split("").reverse().join("")},UppercaseFirst:ih,UUID:Xu},NOOP:tt}};
 /**
  * @author       Niklas von Hertzen (https://github.com/niklasvh/base64-arraybuffer)
  * @author       Richard Davey <rich@photonstorm.com>
@@ -80642,7 +80642,7 @@ t.prototype.reset=function(){this.currentState=this._startState},
 /**
          * Whether or not the current state equals the given state
          */
-t.prototype.is=function(t){return this.currentState===t},t.prototype._transitionTo=function(t,e){var i=this;this._exitCallbacks[this.currentState.toString()]||(this._exitCallbacks[this.currentState.toString()]=[]),this._enterCallbacks[t.toString()]||(this._enterCallbacks[t.toString()]=[]),this._onCallbacks[t.toString()]||(this._onCallbacks[t.toString()]=[]);var s=this._exitCallbacks[this.currentState.toString()].reduce((function(e,s){return e&&s.call(i,t)}),!0),n=this._enterCallbacks[t.toString()].reduce((function(t,s){return t&&s.call(i,i.currentState,e)}),!0);if(s&&n){var r=this.currentState;this.currentState=t,this._onCallbacks[this.currentState.toString()].forEach((function(t){t.call(i,r,e)})),this.onTransition(r,t)}},t}();t.FiniteStateMachine=s}(iS||(iS={}));var oS,hS,lS,uS,cS,dS,fS=iS;class pS{}pS.soundEffectConfig={mute:!1,volume:1,rate:1,detune:0,seek:0,loop:!1,delay:0};class gS{}gS.resourceCount=300;class vS{}vS.Neutral=0,vS.Player=1,vS.Enemy=2;class mS{}mS.Base="Base",mS.Factory="Factory",mS.Mine="Mine",mS.Scaffold="Scaffold",function(t){class e{}e.Selected="Select",e.Move="Move",e.Mine="Mine",t.EntityActions=e;class i{}i.FinishedMoving="FinishedMoving",t.EntityMovingUpdates=i;class s{}var n;s.CreateEngineer="CreateEngineer",s.CreateGlider="CreateGlider",s.CreateBase="CreateBase",s.CreateFactory="CreateFactory",s.CreateBuilding="CreateBuilding",s.DestroyScaffold="DestroyScaffold",t.EntityBuild=s,(n=t.BuildingStates||(t.BuildingStates={})).Idle="Idle",n.Building="Building";class r{}r.BuildEngineer="BuildEngineer",r.BuildGlider="BuildGlider",r.RequestBuildEngineer="RequestBuildEngineer",r.RequestCancelEngineer="RequestCancelEngineer",r.RequestBuildGlider="RequestBuildGlider",r.RequestCancelGlider="RequestCancelGlider",r.RequestBuildBase="RequestBuildBase",r.RequestBuildScaffold="RequestBuildScaffold",r.RequestBuildFactory="RequestBuildFactory",r.Cancel="Create",t.Input=r;class a{}a.UpdateResourceCount="UpdateResourceCount",a.AddResources="AddResources",a.RemoveResources="RemoveResources",a.DestroyEntity="DestroyEntity",t.Game=a}(oS||(oS={}));class yS extends Phaser.Events.EventEmitter{constructor(t){super(),this.scene=t,this.EngineerMining=t.sound.add("Engineer_Mining",pS.soundEffectConfig),this.EngineerMoving1=t.sound.add("Engineer_Moving_1",pS.soundEffectConfig),this.EngineerMoving2=t.sound.add("Engineer_Moving_2",pS.soundEffectConfig),this.EngineerAttacking=t.sound.add("Engineer_Attacking",pS.soundEffectConfig),this.IdleEngineerSelected2=t.sound.add("Engineer_Idle_Selected_2",pS.soundEffectConfig),this.IdleEngineerSelected1=t.sound.add("Engineer_Idle_Selected_1",pS.soundEffectConfig)}static getInstance(t){return this.instance||(this.instance=new this(t)),this.instance}}class xS extends Phaser.Events.EventEmitter{constructor(){super()}static getInstance(){return this.instance||(this.instance=new this),this.instance}}class TS extends Phaser.GameObjects.Sprite{constructor(t,e,i,s,n,r,a,o,h){let l=Phaser.Tilemaps.Components.IsometricTileToWorldXY(n,r,new Phaser.Math.Vector2,s.cameras.main,t.getLayer("Tile Layer 1"));super(s,l.x,l.y,a,h),this.selectedRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y,this.width,this.height,16777215,0).setStrokeStyle(1,16777215),this.healthBackgroundRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y-(10+this.displayHeight/2),40,5,16777215,1),this.healthForegroundRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y-(10+this.displayHeight/2),38,3,413459,1),s.add.existing(this.selectedRectangle),s.add.existing(this.healthBackgroundRectangle),s.add.existing(this.healthForegroundRectangle),this.selectedRectangle.setVisible(!1),this.eventEmitter=xS.getInstance(),this.setDepth(n+r),this.subscribers=[],this.setInteractive(new Phaser.Geom.Circle(this.width/2,this.height/2,this.width/3),this.handler),this.on("pointerup",((t,e,i,s)=>{this.emitSelected(t,e,i,s)}),this),this.mapReference=t,s.add.existing(this),this.icon=e,this.health=100,this.status="Idle",this.name=i,this.selected=!1,this.team=o}GetTileLocation(){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)}subscribe(t){this.subscribers.push(t)}unsubscribe(t){const e=this.subscribers.indexOf(t);e>-1&&this.subscribers.splice(e,1)}handler(t,e,i,s){return t.radius>0&&e>=t.left&&e<=t.right&&i>=t.top&&i<=t.bottom&&(t.x-e)*(t.x-e)+(t.y-i)*(t.y-i)<=t.radius*t.radius}emitSelected(t,e,i,s){this.selected||(s.stopPropagation(),this.eventEmitter.emit(oS.EntityActions.Selected,this))}getIconString(){return this.icon}getHealth(){return this.health}getStatus(){return this.status}getName(){return this.name}damage(t){this.health-=t,this.health<=0?this.eventEmitter.emit(oS.Game.DestroyEntity,this):this.healthForegroundRectangle.displayWidth=this.health/100*38}updateRenderDepth(){var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-16,this.y-16,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer);this.selectedRectangle.setX(this.x),this.selectedRectangle.setY(this.y),this.selectedRectangle.setDepth(250),this.healthBackgroundRectangle.setX(this.x),this.healthBackgroundRectangle.setY(this.y-(10+this.displayHeight/2)),this.healthBackgroundRectangle.setDepth(250),this.healthForegroundRectangle.setX(this.x-19*(1-this.health/100)),this.healthForegroundRectangle.setY(this.y-(10+this.displayHeight/2)),this.healthForegroundRectangle.setDepth(250),this.setDepth(t.x+t.y)}update(t){this.updateRenderDepth()}destroy(){this.selectedRectangle.destroy(),this.healthBackgroundRectangle.destroy(),this.healthForegroundRectangle.destroy(),super.destroy()}updateSelected(t){this.selectedRectangle.setVisible(t),this.selected=t}}class wS extends TS{constructor(t,e,i,s,n,r,a,o,h){super(t,e,i,s,n,r,a,o,h),this.speed=100,this.centerToTileOffset=0,this.path=[],this.movingEventEmitter=new Phaser.Events.EventEmitter}requestMove(t){}updateAngle(t){}//stub
+t.prototype.is=function(t){return this.currentState===t},t.prototype._transitionTo=function(t,e){var i=this;this._exitCallbacks[this.currentState.toString()]||(this._exitCallbacks[this.currentState.toString()]=[]),this._enterCallbacks[t.toString()]||(this._enterCallbacks[t.toString()]=[]),this._onCallbacks[t.toString()]||(this._onCallbacks[t.toString()]=[]);var s=this._exitCallbacks[this.currentState.toString()].reduce((function(e,s){return e&&s.call(i,t)}),!0),n=this._enterCallbacks[t.toString()].reduce((function(t,s){return t&&s.call(i,i.currentState,e)}),!0);if(s&&n){var r=this.currentState;this.currentState=t,this._onCallbacks[this.currentState.toString()].forEach((function(t){t.call(i,r,e)})),this.onTransition(r,t)}},t}();t.FiniteStateMachine=s}(iS||(iS={}));var oS,hS,lS,uS,cS,dS,fS=iS;class pS{}pS.soundEffectConfig={mute:!1,volume:1,rate:1,detune:0,seek:0,loop:!1,delay:0};class gS{}gS.resourceCount=300;class vS{}vS.Neutral=0,vS.Player=1,vS.Enemy=2;class mS{}mS.Base="Base",mS.Factory="Factory",mS.Mine="Mine",mS.Scaffold="Scaffold",function(t){class e{}e.Selected="Select",e.Move="Move",e.Mine="Mine",t.EntityActions=e;class i{}i.FinishedMoving="FinishedMoving",t.EntityMovingUpdates=i;class s{}var n;s.CreateEngineer="CreateEngineer",s.CreateGlider="CreateGlider",s.CreateBase="CreateBase",s.CreateFactory="CreateFactory",s.CreateBuilding="CreateBuilding",s.DestroyScaffold="DestroyScaffold",t.EntityBuild=s,(n=t.BuildingStates||(t.BuildingStates={})).Idle="Idle",n.Building="Building";class r{}r.BuildEngineer="BuildEngineer",r.BuildGlider="BuildGlider",r.RequestBuildEngineer="RequestBuildEngineer",r.RequestCancelEngineer="RequestCancelEngineer",r.RequestBuildGlider="RequestBuildGlider",r.RequestCancelGlider="RequestCancelGlider",r.RequestBuildBase="RequestBuildBase",r.RequestBuildScaffold="RequestBuildScaffold",r.RequestBuildFactory="RequestBuildFactory",r.Cancel="Create",t.Input=r;class a{}a.UpdateResourceCount="UpdateResourceCount",a.AddResources="AddResources",a.RemoveResources="RemoveResources",a.DestroyEntity="DestroyEntity",t.Game=a}(oS||(oS={}));class yS extends Phaser.Events.EventEmitter{constructor(t){super(),this.scene=t,this.EngineerMining=t.sound.add("Engineer_Mining",pS.soundEffectConfig),this.EngineerMoving1=t.sound.add("Engineer_Moving_1",pS.soundEffectConfig),this.EngineerMoving2=t.sound.add("Engineer_Moving_2",pS.soundEffectConfig),this.EngineerAttacking=t.sound.add("Engineer_Attacking",pS.soundEffectConfig),this.IdleEngineerSelected2=t.sound.add("Engineer_Idle_Selected_2",pS.soundEffectConfig),this.IdleEngineerSelected1=t.sound.add("Engineer_Idle_Selected_1",pS.soundEffectConfig)}static getInstance(t){return this.instance||(this.instance=new this(t)),this.instance}}class xS extends Phaser.Events.EventEmitter{constructor(){super()}static getInstance(){return this.instance||(this.instance=new this),this.instance}}class TS extends Phaser.GameObjects.Sprite{constructor(t,e,i,s,n,r,a,o,h){let l=Phaser.Tilemaps.Components.IsometricTileToWorldXY(n,r,new Phaser.Math.Vector2,s.cameras.main,t.getLayer("Tile Layer 1"));super(s,l.x,l.y,a,h),this.selectedRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y,this.width,this.height,16777215,0).setStrokeStyle(1,16777215),this.healthBackgroundRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y-(10+this.displayHeight/2),40,5,16777215,1),this.healthForegroundRectangle=new Phaser.GameObjects.Rectangle(s,this.x,this.y-(10+this.displayHeight/2),38,3,413459,1),s.add.existing(this.selectedRectangle),s.add.existing(this.healthBackgroundRectangle),s.add.existing(this.healthForegroundRectangle),this.selectedRectangle.setVisible(!1),this.eventEmitter=xS.getInstance(),this.setDepth(n+r),this.subscribers=[],this.setInteractive(new Phaser.Geom.Circle(this.width/2,this.height/2,this.width/3),this.handler),this.on("pointerup",((t,e,i,s)=>{this.emitSelected(t,e,i,s)}),this),this.mapReference=t,s.add.existing(this),this.icon=e,this.health=100,this.status="Idle",this.name=i,this.selected=!1,this.team=o,this.fogOfWarMask=this.scene.make.image({x:this.x,y:this.y,key:"vision",add:!1}),this.fogOfWarMask.scale=1.5}GetFogOfWarMask(){return this.fogOfWarMask}GetTileLocation(){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)}subscribe(t){this.subscribers.push(t)}unsubscribe(t){const e=this.subscribers.indexOf(t);e>-1&&this.subscribers.splice(e,1)}handler(t,e,i,s){return t.radius>0&&e>=t.left&&e<=t.right&&i>=t.top&&i<=t.bottom&&(t.x-e)*(t.x-e)+(t.y-i)*(t.y-i)<=t.radius*t.radius}emitSelected(t,e,i,s){this.selected||(s.stopPropagation(),this.eventEmitter.emit(oS.EntityActions.Selected,this))}getIconString(){return this.icon}getHealth(){return this.health}getStatus(){return this.status}getName(){return this.name}damage(t){this.health-=t,this.health<=0?this.eventEmitter.emit(oS.Game.DestroyEntity,this):this.healthForegroundRectangle.displayWidth=this.health/100*38}updateRenderDepth(){var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-16,this.y-16,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer);this.selectedRectangle.setX(this.x),this.selectedRectangle.setY(this.y),this.fogOfWarMask.setX(this.x),this.fogOfWarMask.setY(this.y),this.selectedRectangle.setDepth(100),this.healthBackgroundRectangle.setX(this.x),this.healthBackgroundRectangle.setY(this.y-(10+this.displayHeight/2)),this.healthBackgroundRectangle.setDepth(100),this.healthForegroundRectangle.setX(this.x-19*(1-this.health/100)),this.healthForegroundRectangle.setY(this.y-(10+this.displayHeight/2)),this.healthForegroundRectangle.setDepth(100),this.setDepth(t.x+t.y)}update(t){this.updateRenderDepth()}destroy(){this.selectedRectangle.destroy(),this.healthBackgroundRectangle.destroy(),this.healthForegroundRectangle.destroy(),this.fogOfWarMask.destroy(),super.destroy()}updateSelected(t){this.selectedRectangle.setVisible(t),this.selected=t}}class wS extends TS{constructor(t,e,i,s,n,r,a,o,h){super(t,e,i,s,n,r,a,o,h),this.speed=100,this.centerToTileOffset=0,this.path=[],this.movingEventEmitter=new Phaser.Events.EventEmitter}requestMove(t){}updateAngle(t){}//stub
 update(t){super.update(t);let e=this.speed*t*.001;for(;this.path.length>0;){var i=this.path[0].x,s=this.path[0].y;let t=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);t.x+=this.mapReference.layer.tileWidth/2,t.y+=this.mapReference.layer.tileWidth/2-this.centerToTileOffset;let n=new Phaser.Math.Vector2(this.x,this.y);
 //v*t = d;
 if(t.distance(n)<e&&this.path.length>1)this.path.shift(),e-=t.distance(n);else{if(!(t.distance(n)<e&&1==this.path.length)){this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,t.x,t.y));let i=e/t.distance(n);return this.x+=(t.x-this.x)*i,void(this.y+=(t.y-this.y)*i)}this.path.shift(),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,t.x,t.y)),this.x=t.x,this.y=t.y,this.movingEventEmitter.emit(oS.EntityMovingUpdates.FinishedMoving)}}}}!function(t){t.Idle="Idle",t.Moving="Moving",t.Mining="Mining",t.Building="Building"}(hS||(hS={})),function(t){t.Initial="InitialMine",t.GoingToMine="GoingToMine",t.InMine="InMine",t.GoingToBase="GoingToBase",t.InBase="InBase"}(lS||(lS={})),function(t){t.Initial="InitialBuilding",t.GoingToBuilding="GoingToBuilding",t.Building="Building"}(uS||(uS={})),function(t){t.Default="",t.Mining="Mining",t.Action="Action"}(cS||(cS={}));class bS extends wS{constructor(t,e,i,s,n){super(t,"Portrait_Engineer","Engineer",e,i,s,"player-"+n,n),this.engineerFSM=this.createFSM(),this.miningFSM=this.createMiningFSM(),this.buildingFSM=this.createBuildingFSM(),this.pathFinder=rS.getInstance(),this.anims.play("engineer-"+n+"-SW",!0),this.currentAnimation=cS.Default,this.speed=80}createBuildingFSM(){let t=new fS.FiniteStateMachine(uS.Initial);return t.from(uS.Initial).to(uS.GoingToBuilding),t.from(uS.GoingToBuilding).to(uS.Building),t.from(uS.Building).to(uS.Initial),t.on(uS.Building,(t=>{this.currentAnimation=cS.Action,this.updateAngle(Math.PI/2),this.ProcessBuilding()})),t.onExit(uS.Building,(t=>(this.currentAnimation=cS.Default,this.updateAngle(Math.PI/2),!0))),t.on(uS.GoingToBuilding,(t=>{this.updatePathToBuilding()})),t}createFSM(){let t=new fS.FiniteStateMachine(hS.Idle);return t.from(hS.Idle).to(hS.Moving),t.from(hS.Idle).to(hS.Mining),t.from(hS.Idle).to(hS.Building),t.from(hS.Moving).to(hS.Building),t.from(hS.Building).to(hS.Moving),t.from(hS.Building).to(hS.Idle),t.from(hS.Mining).to(hS.Building),t.from(hS.Moving).to(hS.Idle),t.from(hS.Mining).to(hS.Idle),t.from(hS.Moving).to(hS.Mining),t.from(hS.Mining).to(hS.Moving),t.on(hS.Building,(t=>{for(let t of this.subscribers)t.notify(hS.Building)})),t.on(hS.Idle,(t=>{for(let t of this.subscribers)t.notify(hS.Idle)})),t.on(hS.Moving,(t=>{for(let t of this.subscribers)t.notify(hS.Moving);this.Move()})),t.on(hS.Mining,(t=>{for(let t of this.subscribers)t.notify(hS.Mining);this.Mine()})),t.onExit(hS.Mining,(t=>(this.miningFSM.reset(),this.currentAnimation=cS.Default,this.alpha=1,!0))),t.onExit(hS.Building,(t=>(this.buildingFSM.reset(),this.currentAnimation=cS.Default,!0))),t}updateNearestBase(t){this.nearestBase=t}updatePathToMine(){var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,t,this.scene.cameras.main,this.mapReference.layer),e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.targetMine.x,this.targetMine.y,!0,e,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(t.x-1,t.y,e.x-3,e.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift())})),this.pathFinder.calculate()}updatePathToBuilding(){this.path=[];var t=this.GetTileLocation(),e=new Phaser.Math.Vector2(this.targetBuilding.desiredBuildingCoordinates.x-2,this.targetBuilding.desiredBuildingCoordinates.y-2);this.pathFinder.findPath(t.x-1,t.y,e.x-1,e.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToBuilding())})),this.pathFinder.calculate()}createMiningFSM(){let t=new fS.FiniteStateMachine(lS.Initial);return t.from(lS.Initial).to(lS.GoingToMine),t.from(lS.GoingToMine).to(lS.InMine),t.from(lS.InMine).to(lS.GoingToBase),t.from(lS.GoingToBase).to(lS.InBase),t.from(lS.InBase).to(lS.GoingToMine),t.on(lS.GoingToMine,(t=>{var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer),i=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.targetMine.x,this.targetMine.y,!0,i,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(e.x-1,e.y,i.x-3,i.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToMine())})),this.pathFinder.calculate()})),t.on(lS.GoingToBase,(t=>{var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer),i=this.nearestBase.GetTileLocation();this.pathFinder.findPath(e.x-1,e.y,i.x,i.y-1,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),this.MoveToBase())})),this.pathFinder.calculate()})),t.on(lS.InMine,(t=>{this.MoveInsideMine()})),t.on(lS.InBase,(t=>{this.MoveInsideBase()})),t}requestMine(t){this.targetMine==t&&this.engineerFSM.is(hS.Mining)||(yS.getInstance(this.scene).EngineerMining.play(),this.targetMine=t,this.miningFSM.is(lS.GoingToMine)?this.updatePathToMine():!this.miningFSM.canGo(lS.GoingToMine)||this.miningFSM.go(lS.GoingToMine),this.engineerFSM.is(hS.Mining)||this.engineerFSM.go(hS.Mining))}requestBuild(t){this.targetBuilding==t&&this.engineerFSM.is(hS.Building)||(this.targetBuilding=t,this.buildingFSM.is(uS.GoingToBuilding)?this.updatePathToBuilding():!this.buildingFSM.canGo(uS.GoingToBuilding)||this.buildingFSM.go(uS.GoingToBuilding),this.engineerFSM.is(hS.Building)||this.engineerFSM.go(hS.Building))}Mine(){}MoveInsideMineExit(){var t=[];t.push({targets:this,alpha:{value:1,duration:500},x:{value:this.x+3*this.mapReference.layer.tileWidth/2,duration:1500},onComplete:()=>{this.miningFSM.go(lS.GoingToBase)}}),this.currentAnimation=cS.Mining,this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x+3*this.mapReference.layer.tileWidth/2,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideMine(){var t=[];t.push({targets:this,alpha:{value:0,duration:500},x:{value:this.x+this.mapReference.layer.tileWidth,duration:1e3},onComplete:()=>{this.MoveInsideMineExit()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x+this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideBaseExit(){var t=[];t.push({targets:this,alpha:{value:1,duration:1e3},x:{value:this.x-this.mapReference.layer.tileWidth,duration:1e3},onComplete:()=>{this.eventEmitter.emit(oS.Game.AddResources,25),this.miningFSM.go(lS.GoingToMine)}}),this.currentAnimation=cS.Default,this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x-this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveInsideBase(){var t=[];t.push({targets:this,alpha:{value:0,duration:500},x:{value:this.x-this.mapReference.layer.tileWidth/2,duration:1e3},onComplete:()=>{this.MoveInsideBaseExit()}}),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.x-this.mapReference.layer.tileWidth,this.y)),this.scene.tweens.timeline({tweens:t})}MoveToMine(){this.miningFSM.is(lS.GoingToMine)&&null!=this.path&&this.path.length>0&&this.movingEventEmitter.once(oS.EntityMovingUpdates.FinishedMoving,(()=>{this.miningFSM.is(lS.GoingToMine)&&this.miningFSM.go(lS.InMine)}))}ProcessBuilding(){var t=[];t.push({targets:this,NOTHING:{value:0,duration:1e3},onComplete:()=>{this.targetBuilding.increaseBuildingCompletionProgress()?(this.buildingFSM.go(uS.Initial),this.engineerFSM.go(hS.Idle)):this.ProcessBuilding()}}),this.scene.tweens.timeline({tweens:t})}MoveToBuilding(){this.buildingFSM.is(uS.GoingToBuilding)&&null!=this.path&&this.path.length>0&&this.movingEventEmitter.once(oS.EntityMovingUpdates.FinishedMoving,(()=>{this.buildingFSM.is(uS.GoingToBuilding)&&this.buildingFSM.go(uS.Building)}))}MoveToBase(){this.miningFSM.is(lS.GoingToBase)&&null!=this.path&&this.path.length>0&&this.movingEventEmitter.once(oS.EntityMovingUpdates.FinishedMoving,(()=>{this.miningFSM.is(lS.GoingToBase)&&this.miningFSM.go(lS.InBase)}))}requestMove(t){console.log("X:"+t.x+" , Y:"+t.y),this.targetDestination=t;var e=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y,!0,e,this.scene.cameras.main,this.mapReference.layer);this.pathFinder.findPath(e.x-1,e.y,t.x-1,t.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),//first move is current position
@@ -80660,9 +80660,9 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
-***************************************************************************** */function ES(t,e,i,s){return new(i||(i=Promise))((function(n,r){function a(t){try{h(s.next(t))}catch(t){r(t)}}function o(t){try{h(s.throw(t))}catch(t){r(t)}}function h(t){var e;t.done?n(t.value):(e=t.value,e instanceof i?e:new i((function(t){t(e)}))).then(a,o)}h((s=s.apply(t,e||[])).next())}))}class SS extends TS{constructor(t,e,i,s,n,r,a,o,h){super(t,e,i,s,n,r,a,o),this.blockedTiles=[],this.blockedTiles.push(new Phaser.Math.Vector2(n-1,r)),this.blockedTiles.push(new Phaser.Math.Vector2(n-2,r)),this.blockedTiles.push(new Phaser.Math.Vector2(n-1,r-1)),this.blockedTiles.push(new Phaser.Math.Vector2(n-2,r-1)),this.avoidAdditionalPoints()}avoidAdditionalPoints(){for(let t of this.blockedTiles)rS.getInstance().avoidAdditionalPoint(t.x,t.y)}stopAvoidingAdditionalPoints(){for(let t of this.blockedTiles)rS.getInstance().stopAvoidingAdditionalPoint(t.x,t.y)}destroy(){this.stopAvoidingAdditionalPoints(),super.destroy()}}class _S extends SS{constructor(t,e,i,s,n,r,a,o,h,l,u){super(t,e,i,s,n,r,h,l),this.createEntityEvent=o,this.eventEmitter.on(a,(()=>{!this.selected||this.requestBuild()})),this.eventEmitter.on(oS.Input.Cancel,(()=>{!this.selected||this.requestCancel()})),this.buildingFSM=this.createFSM(),this.buildCounter=0}createFSM(){let t=new fS.FiniteStateMachine(oS.BuildingStates.Idle);return t.from(oS.BuildingStates.Idle).to(oS.BuildingStates.Building),t.from(oS.BuildingStates.Building).to(oS.BuildingStates.Idle),t.on(oS.BuildingStates.Building,(t=>ES(this,void 0,void 0,(function*(){for(let t of this.subscribers)t.notify(oS.BuildingStates.Building);yield this.Build()})))),t.on(oS.BuildingStates.Idle,(t=>ES(this,void 0,void 0,(function*(){for(let t of this.subscribers)t.notify(oS.BuildingStates.Idle)})))),t}requestBuild(){this.buildingFSM.go(oS.BuildingStates.Building)}requestCancel(){this.buildCounter=0,this.buildingFSM.go(oS.BuildingStates.Idle)}getStatus(){return this.buildingFSM.currentState.toString()}Build(){return ES(this,void 0,void 0,(function*(){yield this.delay(500),this.buildingFSM.is(oS.BuildingStates.Building)&&(this.buildCounter++,10!=this.buildCounter?yield this.Build():(this.buildCounter=0,this.eventEmitter.emit(this.createEntityEvent,Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-32,this.y-32,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)),this.buildingFSM.go(oS.BuildingStates.Idle)))}))}delay(t){return new Promise((e=>setTimeout(e,t)))}}class AS extends _S{constructor(t,e,i,s,n){super(t,"home_base-"+n,"Base",e,i,s,oS.Input.BuildEngineer,oS.EntityBuild.CreateEngineer,"home_base-"+n,n)}}class CS extends SS{constructor(t,e,i,s){super(t,"mine","Mine",e,i,s,"mine",0),this.status="Operating",this.healthForegroundRectangle.setVisible(!1),this.healthBackgroundRectangle.setVisible(!1)}}class MS extends TS{constructor(t,e,i,s,n){super(t,"turret-"+n,"Turret",e,i,s,"turret-"+n,n),this.y+=this.mapReference.layer.tileWidth/4,rS.getInstance().avoidAdditionalPoint(i-1,s),this.status="Operating"}}!function(t){t.Idle="Idle",t.Moving="Moving",t.Attacking="Attacking"}(dS||(dS={}));class RS extends wS{constructor(t,e,i,s,n){super(t,"gliderPortrait-"+n,"Glider",e,i,s,"glider-"+n,n),this.y+=this.mapReference.layer.tileWidth/4,this.removeInteractive(),this.setInteractive(new Phaser.Geom.Circle(this.displayWidth/2,1*this.displayWidth/4,this.displayWidth/2),this.handler),this.pathFinder=aS.getInstance(),this.gliderFSM=this.createFSM(),this.anims.play("glider-"+this.team+"-NW",!0),this.tweenManager=new Phaser.Tweens.TweenManager(e),this.centerToTileOffset=16}createFSM(){let t=new fS.FiniteStateMachine(dS.Idle);return t.from(dS.Idle).to(dS.Moving),t.from(dS.Moving).to(dS.Idle),t.from(dS.Moving).to(dS.Attacking),t.from(dS.Attacking).to(dS.Moving),t.from(dS.Attacking).to(dS.Idle),t.from(dS.Idle).to(dS.Attacking),t.on(dS.Idle,(t=>{for(let t of this.subscribers)t.notify(dS.Idle)})),t.on(dS.Moving,(t=>{for(let t of this.subscribers)t.notify(dS.Moving);this.Move()})),t.on(dS.Attacking,(t=>{for(let t of this.subscribers)t.notify(dS.Attacking);this.Attack()})),t}destroyBullet(t,e){e.damage(5),t.destroy()}CreateBullet(){return ES(this,void 0,void 0,(function*(){var t=[];let e=new Phaser.GameObjects.PointLight(this.scene,this.x,this.y,240,7,.5,.3);e.setDepth(this.targetEntity.GetTileLocation().x+this.targetEntity.GetTileLocation().y),t.push({targets:e,x:{value:this.targetEntity.x,duration:200},y:{value:this.targetEntity.y,duration:200},onComplete:()=>{this.destroyBullet(e,this.targetEntity)}}),this.scene.tweens.timeline({tweens:t}),this.scene.add.existing(e)}))}Attack(){var t=[];let e=500,i=this.GetTileLocation();if(this.targetEntity&&this.targetEntity.health>0&&this.gliderFSM.is(dS.Attacking)){if(this.targetEntity.GetTileLocation().distance(i)<7&&(this.CreateBullet(),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.targetEntity.x,this.targetEntity.y))),this.gliderFSM.is(dS.Attacking)&&null!=this.path&&this.path.length>0&&this.targetEntity.GetTileLocation().distance(i)>4){var s=this.path[0].x,n=this.path[0].y,r=Phaser.Tilemaps.Components.IsometricTileToWorldXY(s,n,undefined,this.scene.cameras.main,this.mapReference.layer);i.y-(r.y+this.mapReference.layer.tileWidth/2)>-2&&i.y-(r.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Attack()}}),this.scene.tweens.timeline({tweens:t})}else this.gliderFSM.is(dS.Attacking)?(t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Attack()}}),this.scene.tweens.timeline({tweens:t}),this.path=[]):this.gliderFSM.is(dS.Attacking)||this.gliderFSM.go(dS.Idle);null!=this.path&&this.path.length>0&&this.targetEntity.GetTileLocation().distance(new Phaser.Math.Vector2(this.path[this.path.length-1].x,this.path[this.path.length-1].y))>7&&this.requestAttack(this.targetEntity)}else this.gliderFSM.is(dS.Attacking)&&this.gliderFSM.go(dS.Idle)}Move(){var t=[];let e=500;if(this.gliderFSM.is(dS.Moving)&&null!=this.path&&this.path.length>0){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);let r=this.GetTileLocation();r.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&r.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Move()}}),this.scene.tweens.timeline({tweens:t})}else this.gliderFSM.is(dS.Moving)&&this.gliderFSM.go(dS.Idle)}delay(t){return new Promise((e=>setTimeout(e,t)))}cancelMove(){this.gliderFSM.go(dS.Idle)}getStatus(){return this.gliderFSM.currentState.toString()}updateAngle(t){t=Phaser.Math.Angle.Normalize(t),(t=Phaser.Math.RadToDeg(t)+90)>360&&(t-=360),t>337.5&&t<=360||t>0&&t<=22.5?this.anims.play("glider-"+this.team+"-N",!0):t>22.5&&t<=67.5?this.anims.play("glider-"+this.team+"-NE",!0):t>67.5&&t<=112.5?this.anims.play("glider-"+this.team+"-E",!0):t>112.5&&t<=157.5?this.anims.play("glider-"+this.team+"-SE",!0):t>157.5&&t<=202.5?this.anims.play("glider-"+this.team+"-S",!0):t>202.5&&t<=247.5?this.anims.play("glider-"+this.team+"-SW",!0):t>247.5&&t<=292.5?this.anims.play("glider-"+this.team+"-W",!0):t>292.5&&t<=337.5&&this.anims.play("glider-"+this.team+"-NW",!0)}updateRenderDepth(){super.updateRenderDepth();var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y+16,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer);this.selectedRectangle.setX(this.x),this.selectedRectangle.setY(this.y),this.selectedRectangle.setDepth(t.x+t.y+3),this.setDepth(t.x+t.y+3)}requestMove(t){this.targetDestination=t;var e=this.GetTileLocation();this.pathFinder.findPath(e.x-1,e.y,t.x-1,t.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),//first move is current position
+***************************************************************************** */function ES(t,e,i,s){return new(i||(i=Promise))((function(n,r){function a(t){try{h(s.next(t))}catch(t){r(t)}}function o(t){try{h(s.throw(t))}catch(t){r(t)}}function h(t){var e;t.done?n(t.value):(e=t.value,e instanceof i?e:new i((function(t){t(e)}))).then(a,o)}h((s=s.apply(t,e||[])).next())}))}class SS extends TS{constructor(t,e,i,s,n,r,a,o,h){super(t,e,i,s,n,r,a,o),this.blockedTiles=[],this.blockedTiles.push(new Phaser.Math.Vector2(n-1,r)),this.blockedTiles.push(new Phaser.Math.Vector2(n-2,r)),this.blockedTiles.push(new Phaser.Math.Vector2(n-1,r-1)),this.blockedTiles.push(new Phaser.Math.Vector2(n-2,r-1)),this.avoidAdditionalPoints(),this.fogOfWarMask.scale=2}avoidAdditionalPoints(){for(let t of this.blockedTiles)rS.getInstance().avoidAdditionalPoint(t.x,t.y)}stopAvoidingAdditionalPoints(){for(let t of this.blockedTiles)rS.getInstance().stopAvoidingAdditionalPoint(t.x,t.y)}destroy(){this.stopAvoidingAdditionalPoints(),super.destroy()}}class _S extends SS{constructor(t,e,i,s,n,r,a,o,h,l,u){super(t,e,i,s,n,r,h,l),this.createEntityEvent=o,this.eventEmitter.on(a,(()=>{!this.selected||this.requestBuild()})),this.eventEmitter.on(oS.Input.Cancel,(()=>{!this.selected||this.requestCancel()})),this.buildingFSM=this.createFSM(),this.buildCounter=0}createFSM(){let t=new fS.FiniteStateMachine(oS.BuildingStates.Idle);return t.from(oS.BuildingStates.Idle).to(oS.BuildingStates.Building),t.from(oS.BuildingStates.Building).to(oS.BuildingStates.Idle),t.on(oS.BuildingStates.Building,(t=>ES(this,void 0,void 0,(function*(){for(let t of this.subscribers)t.notify(oS.BuildingStates.Building);yield this.Build()})))),t.on(oS.BuildingStates.Idle,(t=>ES(this,void 0,void 0,(function*(){for(let t of this.subscribers)t.notify(oS.BuildingStates.Idle)})))),t}requestBuild(){this.buildingFSM.go(oS.BuildingStates.Building)}requestCancel(){this.buildCounter=0,this.buildingFSM.go(oS.BuildingStates.Idle)}getStatus(){return this.buildingFSM.currentState.toString()}Build(){return ES(this,void 0,void 0,(function*(){yield this.delay(500),this.buildingFSM.is(oS.BuildingStates.Building)&&(this.buildCounter++,10!=this.buildCounter?yield this.Build():(this.buildCounter=0,this.eventEmitter.emit(this.createEntityEvent,Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x-32,this.y-32,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)),this.buildingFSM.go(oS.BuildingStates.Idle)))}))}delay(t){return new Promise((e=>setTimeout(e,t)))}}class AS extends _S{constructor(t,e,i,s,n){super(t,"home_base-"+n,"Base",e,i,s,oS.Input.BuildEngineer,oS.EntityBuild.CreateEngineer,"home_base-"+n,n)}}class CS extends SS{constructor(t,e,i,s){super(t,"mine","Mine",e,i,s,"mine",0),this.status="Operating",this.healthForegroundRectangle.setVisible(!1),this.healthBackgroundRectangle.setVisible(!1)}}class MS extends TS{constructor(t,e,i,s,n){super(t,"turret-"+n,"Turret",e,i,s,"turret-"+n,n),this.y+=this.mapReference.layer.tileWidth/4,rS.getInstance().avoidAdditionalPoint(i-1,s),this.status="Operating"}}!function(t){t.Idle="Idle",t.Moving="Moving",t.Attacking="Attacking"}(dS||(dS={}));class RS extends wS{constructor(t,e,i,s,n){super(t,"gliderPortrait-"+n,"Glider",e,i,s,"glider-"+n,n),this.y+=this.mapReference.layer.tileWidth/4,this.removeInteractive(),this.setInteractive(new Phaser.Geom.Circle(this.displayWidth/2,1*this.displayWidth/4,this.displayWidth/2),this.handler),this.pathFinder=aS.getInstance(),this.gliderFSM=this.createFSM(),this.anims.play("glider-"+this.team+"-NW",!0),this.tweenManager=new Phaser.Tweens.TweenManager(e),this.centerToTileOffset=16}createFSM(){let t=new fS.FiniteStateMachine(dS.Idle);return t.from(dS.Idle).to(dS.Moving),t.from(dS.Moving).to(dS.Idle),t.from(dS.Moving).to(dS.Attacking),t.from(dS.Attacking).to(dS.Moving),t.from(dS.Attacking).to(dS.Idle),t.from(dS.Idle).to(dS.Attacking),t.on(dS.Idle,(t=>{for(let t of this.subscribers)t.notify(dS.Idle)})),t.on(dS.Moving,(t=>{for(let t of this.subscribers)t.notify(dS.Moving);this.Move()})),t.on(dS.Attacking,(t=>{for(let t of this.subscribers)t.notify(dS.Attacking);this.Attack()})),t}destroyBullet(t,e){e.damage(5),t.destroy()}CreateBullet(){return ES(this,void 0,void 0,(function*(){var t=[];let e=new Phaser.GameObjects.PointLight(this.scene,this.x,this.y,240,7,.5,.3);e.setDepth(this.targetEntity.GetTileLocation().x+this.targetEntity.GetTileLocation().y),t.push({targets:e,x:{value:this.targetEntity.x,duration:200},y:{value:this.targetEntity.y,duration:200},onComplete:()=>{this.destroyBullet(e,this.targetEntity)}}),this.scene.tweens.timeline({tweens:t}),this.scene.add.existing(e)}))}Attack(){var t=[];let e=500,i=this.GetTileLocation();if(this.targetEntity&&this.targetEntity.health>0&&this.gliderFSM.is(dS.Attacking)){if(this.targetEntity.GetTileLocation().distance(i)<7&&(this.CreateBullet(),this.updateAngle(Phaser.Math.Angle.Between(this.x,this.y,this.targetEntity.x,this.targetEntity.y))),this.gliderFSM.is(dS.Attacking)&&null!=this.path&&this.path.length>0&&this.targetEntity.GetTileLocation().distance(i)>4){var s=this.path[0].x,n=this.path[0].y,r=Phaser.Tilemaps.Components.IsometricTileToWorldXY(s,n,undefined,this.scene.cameras.main,this.mapReference.layer);i.y-(r.y+this.mapReference.layer.tileWidth/2)>-2&&i.y-(r.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Attack()}}),this.scene.tweens.timeline({tweens:t})}else this.gliderFSM.is(dS.Attacking)?(t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Attack()}}),this.scene.tweens.timeline({tweens:t}),this.path=[]):this.gliderFSM.is(dS.Attacking)||this.gliderFSM.go(dS.Idle);null!=this.path&&this.path.length>0&&this.targetEntity.GetTileLocation().distance(new Phaser.Math.Vector2(this.path[this.path.length-1].x,this.path[this.path.length-1].y))>7&&this.requestAttack(this.targetEntity)}else this.gliderFSM.is(dS.Attacking)&&this.gliderFSM.go(dS.Idle)}Move(){var t=[];let e=500;if(this.gliderFSM.is(dS.Moving)&&null!=this.path&&this.path.length>0){var i=this.path[0].x,s=this.path[0].y,n=Phaser.Tilemaps.Components.IsometricTileToWorldXY(i,s,undefined,this.scene.cameras.main,this.mapReference.layer);let r=this.GetTileLocation();r.y-(n.y+this.mapReference.layer.tileWidth/2)>-2&&r.y-(n.y+this.mapReference.layer.tileWidth/2)<2&&(e+=.3*e),t.push({targets:this,NOTHING:{value:0,duration:e},onComplete:()=>{this.Move()}}),this.scene.tweens.timeline({tweens:t})}else this.gliderFSM.is(dS.Moving)&&this.gliderFSM.go(dS.Idle)}delay(t){return new Promise((e=>setTimeout(e,t)))}cancelMove(){this.gliderFSM.go(dS.Idle)}getStatus(){return this.gliderFSM.currentState.toString()}updateAngle(t){t=Phaser.Math.Angle.Normalize(t),(t=Phaser.Math.RadToDeg(t)+90)>360&&(t-=360),t>337.5&&t<=360||t>0&&t<=22.5?this.anims.play("glider-"+this.team+"-N",!0):t>22.5&&t<=67.5?this.anims.play("glider-"+this.team+"-NE",!0):t>67.5&&t<=112.5?this.anims.play("glider-"+this.team+"-E",!0):t>112.5&&t<=157.5?this.anims.play("glider-"+this.team+"-SE",!0):t>157.5&&t<=202.5?this.anims.play("glider-"+this.team+"-S",!0):t>202.5&&t<=247.5?this.anims.play("glider-"+this.team+"-SW",!0):t>247.5&&t<=292.5?this.anims.play("glider-"+this.team+"-W",!0):t>292.5&&t<=337.5&&this.anims.play("glider-"+this.team+"-NW",!0)}updateRenderDepth(){super.updateRenderDepth();var t=Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y+16,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer);this.selectedRectangle.setX(this.x),this.selectedRectangle.setY(this.y),this.selectedRectangle.setDepth(t.x+t.y+3),this.setDepth(t.x+t.y+3)}requestMove(t){this.targetDestination=t;var e=this.GetTileLocation();this.pathFinder.findPath(e.x-1,e.y,t.x-1,t.y,(t=>{null!=t&&t.length>0&&(this.path=t,this.path.shift(),//first move is current position
 Math.random()>.5?yS.getInstance(this.scene).EngineerMoving1.play():yS.getInstance(this.scene).EngineerMoving2.play(),this.gliderFSM.go(dS.Moving))})),this.pathFinder.calculate()}requestAttack(t){this.targetEntity=t,this.targetDestination=t.GetTileLocation();var e=this.GetTileLocation();this.pathFinder.findPath(e.x-1,e.y,this.targetDestination.x-1,this.targetDestination.y,(t=>{null!=t&&t.length>0?(this.path=t,this.path.shift(),//first move is current position
-Math.random(),yS.getInstance(this.scene).EngineerAttacking.play(),this.gliderFSM.go(dS.Attacking)):this.gliderFSM.go(dS.Idle)})),this.pathFinder.calculate()}update(t){super.update(t)}GetTileLocation(){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y+this.centerToTileOffset,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)}}class PS extends _S{constructor(t,e,i,s,n){super(t,"factory-"+n,"Factory",e,i,s,oS.Input.BuildGlider,oS.EntityBuild.CreateGlider,"factory-"+n,n),this.setInteractive(new Phaser.Geom.Circle(this.width/2,this.height/2,this.width/4),this.handler)}}class OS extends SS{constructor(t,e,i,s,n,r){super(t,"scaffold",n,e,i,s,"scaffold",r),this.desiredBuilding=n,this.desiredBuildingCoordinates=new Phaser.Math.Vector2(i,s),this.status="...",this.buildingCompletionTarget=10,this.buildingCompletionProgress=0}increaseBuildingCompletionProgress(){return this.buildingCompletionProgress++,this.buildingCompletionProgress>=this.buildingCompletionTarget&&(this.eventEmitter.emit(oS.EntityBuild.DestroyScaffold,this),this.eventEmitter.emit(oS.EntityBuild.CreateBuilding,this.desiredBuildingCoordinates.x,this.desiredBuildingCoordinates.y,this.desiredBuilding),!0)}}class LS{constructor(t,e){this.scene=t,this.map=e,this.entityList=new Array,this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.EntityBuild.CreateEngineer,(t=>{this.createEngineerEntity(t.x,t.y,1)})),this.eventEmitter.on(oS.EntityBuild.CreateGlider,(t=>{this.createGliderEntity(t.x,t.y,1)})),this.eventEmitter.on(oS.Game.DestroyEntity,(t=>{this.deleteEntity(t)})),this.resources=gS.resourceCount,this.eventEmitter.emit(oS.EntityBuild.DestroyScaffold),this.eventEmitter.emit(oS.EntityBuild.CreateBuilding),this.eventEmitter.on(oS.EntityBuild.DestroyScaffold,(t=>{this.deleteEntity(t)})),this.eventEmitter.on(oS.EntityBuild.CreateBuilding,((t,e,i)=>{this.createEntity(t,e,i,1)})),this.eventEmitter.on(oS.Input.RequestBuildScaffold,((t,e)=>{if(e==mS.Base){if(!(this.resources>=500))return;this.resources-=500,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}else if(e==mS.Factory){if(!(this.resources>=300))return;this.resources-=300,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}let i=this.createScaffoldEntity(t.GetTileLocation().x,t.GetTileLocation().y,e,1);t.requestBuild(i)})),this.eventEmitter.on(oS.Game.AddResources,(t=>{this.resources+=t,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Game.RemoveResources,(t=>{this.resources-=t,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Input.RequestBuildEngineer,(()=>{this.resources>=100&&(this.resources-=100,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources),this.eventEmitter.emit(oS.Input.BuildEngineer,{}))})),this.eventEmitter.on(oS.Input.RequestCancelEngineer,(()=>{this.resources+=100,this.eventEmitter.emit(oS.Input.Cancel,{}),this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Input.RequestBuildGlider,(()=>{this.resources>=300&&(this.resources-=300,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources),this.eventEmitter.emit(oS.Input.BuildGlider,{}))})),this.eventEmitter.on(oS.Input.RequestCancelGlider,(()=>{this.resources+=300,this.eventEmitter.emit(oS.Input.Cancel,{}),this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}))}getNearestBaseToEntity(t){let e;for(let i of this.entityList)i instanceof AS&&(null==e||new Phaser.Math.Vector2(e.x,e.y).distance(new Phaser.Math.Vector2(t.x,t.y))>new Phaser.Math.Vector2(i.x,i.y).distance(new Phaser.Math.Vector2(t.x,t.y)))&&(e=i);return e}createEntity(t,e,i,s){switch(i){case mS.Base:this.createBaseEntity(t,e,s);break;case mS.Factory:this.createFactoryEntity(t,e,s)}}createEngineerEntity(t,e,i){let s=new bS(this.map,this.scene,t,e,i);return this.entityList.push(s),s.updateNearestBase(this.getNearestBaseToEntity(s)),s}createBaseEntity(t,e,i){let s=new AS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createMineEntity(t,e){let i=new CS(this.map,this.scene,t,e);return this.entityList.push(i),i}createTurretEntity(t,e,i){let s=new MS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createScaffoldEntity(t,e,i,s){let n=new OS(this.map,this.scene,t,e,i,s);return this.entityList.push(n),n}createGliderEntity(t,e,i){let s=new RS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}createFactoryEntity(t,e,i){let s=new PS(this.map,this.scene,t,e,i);return this.entityList.push(s),s}deleteEntity(t){let e=this.entityList.indexOf(t);t.destroy(),-1!==e&&this.entityList.splice(e,1)}update(t){this.entityList.forEach((e=>e.update(t)))}}class FS extends Phaser.Scene{constructor(){super("GameScene")}preload(){this.load.image("tileset","assets/tileset.png"),this.load.spritesheet("tileset_spritesheet","assets/tileset.png",{frameWidth:64,frameHeight:64}),this.load.image("home_base-1","assets/home_base.png"),this.load.image("portrait_base","assets/Portrait_Base.png"),this.load.image("factory-1","assets/Factory.png"),this.load.image("scaffold","assets/scaffold.png"),this.load.image("mine","assets/mine.png"),this.load.tilemapTiledJSON("map","assets/tiledmap3.json"),this.load.spritesheet("player-1","assets/spritesheet.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-rock-1","assets/spritesheet_rock.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-action-1","assets/spritesheet_build.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("turret-1","assets/turret_spritesheet.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("glider-1","assets/glider_spritesheet.png",{frameWidth:64,frameHeight:96}),this.load.spritesheet("gliderPortrait-1","assets/glider_portrait.png",{frameWidth:64,frameHeight:96}),this.load.image("home_base-2","assets/home_base-2.png"),this.load.image("factory-2","assets/Factory-2.png"),this.load.spritesheet("player-2","assets/spritesheet-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-rock-2","assets/spritesheet_rock-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-action-2","assets/spritesheet_build-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("turret-2","assets/turret_spritesheet-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("glider-2","assets/glider_spritesheet-2.png",{frameWidth:64,frameHeight:96}),this.load.image("ui_button","assets/ui_button.png"),this.load.image("ui_button_Attack","assets/ui_button_Attack.png"),this.load.image("ui_button_Build","assets/ui_button_Build.png"),this.load.image("ui_button_Cancel","assets/ui_button_Cancel.png"),this.load.image("ui_button_Gather","assets/ui_button_Gather.png"),this.load.image("Portrait_Engineer","assets/engineer_portrait.png"),this.load.image("ui_button_not_pressed","assets/ui_button_not_pressed.png"),this.load.image("ui_button_Attack_No_Background","assets/ui_button_Attack_No_Background.png"),this.load.image("resource","assets/resource.png"),this.load.image("ui_button_Build_No_Background","assets/ui_button_Build_No_Background.png"),this.load.image("ui_button_Gather_No_Background","assets/ui_button_Gather_No_Background.png"),this.load.image("ui_button_Cancel_No_Background","assets/ui_button_Cancel_No_Background.png"),this.load.image("ui_button_Build_Engineer_No_Background","assets/ui_button_Engineer_Build_No_Background.png"),this.load.audio("background_music","assets/background_music.mp3"),// urls: an array of file url
+Math.random(),yS.getInstance(this.scene).EngineerAttacking.play(),this.gliderFSM.go(dS.Attacking)):this.gliderFSM.go(dS.Idle)})),this.pathFinder.calculate()}update(t){super.update(t)}GetTileLocation(){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(this.x,this.y+this.centerToTileOffset,!0,new Phaser.Math.Vector2,this.scene.cameras.main,this.mapReference.layer)}}class PS extends _S{constructor(t,e,i,s,n){super(t,"factory-"+n,"Factory",e,i,s,oS.Input.BuildGlider,oS.EntityBuild.CreateGlider,"factory-"+n,n),this.setInteractive(new Phaser.Geom.Circle(this.width/2,this.height/2,this.width/4),this.handler)}}class OS extends SS{constructor(t,e,i,s,n,r){super(t,"scaffold",n,e,i,s,"scaffold",r),this.desiredBuilding=n,this.desiredBuildingCoordinates=new Phaser.Math.Vector2(i,s),this.status="...",this.buildingCompletionTarget=10,this.buildingCompletionProgress=0}increaseBuildingCompletionProgress(){return this.buildingCompletionProgress++,this.buildingCompletionProgress>=this.buildingCompletionTarget&&(this.eventEmitter.emit(oS.EntityBuild.DestroyScaffold,this),this.eventEmitter.emit(oS.EntityBuild.CreateBuilding,this.desiredBuildingCoordinates.x,this.desiredBuildingCoordinates.y,this.desiredBuilding),!0)}}class LS{constructor(t,e,i){this.scene=t,this.map=e,this.entityList=new Array,this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.EntityBuild.CreateEngineer,(t=>{this.createEngineerEntity(t.x,t.y,1)})),this.eventEmitter.on(oS.EntityBuild.CreateGlider,(t=>{this.createGliderEntity(t.x,t.y,1)})),this.eventEmitter.on(oS.Game.DestroyEntity,(t=>{this.deleteEntity(t)})),this.resources=gS.resourceCount,this.fogOfWar=i,this.fogOfWarMasks=this.scene.make.container({x:0,y:0},!1),this.eventEmitter.emit(oS.EntityBuild.DestroyScaffold),this.eventEmitter.emit(oS.EntityBuild.CreateBuilding),this.eventEmitter.on(oS.EntityBuild.DestroyScaffold,(t=>{this.deleteEntity(t)})),this.eventEmitter.on(oS.EntityBuild.CreateBuilding,((t,e,i)=>{this.createEntity(t,e,i,1)})),this.eventEmitter.on(oS.Input.RequestBuildScaffold,((t,e)=>{if(e==mS.Base){if(!(this.resources>=500))return;this.resources-=500,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}else if(e==mS.Factory){if(!(this.resources>=300))return;this.resources-=300,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}let i=this.createScaffoldEntity(t.GetTileLocation().x,t.GetTileLocation().y,e,1);t.requestBuild(i)})),this.eventEmitter.on(oS.Game.AddResources,(t=>{this.resources+=t,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Game.RemoveResources,(t=>{this.resources-=t,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Input.RequestBuildEngineer,(()=>{this.resources>=100&&(this.resources-=100,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources),this.eventEmitter.emit(oS.Input.BuildEngineer,{}))})),this.eventEmitter.on(oS.Input.RequestCancelEngineer,(()=>{this.resources+=100,this.eventEmitter.emit(oS.Input.Cancel,{}),this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)})),this.eventEmitter.on(oS.Input.RequestBuildGlider,(()=>{this.resources>=300&&(this.resources-=300,this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources),this.eventEmitter.emit(oS.Input.BuildGlider,{}))})),this.eventEmitter.on(oS.Input.RequestCancelGlider,(()=>{this.resources+=300,this.eventEmitter.emit(oS.Input.Cancel,{}),this.eventEmitter.emit(oS.Game.UpdateResourceCount,this.resources)}))}addToFogOfWarMasks(t){this.fogOfWarMasks.add(t),this.fogOfWar.mask=new Phaser.Display.Masks.BitmapMask(this.scene,this.fogOfWarMasks),this.fogOfWar.mask.invertAlpha=!0}getNearestBaseToEntity(t){let e;for(let i of this.entityList)i instanceof AS&&(null==e||new Phaser.Math.Vector2(e.x,e.y).distance(new Phaser.Math.Vector2(t.x,t.y))>new Phaser.Math.Vector2(i.x,i.y).distance(new Phaser.Math.Vector2(t.x,t.y)))&&(e=i);return e}createEntity(t,e,i,s){switch(i){case mS.Base:this.createBaseEntity(t,e,s);break;case mS.Factory:this.createFactoryEntity(t,e,s)}}createEngineerEntity(t,e,i){let s=new bS(this.map,this.scene,t,e,i);return this.entityList.push(s),s.updateNearestBase(this.getNearestBaseToEntity(s)),i==vS.Player&&this.addToFogOfWarMasks(s.GetFogOfWarMask()),s}createBaseEntity(t,e,i){let s=new AS(this.map,this.scene,t,e,i);return this.entityList.push(s),i==vS.Player&&this.addToFogOfWarMasks(s.GetFogOfWarMask()),s}createMineEntity(t,e){let i=new CS(this.map,this.scene,t,e);return this.entityList.push(i),i}createTurretEntity(t,e,i){let s=new MS(this.map,this.scene,t,e,i);return this.entityList.push(s),i==vS.Player&&this.addToFogOfWarMasks(s.GetFogOfWarMask()),s}createScaffoldEntity(t,e,i,s){let n=new OS(this.map,this.scene,t,e,i,s);return this.entityList.push(n),s==vS.Player&&this.addToFogOfWarMasks(n.GetFogOfWarMask()),n}createGliderEntity(t,e,i){let s=new RS(this.map,this.scene,t,e,i);return this.entityList.push(s),i==vS.Player&&this.addToFogOfWarMasks(s.GetFogOfWarMask()),s}createFactoryEntity(t,e,i){let s=new PS(this.map,this.scene,t,e,i);return this.entityList.push(s),i==vS.Player&&this.addToFogOfWarMasks(s.GetFogOfWarMask()),s}deleteEntity(t){let e=this.entityList.indexOf(t);t.destroy(),-1!==e&&this.entityList.splice(e,1)}update(t){this.entityList.forEach((e=>e.update(t)))}}class FS extends Phaser.Scene{constructor(){super("GameScene")}preload(){this.load.image("tileset","assets/tileset.png"),this.load.spritesheet("tileset_spritesheet","assets/tileset.png",{frameWidth:64,frameHeight:64}),this.load.image("home_base-1","assets/home_base.png"),this.load.image("portrait_base","assets/Portrait_Base.png"),this.load.image("factory-1","assets/Factory.png"),this.load.image("scaffold","assets/scaffold.png"),this.load.image("mine","assets/mine.png"),this.load.tilemapTiledJSON("map","assets/tiledmap3.json"),this.load.spritesheet("player-1","assets/spritesheet.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-rock-1","assets/spritesheet_rock.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-action-1","assets/spritesheet_build.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("turret-1","assets/turret_spritesheet.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("glider-1","assets/glider_spritesheet.png",{frameWidth:64,frameHeight:96}),this.load.spritesheet("gliderPortrait-1","assets/glider_portrait.png",{frameWidth:64,frameHeight:96}),this.load.image("home_base-2","assets/home_base-2.png"),this.load.image("factory-2","assets/Factory-2.png"),this.load.spritesheet("player-2","assets/spritesheet-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-rock-2","assets/spritesheet_rock-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("player-action-2","assets/spritesheet_build-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("turret-2","assets/turret_spritesheet-2.png",{frameWidth:64,frameHeight:64}),this.load.spritesheet("glider-2","assets/glider_spritesheet-2.png",{frameWidth:64,frameHeight:96}),this.load.image("ui_button","assets/ui_button.png"),this.load.image("ui_button_Attack","assets/ui_button_Attack.png"),this.load.image("ui_button_Build","assets/ui_button_Build.png"),this.load.image("ui_button_Cancel","assets/ui_button_Cancel.png"),this.load.image("ui_button_Gather","assets/ui_button_Gather.png"),this.load.image("Portrait_Engineer","assets/engineer_portrait.png"),this.load.image("ui_button_not_pressed","assets/ui_button_not_pressed.png"),this.load.image("ui_button_Attack_No_Background","assets/ui_button_Attack_No_Background.png"),this.load.image("resource","assets/resource.png"),this.load.image("ui_button_Build_No_Background","assets/ui_button_Build_No_Background.png"),this.load.image("ui_button_Gather_No_Background","assets/ui_button_Gather_No_Background.png"),this.load.image("ui_button_Cancel_No_Background","assets/ui_button_Cancel_No_Background.png"),this.load.image("ui_button_Build_Engineer_No_Background","assets/ui_button_Engineer_Build_No_Background.png"),this.load.audio("background_music","assets/background_music.mp3"),// urls: an array of file url
 this.load.audio("Engineer_Attacking","assets/Engineer_Attacking.mp3"),// urls: an array of file url
 this.load.audio("Engineer_Idle_Selected_1","assets/Engineer_Idle_Selected_1.mp3"),// urls: an array of file url
 this.load.audio("Engineer_Idle_Selected_2","assets/Engineer_Idle_Selected_2.mp3"),// urls: an array of file url
@@ -80670,11 +80670,18 @@ this.load.audio("Engineer_Mining","assets/Engineer_Mining.mp3"),// urls: an arra
 this.load.audio("Engineer_Moving_1","assets/Engineer_Moving_1.mp3"),// urls: an array of file url
 this.load.audio("Engineer_Moving_2","assets/Engineer_Moving_2.mp3"),// urls: an array of file url
 this.load.image("Portrait","assets/portrait.png"),// urls: an array of file url
-this.load.scenePlugin({key:"rexuiplugin",url:"https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexuiplugin.min.js",sceneKey:"rexUI"})}create(){this.eventEmitterSingleton=xS.getInstance(),this.input.setGlobalTopOnly(!0),this.input.setTopOnly(!0),this.map=this.add.tilemap("map"),this.scene.launch("UI"),console.log(this.map),this.sound.add("background_music",{mute:!1,volume:.5,rate:1,detune:0,seek:0,loop:!0,delay:0}).play();var t=this.map.addTilesetImage("tileset","tileset");this.layer1=this.map.createLayer("Tile Layer 1",[t]),this.layer2=this.map.createLayer("Tile Layer 2",[t]),this.cameras.main.setZoom(1),this.cameras.main.setScroll(-800,0),this.add.rectangle(1400,15,2100,1800,16777215,0).setInteractive().setScrollFactor(0).setDepth(1).on("pointerup",((t,e)=>{var i=this.cameras.main.scrollX+t.x,s=this.cameras.main.scrollY+t.y;this.eventEmitterSingleton.emit(oS.EntityActions.Move,new Phaser.Math.Vector2(this.getTileLocation(i,s)))})),
+this.load.image("vision","assets/mask.png"),// urls: an array of file url
+this.load.scenePlugin({key:"rexuiplugin",url:"https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexuiplugin.min.js",sceneKey:"rexUI"})}create(){this.eventEmitterSingleton=xS.getInstance(),this.input.setGlobalTopOnly(!0),this.input.setTopOnly(!0),this.map=this.add.tilemap("map"),this.scene.launch("UI"),console.log(this.map),this.sound.add("background_music",{mute:!1,volume:.5,rate:1,detune:0,seek:0,loop:!0,delay:0}).play();var t=this.map.addTilesetImage("tileset","tileset");this.layer1=this.map.createLayer("Tile Layer 1",[t]),this.layer2=this.map.createLayer("Tile Layer 2",[t]),this.fogOfWar=this.make.renderTexture({width:3300,height:1800,x:-1600},!0),
+// fill it with black
+this.fogOfWar.fill(4342338,1),this.fogOfWar.setDepth(101),
+// draw the floorLayer into it
+this.fogOfWar.draw(this.layer2,1600),this.fogOfWar.draw(this.layer1,1600),
+// set a dark blue tint
+this.fogOfWar.setTint(665928),this.cameras.main.setZoom(1),this.cameras.main.setScroll(-800,0),this.add.rectangle(1400,15,2100,1800,16777215,0).setInteractive().setScrollFactor(0).setDepth(1).on("pointerup",((t,e)=>{var i=this.cameras.main.scrollX+t.x,s=this.cameras.main.scrollY+t.y;this.eventEmitterSingleton.emit(oS.EntityActions.Move,new Phaser.Math.Vector2(this.getTileLocation(i,s)))})),
 //N,NE,E,SE,S,SW,W,NW,N
 this.anims.create({key:"glider-1-N",frames:this.anims.generateFrameNumbers("glider-1",{start:0,end:7}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-NW",frames:this.anims.generateFrameNumbers("glider-1",{start:8,end:15}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-W",frames:this.anims.generateFrameNumbers("glider-1",{start:16,end:23}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-SW",frames:this.anims.generateFrameNumbers("glider-1",{start:24,end:31}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-S",frames:this.anims.generateFrameNumbers("glider-1",{start:32,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-SE",frames:this.anims.generateFrameNumbers("glider-1",{start:40,end:47}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-E",frames:this.anims.generateFrameNumbers("glider-1",{start:48,end:55}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-1-NE",frames:this.anims.generateFrameNumbers("glider-1",{start:56,end:63}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-N",frames:this.anims.generateFrameNumbers("player-1",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-NW",frames:this.anims.generateFrameNumbers("player-1",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-W",frames:this.anims.generateFrameNumbers("player-1",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-SW",frames:this.anims.generateFrameNumbers("player-1",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-S",frames:this.anims.generateFrameNumbers("player-1",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-SE",frames:this.anims.generateFrameNumbers("player-1",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-E",frames:this.anims.generateFrameNumbers("player-1",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-1-NE",frames:this.anims.generateFrameNumbers("player-1",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-N",frames:this.anims.generateFrameNumbers("player-rock-1",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-NW",frames:this.anims.generateFrameNumbers("player-rock-1",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-W",frames:this.anims.generateFrameNumbers("player-rock-1",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-SW",frames:this.anims.generateFrameNumbers("player-rock-1",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-S",frames:this.anims.generateFrameNumbers("player-rock-1",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-SE",frames:this.anims.generateFrameNumbers("player-rock-1",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-E",frames:this.anims.generateFrameNumbers("player-rock-1",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-1-NE",frames:this.anims.generateFrameNumbers("player-rock-1",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-N",frames:this.anims.generateFrameNumbers("player-action-1",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-NW",frames:this.anims.generateFrameNumbers("player-action-1",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-W",frames:this.anims.generateFrameNumbers("player-action-1",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-SW",frames:this.anims.generateFrameNumbers("player-action-1",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-S",frames:this.anims.generateFrameNumbers("player-action-1",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-SE",frames:this.anims.generateFrameNumbers("player-action-1",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-E",frames:this.anims.generateFrameNumbers("player-action-1",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-1-NE",frames:this.anims.generateFrameNumbers("player-action-1",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),
 //N,NE,E,SE,S,SW,W,NW,N
-this.anims.create({key:"glider-2-N",frames:this.anims.generateFrameNumbers("glider-2",{start:0,end:7}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-NW",frames:this.anims.generateFrameNumbers("glider-2",{start:8,end:15}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-W",frames:this.anims.generateFrameNumbers("glider-2",{start:16,end:23}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-SW",frames:this.anims.generateFrameNumbers("glider-2",{start:24,end:31}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-S",frames:this.anims.generateFrameNumbers("glider-2",{start:32,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-SE",frames:this.anims.generateFrameNumbers("glider-2",{start:40,end:47}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-E",frames:this.anims.generateFrameNumbers("glider-2",{start:48,end:55}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-NE",frames:this.anims.generateFrameNumbers("glider-2",{start:56,end:63}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-N",frames:this.anims.generateFrameNumbers("player-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-NW",frames:this.anims.generateFrameNumbers("player-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-W",frames:this.anims.generateFrameNumbers("player-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-SW",frames:this.anims.generateFrameNumbers("player-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-S",frames:this.anims.generateFrameNumbers("player-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-SE",frames:this.anims.generateFrameNumbers("player-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-E",frames:this.anims.generateFrameNumbers("player-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-NE",frames:this.anims.generateFrameNumbers("player-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-N",frames:this.anims.generateFrameNumbers("player-rock-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-NW",frames:this.anims.generateFrameNumbers("player-rock-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-W",frames:this.anims.generateFrameNumbers("player-rock-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-SW",frames:this.anims.generateFrameNumbers("player-rock-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-S",frames:this.anims.generateFrameNumbers("player-rock-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-SE",frames:this.anims.generateFrameNumbers("player-rock-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-E",frames:this.anims.generateFrameNumbers("player-rock-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-NE",frames:this.anims.generateFrameNumbers("player-rock-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-N",frames:this.anims.generateFrameNumbers("player-action-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-NW",frames:this.anims.generateFrameNumbers("player-action-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-W",frames:this.anims.generateFrameNumbers("player-action-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-SW",frames:this.anims.generateFrameNumbers("player-action-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-S",frames:this.anims.generateFrameNumbers("player-action-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-SE",frames:this.anims.generateFrameNumbers("player-action-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-E",frames:this.anims.generateFrameNumbers("player-action-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-NE",frames:this.anims.generateFrameNumbers("player-action-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.entityManager=new LS(this,this.map),this.mine=this.entityManager.createMineEntity(6,6),this.base=this.entityManager.createBaseEntity(14,5,1),this.base=this.entityManager.createBaseEntity(16,16,1),this.mine=this.entityManager.createMineEntity(6,14),this.entityManager.createTurretEntity(9,9,2),this.entityManager.createGliderEntity(15,7,1),this.entityManager.createFactoryEntity(20,20,2),this.entityManager.createScaffoldEntity(25,20,mS.Base,1),this.player=this.entityManager.createEngineerEntity(3,4,1),this.player=this.entityManager.createEngineerEntity(17,17,2),
+this.anims.create({key:"glider-2-N",frames:this.anims.generateFrameNumbers("glider-2",{start:0,end:7}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-NW",frames:this.anims.generateFrameNumbers("glider-2",{start:8,end:15}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-W",frames:this.anims.generateFrameNumbers("glider-2",{start:16,end:23}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-SW",frames:this.anims.generateFrameNumbers("glider-2",{start:24,end:31}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-S",frames:this.anims.generateFrameNumbers("glider-2",{start:32,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-SE",frames:this.anims.generateFrameNumbers("glider-2",{start:40,end:47}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-E",frames:this.anims.generateFrameNumbers("glider-2",{start:48,end:55}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"glider-2-NE",frames:this.anims.generateFrameNumbers("glider-2",{start:56,end:63}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-N",frames:this.anims.generateFrameNumbers("player-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-NW",frames:this.anims.generateFrameNumbers("player-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-W",frames:this.anims.generateFrameNumbers("player-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-SW",frames:this.anims.generateFrameNumbers("player-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-S",frames:this.anims.generateFrameNumbers("player-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-SE",frames:this.anims.generateFrameNumbers("player-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-E",frames:this.anims.generateFrameNumbers("player-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"engineer-2-NE",frames:this.anims.generateFrameNumbers("player-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-N",frames:this.anims.generateFrameNumbers("player-rock-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-NW",frames:this.anims.generateFrameNumbers("player-rock-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-W",frames:this.anims.generateFrameNumbers("player-rock-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-SW",frames:this.anims.generateFrameNumbers("player-rock-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-S",frames:this.anims.generateFrameNumbers("player-rock-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-SE",frames:this.anims.generateFrameNumbers("player-rock-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-E",frames:this.anims.generateFrameNumbers("player-rock-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Miningengineer-2-NE",frames:this.anims.generateFrameNumbers("player-rock-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-N",frames:this.anims.generateFrameNumbers("player-action-2",{start:0,end:4}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-NW",frames:this.anims.generateFrameNumbers("player-action-2",{start:5,end:9}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-W",frames:this.anims.generateFrameNumbers("player-action-2",{start:10,end:14}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-SW",frames:this.anims.generateFrameNumbers("player-action-2",{start:15,end:19}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-S",frames:this.anims.generateFrameNumbers("player-action-2",{start:20,end:24}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-SE",frames:this.anims.generateFrameNumbers("player-action-2",{start:25,end:29}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-E",frames:this.anims.generateFrameNumbers("player-action-2",{start:30,end:34}),frameRate:20,repeat:-1,yoyo:!0}),this.anims.create({key:"Actionengineer-2-NE",frames:this.anims.generateFrameNumbers("player-action-2",{start:35,end:39}),frameRate:20,repeat:-1,yoyo:!0}),this.entityManager=new LS(this,this.map,this.fogOfWar),this.mine=this.entityManager.createMineEntity(6,6),this.mine=this.entityManager.createMineEntity(44,44),this.base=this.entityManager.createBaseEntity(14,5,1),this.base=this.entityManager.createBaseEntity(45,36,2),this.player=this.entityManager.createEngineerEntity(3,4,1),this.player=this.entityManager.createEngineerEntity(40,40,2),
 //let uiPortraitParentLayout:UIParentLayout = new UIParentLayout(this,portraitLayout,uiLayout,110,400)
 this.finder=rS.getInstance(),//new EasyStarWrapper();
 this.setupPathFinder(this.finder,this.layer1),this.setupPathFinder(aS.getInstance(),this.layer2);for(var e=0;e<=16;e++)this.SetupLargeTiles(e);
@@ -80685,7 +80692,7 @@ this.setupPathFinder(this.finder,this.layer1),this.setupPathFinder(aS.getInstanc
 n.push(e.getTileAt(r,s).index);i.push(n)}t.setGrid(i);for(var a=this.map.tilesets[0],o=a.tileProperties,h=[],l=a.firstgid-1;l<a.total;l++)// firstgid and total are fields from Tiled that indicate the range of IDs that the tiles can take in that tileset
 o.hasOwnProperty(l)?(o[l].collide||h.push(l+1),o[l].cost&&this.finder.setTileCost(l+1,o[l].cost)):
 // If there is no property indicated at all, it means it's a walkable tile
-h.push(l+1);t.setAcceptableTiles(h),t.enableDiagonals(),t.setIterationsPerCalculation(100)}update(t,e){this.entityManager.update(e)}SetupLargeTiles(t){var e=this.layer1.createFromTiles(t,18,{key:"tileset_spritesheet",frame:t-1},this,this.cameras.main);this.addDepthsToTiles(e)}addDepthsToTiles(t){for(let i of t){var e=this.layer1.worldToTileXY(i.x,i.y);i.setDepth(e.x+e.y),i.setPosition(i.x+32,i.y+32)}}getTileLocation(t,e){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(t,e-16,!0,new Phaser.Math.Vector2,this.cameras.main,this.map.getLayer(0))}}class kS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){let r=t.add.image(2,2,e),a=t.add.image(0,0,i),o=t.add.image(0,0,s),h=r.displayWidth/o.displayWidth;o.displayWidth=r.displayWidth,o.displayHeight=o.displayHeight*h,super(t,0,0,[r,a,o]),this.setDepth(251),this.setScrollFactor(0,0,!0),n&&(this.add(t.add.image(0,23,"resource").setScale(.3)),this.add(new Phaser.GameObjects.Text(t,5,18,n,{fontFamily:"Courier",fontSize:"14px",color:"#ffffff"}))),t.add.existing(this),this.setSize(72,72),this.setInteractive().on("pointerdown",(function(t,e,i,s){this.list[1].x+=2,this.list[2].x+=2,this.list[1].y+=2,this.list[2].y+=2})),this.setInteractive().on("pointerup",(function(t,e,i,s){this.list[1].x-=2,this.list[2].x-=2,this.list[1].y-=2,this.list[2].y-=2}))}}class DS extends kS{constructor(t,e){super(t,"ui_button_not_pressed","ui_button","ui_button_Cancel_No_Background"),this.setInteractive().on("pointerup",(function(t,i,s,n){xS.getInstance().emit(e)}))}}class IS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","ui_button_Build_Engineer_No_Background","100"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildEngineer)}))}}class BS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","glider-1","300"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildGlider)}))}}class NS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","home_base-1","500"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildBase)}))}}class YS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","factory-1","300"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildFactory)}))}}class US extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){let r=0;for(let t of i)t.x=r%2!=0?100:0,t.y=0+100*Math.floor(r/2),r++;super(e,s,n,i),t.subscribe(this),this.publisher=t,this.setScrollFactor(0).setDepth(251).setScale(1.5),e.add.existing(this)}notify(t){}destroy(){this.publisher.unsubscribe(this),super.destroy()}}class XS extends US{constructor(t,e,i,s,n,r,a){super(e,i,[s,n],r,a),this.buildingFSM=this.createFSM(),this.buildButton=s,this.cancelButton=n,t!=oS.BuildingStates.Idle?(this.buildButton.setVisible(!1),this.cancelButton.setVisible(!0),this.buildingFSM.go(t)):(this.buildButton.setVisible(!0),this.cancelButton.setVisible(!1))}createFSM(){let t=new fS.FiniteStateMachine(oS.BuildingStates.Idle);return t.from(oS.BuildingStates.Idle).to(oS.BuildingStates.Building),t.from(oS.BuildingStates.Building).to(oS.BuildingStates.Idle),t.on(oS.BuildingStates.Building,(t=>ES(this,void 0,void 0,(function*(){this.buildButton.setVisible(!1),this.cancelButton.setVisible(!0)})))),t.on(oS.BuildingStates.Idle,(t=>ES(this,void 0,void 0,(function*(){this.buildButton.setVisible(!0),this.cancelButton.setVisible(!1)})))),t}notify(t){this.buildingFSM.go(t)}}class zS extends XS{constructor(t,e,i,s,n){super(t,e,i,new IS(i),new DS(i,oS.Input.RequestCancelEngineer),s,n)}}class GS extends XS{constructor(t,e,i,s,n){super(t,e,i,new BS(i),new DS(i,oS.Input.RequestCancelGlider),s,n)}}class WS extends US{constructor(t,e,i,s){super(t,e,[new NS(e),new YS(e)],i,s)}}class VS{constructor(){this.x=0,this.y=200}CreateUI(t,e){return t instanceof AS?new zS(t.getStatus(),t,t.scene,this.x,this.y):t instanceof PS?new GS(t.getStatus(),t,t.scene,this.x,this.y):t instanceof bS?new WS(t,t.scene,this.x,this.y):new US(t,t.scene,[],this.x,this.y)}}class HS extends Phaser.GameObjects.Container{constructor(t,e,i,s){let n=new Phaser.GameObjects.Image(t,0,0,e.getIconString()),r=n.height/n.width;n.displayWidth=80,n.displayHeight=n.displayWidth*r;let a=new Phaser.GameObjects.Text(t,45,0,e.getName(),{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"}),o=new Phaser.GameObjects.Text(t,-30,40,"Status: "+e.getStatus(),{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"});super(t,i,s,[n,a,o]),this.publisher=e,this.publisher.subscribe(this),this.EntityStatus=o,t.add.existing(this),this.setScale(1.5),this.setDepth(251),this.setScrollFactor(0)}notify(t){this.EntityStatus.setText("Status: "+t)}destroy(){this.publisher.unsubscribe(this),super.destroy()}}class jS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){super(t,s,n,[e,i]),this.setDepth(250),t.add.existing(this)}}class qS{constructor(){}GetUI(t,e){let i=(new VS).CreateUI(t,e),s=new HS(e,t,0,0);return new jS(e,i,s,110,440)}}class KS extends Phaser.GameObjects.Container{constructor(t){super(t,1360,35,[]),this.resourceCountString=gS.resourceCount.toString(),this.resourceCount=new Phaser.GameObjects.Text(t,65,0,this.resourceCountString,{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"}),this.add(this.resourceCount),this.add(t.add.image(0,0,"resource")),this.setDepth(251),this.setScrollFactor(0,0,!0),this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.Game.UpdateResourceCount,(t=>{console.log(this),this.resourceCount.setText(t.toString())})),t.add.existing(this)}destroy(){this.eventEmitter.removeListener(oS.Game.UpdateResourceCount),super.destroy()}}class ZS{constructor(t,e,i){this.uiFactory=new qS,this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.EntityActions.Selected,this.updateSelected,this),this.eventEmitter.on(oS.Input.RequestBuildBase,(()=>{this.eventEmitter.emit(oS.Input.RequestBuildScaffold,this.selectedEntity,mS.Base)})),this.eventEmitter.on(oS.Input.RequestBuildFactory,(()=>{this.eventEmitter.emit(oS.Input.RequestBuildScaffold,this.selectedEntity,mS.Factory)})),this.entityScene=e;let s=e.input.keyboard.createCursorKeys();var n={camera:e.cameras.main,left:s.left,right:s.right,up:s.up,down:s.down,acceleration:.04,drag:5e-4,maxSpeed:.4};this.LeftArrowDown=!1,this.RightArrowDown=!1,this.UpArrowDown=!1,this.BottomArrowDown=!1,this.controls=new Phaser.Cameras.Controls.SmoothedKeyControl(n),
+h.push(l+1);t.setAcceptableTiles(h),t.enableDiagonals(),t.setIterationsPerCalculation(100)}update(t,e){this.entityManager.update(e)}SetupLargeTiles(t){var e=this.layer1.createFromTiles(t,18,{key:"tileset_spritesheet",frame:t-1},this,this.cameras.main);this.addDepthsToTiles(e)}addDepthsToTiles(t){for(let i of t){var e=this.layer1.worldToTileXY(i.x,i.y);i.setDepth(e.x+e.y),i.setPosition(i.x+32,i.y+32)}}getTileLocation(t,e){return Phaser.Tilemaps.Components.IsometricWorldToTileXY(t,e-16,!0,new Phaser.Math.Vector2,this.cameras.main,this.map.getLayer(0))}}class kS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){let r=t.add.image(2,2,e),a=t.add.image(0,0,i),o=t.add.image(0,0,s),h=r.displayWidth/o.displayWidth;o.displayWidth=r.displayWidth,o.displayHeight=o.displayHeight*h,super(t,0,0,[r,a,o]),this.setDepth(251),this.setScrollFactor(0,0,!0),n&&(this.add(t.add.image(0,23,"resource").setScale(.3)),this.add(new Phaser.GameObjects.Text(t,5,18,n,{fontFamily:"Courier",fontSize:"14px",color:"#ffffff"}))),t.add.existing(this),this.setSize(72,72),this.setInteractive().on("pointerdown",(function(t,e,i,s){this.list[1].x+=2,this.list[2].x+=2,this.list[1].y+=2,this.list[2].y+=2})),this.setInteractive().on("pointerup",(function(t,e,i,s){this.list[1].x-=2,this.list[2].x-=2,this.list[1].y-=2,this.list[2].y-=2}))}}class DS extends kS{constructor(t,e){super(t,"ui_button_not_pressed","ui_button","ui_button_Cancel_No_Background"),this.setInteractive().on("pointerup",(function(t,i,s,n){xS.getInstance().emit(e)}))}}class IS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","ui_button_Build_Engineer_No_Background","100"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildEngineer)}))}}class BS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","gliderPortrait-1","300"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildGlider)}))}}class NS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","home_base-1","500"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildBase)}))}}class YS extends kS{constructor(t){super(t,"ui_button_not_pressed","ui_button","factory-1","300"),this.setInteractive().on("pointerup",(function(t,e,i,s){xS.getInstance().emit(oS.Input.RequestBuildFactory)}))}}class US extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){let r=0;for(let t of i)t.x=r%2!=0?100:0,t.y=0+100*Math.floor(r/2),r++;super(e,s,n,i),t.subscribe(this),this.publisher=t,this.setScrollFactor(0).setDepth(251).setScale(1.5),e.add.existing(this)}notify(t){}destroy(){this.publisher.unsubscribe(this),super.destroy()}}class XS extends US{constructor(t,e,i,s,n,r,a){super(e,i,[s,n],r,a),this.buildingFSM=this.createFSM(),this.buildButton=s,this.cancelButton=n,t!=oS.BuildingStates.Idle?(this.buildButton.setVisible(!1),this.cancelButton.setVisible(!0),this.buildingFSM.go(t)):(this.buildButton.setVisible(!0),this.cancelButton.setVisible(!1))}createFSM(){let t=new fS.FiniteStateMachine(oS.BuildingStates.Idle);return t.from(oS.BuildingStates.Idle).to(oS.BuildingStates.Building),t.from(oS.BuildingStates.Building).to(oS.BuildingStates.Idle),t.on(oS.BuildingStates.Building,(t=>ES(this,void 0,void 0,(function*(){this.buildButton.setVisible(!1),this.cancelButton.setVisible(!0)})))),t.on(oS.BuildingStates.Idle,(t=>ES(this,void 0,void 0,(function*(){this.buildButton.setVisible(!0),this.cancelButton.setVisible(!1)})))),t}notify(t){this.buildingFSM.go(t)}}class GS extends XS{constructor(t,e,i,s,n){super(t,e,i,new IS(i),new DS(i,oS.Input.RequestCancelEngineer),s,n)}}class zS extends XS{constructor(t,e,i,s,n){super(t,e,i,new BS(i),new DS(i,oS.Input.RequestCancelGlider),s,n)}}class WS extends US{constructor(t,e,i,s){super(t,e,[new NS(e),new YS(e)],i,s)}}class VS{constructor(){this.x=0,this.y=200}CreateUI(t,e){return t instanceof AS?new GS(t.getStatus(),t,t.scene,this.x,this.y):t instanceof PS?new zS(t.getStatus(),t,t.scene,this.x,this.y):t instanceof bS?new WS(t,t.scene,this.x,this.y):new US(t,t.scene,[],this.x,this.y)}}class HS extends Phaser.GameObjects.Container{constructor(t,e,i,s){let n=new Phaser.GameObjects.Image(t,0,0,e.getIconString()),r=n.height/n.width;n.displayWidth=80,n.displayHeight=n.displayWidth*r;let a=new Phaser.GameObjects.Text(t,45,0,e.getName(),{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"}),o=new Phaser.GameObjects.Text(t,-30,40,"Status: "+e.getStatus(),{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"});super(t,i,s,[n,a,o]),this.publisher=e,this.publisher.subscribe(this),this.EntityStatus=o,t.add.existing(this),this.setScale(1.5),this.setDepth(251),this.setScrollFactor(0)}notify(t){this.EntityStatus.setText("Status: "+t)}destroy(){this.publisher.unsubscribe(this),super.destroy()}}class jS extends Phaser.GameObjects.Container{constructor(t,e,i,s,n){super(t,s,n,[e,i]),this.setDepth(250),t.add.existing(this)}}class qS{constructor(){}GetUI(t,e){let i=(new VS).CreateUI(t,e),s=new HS(e,t,0,0);return new jS(e,i,s,110,440)}}class KS extends Phaser.GameObjects.Container{constructor(t){super(t,1360,35,[]),this.resourceCountString=gS.resourceCount.toString(),this.resourceCount=new Phaser.GameObjects.Text(t,65,0,this.resourceCountString,{fontFamily:"Courier",fontSize:"18px",color:"#ffffff"}),this.add(this.resourceCount),this.add(t.add.image(0,0,"resource")),this.setDepth(251),this.setScrollFactor(0,0,!0),this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.Game.UpdateResourceCount,(t=>{console.log(this),this.resourceCount.setText(t.toString())})),t.add.existing(this)}destroy(){this.eventEmitter.removeListener(oS.Game.UpdateResourceCount),super.destroy()}}class ZS{constructor(t,e,i){this.uiFactory=new qS,this.eventEmitter=xS.getInstance(),this.eventEmitter.on(oS.EntityActions.Selected,this.updateSelected,this),this.eventEmitter.on(oS.Input.RequestBuildBase,(()=>{this.eventEmitter.emit(oS.Input.RequestBuildScaffold,this.selectedEntity,mS.Base)})),this.eventEmitter.on(oS.Input.RequestBuildFactory,(()=>{this.eventEmitter.emit(oS.Input.RequestBuildScaffold,this.selectedEntity,mS.Factory)})),this.entityScene=e;let s=e.input.keyboard.createCursorKeys();var n={camera:e.cameras.main,left:s.left,right:s.right,up:s.up,down:s.down,acceleration:.04,drag:5e-4,maxSpeed:.4};this.LeftArrowDown=!1,this.RightArrowDown=!1,this.UpArrowDown=!1,this.BottomArrowDown=!1,this.controls=new Phaser.Cameras.Controls.SmoothedKeyControl(n),
 //scene.add.rectangle(1400,15,2100,1800,0xffffff,0x0).setInteractive().setScrollFactor(0).setDepth(1).on('pointerup', (pointer, gameObject)=>{this.handleClick(pointer,gameObject)});
 t.add.image(800,450,"ui_overlay").setScrollFactor(0).setScale(2).setDepth(250),t.add.image(190,252,"Up_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.UpArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.UpArrowDown=!1})),t.add.image(190,342,"Down_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.BottomArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.BottomArrowDown=!1})),t.add.image(135,297,"Left_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.LeftArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.LeftArrowDown=!1})),t.add.image(245,297,"Right_Button").setScrollFactor(0).setScale(2.5).setDepth(250).setInteractive().on("pointerdown",((t,e,i,s)=>{this.RightArrowDown=!0})).on("pointerup",((t,e,i,s)=>{this.RightArrowDown=!1})),this.eventEmitter.on(oS.EntityActions.Move,this.handleMovement,this),null!=i&&(this.selectedEntity=i,this.uiLayout=this.uiFactory.GetUI(this.selectedEntity,t)),this.uiScene=t,this.resourceLayout=new KS(this.uiScene)}moveSelected(t){this.selectedEntity instanceof wS&&this.selectedEntity.requestMove(t)}updateSelected(t){null!=t&&(this.selectedEntity instanceof bS&&t instanceof CS?this.selectedEntity.requestMine(t):this.selectedEntity instanceof bS&&t instanceof OS?this.selectedEntity.requestBuild(t):t.team==vS.Player?(null==this.selectedEntity||this.selectedEntity.updateSelected(!1),this.selectedEntity=t,this.selectedEntity.updateSelected(!0),Math.random()>.5?yS.getInstance(this.selectedEntity.scene).IdleEngineerSelected1.play():yS.getInstance(this.selectedEntity.scene).IdleEngineerSelected2.play()):t.team==vS.Enemy&&this.selectedEntity instanceof RS&&this.selectedEntity.requestAttack(t),null!=this.uiLayout&&this.uiLayout.destroy(),this.uiLayout=this.uiFactory.GetUI(this.selectedEntity,this.uiScene))}handleMovement(t){this.moveSelected(t)}update(t){this.controls.update(t),this.UpArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX,this.entityScene.cameras.main.scrollY-t/1e3*500),this.BottomArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX,this.entityScene.cameras.main.scrollY+t/1e3*500),this.RightArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX+t/1e3*500,this.entityScene.cameras.main.scrollY),this.LeftArrowDown&&this.entityScene.cameras.main.setScroll(this.entityScene.cameras.main.scrollX-t/1e3*500,this.entityScene.cameras.main.scrollY)}}class JS extends Phaser.Scene{constructor(){super("UI")}preload(){this.load.image("tileset","assets/tileset.png"),this.load.spritesheet("tileset_spritesheet","assets/tileset.png",{frameWidth:64,frameHeight:64}),this.load.image("portrait_base","assets/Portrait_Base.png"),this.load.image("mine","assets/mine.png"),this.load.image("ui_overlay","assets/ui_overlay_2.png"),this.load.image("ui_button","assets/ui_button.png"),this.load.image("ui_button_Attack","assets/ui_button_Attack.png"),this.load.image("ui_button_Build","assets/ui_button_Build.png"),this.load.image("ui_button_Cancel","assets/ui_button_Cancel.png"),this.load.image("ui_button_Gather","assets/ui_button_Gather.png"),this.load.image("Portrait_Engineer","assets/engineer_portrait.png"),this.load.image("ui_button_not_pressed","assets/ui_button_not_pressed.png"),this.load.image("ui_button_Attack_No_Background","assets/ui_button_Attack_No_Background.png"),this.load.image("resource","assets/resource.png"),this.load.image("ui_button_Build_No_Background","assets/ui_button_Build_No_Background.png"),this.load.image("ui_button_Gather_No_Background","assets/ui_button_Gather_No_Background.png"),this.load.image("ui_button_Cancel_No_Background","assets/ui_button_Cancel_No_Background.png"),this.load.image("ui_button_Build_Engineer_No_Background","assets/ui_button_Engineer_Build_No_Background.png"),this.load.image("Portrait","assets/portrait.png"),// urls: an array of file url
 this.load.image("Up_Button","assets/UI_Up_Button.png"),// urls: an array of file url
